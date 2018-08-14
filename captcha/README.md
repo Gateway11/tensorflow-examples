@@ -1,4 +1,4 @@
-##Tensorflow Project - Verification Image Recognization
+## Tensorflow Project - Verification Image Recognization
 
 ##### 环境(Mac)
 	
