@@ -1,4 +1,4 @@
-## Verification Image Recognization
+【验证码识别】
 
 ##### 环境(Mac)
 	
