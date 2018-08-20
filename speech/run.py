@@ -1,12 +1,12 @@
 import argparse
 import sys
 
-import tensorflow as tf
+from tensorflow.python.platform import app
 
 FLAGS = None
 
 def main(_):
-    pass
+    print(FLAGS.data_dir)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
@@ -151,4 +151,4 @@ if __name__ == '__main__':
       help='Whether to check for invalid numbers during processing')
 
   FLAGS, unparsed = parser.parse_known_args()
-  tf.app.run(main=main, argv=[sys.argv[0]] + unparsed)
+  app.run(main=main, argv=[sys.argv[0]] + unparsed)
