@@ -24,7 +24,7 @@ def padding_context(sample, num_contexts):
         source_data_past = sample[max(0, time_slice - num_contexts) : time_slice]
 
         # 后9个序列样本, 不足补0
-        num_zero_paddings_future = max(0, (time_slice - (sample.shape[0] - num_contexts)))
+        num_zero_paddings_future = max(0, (time_slice - (sample.shape[0] - num_contexts - 1)))
         padding_data_future = list(zeropad for slots in range(num_zero_paddings_future))
         source_data_future = sample[time_slice + 1 : time_slice + num_contexts + 1]
         
