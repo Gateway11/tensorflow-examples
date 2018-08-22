@@ -1,0 +1,14 @@
+.metadata/
+.DS_Store
+.settings
+.classpath
+.project
+proguard-project.txt
+project.properties
+bin
+gen
+obj
+!jni/boringssl/src/crypto/obj
+values-
+**/jni/blacksiren/libbsiren/libs/
+**/jni/blacksiren/test/
