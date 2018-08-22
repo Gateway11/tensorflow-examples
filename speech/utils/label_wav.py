@@ -48,15 +48,17 @@ def prepare_label_list(wav_files, labels_dict):
 
     return lexicon, labels, new_wav_files
 
-def preapre_wav_mfcc(wav_files, num_filter, path):
-    mfcc_files = []
+def preapre_wav_list(wav_files, num_filter, path):
+    sample_files = []
     for wav_file in wav_files:
         fs, audio = wav.read(wav_file)
         orig_inputs = mfcc(audio, samplerate = fs, numcep = num_filter)
 
         file_name = path + os.path.basename(wav_file).split(".")[0] + ".txt"
         np.savetxt(file_name, orig_inputs)
-        mfcc_files.append(file_name);
+        sample_files.append(file_name);
+
+    return sample_files
 
 def labels2vec(labels, lexicon):
     to_num = lambda word: lexicon.get(word, len(lexicon))
@@ -75,4 +77,4 @@ if __name__ == "__main__":
     print(labels_vector[sample])
     print(list(lexicon.keys())[6])
 
-    preapre_wav_mfcc(wav_files, 26, "./exp/")
+    sample_files = preapre_wav_list(wav_files, 26, "./exp/")
