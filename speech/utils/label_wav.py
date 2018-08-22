@@ -58,6 +58,7 @@ def preapre_wav_list(wav_files, num_filter, path):
         np.savetxt(file_name, orig_inputs)
         sample_files.append(file_name);
 
+    np.savetxt(path + ".complete", [len(sample_files)])
     return sample_files
 
 def labels2vec(labels, lexicon):
@@ -77,4 +78,4 @@ if __name__ == "__main__":
     print(labels_vector[sample])
     print(list(lexicon.keys())[6])
 
-    sample_files = preapre_wav_list(wav_files, 26, "./exp/")
+    #sample_files = preapre_wav_list(wav_files, 26, "./exp/")
