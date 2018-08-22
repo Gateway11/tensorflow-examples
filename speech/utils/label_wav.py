@@ -16,21 +16,22 @@ def prepare_label_wav_list(wav_files, labels_dict):
         all_words += [word for word in label]
 
     counter = Counter(all_words)
-    count_pairs = sorted(counter.items(), key=lambda x: -x[1])
+    count_pairs = sorted(counter.items(), key = lambda x: -x[1])
 
     words, _ = zip(*count_pairs)
     words_size = len(words)
     print("词汇表大小：", words_size)
 
-    word_num_map = dict(zip(words, range(len(words))))
-
-    # 当字符不在已经收集的words中时，赋予其应当的num，这是一个动态的结果
-    to_num = lambda word: word_num_map.get(word, len(words))
+    lexicon = dict(zip(words, range(len(words))))
 
     # 将单个file的标签映射为num 返回对应list,最终all file组成嵌套list
-    labels_vector = [list(map(to_num, label)) for label in labels]
+    labels_vector = [words2vec(label, lexicon) for label in labels]
 
-    return words, labels_vector
+    return lexicon, labels_vector
+
+def words2vec(words, lexicon):
+    return list(map(lambda word: lexicon.get(word, len(words)), words))
+
 
 if __name__ == "__main__":
     wav_files = ['/Users/daixiang/deep-learning/data/data_wsj/wav/train/B21/B21_254.wav', 
@@ -55,9 +56,13 @@ if __name__ == "__main__":
                    'B21_259': '千 百年 来 逐 水草 而 居 靠 天 养 畜 的 藏族 牧民 开始 在 围栏 内 划 片 轮 牧 并 利用 农机具 种草', 
                    'B21_258': '要 理顺 产权 关系 除了 要 理顺 政企 关系 外 首先 要 理顺 企业 资产 所有者 与 经营者 的 关系'}
 
-    words, labels_vector = prepare_label_wav_list(wav_files, labels_dict)
+    lexicon, labels_vector = prepare_label_wav_list(wav_files, labels_dict)
     print(wav_files[0])
     print(labels_vector[0])
-    print(words[17]) # 新
+    print(list(lexicon.keys())[17])
+    #print(words[17]) # 新
     #/Users/daixiang/deep-learning/data/data_wsj/wav/train/B21/B21_254.wav 
     #[17, 0, 18, 0, 2, 60, 19, 0, 4, 20, 0, 61, 0, 8, 62, 0, 17, 0, 18, 0, 9, 63, 0, 64, 65, 0, 66, 67, 0, 21, 0, 21, 22, 0, 68, 0, 23, 0, 69, 0, 70, 0, 9, 0, 10, 0, 24, 71, 0, 4, 25, 0, 26, 0, 72, 73, 27]
+
+    label_vector = words2vec(list(labels_dict.values())[0], lexicon)
+    print(label_vector)
