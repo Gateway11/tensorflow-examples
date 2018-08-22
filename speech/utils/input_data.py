@@ -7,8 +7,12 @@ def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
     for i in range(batch_size):
         sample = np.loadtxt(files[next_idx])
         sample = padding_context(sample[::2], num_contexts)
-        batches_sample.append(sample)
+
+        batches_sample.append(sample.astype('float32'))
+        batches_label.append(labels[next_idx])
         next_idx += 1
+
+    batches_label, batches_sample = align_samples(batches_label, batches_sample)
 
     return batches_labels, batches_samples, next_idx
 
@@ -41,8 +45,8 @@ def padding_context(sample, num_contexts):
     return train_inputs
     
 
-def align_samples(batches_labels, batches_samples):
-    pass
+def align_samples(batches_label, batches_sample):
+    return batches_label, batches_sample
 
 if __name__ == "__main__":
     sample = np.loadtxt("./exp/B11_258.txt")
