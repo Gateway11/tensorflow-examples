@@ -3,6 +3,7 @@ import sys
 
 from tensorflow.python.platform import app
 from utils.label_wav import *
+from steps.train import *
 
 FLAGS = None
 
@@ -13,7 +14,7 @@ def main(_):
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = trans_labels_to_vector(labels, lexicon)
 
-    #sample_files = preapre_wav_list(wav_files, FLAGS.dct_coefficient_count, "./exp/")
+    sample_files = preapre_wav_list(wav_files, FLAGS.dct_coefficient_count, FLAGS.train_dir + '/exp')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -124,7 +125,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--summaries_dir',
         type=str,
-        default='/tmp/retrain_logs',
+        default='./exp/train/logs/',
         help='Where to save summary logs for TensorBoard.')
     parser.add_argument(
         '--wanted_words',
@@ -134,7 +135,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--train_dir',
         type=str,
-        default='/tmp/speech_commands_train',
+        default='./exp/train/',
         help='Directory to write event logs and checkpoint.')
     parser.add_argument(
         '--save_step_interval',
