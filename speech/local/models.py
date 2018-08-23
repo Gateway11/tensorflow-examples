@@ -72,19 +72,18 @@ def create_birnn_model(data_input, seq_length, model_settings, model_size_info, 
                                                                  dtype = tf.float32,
                                                                  time_major = True,
                                                                  sequence_length = seq_length)
-
         layer4_output = tf.concat(layer4_output, 2)
         layer4_output = tf.reshape(layer4_output, [-1, 2 * model_size_info[3]])
 
     with tf.name_scope('Layer_5'):
-        W = self.variable_on_device('W', [2 * model_size_info[3], model_size_info[4]], tf.random_normal_initializer(stddev = h_stddev))
+        W = self.variable_on_device('W', [2 * model_size_info[3], model_size_info[4]], tf.random_normal_initializer(stddev = w_stddev))
         b = self.variable_on_device('b', [model_size_info[4]], tf.random_normal_initializer(stddev = b_stddev))
         layer5_output = tf.minimum(tf.nn.relu(tf.add(tf.matmul(layer4_output, W), b)), relu_clip)
         if is_training:
             layer5_output = tf.nn.dropout(layer5_output, dropout_prob)
 
     with tf.name_scope('Layer_6'):
-        W = self.variable_on_device('W', [model_size_info[4], num_character], tf.random_normal_initializer(stddev = h_stddev))
+        W = self.variable_on_device('W', [model_size_info[4], num_character], tf.random_normal_initializer(stddev = w_stddev))
         b = self.variable_on_device('b', [num_character], tf.random_normal_initializer(stddev = b_stddev))
         layer6_output = tf.add(tf.matmul(layer5_output, W), b)
 
