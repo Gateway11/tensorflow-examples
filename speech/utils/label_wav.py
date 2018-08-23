@@ -48,11 +48,12 @@ def prepare_label_list(wav_files, labels_dict):
 
     return lexicon, labels, new_wav_files
 
-def preapre_wav_list(wav_files, num_filter, path):
+def preapre_wav_list(wav_files, num_input, path):
     sample_files = []
+    #os.mkdir(path)
     for wav_file in wav_files:
         fs, audio = wav.read(wav_file)
-        orig_inputs = mfcc(audio, samplerate = fs, numcep = num_filter)
+        orig_inputs = mfcc(audio, samplerate = fs, numcep = num_input)
 
         file_name = path + os.path.basename(wav_file).split(".")[0] + ".txt"
         np.savetxt(file_name, orig_inputs)
