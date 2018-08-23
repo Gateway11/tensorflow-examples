@@ -14,7 +14,7 @@ def main(_):
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = trans_labels_to_vector(labels, lexicon)
 
-    sample_files = preapre_wav_list(wav_files, FLAGS.dct_coefficient_count, FLAGS.train_dir + '/exp')
+    sample_files = preapre_wav_list(wav_files, FLAGS.dct_coefficient_count, FLAGS.mfcc_dir)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--data_dir',
         type=str,
-        default='/Users/daixiang/deep-learning/tensorflow/data/data_wsj/',
+        default='/Users/daixiang/deep-learning/data/data_wsj/',
         help="""\
         Where to download the speech training data to.
         """)
@@ -103,9 +103,14 @@ if __name__ == '__main__':
         default=26,
         help='How many bins to use for the MFCC fingerprint',)
     parser.add_argument(
+        '--mfcc_dir',
+        type=str,
+        default='./output/mfcc/',
+        help='Where to save MFCC fingerprint for samples.')
+    parser.add_argument(
         '--how_many_training_steps',
         type=str,
-        default='15000,3000',
+        default='120',
         help='How many training loops to run',)
     parser.add_argument(
         '--eval_step_interval',
@@ -115,37 +120,32 @@ if __name__ == '__main__':
     parser.add_argument(
         '--learning_rate',
         type=str,
-        default='0.001,0.0001',
+        default='0.001',
         help='How large a learning rate to use when training.')
     parser.add_argument(
         '--batch_size',
         type=int,
-        default=100,
+        default=8,
         help='How many items to train with at once',)
     parser.add_argument(
         '--summaries_dir',
         type=str,
-        default='./exp/train/logs/',
+        default='./output/train/logs/',
         help='Where to save summary logs for TensorBoard.')
-    parser.add_argument(
-        '--wanted_words',
-        type=str,
-        default='yes,no,up,down,left,right,on,off,stop,go',
-        help='Words to use (others will be added to an unknown label)',)
     parser.add_argument(
         '--train_dir',
         type=str,
-        default='./exp/train/',
+        default='./output/train/',
         help='Directory to write event logs and checkpoint.')
     parser.add_argument(
         '--save_step_interval',
         type=int,
-        default=100,
+        default=70,
         help='Save model checkpoint every save_steps.')
     parser.add_argument(
         '--start_checkpoint',
         type=str,
-        default='',
+        default='/output/train',
         help='If specified, restore this pretrained model before any training.')
     parser.add_argument(
         '--model_architecture',

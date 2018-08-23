@@ -104,8 +104,8 @@ def trans_array_to_text(value, lexicon):
     return results.replace('`', ' ')
 
 if __name__ == "__main__":
-    wav_files = load_wav_file("/Users/daixiang/deep-learning/tensorflow/data/data_wsj/wav/train")
-    labels_dict = load_label_file("/Users/daixiang/deep-learning/tensorflow/data/data_wsj/doc/trans/train.word.txt")
+    wav_files = load_wav_file("/Users/daixiang/deep-learning/data/data_wsj/wav/train")
+    labels_dict = load_label_file("/Users/daixiang/deep-learning/data/data_wsj/doc/trans/train.word.txt")
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = trans_labels_to_vector(labels, lexicon)

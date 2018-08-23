@@ -60,6 +60,6 @@ def align_samples(sequences, dtype = np.float32, value = 0.):
 
 if __name__ == "__main__":
     samples = []
-    samples.append(padding_context(np.loadtxt("./exp/B11_258.txt")[::2], 9).astype('float32'))
-    samples.append(padding_context(np.loadtxt("./exp/A4_211.txt")[::2], 9).astype('float32'))
+    samples.append(padding_context(np.loadtxt("./output/mfcc/B11_258.txt")[::2], 9).astype('float32'))
+    samples.append(padding_context(np.loadtxt("./output/mfcc/A4_211.txt")[::2], 9).astype('float32'))
     align_samples(samples)
