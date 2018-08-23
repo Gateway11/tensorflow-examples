@@ -79,8 +79,6 @@ def sparse_tuple_from(sequences, dtype = np.int32):
     values = np.asarray(values, dtype = dtype)
     shape = np.asarray([len(sequences), indices.max(0)[1] + 1], dtype = np.int64)
 
-    print(indices[0][0])
-
     return indices, values, shape
 
 # 向量转换成文字

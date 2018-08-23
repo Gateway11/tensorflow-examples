@@ -12,7 +12,7 @@ def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
         batches_label.append(labels[next_idx])
         next_idx += 1
 
-    batches_sample, length_seqs = align_samples(batches_label, batches_sample)
+    batches_sample, length_seqs = align_samples(batches_sample)
     sparse_labels = sparse_tuple_from(batches_label)
 
     return sparse_labels, batches_sample, length_seqs, next_idx
@@ -52,11 +52,11 @@ def align_samples(sequences, dtype = np.float32, value = 0.):
     max_step = np.max(length_seqs)
     num_input = sequences[0].shape[1]
 
-    train_batches = (np.ones((batch_size, max_step, num_input)) * value).astype(dtype) # shape(8, 468, 494)
+    train_inputs = (np.ones((batch_size, max_step, num_input)) * value).astype(dtype) # shape(8, 468, 494)
     for idx, sample in enumerate(sequences):
-        train_batches[idx, :len(sample)] = np.asarray(sample)
+        train_inputs[idx, :len(sample)] = np.asarray(sample)
 
-    return train_batches, length_seqs
+    return train_inputs, length_seqs
 
 if __name__ == "__main__":
     samples = []
