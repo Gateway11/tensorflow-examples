@@ -52,7 +52,10 @@ def preapre_wav_list(wav_files, num_input, path):
     if os.path.exists(path + '.complete.txt'):
         return [path + file_name for file_name in os.listdir(path) if file_name.endswith('.txt')]
 
-    os.makedirs(path)
+    try:
+        os.makedirs(path)
+    except FileExistsError:
+        print("File already exists: '%s', ignore it." % (path))
 
     sample_files = []
     for wav_file in wav_files:
