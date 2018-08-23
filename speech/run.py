@@ -2,11 +2,18 @@ import argparse
 import sys
 
 from tensorflow.python.platform import app
+from utils.label_wav import *
 
 FLAGS = None
 
 def main(_):
-    print(FLAGS.data_url)
+    wav_files = load_wav_file(FLAGS.data_dir + 'wav/train')
+    labels_dict = load_label_file(FLAGS.data_dir + 'doc/trans/train.word.txt')
+
+    lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
+    vector_labels = trans_labels_to_vector(labels, lexicon)
+
+    #sample_files = preapre_wav_list(wav_files, FLAGS.dct_coefficient_count, "./exp/")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -20,7 +27,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--data_dir',
         type=str,
-        default='/tmp/speech_dataset/',
+        default='/Users/daixiang/deep-learning/tensorflow/data/data_wsj/',
         help="""\
         Where to download the speech training data to.
         """)
