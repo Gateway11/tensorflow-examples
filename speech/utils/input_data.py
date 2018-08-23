@@ -17,7 +17,7 @@ def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
 
 def padding_context(sample, num_contexts):
     num_input = sample.shape[1] # 26
-    train_inputs = np.zeros((sample.shape[0], num_input + 2 * num_input * num_contexts)) # shape(137, 494)
+    train_inputs = np.zeros((sample.shape[0], num_input + 2 * num_input * num_contexts)) # shape(417, 494)
     zeropad = np.zeros((num_input))
 
     # 每一步数据由三部分拼接而成，分为当前样本的前9个序列样本，当前样本序列，后9个序列样本
@@ -49,7 +49,7 @@ def align_samples(batches_label, batches_sample):
     max_step = np.max([len(sample) for sample in batches_sample])
     num_input = batches_sample[0].shape[1]
 
-    train_batches = np.zeros((batch_size, max_step, num_input)).astype(np.float32) # shape(8, 137, 494)
+    train_batches = np.zeros((batch_size, max_step, num_input)).astype(np.float32) # shape(8, 468, 494)
     for idx, sample in enumerate(batches_sample):
         train_batches[idx, :len(sample)] = np.asarray(sample)
 
@@ -71,7 +71,6 @@ def sparse_tuple_from(sequences, dtype=np.int32):
 
 if __name__ == "__main__":
     samples = []
-    samples.append(padding_context(np.loadtxt("./exp/B11_258.txt"), 9).astype('float32'))
-    samples.append(padding_context(np.loadtxt("./exp/A4_211.txt"), 9).astype('float32'))
-
+    samples.append(padding_context(np.loadtxt("./exp/B11_258.txt")[::2], 9).astype('float32'))
+    samples.append(padding_context(np.loadtxt("./exp/A4_211.txt")[::2], 9).astype('float32'))
     align_samples("xxxx", samples)
