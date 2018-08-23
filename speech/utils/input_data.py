@@ -1,5 +1,5 @@
 import numpy as np
-import label_wav
+from label_wav import sparse_tuple_from
 
 def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
     batches_label = []
@@ -13,7 +13,7 @@ def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
         next_idx += 1
 
     batches_sample, length_seqs = align_samples(batches_label, batches_sample)
-    sparse_labels = label_wav.sparse_tuple_from(batches_label)
+    sparse_labels = sparse_tuple_from(batches_label)
 
     return sparse_labels, batches_sample, length_seqs, next_idx
 
