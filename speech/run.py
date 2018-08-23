@@ -30,7 +30,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--data_dir',
         type=str,
-        default='/Users/daixiang/deep-learning/data/data_wsj/',
+        default='/tmp/data_wsj/',
         help="""\
         Where to download the speech training data to.
         """)
@@ -147,7 +147,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--start_checkpoint',
         type=str,
-        default='/output/train',
+        default='./output/train',
         help='If specified, restore this pretrained model before any training.')
     parser.add_argument(
         '--model_architecture',
