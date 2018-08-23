@@ -145,6 +145,12 @@ if __name__ == '__main__':
         default='birnn',
         help='What model architecture to use')
     parser.add_argument(
+        '--model_size_info',
+        type=int,
+        nargs="+",
+        default=[512, 512, 1024, 512, 512],
+        help='Model dimensions - different for various models')
+    parser.add_argument(
         '--check_nans',
         type=bool,
         default=False,
