@@ -1,4 +1,5 @@
 import numpy as np
+import label_wav
 
 def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
     batches_label = []
@@ -11,9 +12,10 @@ def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
         batches_label.append(labels[next_idx])
         next_idx += 1
 
-    batches_label, batches_sample = align_samples(batches_label, batches_sample)
+    batches_sample, length_seqs = align_samples(batches_label, batches_sample)
+    sparse_labels = label_wav.sparse_tuple_from(batches_label)
 
-    return batches_label, batches_sample, next_idx
+    return sparse_labels, batches_sample, length_seqs, next_idx
 
 def padding_context(sample, num_contexts):
     num_input = sample.shape[1] # 26
@@ -44,33 +46,20 @@ def padding_context(sample, num_contexts):
     train_inputs = (train_inputs - np.mean(train_inputs)) / np.std(train_inputs)
     return train_inputs
     
-def align_samples(batches_label, batches_sample):
-    batch_size = len(batches_sample)
-    max_step = np.max([len(sample) for sample in batches_sample])
-    num_input = batches_sample[0].shape[1]
+def align_samples(sequences, dtype = np.float32, value = 0.):
+    batch_size = len(sequences)
+    length_seqs = [len(sample) for sample in sequences]
+    max_step = np.max(length_seqs)
+    num_input = sequences[0].shape[1]
 
-    train_batches = np.zeros((batch_size, max_step, num_input)).astype(np.float32) # shape(8, 468, 494)
-    for idx, sample in enumerate(batches_sample):
+    train_batches = (np.ones((batch_size, max_step, num_input)) * value).astype(dtype) # shape(8, 468, 494)
+    for idx, sample in enumerate(sequences):
         train_batches[idx, :len(sample)] = np.asarray(sample)
 
-    return batches_label, train_batches
-
-def sparse_tuple_from(sequences, dtype=np.int32):
-    indices = []
-    values = []
-
-    for n, seq in enumerate(sequences):
-        indices.extend(zip([n] * len(seq), range(len(seq))))
-        values.extend(seq)
-
-    indices = np.asarray(indices, dtype=np.int64)
-    values = np.asarray(values, dtype=dtype)
-    shape = np.asarray([len(sequences), indices.max(0)[1] + 1], dtype=np.int64)
-
-    return indices, values, shape
+    return train_batches, length_seqs
 
 if __name__ == "__main__":
     samples = []
     samples.append(padding_context(np.loadtxt("./exp/B11_258.txt")[::2], 9).astype('float32'))
     samples.append(padding_context(np.loadtxt("./exp/A4_211.txt")[::2], 9).astype('float32'))
-    align_samples("xxxx", samples)
+    align_samples(samples)

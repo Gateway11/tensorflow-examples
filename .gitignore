@@ -8,8 +8,7 @@ project.properties
 bin
 gen
 obj
-!jni/boringssl/src/crypto/obj
 values-
-**/jni/blacksiren/libbsiren/libs/
-**/jni/blacksiren/test/
 exp
+__pycache__
+.ipynb_checkpoints

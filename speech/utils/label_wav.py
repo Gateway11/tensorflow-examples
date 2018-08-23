@@ -66,17 +66,34 @@ def labels2vec(labels, lexicon):
     to_num = lambda word: lexicon.get(word, len(lexicon))
     return [list(map(to_num, label)) for label in labels]
 
+def sparse_tuple_from(sequences, dtype = np.int32):
+    indices = []
+    values = []
+
+    for n, seq in enumerate(sequences):
+        indices.extend(zip([n] * len(seq), range(len(seq))))
+        values.extend(seq)
+
+    indices = np.asarray(indices, dtype = np.int64)
+    values = np.asarray(values, dtype = dtype)
+    shape = np.asarray([len(sequences), indices.max(0)[1] + 1], dtype = np.int64)
+
+    return indices, values, shape
+
 if __name__ == "__main__":
     wav_files = load_wav_file("/Users/daixiang/deep-learning/tensorflow/data/data_wsj/wav/train")
     labels_dict = load_label_file("/Users/daixiang/deep-learning/tensorflow/data/data_wsj/doc/trans/train.word.txt")
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
-    labels_vector = labels2vec(labels, lexicon)
+    vector_labels = labels2vec(labels, lexicon)
 
     sample = 1027
     print(wav_files[sample])
     print(labels[sample])
-    print(labels_vector[sample])
+    print(vector_labels[sample])
     print(list(lexicon.keys())[6])
+
+    sparse_labels = sparse_tuple_from(vector_labels[:8])
+    #print(sparse_labels)
 
     #sample_files = preapre_wav_list(wav_files, 26, "./exp/")
