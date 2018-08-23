@@ -27,14 +27,14 @@ def load_label_file(label_file):
 
     return labels_dict
 
-def prepare_label_list(wav_files, labels_dict):
+def prepare_label_list(sample_files, labels_dict):
     labels = []
     new_wav_files = []
-    for wav_file in wav_files:
-        wav_id = os.path.basename(wav_file).split(".")[0]
+    for sample_file in sample_files:
+        wav_id = os.path.basename(sample_file).split(".")[0]
         if wav_id in labels_dict:
             labels.append(labels_dict[wav_id])
-            new_wav_files.append(wav_file)
+            new_wav_files.append(sample_file)
 
     all_words = []
     for label in labels:
@@ -125,5 +125,5 @@ if __name__ == "__main__":
     #print(sparse_labels)
     print(decoded_str)
 
-    sample_files = preapre_wav_list(wav_files, 26, "./exp/")
+    sample_files = preapre_wav_list(wav_files, 26, "./output/mfcc/train/")
     print(sample_files)

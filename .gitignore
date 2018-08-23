@@ -9,6 +9,6 @@ bin
 gen
 obj
 values-
-exp
+output
 __pycache__
 .ipynb_checkpoints
