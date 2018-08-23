@@ -1,11 +1,9 @@
 import tensorflow as tf
 
-def prepare_model_settings(relu_clip, label_count, w_stddev, b_stddev):
+def prepare_model_settings(relu_clip, num_character):
     return {
         'relu_clip': relu_clip,
-        'label_count': label_count,
-        'w_stddev': w_stddev,
-        'b_stddev': b_wtddev
+        'num_character': num_character,
     }
 
 def create_model(data_input, model_settings, model_architecture, model_size_info, is_training):
@@ -16,12 +14,6 @@ def create_model(data_input, model_settings, model_architecture, model_size_info
                     '" not recognized, should be one of "birnn"')
 
 def load_variables_from_checkpoint(sess, start_checkpoint):
-  """Utility function to centralize checkpoint restoration.
-
-  Args:
-    sess: TensorFlow session.
-    start_checkpoint: Path to saved checkpoint on disk.
-  """
   saver = tf.train.Saver(tf.global_variables())
   saver.restore(sess, start_checkpoint)
 
@@ -32,9 +24,9 @@ def create_birnn_model(data_input, model_settings, model_size_info, is_training)
         dropout_prob = tf.placeholder(tf.float32, name='dropout_prob')
     
     relu_clip = model_settings['relu_clip']
-    label_count = model_settings['label_count']
-    w_stddev = model_settings['w_stddev']
-    b_stddev = model_settings['b_stddev']
+    num_character = model_settings['num_character']
+    w_stddev = 0.046875
+    h_stddev = 0.046875
 
     input_shape = tf.shape(data_input)
     data_input = tf.transpose(data_input, [1, 0, 2])
@@ -58,7 +50,6 @@ def create_birnn_model(data_input, model_settings, model_size_info, is_training)
         layer3_output = tf.minimum(tf.nn.relu(tf.add(tf.matmul(layer2_output, W), b)), relu_clip)
         layer3_output = tf.nn.dropout(layer3_output, dropout_prob)
 
-    layer3_output = tf.reshape(layer3_output, [-1, input_shape[0], model_size_info[1]])
     with tf.name_scope('Layer_4'):
         lstm_fw_cell = tf.contrib.rnn.BasicLSTMCell(model_size_info[4], forget_bias = 1.0, state_is_tuple = True)
         lstm_fw_cell = tf.contrib.rnn.DropoutWrapper(lstm_fw_cell, input_keep_prob = dropout_prob)
@@ -66,6 +57,7 @@ def create_birnn_model(data_input, model_settings, model_size_info, is_training)
         lstm_bw_cell = tf.contrib.rnn.BasicLSTMCell(model_size_info[4], forget_bias = 1.0, state_is_tuple = True)
         lstm_bw_cell = tf.contrib.rnn.DropoutWrapper(lstm_bw_cell, input_keep_prob = dropout_prob)
 
+        layer3_output = tf.reshape(layer3_output, [-1, input_shape[0], model_size_info[3]])
         layer4_output, output_states = tf.nn.bidirectional_dynamic_rnn(cell_fw = lstm_fw_cell,
                                                                  cell_bw = lstm_bw_cell,
                                                                  inputs = layer3_output,
@@ -83,11 +75,11 @@ def create_birnn_model(data_input, model_settings, model_size_info, is_training)
         layer5_output = tf.nn.dropout(layer5_output, dropout_prob)
 
     with tf.name_scope('Layer_6'):
-        W = self.variable_on_device('W', [model_size_info[5], model_size_info[6]], tf.random_normal_initializer(stddev = h_stddev))
-        b = self.variable_on_device('b', [model_size_info[6]], tf.random_normal_initializer(stddev = b_stddev))
+        W = self.variable_on_device('W', [model_size_info[5], num_character], tf.random_normal_initializer(stddev = h_stddev))
+        b = self.variable_on_device('b', [num_character], tf.random_normal_initializer(stddev = b_stddev))
         layer6_output = tf.add(tf.matmul(layer5_output, h6), b6)
 
-    output = tf.reshape(layer6_output, [-1, input_shape[0], label_count])
+    output = tf.reshape(layer6_output, [-1, input_shape[0], num_character])
     return output, dropout_prob if is_training else output
 
 def variable_on_device(name, shape, initializer, use_gpu = False):
@@ -97,3 +89,8 @@ def variable_on_device(name, shape, initializer, use_gpu = False):
     else:
         var = tf.get_variable(name = name, shape = shape, initializer = initializer)
     return var
+
+if __name__ == '__main__':
+    input_tensor = tf.placeholder(tf.float32, [None, None, 494], name = 'input')  # 语音log filter bank or MFCC features
+    text = tf.sparse_placeholder(tf.int32, name = 'text')  # 文本
+    seq_length = tf.placeholder(tf.int32, [None], name = 'seq_length')  # 序列长
