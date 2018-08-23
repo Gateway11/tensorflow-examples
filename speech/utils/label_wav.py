@@ -62,10 +62,11 @@ def preapre_wav_list(wav_files, num_input, path):
     np.savetxt(path + ".complete", [len(sample_files)])
     return sample_files
 
-def labels2vec(labels, lexicon):
+def trans_labels_to_vector(labels, lexicon):
     to_num = lambda word: lexicon.get(word, len(lexicon))
     return [list(map(to_num, label)) for label in labels]
 
+# 密集矩阵转稀疏矩阵
 def sparse_tuple_from(sequences, dtype = np.int32):
     indices = []
     values = []
@@ -78,14 +79,38 @@ def sparse_tuple_from(sequences, dtype = np.int32):
     values = np.asarray(values, dtype = dtype)
     shape = np.asarray([len(sequences), indices.max(0)[1] + 1], dtype = np.int64)
 
+    print(indices[0][0])
+
     return indices, values, shape
+
+# 向量转换成文字
+def trans_tuple_to_texts(tuple, lexicon):
+    indices = tuple[0]
+    values = tuple[1]
+    results = [''] * tuple[2][0]
+
+    words = list(lexicon.keys())
+    for i in range(len(indices)):
+        idx = indices[i][0]
+        word_idx = values[i]
+        word = ' ' if word_idx == 0 else words[word_idx]  # chr(c + FIRST_INDEX)
+        results[idx] = results[idx] + word
+
+    return results
+
+def trans_array_to_text(value, lexicon):
+    results = ''
+    words = list(lexicon.keys())
+    for i in range(len(value)):
+        results += words[value[i]]  # chr(value[i] + FIRST_INDEX)
+    return results.replace('`', ' ')
 
 if __name__ == "__main__":
     wav_files = load_wav_file("/Users/daixiang/deep-learning/tensorflow/data/data_wsj/wav/train")
     labels_dict = load_label_file("/Users/daixiang/deep-learning/tensorflow/data/data_wsj/doc/trans/train.word.txt")
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
-    vector_labels = labels2vec(labels, lexicon)
+    vector_labels = trans_labels_to_vector(labels, lexicon)
 
     sample = 1027
     print(wav_files[sample])
@@ -94,6 +119,8 @@ if __name__ == "__main__":
     print(list(lexicon.keys())[6])
 
     sparse_labels = sparse_tuple_from(vector_labels[:8])
+    decoded_str = trans_tuple_to_texts(sparse_labels, lexicon)
     #print(sparse_labels)
+    print(decoded_str)
 
     #sample_files = preapre_wav_list(wav_files, 26, "./exp/")
