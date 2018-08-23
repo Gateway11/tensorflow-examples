@@ -111,7 +111,7 @@ if __name__ == '__main__':
         help='Where to save MFCC fingerprint for samples.')
     parser.add_argument(
         '--how_many_training_steps',
-        type=str,
+        type=int,
         default='120',
         help='How many training loops to run',)
     parser.add_argument(
@@ -121,7 +121,7 @@ if __name__ == '__main__':
         help='How often to evaluate the training results.')
     parser.add_argument(
         '--learning_rate',
-        type=str,
+        type=float,
         default='0.001',
         help='How large a learning rate to use when training.')
     parser.add_argument(
