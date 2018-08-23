@@ -49,8 +49,12 @@ def prepare_label_list(wav_files, labels_dict):
     return lexicon, labels, new_wav_files
 
 def preapre_wav_list(wav_files, num_input, path):
+    if os.path.exists(path + '.complete.txt'):
+        return [path + file_name for file_name in os.listdir(path) if file_name.endswith('.txt')]
+
+    os.makedirs(path)
+
     sample_files = []
-    #os.mkdir(path)
     for wav_file in wav_files:
         fs, audio = wav.read(wav_file)
         orig_inputs = mfcc(audio, samplerate = fs, numcep = num_input)
@@ -59,7 +63,7 @@ def preapre_wav_list(wav_files, num_input, path):
         np.savetxt(file_name, orig_inputs)
         sample_files.append(file_name);
 
-    np.savetxt(path + ".complete", [len(sample_files)])
+    np.savetxt(path + ".complete.txt", [len(sample_files)])
     return sample_files
 
 def trans_labels_to_vector(labels, lexicon):
@@ -121,4 +125,5 @@ if __name__ == "__main__":
     #print(sparse_labels)
     print(decoded_str)
 
-    #sample_files = preapre_wav_list(wav_files, 26, "./exp/")
+    sample_files = preapre_wav_list(wav_files, 26, "./exp/")
+    print(sample_files)
