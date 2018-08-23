@@ -1,4 +1,4 @@
-import tensorlfow as tf
+import tensorflow as tf
 
-def build_train():
+def train():
     pass

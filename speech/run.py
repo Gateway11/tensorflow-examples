@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 import sys
 
@@ -14,7 +16,7 @@ def main(_):
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = trans_labels_to_vector(labels, lexicon)
 
-    sample_files = preapre_wav_list(wav_files, FLAGS.dct_coefficient_count, FLAGS.mfcc_dir + '/train/')
+    #sample_files = preapre_wav_list(wav_files, FLAGS.dct_coefficient_count, FLAGS.mfcc_dir + '/train/')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
