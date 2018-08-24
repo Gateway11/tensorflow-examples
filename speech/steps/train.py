@@ -72,7 +72,7 @@ def train(train_sample_files, train_vector_labels,
                                                                         text:sparse_labels, 
                                                                         seq_length:length_seqs, 
                                                                         dropout_prob:0.95})
-            print("epoch: %d/%d, batch: %d/%d loss: %f" % (epoch, training_steps, batch, num_batches, batch_cost))
+            print('epoch: %d/%d, batch: %d/%d loss: %f' % (epoch, training_steps, batch, num_batches, batch_cost))
             if (batch + 1) % 70 == 0:
                 rs = self.sess.run(self.merged, feed_dict=self.get_feed_dict())
                 self.writer.add_summary(rs, batch)

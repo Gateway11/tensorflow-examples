@@ -127,7 +127,7 @@ if __name__ == '__main__':
         '--num_contexts',
         type=int,
         default=9,
-        help='How many bins to use for the MFCC fingerprint',)
+        help='How much information is there before and after each step.',)
     parser.add_argument(
         '--how_many_training_steps',
         type=int,

@@ -9,7 +9,7 @@ def load_wav_file(wav_path):
     wav_files = []
     for (dirpath, dirnames, filenames) in os.walk(wav_path):
         for filename in filenames:
-            if filename.endswith(".wav") or filename.endswith(".WAV"):
+            if filename.endswith('.wav') or filename.endswith('.WAV'):
                 filename_path = os.sep.join([dirpath, filename])
                 if os.stat(filename_path).st_size < 240000:
                     continue
@@ -19,7 +19,7 @@ def load_wav_file(wav_path):
 
 def load_label_file(label_file):
     labels_dict = {}
-    with open(label_file, "r", encoding='utf-8') as f:
+    with open(label_file, 'r', encoding='utf-8') as f:
         for label in f:
             label = label.strip("\n")
             label_id, label_text = label.split(' ', 1)
@@ -64,7 +64,7 @@ def preapre_wav_list(wav_files, num_input, path):
         np.savetxt(file_name, orig_inputs)
         sample_files.append(file_name);
 
-    np.savetxt(path + ".complete.txt", [len(sample_files)])
+    np.savetxt(path + '.complete.txt', [len(sample_files)])
     return sample_files
 
 def trans_labels_to_vector(labels, lexicon):
@@ -109,8 +109,8 @@ def trans_array_to_text(value, lexicon):
     return results.replace('`', ' ')
 
 if __name__ == "__main__":
-    wav_files = load_wav_file("/tmp/data_wsj/wav/train")
-    labels_dict = load_label_file("/tmp/data_wsj/doc/trans/train.word.txt")
+    wav_files = load_wav_file('/tmp/data_wsj/wav/train')
+    labels_dict = load_label_file('/tmp/data_wsj/doc/trans/train.word.txt')
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = trans_labels_to_vector(labels, lexicon)
@@ -126,5 +126,5 @@ if __name__ == "__main__":
     #print(sparse_labels)
     print(decoded_str)
 
-    sample_files = preapre_wav_list(wav_files, 26, "./output/mfcc/train/")
+    sample_files = preapre_wav_list(wav_files, 26, '../output/mfcc/train/')
     print(sample_files)

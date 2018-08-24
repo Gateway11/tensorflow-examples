@@ -21,7 +21,7 @@ def create_birnn_model(data_input, seq_length, model_settings, model_size_info, 
     """Builds a model with a birnn layer (with output projection layer and peep-hole connections)
     """
     if is_training:
-        dropout_prob = tf.placeholder(tf.float32, name='dropout_prob')
+        dropout_prob = tf.placeholder(tf.float32, name = 'dropout_prob')
     
     relu_clip = model_settings['relu_clip']
     num_character = model_settings['num_character']
