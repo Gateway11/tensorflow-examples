@@ -7,12 +7,6 @@ class HttpError(Exception):
         def __str__(self):
             return repr(self.value)
 
-class SystemError(Exception):
-        def __init__(self, value):
-            self.value = value
-        def __str__(self):
-            return repr(self.value)
-
 def download_and_untar(data_url, save_dir):
     if not os.path.exists(save_dir + '.complete.txt'):
 
