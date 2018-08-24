@@ -6,18 +6,12 @@ from local.models import *
 from utils.label_wav import *
 from utils.input_data import *
 
-def train(train_sample_files, train_vector_labels,
-        test_sample_files, test_vector_labels,
-        num_inputs, num_contexts, lexicon,
-        training_steps, eval_step_interval,
-        learning_rate, batch_size,
-        summaries_dir, train_dir, 
-        save_step_interval, start_checkpoint,
-        model_architecture, model_size_info):
+def train(train_sample_files, train_vector_labels, test_sample_files, test_vector_labels,
+        num_inputs, num_contexts, lexicon, training_steps, learning_rate, batch_size, 
+        summaries_dir, train_dir, save_step_interval, model_architecture, model_size_info):
     
     input_tensor = tf.placeholder(tf.float32, 
-            [None, None, num_inputs + (2 * num_inputs * num_contexts)], name='input')  # 语音log filter bank or MFCC features
-
+            [None, None, num_inputs + (2 * num_inputs * num_contexts)], name='input')
     text = tf.sparse_placeholder(tf.int32, name='text')  # 文本
     seq_length = tf.placeholder(tf.int32, [None], name='seq_length')  # 序列长
 
@@ -54,39 +48,52 @@ def train(train_sample_files, train_vector_labels,
         ind = ckpt.rfind("-")
         startepo = int(ckpt[ind + 1:])
 
-    num_batches = int(np.ceil(len(train_vector_labels) / batch_size))
+    merged = tf.summary.merge_all()
+    writer = tf.summary.FileWriter(summaries_dir, sess.graph)
+
+    train_num_batches = int(np.ceil(len(train_sample_files) / batch_size))
+    test_num_batches = int(np.ceil(len(test_sample_files) / batch_size))
     for epoch in range(training_steps):
+        train_next_idx = 0
         epoch_start = time.time()
 
-        next_idx = 0
-        train_cost = 0
-        train_err = 0
-        for batch in range(num_batches):
-            
-            sparse_labels, batches_sample, length_seqs, next_idx = get_next_batches(next_idx, 
-                                                                                    train_sample_files, 
-                                                                                    train_vector_labels, 
-                                                                                    num_contexts, 
-                                                                                    batch_size)
-            batch_cost, _ = sess.run([avg_loss, optimizer], feed_dict = {input_tensor:batches_sample, 
+        for batch in range(train_num_batches):
+            sparse_labels, batches_sample, length_seqs, train_next_idx = get_next_batches(train_next_idx, 
+                                                                                        train_sample_files, 
+                                                                                        train_vector_labels, 
+                                                                                        num_contexts, 
+                                                                                        batch_size)
+            train_loss, _ = sess.run([avg_loss, optimizer], feed_dict = {input_tensor:batches_sample, 
                                                                         text:sparse_labels, 
                                                                         seq_length:length_seqs, 
                                                                         dropout_prob:0.95})
-            print('epoch: %d/%d, batch: %d/%d loss: %f' % (epoch, training_steps, batch, num_batches, batch_cost))
-            if (batch + 1) % 70 == 0:
-                rs = self.sess.run(self.merged, feed_dict=self.get_feed_dict())
-                self.writer.add_summary(rs, batch)
+            print('batches: %4d/%d, train_loss: %f' % (batch, train_num_batches, train_loss))
+        if epoch % save_step_interval == 0:
+            test_next_idx = 0
+            total_wer = 0
+            for batch in range(test_num_batches):
+                sparse_labels, batches_sample, length_seqs, test_next_idx = get_next_batches(test_next_idx, 
+                                                                                        test_sample_files, 
+                                                                                        test_vector_labels, 
+                                                                                        num_contexts, 
+                                                                                        batch_size)
+                d, wer = sess.run([decoded[0], label_err], feed_dict = {input_tensor:batches_sample, 
+                                                                        text:sparse_labels, 
+                                                                        seq_length:length_seqs, 
+                                                                        dropout_prob:1.0})
+                total_wer += wer
 
-                d, train_err = sess.run([decoded[0], label_err], feed_dict = {dropout_prob:1.0})
-                dense_decoded = tf.sparse_tensor_to_dense(d, default_value = -1).eval(session = sess)
-                dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)
+            print('WER: %.2f%%, training_steps: %d/%d' % (total_wer / test_num_batches, epoch, training_steps))
+            dense_decoded = tf.sparse_tensor_to_dense(d, default_value = -1).eval(session = sess)
+            dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)
 
-                for orig, decoded_array in zip(dense_labels, dense_decoded):
-                    decoded_str = trans_array_to_text(decoded_array, lexicon)
-                    print('语音原始文本: {}'.format(orig))
-                    print('识别出来的文本:  {}'.format(decoded_str))
-                    break
-        saver.save(sess, train_dir + "speech.model", global_step = epoch)
-        epoch_duration = time.time() - epoch_start
+            for orig, decoded_array in zip(dense_labels, dense_decoded):
+                decoded_str = trans_array_to_text(decoded_array, lexicon)
+                print('语音原始文本: {}'.format(orig))
+                print('识别出来的文本: {}'.format(decoded_str))
+                break
+
+            saver.save(sess, train_dir + "speech.model", global_step = epoch)
+            epoch_duration = time.time() - epoch_start
 
     sess.close()

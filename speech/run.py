@@ -5,11 +5,14 @@ import sys
 
 from tensorflow.python.platform import app
 from utils.label_wav import *
+from utils.download_and_untar import *
 from steps.train import *
 
 FLAGS = None
 
 def main(_):
+    download_and_untar(FLAGS.data_url.split(','), FLAGS.data_dir)
+
     train_wav_files = load_wav_file(FLAGS.data_dir + 'wav/train')
     train_labels_dict = load_label_file(FLAGS.data_dir + 'doc/trans/train.word.txt')
 
@@ -26,11 +29,9 @@ def main(_):
 
     train(train_sample_files, train_vector_labels, test_sample_files, test_vector_labels, 
             FLAGS.dct_coefficient_count, FLAGS.num_contexts, lexicon,
-            FLAGS.how_many_training_steps, FLAGS.eval_step_interval,
-            FLAGS.learning_rate, FLAGS.batch_size,
-            FLAGS.summaries_dir, FLAGS.train_dir,
-            FLAGS.save_step_interval, FLAGS.start_checkpoint,
-            FLAGS.model_architecture, FLAGS.model_size_info)
+            FLAGS.how_many_training_steps, FLAGS.learning_rate, 
+            FLAGS.batch_size, FLAGS.summaries_dir, FLAGS.train_dir,
+            FLAGS.save_step_interval, FLAGS.model_architecture, FLAGS.model_size_info)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -161,7 +162,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--save_step_interval',
         type=int,
-        default=70,
+        default=1,
         help='Save model checkpoint every save_steps.')
     parser.add_argument(
         '--start_checkpoint',
