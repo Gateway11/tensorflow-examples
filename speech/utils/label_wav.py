@@ -114,6 +114,10 @@ if __name__ == "__main__":
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = trans_labels_to_vector(labels, lexicon)
+    f = open('./temp.txt','w')
+    import re
+    f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', "    "))
+    f.close()
 
     sample = 1027
     print(wav_files[sample])
