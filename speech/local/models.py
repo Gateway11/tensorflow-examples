@@ -9,7 +9,7 @@ def prepare_model_settings(relu_clip, num_character):
 def create_model(data_input, seq_length, model_settings, model_architecture, model_size_info, is_training):
     if model_architecture == 'birnn':
         return create_birnn_model(data_input, seq_length, model_settings, model_size_info, is_training)
-  else:
+    else:
         raise Exception('model_architecture argument "' + model_architecture +
                         '" not recognized, should be one of "birnn"')
 

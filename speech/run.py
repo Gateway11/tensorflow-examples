@@ -10,13 +10,27 @@ from steps.train import *
 FLAGS = None
 
 def main(_):
-    wav_files = load_wav_file(FLAGS.data_dir + 'wav/train')
-    labels_dict = load_label_file(FLAGS.data_dir + 'doc/trans/train.word.txt')
+    train_wav_files = load_wav_file(FLAGS.data_dir + 'wav/train')
+    train_labels_dict = load_label_file(FLAGS.data_dir + 'doc/trans/train.word.txt')
 
-    lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
-    vector_labels = trans_labels_to_vector(labels, lexicon)
+    train_sample_files = preapre_wav_list(train_wav_files, FLAGS.dct_coefficient_count, FLAGS.mfcc_dir + 'train/')
+    lexicon, train_labels, train_sample_files = prepare_label_list(train_sample_files, train_labels_dict)
+    train_vector_labels = trans_labels_to_vector(train_labels, lexicon)
 
-    #sample_files = preapre_wav_list(wav_files, FLAGS.dct_coefficient_count, FLAGS.mfcc_dir + '/train/')
+    test_wav_files = load_wav_file(FLAGS.data_dir + 'wav/test')
+    test_labels_dict = load_label_file(FLAGS.data_dir + 'doc/trans/test.word.txt')
+
+    test_sample_files = preapre_wav_list(test_wav_files, FLAGS.dct_coefficient_count, FLAGS.mfcc_dir + 'test/')
+    _, test_labels, test_sample_files = prepare_label_list(test_sample_files, test_labels_dict)
+    test_vector_labels = trans_labels_to_vector(test_labels, lexicon)
+
+    train(train_sample_files, train_vector_labels, test_sample_files, test_vector_labels, 
+            FLAGS.dct_coefficient_count, FLAGS.num_contexts, lexicon,
+            FLAGS.how_many_training_steps, FLAGS.eval_step_interval,
+            FLAGS.learning_rate, FLAGS.batch_size,
+            FLAGS.summaries_dir, FLAGS.train_dir,
+            FLAGS.save_step_interval, FLAGS.start_checkpoint,
+            FLAGS.model_architecture, FLAGS.model_size_info)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -110,9 +124,14 @@ if __name__ == '__main__':
         default='./output/mfcc/',
         help='Where to save MFCC fingerprint for samples.')
     parser.add_argument(
+        '--num_contexts',
+        type=int,
+        default=9,
+        help='How many bins to use for the MFCC fingerprint',)
+    parser.add_argument(
         '--how_many_training_steps',
         type=int,
-        default='120',
+        default=120,
         help='How many training loops to run',)
     parser.add_argument(
         '--eval_step_interval',
@@ -122,7 +141,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--learning_rate',
         type=float,
-        default='0.001',
+        default=0.001,
         help='How large a learning rate to use when training.')
     parser.add_argument(
         '--batch_size',
