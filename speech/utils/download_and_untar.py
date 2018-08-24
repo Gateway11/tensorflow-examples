@@ -18,12 +18,10 @@ def download_and_untar(data_url, save_dir):
 
             if os.system('wget -O %s %s' % (file_path, url)):
                 raise HttpError("Download error: %s" % (url))
-            if os.system('tar xvf %s %s' % (file_path, save_dir)):
+            if os.system('tar zxvf %s -C %s' % (file_path, save_dir)):
                 raise SystemError('"tar xvf %s %s" command execution failed.' % (file_path, save_dir))
 
         np.savetxt(save_dir + '.complete.txt', [len(data_url)])
 
 if __name__ == "__main__":
-    download_and_untar(['http://data.cslt.org/thchs30/zip/wav.tgz', 
-                        'http://data.cslt.org/thchs30/zip/doc.tgz'], 
-                        '/tmp/data_wsj/')
+    download_and_untar(['http://www.openslr.org/resources/18/data_thchs30.tgz'], '/tmp/data_wsj/')
