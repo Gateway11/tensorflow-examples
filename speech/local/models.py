@@ -26,30 +26,30 @@ def create_birnn_model(data_input, seq_length, model_settings, model_size_info, 
     relu_clip = model_settings['relu_clip']
     num_character = model_settings['num_character']
     w_stddev = 0.046875
-    h_stddev = 0.046875
+    b_stddev = 0.046875
 
-    input_shape = tf.shape(data_input) # shape(8, 137, 494)
+    input_shape = data_input.shape # shape(8, 137, 494)
     # 时间序列优先
     data_input = tf.transpose(data_input, [1, 0, 2]) 
     data_input = tf.reshape(data_input, [-1, input_shape[-1]]) # shape(num_step * batch_size, 494)
 
     with tf.name_scope('Layer_1'):
-        W = self.variable_on_device('W', [input_shape[-1], model_size_info[0]], tf.random_normal_initializer(stddev = w_stddev))
-        b = self.variable_on_device('b', [model_size_info[0]], tf.random_normal_initializer(stddev = b_stddev))
+        W = variable_on_device('W1', [input_shape[-1], model_size_info[0]], tf.random_normal_initializer(stddev = w_stddev))
+        b = variable_on_device('b1', [model_size_info[0]], tf.random_normal_initializer(stddev = b_stddev))
         layer1_output = tf.minimum(tf.nn.relu(tf.add(tf.matmul(data_input, W), b)), relu_clip)
         if is_training:
             layer1_output = tf.nn.dropout(layer1_output, dropout_prob)
 
     with tf.name_scope('Layer_2'):
-        W = self.variable_on_device('W', [model_size_info[0], model_size_info[1]], tf.random_normal_initializer(stddev = w_stddev))
-        b = self.variable_on_device('b', [model_size_info[1]], tf.random_normal_initializer(stddev = b_stddev))
+        W = variable_on_device('W2', [model_size_info[0], model_size_info[1]], tf.random_normal_initializer(stddev = w_stddev))
+        b = variable_on_device('b2', [model_size_info[1]], tf.random_normal_initializer(stddev = b_stddev))
         layer2_output = tf.minimum(tf.nn.relu(tf.add(tf.matmul(layer1_output, W), b)), relu_clip)
         if is_training:
             layer2_output = tf.nn.dropout(layer2_output, dropout_prob)
 
     with tf.name_scope('Layer_3'):
-        W = self.variable_on_device('W', [model_size_info[1], model_size_info[2]], tf.random_normal_initializer(stddev = w_stddev))
-        b = self.variable_on_device('b', [model_size_info[2]], tf.random_normal_initializer(stddev = b_stddev))
+        W = variable_on_device('W3', [model_size_info[1], model_size_info[2]], tf.random_normal_initializer(stddev = w_stddev))
+        b = variable_on_device('b3', [model_size_info[2]], tf.random_normal_initializer(stddev = b_stddev))
         layer3_output = tf.minimum(tf.nn.relu(tf.add(tf.matmul(layer2_output, W), b)), relu_clip)
         if is_training:
             layer3_output = tf.nn.dropout(layer3_output, dropout_prob)
@@ -76,15 +76,15 @@ def create_birnn_model(data_input, seq_length, model_settings, model_size_info, 
         layer4_output = tf.reshape(layer4_output, [-1, 2 * model_size_info[3]])
 
     with tf.name_scope('Layer_5'):
-        W = self.variable_on_device('W', [2 * model_size_info[3], model_size_info[4]], tf.random_normal_initializer(stddev = w_stddev))
-        b = self.variable_on_device('b', [model_size_info[4]], tf.random_normal_initializer(stddev = b_stddev))
+        W = variable_on_device('W5', [2 * model_size_info[3], model_size_info[4]], tf.random_normal_initializer(stddev = w_stddev))
+        b = variable_on_device('b5', [model_size_info[4]], tf.random_normal_initializer(stddev = b_stddev))
         layer5_output = tf.minimum(tf.nn.relu(tf.add(tf.matmul(layer4_output, W), b)), relu_clip)
         if is_training:
             layer5_output = tf.nn.dropout(layer5_output, dropout_prob)
 
     with tf.name_scope('Layer_6'):
-        W = self.variable_on_device('W', [model_size_info[4], num_character], tf.random_normal_initializer(stddev = w_stddev))
-        b = self.variable_on_device('b', [num_character], tf.random_normal_initializer(stddev = b_stddev))
+        W = variable_on_device('W6', [model_size_info[4], num_character], tf.random_normal_initializer(stddev = w_stddev))
+        b = variable_on_device('b6', [num_character], tf.random_normal_initializer(stddev = b_stddev))
         layer6_output = tf.add(tf.matmul(layer5_output, W), b)
 
     output = tf.reshape(layer6_output, [-1, input_shape[0], num_character])
@@ -95,5 +95,6 @@ def variable_on_device(name, shape, initializer, use_gpu = False):
         with tf.device('/gpu:0'):
             var = tf.get_variable(name = name, shape = shape, initializer = initializer)
     else:
+        print(shape)
         var = tf.get_variable(name = name, shape = shape, initializer = initializer)
     return var
