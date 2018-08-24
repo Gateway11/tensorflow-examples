@@ -28,13 +28,14 @@ def create_birnn_model(data_input, seq_length, model_settings, model_size_info, 
     w_stddev = 0.046875
     b_stddev = 0.046875
 
-    input_shape = data_input.shape # shape(8, 137, 494)
+    input_shape = tf.shape(data_input) # shape(8, 137, 494)
+    num_inputs = data_input.shape[-1]
     # 时间序列优先
     data_input = tf.transpose(data_input, [1, 0, 2]) 
-    data_input = tf.reshape(data_input, [-1, input_shape[-1]]) # shape(num_step * batch_size, 494)
+    data_input = tf.reshape(data_input, [-1, num_inputs]) # shape(num_step * batch_size, 494)
 
     with tf.name_scope('Layer_1'):
-        W = variable_on_device('W1', [input_shape[-1], model_size_info[0]], tf.random_normal_initializer(stddev = w_stddev))
+        W = variable_on_device('W1', [num_inputs, model_size_info[0]], tf.random_normal_initializer(stddev = w_stddev))
         b = variable_on_device('b1', [model_size_info[0]], tf.random_normal_initializer(stddev = b_stddev))
         layer1_output = tf.minimum(tf.nn.relu(tf.add(tf.matmul(data_input, W), b)), relu_clip)
         if is_training:
@@ -95,6 +96,5 @@ def variable_on_device(name, shape, initializer, use_gpu = False):
         with tf.device('/gpu:0'):
             var = tf.get_variable(name = name, shape = shape, initializer = initializer)
     else:
-        print(shape)
         var = tf.get_variable(name = name, shape = shape, initializer = initializer)
     return var

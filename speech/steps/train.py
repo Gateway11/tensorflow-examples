@@ -1,5 +1,6 @@
 import time
 import tensorflow as tf
+from tensorflow.python.ops import ctc_ops
 
 from local.models import *
 from utils.label_wav import *
