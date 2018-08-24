@@ -11,11 +11,14 @@ from steps.train import *
 FLAGS = None
 
 def main(_):
+    # 下载数据集，默认下载清华数据集
     download_and_untar(FLAGS.data_url.split(','), FLAGS.data_dir)
 
+    # 扫描训练集
     train_wav_files = load_wav_file(FLAGS.data_dir + 'wav/train')
     train_labels_dict = load_label_file(FLAGS.data_dir + 'doc/trans/train.word.txt')
 
+    # 提取MFCC特征, 生成字典, label向量化
     train_sample_files = preapre_wav_list(train_wav_files, FLAGS.dct_coefficient_count, FLAGS.mfcc_dir + 'train/')
     lexicon, train_labels, train_sample_files = prepare_label_list(train_sample_files, train_labels_dict)
     train_vector_labels = trans_labels_to_vector(train_labels, lexicon)
@@ -27,6 +30,7 @@ def main(_):
     _, test_labels, test_sample_files = prepare_label_list(test_sample_files, test_labels_dict)
     test_vector_labels = trans_labels_to_vector(test_labels, lexicon)
 
+    # 开始训练
     train(train_sample_files, train_vector_labels, test_sample_files, test_vector_labels, 
             FLAGS.dct_coefficient_count, FLAGS.num_contexts, lexicon,
             FLAGS.how_many_training_steps, FLAGS.learning_rate, 
