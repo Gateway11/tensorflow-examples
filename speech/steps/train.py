@@ -19,7 +19,7 @@ def train(
         batch_size,
         summaries_dir,
         train_dir,
-        save_step_interval,
+        eval_step_interval,
         model_architecture,
         model_size_info):
 
@@ -69,25 +69,26 @@ def train(
             print('training batch: %4d/%d, loss: %f' % (train_batch + 1, num_train_batches, loss))
 
         total_wer = 0
-        for test_batch in range(num_test_batches):
-            sparse_labels, batches_sample, length_seqs = get_next_batches(
-                batch_size * test_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
-
-            decod, wer = sess.run([decoder[0], evaluation_step],
-                feed_dict={X: batches_sample, Y: sparse_labels, sequence_len: length_seqs,dropout_prob: 1.0})
-
-            total_wer += wer
-            print('WER: %.2f%%, testing batch: %d/%d' % (test_accuracy, test_batch, num_test_batches))
-
-            dense_decoder = tf.sparse_tensor_to_dense(decod, default_value=-1).eval(session=sess)
-            dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)
-
-            for orig, decoder_array in zip(dense_labels, dense_decoder):
-                decoded_str = trans_array_to_text(decoder_array, lexicon)
-                print('语音原始文本: {}'.format(orig))
-                print('识别出来的文本: {}'.format(decoded_str))
-                break
-
-        print('WER: %.2f%%, training step: %d/%d' 
-                % (total_wer / num_test_batches, training_step, training_steps))
-        saver.save(sess, train_dir + "speech.model", global_step=training_step)
+        if (training_step % eval_step_interval) == 0:
+            for test_batch in range(num_test_batches):
+                sparse_labels, batches_sample, length_seqs = get_next_batches(
+                    batch_size * test_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
+    
+                decodes, wer = sess.run([decoder[0], evaluation_step],
+                    feed_dict={X: batches_sample, Y: sparse_labels, sequence_len: length_seqs, dropout_prob: 1.0})
+    
+                total_wer += wer
+                print('WER: %.2f%%, testing batch: %d/%d' % (test_accuracy, test_batch, num_test_batches))
+    
+                dense_decodes = tf.sparse_tensor_to_dense(decodes, default_value=-1).eval(session=sess)
+                dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)
+    
+                for orig, decode_array in zip(dense_labels, dense_decodes):
+                    decoded_str = trans_array_to_text(decode_array, lexicon)
+                    print('语音原始文本: {}'.format(orig))
+                    print('识别出来的文本: {}'.format(decoded_str))
+                    break
+    
+            print('WER: %.2f%%, training step: %d/%d' 
+                    % (total_wer / num_test_batches, training_step, training_steps))
+            saver.save(sess, train_dir + "speech.model", global_step=training_step)

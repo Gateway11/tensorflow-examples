@@ -45,7 +45,7 @@ def main(_):
         FLAGS.batch_size,
         FLAGS.summaries_dir,
         FLAGS.train_dir,
-        FLAGS.save_step_interval,
+        FLAGS.eval_step_interval,
         FLAGS.model_architecture,
         FLAGS.model_size_info)
 
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--eval_step_interval',
         type=int,
-        default=400,
+        default=1,
         help='How often to evaluate the training results.')
     parser.add_argument(
         '--learning_rate',
