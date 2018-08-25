@@ -11,12 +11,11 @@ def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
 
         batches_sample.append(sample.astype('float32'))
         batches_label.append(labels[next_idx])
-        next_idx += 1
 
     batches_sample, length_seqs = align_samples(batches_sample)
     sparse_labels = sparse_tuple_from(batches_label)
 
-    return sparse_labels, batches_sample, length_seqs, next_idx
+    return sparse_labels, batches_sample, length_seqs
 
 
 def padding_context(sample, num_contexts):

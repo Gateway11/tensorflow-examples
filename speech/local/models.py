@@ -1,3 +1,4 @@
+import tensorflow as tf
 
 
 def prepare_model_settings(relu_clip, num_character):
@@ -15,6 +16,10 @@ def create_model(input_tensor, sequence_len,
     else:
         raise Exception('model_architecture argument "' + model_architecture +
                         '" not recognized, should be one of "birnn"')
+
+def load_variables_from_checkpoint(sess, start_checkpoint):
+    saver = tf.train.Saver(tf.global_variables())
+    saver.restore(sess, start_checkpoint)
 
 
 def create_birnn_model(input_tensor, 
@@ -95,7 +100,7 @@ def create_birnn_model(input_tensor,
                                tf.random_normal_initializer(stddev=b_stddev))
         outputs = tf.add(tf.matmul(outputs, W), b)
 
-    outputs = tf.reshape(layer6_outputs, [-1, input_shape[0], num_character])
+    outputs = tf.reshape(outputs, [-1, input_shape[0], num_character])
     return outputs, dropout_prob if is_training else outputs
 
 
