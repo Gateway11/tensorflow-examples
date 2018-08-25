@@ -10,6 +10,7 @@ from steps.train import *
 
 FLAGS = None
 
+
 def main(_):
     # 下载数据集，默认下载清华数据集
     download_and_untar(FLAGS.data_url.split(','), FLAGS.data_dir)
@@ -31,11 +32,22 @@ def main(_):
     test_vector_labels = trans_labels_to_vector(test_labels, lexicon)
 
     # 开始训练
-    train(train_sample_files, train_vector_labels, test_sample_files, test_vector_labels, 
-            FLAGS.dct_coefficient_count, FLAGS.num_contexts, lexicon,
-            FLAGS.how_many_training_steps, FLAGS.learning_rate, 
-            FLAGS.batch_size, FLAGS.summaries_dir, FLAGS.train_dir,
-            FLAGS.save_step_interval, FLAGS.model_architecture, FLAGS.model_size_info)
+    train(
+        train_sample_files,
+        train_vector_labels,
+        test_sample_files,
+        test_vector_labels,
+        FLAGS.dct_coefficient_count,
+        FLAGS.num_contexts,
+        lexicon,
+        FLAGS.how_many_training_steps,
+        FLAGS.learning_rate,
+        FLAGS.batch_size,
+        FLAGS.summaries_dir,
+        FLAGS.train_dir,
+        FLAGS.save_step_interval,
+        FLAGS.model_architecture,
+        FLAGS.model_size_info)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -50,44 +62,32 @@ if __name__ == '__main__':
         '--data_dir',
         type=str,
         default='/tmp/data_wsj/',
-        help="""\
-        Where to download the speech training data to.
-        """)
+        help='Where to download the speech training data to.')
     parser.add_argument(
         '--background_volume',
         type=float,
         default=0.1,
-        help="""\
-        How loud the background noise should be, between 0 and 1.
-        """)
+        help='How loud the background noise should be, between 0 and 1.')
     parser.add_argument(
         '--background_frequency',
         type=float,
         default=0.8,
-        help="""\
-        How many of the training samples have background noise mixed in.
-        """)
+        help='How many of the training samples have background noise mixed in.')
     parser.add_argument(
         '--silence_percentage',
         type=float,
         default=10.0,
-        help="""\
-        How much of the training data should be silence.
-        """)
+        help='How much of the training data should be silence.')
     parser.add_argument(
         '--unknown_percentage',
         type=float,
         default=10.0,
-        help="""\
-        How much of the training data should be unknown words.
-        """)
+        help='How much of the training data should be unknown words.')
     parser.add_argument(
         '--time_shift_ms',
         type=float,
         default=100.0,
-        help="""\
-        Range to randomly shift the training audio by in time.
-        """)
+        help='Range to randomly shift the training audio by in time.')
     parser.add_argument(
         '--testing_percentage',
         type=int,
@@ -189,6 +189,6 @@ if __name__ == '__main__':
         type=bool,
         default=False,
         help='Whether to check for invalid numbers during processing')
-  
+
     FLAGS, unparsed = parser.parse_known_args()
     app.run(main=main, argv=[sys.argv[0]] + unparsed)

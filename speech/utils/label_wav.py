@@ -5,6 +5,7 @@ import scipy.io.wavfile as wav
 from collections import Counter
 from python_speech_features import mfcc
 
+
 def load_wav_file(wav_path):
     wav_files = []
     for (dirpath, dirnames, filenames) in os.walk(wav_path):
@@ -17,6 +18,7 @@ def load_wav_file(wav_path):
 
     return wav_files
 
+
 def load_label_file(label_file):
     labels_dict = {}
     with open(label_file, 'r', encoding='utf-8') as f:
@@ -26,6 +28,7 @@ def load_label_file(label_file):
             labels_dict[label_id] = label_text
 
     return labels_dict
+
 
 def prepare_label_list(sample_files, labels_dict):
     labels = []
@@ -41,12 +44,13 @@ def prepare_label_list(sample_files, labels_dict):
         all_words += [word for word in label]
 
     counter = Counter(all_words)
-    count_pairs = sorted(counter.items(), key = lambda x: -x[1])
+    count_pairs = sorted(counter.items(), key=lambda x: -x[1])
 
     words, _ = zip(*count_pairs)
     lexicon = dict(zip(words, range(len(words))))
 
     return lexicon, labels, new_wav_files
+
 
 def preapre_wav_list(wav_files, num_input, path):
     if os.path.exists(path + '.complete.txt'):
@@ -58,21 +62,24 @@ def preapre_wav_list(wav_files, num_input, path):
     sample_files = []
     for wav_file in wav_files:
         fs, audio = wav.read(wav_file)
-        orig_inputs = mfcc(audio, samplerate = fs, numcep = num_input)
+        orig_inputs = mfcc(audio, samplerate=fs, numcep=num_input)
 
         file_name = path + os.path.basename(wav_file).split(".")[0] + ".txt"
         np.savetxt(file_name, orig_inputs)
-        sample_files.append(file_name);
+        sample_files.append(file_name)
 
     np.savetxt(path + '.complete.txt', [len(sample_files)])
     return sample_files
 
+
 def trans_labels_to_vector(labels, lexicon):
-    to_num = lambda word: lexicon.get(word, len(lexicon))
+    def to_num(word): return lexicon.get(word, len(lexicon))
     return [list(map(to_num, label)) for label in labels]
 
-# 密集矩阵转稀疏矩阵
-def sparse_tuple_from(sequences, dtype = np.int32):
+
+def sparse_tuple_from(sequences, dtype=np.int32):
+    """密集矩阵转稀疏矩阵
+    """
     indices = []
     values = []
 
@@ -80,14 +87,16 @@ def sparse_tuple_from(sequences, dtype = np.int32):
         indices.extend(zip([n] * len(seq), range(len(seq))))
         values.extend(seq)
 
-    indices = np.asarray(indices, dtype = np.int64)
-    values = np.asarray(values, dtype = dtype)
-    shape = np.asarray([len(sequences), indices.max(0)[1] + 1], dtype = np.int64)
+    indices = np.asarray(indices, dtype=np.int64)
+    values = np.asarray(values, dtype=dtype)
+    shape = np.asarray([len(sequences), indices.max(0)[1] + 1], dtype=np.int64)
 
     return indices, values, shape
 
-# 向量转换成文字
+
 def trans_tuple_to_texts(tuple, lexicon):
+    """向量转换成文字
+    """
     indices = tuple[0]
     values = tuple[1]
     results = [''] * tuple[2][0]
@@ -96,10 +105,12 @@ def trans_tuple_to_texts(tuple, lexicon):
     for i in range(len(indices)):
         idx = indices[i][0]
         word_idx = values[i]
-        word = ' ' if word_idx == 0 else words[word_idx]  # chr(c + FIRST_INDEX)
+        # chr(c + FIRST_INDEX)
+        word = ' ' if word_idx == 0 else words[word_idx]
         results[idx] = results[idx] + word
 
     return results
+
 
 def trans_array_to_text(value, lexicon):
     results = ''
@@ -108,13 +119,14 @@ def trans_array_to_text(value, lexicon):
         results += words[value[i]]  # chr(value[i] + FIRST_INDEX)
     return results.replace('`', ' ')
 
+
 if __name__ == "__main__":
     wav_files = load_wav_file('/tmp/data_wsj/wav/train')
     labels_dict = load_label_file('/tmp/data_wsj/doc/trans/train.word.txt')
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = trans_labels_to_vector(labels, lexicon)
-    f = open('./temp.txt','w')
+    f = open('./temp.txt', 'w')
     import re
     f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', "    "))
     f.close()
@@ -127,7 +139,7 @@ if __name__ == "__main__":
 
     sparse_labels = sparse_tuple_from(vector_labels[:8])
     decoded_str = trans_tuple_to_texts(sparse_labels, lexicon)
-    #print(sparse_labels)
+    # print(sparse_labels)
     print(decoded_str)
 
     sample_files = preapre_wav_list(wav_files, 26, '../output/mfcc/train/')
