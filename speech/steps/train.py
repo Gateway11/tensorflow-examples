@@ -24,74 +24,65 @@ def train(
         model_architecture,
         model_size_info):
 
-    input_tensor = tf.placeholder(tf.float32, [
-                                  None, None, num_inputs + (2 * num_inputs * num_contexts)], name='input')
-    text = tf.sparse_placeholder(tf.int32, name='text')  # 文本
-    seq_length = tf.placeholder(tf.int32, [None], name='seq_length')  # 序列长
+    X = tf.placeholder(dtype=tf.float32, shape=[
+        None, None, num_inputs + (2 * num_inputs * num_contexts)], name='input')
+    sequence_len = tf.placeholder(dtype=tf.int32, shape=[None], name='sequence_len')
+    Y = tf.sparse_placeholder(dtype=tf.int32)
 
     num_character = len(lexicon) + 1
     model_settings = prepare_model_settings(20, num_character)
     logits, dropout_prob = create_model(
-        input_tensor, seq_length, model_settings, model_architecture, model_size_info, True)
+        X, sequence_len, model_settings, model_architecture, model_size_info, True)
 
-    with tf.name_scope('loss'):  # 损失
-        avg_loss = tf.reduce_mean(ctc_ops.ctc_loss(text, logits, seq_length))
+    with tf.name_scope('loss'):
+        avg_loss = tf.reduce_mean(ctc_ops.ctc_loss(text, logits, sequence_len))
         tf.summary.scalar('loss', avg_loss)
-    # [optimizer]
-    with tf.name_scope('train'):  # 训练过程
+    with tf.name_scope('train'):
         optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(avg_loss)
-
     with tf.name_scope("decode"):
-        decoded, log_prob = ctc_ops.ctc_beam_search_decoder(logits, seq_length, merge_repeated=False)
-
+        decoded, log_prob = ctc_ops.ctc_beam_search_decoder(logits, sequence_len, merge_repeated=False)
     with tf.name_scope("accuracy"):
-        distance = tf.edit_distance(tf.cast(decoded[0], tf.int32), text)
-        # 计算label error rate (accuracy)
-        label_err = tf.reduce_mean(distance, name='label_error_rate')
-        tf.summary.scalar('accuracy', label_err)
+        evaluation_step = tf.reduce_mean(tf.edit_distance(tf.cast(decoded[0], tf.int32), text))
+        tf.summary.scalar('accuracy', evaluation_step)
 
-    saver = tf.train.Saver(max_to_keep=1)  # 生成saver
-    sess = tf.Session()
-    # 没有模型的话，就重新初始化
-    sess.run(tf.global_variables_initializer())
+    sess = tf.InteractiveSession()
+    saver = tf.train.Saver(max_to_keep=1)
 
+    tf.global_variables_initializer().run()
     ckpt = tf.train.latest_checkpoint(train_dir)
-    startepo = 0
-    if ckpt is not None:
-        saver.restore(sess, ckpt)
-        ind = ckpt.rfind("-")
-        startepo = int(ckpt[ind + 1:])
+    if ckpt is not None: saver.restore(sess, ckpt)
 
-    merged = tf.summary.merge_all()
-    writer = tf.summary.FileWriter(summaries_dir, sess.graph)
+    merged_summaries = tf.summary.merge_all()
+    train_writer = tf.summary.FileWriter(summaries_dir, sess.graph)
 
     train_num_batches = len(train_sample_files) // batch_size
     test_num_batches = len(test_sample_files) // batch_size
     for epoch in range(training_steps):
         train_next_idx = 0
+        test_next_idx = 0
         epoch_start = time.time()
 
         for batch in range(train_num_batches):
             sparse_labels, batches_sample, length_seqs, train_next_idx = get_next_batches(
                 train_next_idx, train_sample_files, train_vector_labels, num_contexts, batch_size)
-            train_loss, _ = sess.run([avg_loss, optimizer], feed_dict={input_tensor: batches_sample,
-                                                                       text: sparse_labels,
-                                                                       seq_length: length_seqs,
-                                                                       dropout_prob: 0.95})
-            print('batches: %4d/%d, train_loss: %f' % (batch, train_num_batches, train_loss))
-        if epoch % save_step_interval == 0:
-            test_next_idx = 0
-            total_wer = 0
-            for batch in range(test_num_batches):
-                sparse_labels, batches_sample, length_seqs, test_next_idx = get_next_batches(
-                    test_next_idx, test_sample_files, test_vector_labels, num_contexts, batch_size)
-                d, wer = sess.run([decoded[0], label_err], feed_dict={input_tensor: batches_sample,
-                                                                      text: sparse_labels,
-                                                                      seq_length: length_seqs,
-                                                                      dropout_prob: 1.0})
-                total_wer += wer
-
-            print('WER: %.2f%%, training_steps: %d/%d' % (total_wer / test_num_batches, epoch, training_steps))
+            train_summary, loss, _ = sess.run(
+                [merged_summaries, avg_loss, optimizer],
+                feed_dict={X: batches_sample,
+                           Y: sparse_labels,
+                           sequence_len: length_seqs,
+                           dropout_prob: 0.95})
+            train_writer.add_summary(train_summary, batch)
+            print(
+                'batches: %4d/%d, loss: %f' %
+                (batch + 1, train_num_batches, loss))
+        for batch in range(test_num_batches):
+            sparse_labels, batches_sample, length_seqs, test_next_idx = get_next_batches(
+                test_next_idx, test_sample_files, test_vector_labels, num_contexts, batch_size)
+            d, evaluation_step = sess.run([decoded[0], evaluation_step], feed_dict={X: batches_sample,
+                                                                                    Y: sparse_labels,
+                                                                                    sequence_len: length_seqs,
+                                                                                    dropout_prob: 1.0})
+            print('WER: %.2f%%, training_steps: %d/%d' % (evaluation_step, epoch, training_steps))
             dense_decoded = tf.sparse_tensor_to_dense(d, default_value=-1).eval(session=sess)
             dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)
 
@@ -101,7 +92,5 @@ def train(
                 print('识别出来的文本: {}'.format(decoded_str))
                 break
 
-            saver.save(sess, train_dir + "speech.model", global_step=epoch)
-            epoch_duration = time.time() - epoch_start
-
-    sess.close()
+        saver.save(sess, train_dir + "speech.model", global_step=epoch)
+        epoch_duration = time.time() - epoch_start
