@@ -62,9 +62,10 @@ def train(
             sparse_labels, batches_sample, length_seqs = get_next_batches(
                 batch_size * train_batch, train_sample_files, train_vector_labels, num_contexts, batch_size)
 
-            train_summary, loss, _ = sess.run([merged_summaries, avg_loss, optimizer],
+            # train_summary, loss, _ = sess.run([merged_summaries, avg_loss, optimizer],
+            loss, _ = sess.run([avg_loss, optimizer],
                 feed_dict={X: batches_sample, Y: sparse_labels, sequence_len: length_seqs, dropout_prob: 0.95})
-            train_writer.add_summary(train_summary, train_batch)
+            # train_writer.add_summary(train_summary, train_batch)
             print('training batch: %4d/%d, loss: %f' % (train_batch + 1, num_train_batches, loss))
 
         total_wer = 0
