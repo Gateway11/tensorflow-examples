@@ -1,4 +1,3 @@
-import time
 import tensorflow as tf
 from tensorflow.python.ops import ctc_ops
 
@@ -55,13 +54,11 @@ def train(
     merged_summaries = tf.summary.merge_all()
     train_writer = tf.summary.FileWriter(summaries_dir, sess.graph)
 
-    train_num_batches = len(train_sample_files) // batch_size
-    test_num_batches = len(test_sample_files) // batch_size
+    num_train_batches = len(train_sample_files) // batch_size
+    num_test_batches = len(test_sample_files) // batch_size
 
     for training_step in range(training_steps):
-        epoch_start = time.time()
-
-        for train_batch in range(train_num_batches):
+        for train_batch in range(num_train_batches):
             sparse_labels, batches_sample, length_seqs = get_next_batches(
                 batch_size * train_batch, train_sample_files, train_vector_labels, num_contexts, batch_size)
 
@@ -69,16 +66,18 @@ def train(
                 feed_dict={X: batches_sample, Y: sparse_labels, sequence_len: length_seqs, dropout_prob: 0.95})
             train_writer.add_summary(train_summary, train_batch)
 
-            print('batches: %4d/%d, loss: %f' % (train_batch + 1, train_num_batches, loss))
+            print('train batch: %4d/%d, loss: %f' % (train_batch + 1, num_train_batches, loss))
 
-        for test_batch in range(test_num_batches):
+        total_accuracy = 0
+        for test_batch in range(num_test_batches):
             sparse_labels, batches_sample, length_seqs = get_next_batches(
                 batch_size * test_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
 
-            d, evaluation_step = sess.run([decoded[0], evaluation_step],
+            d, test_accuracy = sess.run([decoded[0], evaluation_step],
                 feed_dict={X: batches_sample, Y: sparse_labels, sequence_len: length_seqs,dropout_prob: 1.0})
 
-            print('WER: %.2f%%, training_steps: %d/%d' % (evaluation_step, training_step, training_steps))
+            total_accuracy += test_accuracy
+            print('WER: %.2f%%, test batch: %d/%d' % (test_accuracy, test_batch, num_test_batches))
 
             dense_decoded = tf.sparse_tensor_to_dense(d, default_value=-1).eval(session=sess)
             dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)
@@ -89,5 +88,6 @@ def train(
                 print('识别出来的文本: {}'.format(decoded_str))
                 break
 
+        print('WER: %.2f%%, training step: %d/%d' 
+                % (test_accuracy / test_num_batches, training_step, training_steps))
         saver.save(sess, train_dir + "speech.model", global_step=training_step)
-        epoch_duration = time.time() - epoch_start
