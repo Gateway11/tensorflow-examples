@@ -78,7 +78,7 @@ def train(
                     feed_dict={X: batches_sample, Y: sparse_labels, sequence_len: length_seqs, dropout_prob: 1.0})
     
                 total_wer += wer
-                print('WER: %.2f%%, testing batch: %d/%d' % (test_accuracy, test_batch, num_test_batches))
+                print('WER: %.2f%%, testing batch: %d/%d' % (wer, test_batch, num_test_batches))
     
                 dense_decodes = tf.sparse_tensor_to_dense(decodes, default_value=-1).eval(session=sess)
                 dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)

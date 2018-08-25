@@ -6,11 +6,11 @@ def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
     batches_label = []
     batches_sample = []
     for i in range(batch_size):
-        sample = np.loadtxt(files[next_idx])
+        sample = np.loadtxt(files[next_idx + i])
         sample = padding_context(sample[::2], num_contexts)
 
         batches_sample.append(sample.astype('float32'))
-        batches_label.append(labels[next_idx])
+        batches_label.append(labels[next_idx + i])
 
     batches_sample, length_seqs = align_samples(batches_sample)
     sparse_labels = sparse_tuple_from(batches_label)
