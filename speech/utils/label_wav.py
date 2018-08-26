@@ -103,11 +103,7 @@ def trans_tuple_to_texts(tuple, lexicon):
 
     words = list(lexicon.keys())
     for i in range(len(indices)):
-        idx = indices[i][0]
-        word_idx = values[i]
-        # chr(c + FIRST_INDEX)
-        word = ' ' if word_idx == 0 else words[word_idx]
-        results[idx] = results[idx] + word
+        results[indices[i][0]] += words[values[i]]
 
     return results
 
@@ -125,7 +121,7 @@ if __name__ == "__main__":
     labels_dict = load_label_file('/tmp/data_wsj/doc/trans/train.word.txt')
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
-    vector_labels = trans_labels_to_vector(labels, lexicon)
+    vector_labels = labels_to_vector(labels, lexicon)
     f = open('./temp.txt', 'w')
     import re
     f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', "    "))
@@ -137,10 +133,9 @@ if __name__ == "__main__":
     print(vector_labels[sample])
     print(list(lexicon.keys())[6])
 
-    sparse_labels = sparse_tuple_from(vector_labels[:8])
+    sparse_labels = sparse_tuple_from(vector_labels[:3])
     decoded_str = trans_tuple_to_texts(sparse_labels, lexicon)
     # print(sparse_labels)
     print(decoded_str)
 
     sample_files = preapre_wav_list(wav_files, 26, '../output/mfcc/train/')
-    print(sample_files)
