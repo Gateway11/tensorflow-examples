@@ -28,7 +28,7 @@ def train(
     sequence_len = tf.placeholder(dtype=tf.int32, shape=[None], name='sequence_len')
     Y = tf.sparse_placeholder(dtype=tf.int32)
 
-    num_character = len(lexicon)
+    num_character = len(lexicon) + 1
     model_settings = prepare_model_settings(20, num_character)
     logits, dropout_prob = create_model(
         X, sequence_len, model_settings, model_architecture, model_size_info, True)
