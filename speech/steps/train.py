@@ -11,9 +11,9 @@ def train(
         train_vector_labels,
         test_sample_files,
         test_vector_labels,
+        lexicon,
         num_inputs,
         num_contexts,
-        lexicon,
         training_steps,
         learning_rate,
         batch_size,
@@ -39,7 +39,7 @@ def train(
     with tf.name_scope('train'):
         optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(avg_loss)
     with tf.name_scope("decoder"):
-        decoder, log_prob = ctc_ops.ctc_beam_search_decoder(logits, sequence_len, merge_repeated=False)
+        decoder, _ = ctc_ops.ctc_beam_search_decoder(logits, sequence_len, merge_repeated=False)
     with tf.name_scope("accuracy"):
         evaluation_step = tf.reduce_mean(tf.edit_distance(tf.cast(decoder[0], tf.int32), Y))
         tf.summary.scalar('accuracy', evaluation_step)

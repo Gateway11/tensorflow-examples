@@ -32,11 +32,12 @@ def create_birnn_model(input_tensor,
     w_stddev = 0.046875
     b_stddev = 0.046875
 
-    input_shape = tf.shape(input_tensor)  # shape(8, 137, 494)
+    # shape(batch_size, num_steps, 494)
+    input_shape_tensor = tf.shape(input_tensor)  
     num_inputs = input_tensor.shape[-1]
     # 时间序列优先
     input_tensor = tf.transpose(input_tensor, [1, 0, 2])
-    # shape(num_step * batch_size, 494)
+    # shape(num_steps * batch_size, 494)
     input_tensor = tf.reshape(input_tensor, [-1, num_inputs])
 
     with tf.name_scope('Layer_1'):
@@ -79,7 +80,7 @@ def create_birnn_model(input_tensor,
         if is_training:
             lstm_bw = tf.contrib.rnn.DropoutWrapper(lstm_bw, input_keep_prob=dropout_prob)
 
-        outputs = tf.reshape(outputs, [-1, input_shape[0], model_size_info[2]])
+        outputs = tf.reshape(outputs, [-1, input_shape_tensor[0], model_size_info[2]])
         outputs, _ = tf.nn.bidirectional_dynamic_rnn(cell_fw=lstm_fw, cell_bw=lstm_bw, 
                 inputs=outputs, dtype=tf.float32, time_major=True, sequence_length=sequence_len)
         outputs = tf.reshape(tf.concat(outputs, 2), [-1, 2 * model_size_info[3]])
@@ -100,7 +101,7 @@ def create_birnn_model(input_tensor,
                                tf.random_normal_initializer(stddev=b_stddev))
         outputs = tf.add(tf.matmul(outputs, W), b)
 
-    outputs = tf.reshape(outputs, [-1, input_shape[0], num_character])
+    outputs = tf.reshape(outputs, [-1, input_shape_tensor[0], num_character])
     return outputs, dropout_prob if is_training else outputs
 
 
