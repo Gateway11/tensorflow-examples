@@ -2,20 +2,20 @@ import numpy as np
 from utils.label_wav import sparse_tuple_from
 
 
-def get_next_batches(next_idx, files, labels, num_contexts, batch_size):
-    batches_label = []
-    batches_sample = []
+def get_next_batches(next_idx, sample_files, sample_labels, num_contexts, batch_size):
+    batch_labels = []
+    batch_samples = []
     for i in range(batch_size):
-        sample = np.loadtxt(files[next_idx + i])
+        sample = np.loadtxt(sample_files[next_idx + i])
         sample = padding_context(sample[::2], num_contexts)
 
-        batches_sample.append(sample.astype('float32'))
-        batches_label.append(labels[next_idx + i])
+        batch_samples.append(sample.astype('float32'))
+        batch_labels.append(sample_labels[next_idx + i])
 
-    batches_sample, length_seqs = align_samples(batches_sample)
-    sparse_labels = sparse_tuple_from(batches_label)
+    batch_samples, num_steps = align_batch_samples(batch_samples)
+    sparse_labels = sparse_tuple_from(batch_labels)
 
-    return sparse_labels, batches_sample, length_seqs
+    return sparse_labels, batch_samples, num_steps 
 
 
 def padding_context(sample, num_contexts):
@@ -50,17 +50,17 @@ def padding_context(sample, num_contexts):
     return train_inputs
 
 
-def align_samples(sequences, dtype=np.float32, value=0.):
-    batch_size = len(sequences)
-    length_seqs = [len(sample) for sample in sequences]
-    max_step = np.max(length_seqs)
-    num_input = sequences[0].shape[1]
+def align_batch_samples(batch_samples, dtype=np.float32, value=0.):
+    batch_size = len(batch_samples)
+    num_steps = [len(sample) for sample in batch_samples]
+    max_step = np.max(num_steps)
+    num_input = batch_samples[0].shape[1]
 
     train_inputs = (np.ones((batch_size, max_step, num_input)) * value).astype(dtype)  # shape(8, 468, 494)
-    for idx, sample in enumerate(sequences):
+    for idx, sample in enumerate(batch_samples):
         train_inputs[idx, :len(sample)] = np.asarray(sample)
 
-    return train_inputs, length_seqs
+    return train_inputs, num_steps 
 
 
 if __name__ == "__main__":

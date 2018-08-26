@@ -59,23 +59,23 @@ def train(
 
     for training_step in range(training_steps):
         for train_batch in range(num_train_batches):
-            sparse_labels, batches_sample, length_seqs = get_next_batches(
+            sparse_labels, batch_samples, num_steps = get_next_batches(
                 batch_size * train_batch, train_sample_files, train_vector_labels, num_contexts, batch_size)
 
             # train_summary, loss, _ = sess.run([merged_summaries, avg_loss, optimizer],
             loss, _ = sess.run([avg_loss, optimizer],
-                feed_dict={X: batches_sample, Y: sparse_labels, sequence_len: length_seqs, dropout_prob: 0.95})
+                feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 0.95})
             # train_writer.add_summary(train_summary, train_batch)
             print('training batch: %4d/%d, loss: %f' % (train_batch + 1, num_train_batches, loss))
 
         total_wer = 0
         if (training_step % eval_step_interval) == 0:
             for test_batch in range(num_test_batches):
-                sparse_labels, batches_sample, length_seqs = get_next_batches(
+                sparse_labels, batch_samples, num_steps = get_next_batches(
                     batch_size * test_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
     
                 decodes, wer = sess.run([decoder[0], evaluation_step],
-                    feed_dict={X: batches_sample, Y: sparse_labels, sequence_len: length_seqs, dropout_prob: 1.0})
+                    feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 1.0})
     
                 total_wer += wer
                 print('WER: %.2f%%, testing batch: %d/%d' % (wer, test_batch + 1, num_test_batches))
