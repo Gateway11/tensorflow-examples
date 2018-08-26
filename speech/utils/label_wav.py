@@ -72,8 +72,8 @@ def preapre_wav_list(wav_files, num_input, path):
     return sample_files
 
 
-def trans_labels_to_vector(labels, lexicon):
-    def to_num(word): return lexicon.get(word, lexicon.get(' '))
+def labels_to_vector(labels, lexicon):
+    def to_num(word): return lexicon.get(word, len(lexicon))
     return [list(map(to_num, label)) for label in labels]
 
 
