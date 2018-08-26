@@ -141,7 +141,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--eval_step_interval',
         type=int,
-        default=1,
+        default=5,
         help='How often to evaluate the training results.')
     parser.add_argument(
         '--learning_rate',

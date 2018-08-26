@@ -69,7 +69,7 @@ def train(
             print('training batch: %4d/%d, loss: %f' % (train_batch + 1, num_train_batches, loss))
 
         total_wer = 0
-        if (training_step % eval_step_interval) == 0:
+        if (training_step + 1) % eval_step_interval == 0:
             for test_batch in range(num_test_batches):
                 sparse_labels, batch_samples, num_steps = get_next_batches(
                     batch_size * test_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
