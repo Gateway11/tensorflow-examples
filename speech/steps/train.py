@@ -28,7 +28,7 @@ def train(
     sequence_len = tf.placeholder(dtype=tf.int32, shape=[None], name='sequence_len')
     Y = tf.sparse_placeholder(dtype=tf.int32)
 
-    num_character = len(lexicon) + 1
+    num_character = len(lexicon)
     model_settings = prepare_model_settings(20, num_character)
     logits, dropout_prob = create_model(
         X, sequence_len, model_settings, model_architecture, model_size_info, True)
@@ -78,7 +78,7 @@ def train(
                     feed_dict={X: batches_sample, Y: sparse_labels, sequence_len: length_seqs, dropout_prob: 1.0})
     
                 total_wer += wer
-                print('WER: %.2f%%, testing batch: %d/%d' % (wer, test_batch, num_test_batches))
+                print('WER: %.2f%%, testing batch: %d/%d' % (wer, test_batch + 1, num_test_batches))
     
                 dense_decodes = tf.sparse_tensor_to_dense(decodes, default_value=-1).eval(session=sess)
                 dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)
@@ -90,5 +90,5 @@ def train(
                     break
     
             print('WER: %.2f%%, training step: %d/%d' 
-                    % (total_wer / num_test_batches, training_step, training_steps))
+                    % (total_wer / num_test_batches, training_step + 1, training_steps))
             saver.save(sess, train_dir + "speech.model", global_step=training_step)
