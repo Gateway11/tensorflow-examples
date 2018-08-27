@@ -58,7 +58,6 @@ def train(
 
     num_train_batches = len(train_sample_files) // batch_size
     num_test_batches = len(test_sample_files) // batch_size
-    print('training steps: %d, num batches: %d' % (training_steps, num_train_batches))
 
     for training_step in range(training_steps):
         total_loss = 0
