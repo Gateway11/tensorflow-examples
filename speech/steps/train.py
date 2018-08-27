@@ -69,9 +69,9 @@ def train(
             loss, _ = sess.run([avg_loss, optimizer],
                 feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 0.95})
             # train_writer.add_summary(train_summary, train_batch)
-            total_loas += loss
+            total_loss += loss
         print('training step: %d/%d, loss: %g' 
-            % (training_step + 1, training_steps, total_loas / num_train_batches))
+            % (training_step + 1, training_steps, total_loss / num_train_batches))
 
         total_wer = 0
         if (training_step + 1) % eval_step_interval == 0:
