@@ -44,6 +44,8 @@ def train(
         evaluation_step = tf.reduce_mean(tf.edit_distance(tf.cast(decoder[0], tf.int32), Y))
         tf.summary.scalar('accuracy', evaluation_step)
 
+    # gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.7)
+    # sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
     sess = tf.InteractiveSession()
     saver = tf.train.Saver(max_to_keep=1)
 
@@ -58,6 +60,7 @@ def train(
     num_test_batches = len(test_sample_files) // batch_size
 
     for training_step in range(training_steps):
+        total_loss = 0
         for train_batch in range(num_train_batches):
             sparse_labels, batch_samples, num_steps = get_next_batches(
                 batch_size * train_batch, train_sample_files, train_vector_labels, num_contexts, batch_size)
@@ -66,8 +69,9 @@ def train(
             loss, _ = sess.run([avg_loss, optimizer],
                 feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 0.95})
             # train_writer.add_summary(train_summary, train_batch)
-            print('training step: %d, training batch: %d/%d, loss: %f' 
-                % (training_step + 1, train_batch + 1, num_train_batches, loss))
+            total_loas += loss
+        print('training step: %d/%d, loss: %g' 
+            % (training_step + 1, training_steps, total_loas / num_train_batches))
 
         total_wer = 0
         if (training_step + 1) % eval_step_interval == 0:
@@ -79,8 +83,6 @@ def train(
                     feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 1.0})
     
                 total_wer += wer
-                print('WER: %.2f%%, testing batch: %d/%d' % (wer, test_batch + 1, num_test_batches))
-    
                 dense_decodes = tf.sparse_tensor_to_dense(decodes, default_value=-1).eval(session=sess)
                 dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)
     
