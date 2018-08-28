@@ -86,7 +86,7 @@ def train(
                         feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 1.0})
                 total_test_accuracy += test_accuracy
 
-            print('WER: %.2f%%, training step: %d/%d' 
+            print('WER: %.2f, training step: %d/%d' 
                     % (total_test_accuracy / num_test_batches, training_step + 1, training_steps))
 
     total_accuracy = 0
@@ -107,5 +107,5 @@ def train(
             print('识别出来的文本: {}'.format(decoded_str))
             break
 
-    print('Final WER: %.2f%%, training step: %d/%d' 
-            % (total_accuracy / num_test_batches, training_step + 1, training_steps))
+    print('Final WER: %.2f, train steps: %d' 
+            % (total_accuracy / num_test_batches, training_steps))
