@@ -1,10 +1,11 @@
 import tensorflow as tf
 
 
-def prepare_model_settings(relu_clip, num_character):
+def prepare_model_settings(relu_clip, num_character, use_gpu):
     return {
         'relu_clip': relu_clip,
         'num_character': num_character,
+        'use_gpu':use_gpu,
     }
 
 
@@ -29,6 +30,7 @@ def create_birnn_model(input_tensor,
 
     relu_clip = model_settings['relu_clip']
     num_character = model_settings['num_character']
+    use_gpu = model_settings['use_gpu']
     w_stddev = 0.046875
     b_stddev = 0.046875
 
@@ -42,27 +44,27 @@ def create_birnn_model(input_tensor,
 
     with tf.name_scope('Layer_1'):
         W = variable_on_device('W1', [num_inputs, model_size_info[0]],
-                               tf.random_normal_initializer(stddev=w_stddev))
+                               tf.random_normal_initializer(stddev=w_stddev), use_gpu)
         b = variable_on_device('b1', [model_size_info[0]],
-                               tf.random_normal_initializer(stddev=b_stddev))
+                               tf.random_normal_initializer(stddev=b_stddev), use_gpu)
         outputs = tf.minimum(tf.nn.relu(tf.add(tf.matmul(input_tensor, W), b)), relu_clip)
         if is_training:
             outputs = tf.nn.dropout(outputs, dropout_prob)
 
     with tf.name_scope('Layer_2'):
         W = variable_on_device('W2', [model_size_info[0], model_size_info[1]],
-                               tf.random_normal_initializer(stddev=w_stddev))
+                               tf.random_normal_initializer(stddev=w_stddev), use_gpu)
         b = variable_on_device('b2', [model_size_info[1]],
-                               tf.random_normal_initializer(stddev=b_stddev))
+                               tf.random_normal_initializer(stddev=b_stddev), use_gpu)
         outputs = tf.minimum(tf.nn.relu(tf.add(tf.matmul(outputs, W), b)), relu_clip)
         if is_training:
             outputs = tf.nn.dropout(outputs, dropout_prob)
 
     with tf.name_scope('Layer_3'):
         W = variable_on_device('W3', [model_size_info[1], model_size_info[2]],
-                               tf.random_normal_initializer(stddev=w_stddev))
+                               tf.random_normal_initializer(stddev=w_stddev), use_gpu)
         b = variable_on_device('b3', [model_size_info[2]],
-                               tf.random_normal_initializer(stddev=b_stddev))
+                               tf.random_normal_initializer(stddev=b_stddev), use_gpu)
         outputs = tf.minimum(tf.nn.relu(tf.add(tf.matmul(outputs, W), b)), relu_clip)
         if is_training:
             outputs = tf.nn.dropout(outputs, dropout_prob)
@@ -87,18 +89,18 @@ def create_birnn_model(input_tensor,
 
     with tf.name_scope('Layer_5'):
         W = variable_on_device('W5', [2 * model_size_info[3], model_size_info[4]],
-                               tf.random_normal_initializer(stddev=w_stddev))
+                               tf.random_normal_initializer(stddev=w_stddev), use_gpu)
         b = variable_on_device('b5', [model_size_info[4]],
-                               tf.random_normal_initializer(stddev=b_stddev))
+                               tf.random_normal_initializer(stddev=b_stddev), use_gpu)
         outputs = tf.minimum(tf.nn.relu(tf.add(tf.matmul(outputs, W), b)), relu_clip)
         if is_training:
             outputs = tf.nn.dropout(outputs, dropout_prob)
 
     with tf.name_scope('Layer_6'):
         W = variable_on_device('W6', [model_size_info[4], num_character],
-                               tf.random_normal_initializer(stddev=w_stddev))
+                               tf.random_normal_initializer(stddev=w_stddev), use_gpu)
         b = variable_on_device('b6', [num_character],
-                               tf.random_normal_initializer(stddev=b_stddev))
+                               tf.random_normal_initializer(stddev=b_stddev), use_gpu)
         outputs = tf.add(tf.matmul(outputs, W), b)
 
     outputs = tf.reshape(outputs, [-1, input_shape_tensor[0], num_character])

@@ -1,3 +1,4 @@
+import warnings
 import tensorflow as tf
 from tensorflow.python.ops import ctc_ops
 
@@ -23,13 +24,20 @@ def train(
         model_architecture,
         model_size_info):
 
+    use_gpu = False
+    if not tf.test.gpu_device_name():
+        warnings.warn('No GPU found. Please use a GPU to train your neural network.')
+    else:
+        use_gpu = True
+        print('Found GPU at: {}'.format(device_name))
+
     X = tf.placeholder(dtype=tf.float32, shape=[
         None, None, num_inputs + (2 * num_inputs * num_contexts)], name='input')
     sequence_len = tf.placeholder(dtype=tf.int32, shape=[None], name='sequence_len')
     Y = tf.sparse_placeholder(dtype=tf.int32)
 
     num_character = len(lexicon) + 1
-    model_settings = prepare_model_settings(20, num_character)
+    model_settings = prepare_model_settings(20, num_character, use_gpu)
     logits, dropout_prob = create_model(
         X, sequence_len, model_settings, model_architecture, model_size_info, True)
 
@@ -44,12 +52,14 @@ def train(
         evaluation_step = tf.reduce_mean(tf.edit_distance(tf.cast(decoder[0], tf.int32), Y))
         tf.summary.scalar('accuracy', evaluation_step)
 
-    # gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.7)
-    # sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
-    sess = tf.InteractiveSession()
+    if use_gpu == True:
+        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.8)
+        sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
+    else:
+        sess = tf.InteractiveSession()
     saver = tf.train.Saver(max_to_keep=1)
 
-    tf.global_variables_initializer().run()
+    sess.run(tf.global_variables_initializer())
     ckpt = tf.train.latest_checkpoint(train_dir)
     if ckpt is not None: saver.restore(sess, ckpt)
 
