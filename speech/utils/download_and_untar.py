@@ -18,7 +18,6 @@ def download_and_untar(data_url, save_dir):
 
         for url in data_url:
             if url:
-                print(url)
                 file_path = save_dir + os.path.basename(url)
     
                 if os.system('wget -O %s %s' % (file_path, url)):
