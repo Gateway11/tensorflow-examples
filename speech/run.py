@@ -13,7 +13,9 @@ FLAGS = None
 
 def main(_):
     # 下载数据集，默认下载清华数据集
+    print('------------------------------------------1--')
     download_and_untar(FLAGS.data_url.split(','), FLAGS.data_dir)
+    print('------------------------------------------2--')
 
     # 扫描训练集
     train_wav_files = load_wav_file(FLAGS.data_dir + 'wav/train')
