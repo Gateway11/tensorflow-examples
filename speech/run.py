@@ -55,13 +55,13 @@ if __name__ == '__main__':
         '--data_url',
         type=str,
         # pylint: disable=line-too-long
-        default='http://www.openslr.org/resources/18/data_thchs30.tgz',
+        default='http://www.openslr.org/resources/18/data_thchs30.tgz,',
         # pylint: enable=line-too-long
         help='Location of speech training data archive on the web.')
     parser.add_argument(
         '--data_dir',
         type=str,
-        default='/tmp/data_wsj/',
+        default='./data/data_wsj/',
         help='Where to download the speech training data to.')
     parser.add_argument(
         '--background_volume',

@@ -17,15 +17,16 @@ def download_and_untar(data_url, save_dir):
             os.makedirs(save_dir)
 
         for url in data_url:
-            file_path = save_dir + os.path.basename(url)
-
-            if os.system('wget -O %s %s' % (file_path, url)):
-                raise HttpError("Download error: %s" % (url))
-            if os.system('tar zxvf %s -C %s' % (file_path, save_dir)):
-                raise SystemError(
-                    '"tar xvf %s %s" command execution failed.' %
-                    (file_path, save_dir))
-
+            if url:
+                file_path = save_dir + os.path.basename(url)
+    
+                if os.system('wget -O %s %s' % (file_path, url)):
+                    raise HttpError("Download error: %s" % (url))
+                if os.system('tar zxvf %s -C %s' % (file_path, save_dir)):
+                    raise SystemError(
+                        '"tar xvf %s %s" command execution failed.' %
+                        (file_path, save_dir))
+    
         np.savetxt(save_dir + '.complete.txt', [len(data_url)])
 
 
