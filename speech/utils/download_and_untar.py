@@ -16,7 +16,6 @@ def download_and_untar(data_url, save_dir):
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
 
-        print('下载中...')
         for url in data_url:
             if url:
                 file_path = save_dir + os.path.basename(url)
@@ -28,6 +27,7 @@ def download_and_untar(data_url, save_dir):
                     raise SystemError(
                         '"tar zxf %s %s" command execution failed.' %
                         (file_path, save_dir))
+                print('解压完成!')
     
         np.savetxt(save_dir + '.complete.txt', [len(data_url)])
 
