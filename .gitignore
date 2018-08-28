@@ -12,3 +12,5 @@ values-
 output
 __pycache__
 .ipynb_checkpoints
+.complete.txt
+data_thchs30
