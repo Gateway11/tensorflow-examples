@@ -16,7 +16,7 @@ def main(_):
     download_and_untar(FLAGS.data_url.split(','), FLAGS.data_dir)
 
     # 扫描训练集
-    train_wav_files = load_wav_file(FLAGS.data_dir + 'wav/train')
+    train_wav_files = load_wav_file(FLAGS.data_dir + 'data_thchs30/train')
     train_labels_dict = load_label_file(FLAGS.data_dir + 'doc/trans/train.word.txt')
 
     # 提取MFCC特征, 生成字典, label向量化
@@ -24,7 +24,7 @@ def main(_):
     lexicon, train_labels, train_sample_files = prepare_label_list(train_sample_files, train_labels_dict)
     train_vector_labels = labels_to_vector(train_labels, lexicon)
 
-    test_wav_files = load_wav_file(FLAGS.data_dir + 'wav/test')
+    test_wav_files = load_wav_file(FLAGS.data_dir + 'data_thchs30/test')
     test_labels_dict = load_label_file(FLAGS.data_dir + 'doc/trans/test.word.txt')
 
     test_sample_files = preapre_wav_list(test_wav_files, FLAGS.dct_coefficient_count, FLAGS.mfcc_dir + 'test/')
