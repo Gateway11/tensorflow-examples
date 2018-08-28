@@ -25,7 +25,8 @@ def train(
         model_size_info):
 
     use_gpu = False
-    if not tf.test.gpu_device_name():
+    device_name = tf.test.gpu_device_name()
+    if not device_name:
         warnings.warn('No GPU found. Please use a GPU to train your neural network.')
     else:
         use_gpu = True
