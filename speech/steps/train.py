@@ -54,7 +54,7 @@ def train(
         tf.summary.scalar('accuracy', evaluation_step)
 
     if use_gpu == True:
-        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.8)
+        gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.9)
         sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
     else:
         sess = tf.InteractiveSession()
