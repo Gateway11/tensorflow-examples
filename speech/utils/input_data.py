@@ -7,7 +7,7 @@ def get_next_batches(next_idx, sample_files, sample_labels, num_contexts, batch_
     batch_samples = []
     for i in range(batch_size):
         sample = np.loadtxt(sample_files[next_idx + i])
-        sample = padding_context(sample[::2], num_contexts)
+        sample = padding_context(sample, num_contexts)
 
         batch_samples.append(sample.astype('float32'))
         batch_labels.append(sample_labels[next_idx + i])

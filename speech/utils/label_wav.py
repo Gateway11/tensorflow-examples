@@ -65,7 +65,7 @@ def preapre_wav_list(wav_files, num_input, path):
         orig_inputs = mfcc(audio, samplerate=fs, numcep=num_input)
 
         file_name = path + os.path.basename(wav_file).split(".")[0] + ".txt"
-        np.savetxt(file_name, orig_inputs)
+        np.savetxt(file_name, orig_inputs[::2])
         sample_files.append(file_name)
 
     np.savetxt(path + '.complete.txt', [len(sample_files)])
