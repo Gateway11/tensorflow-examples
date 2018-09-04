@@ -125,7 +125,7 @@ if __name__ == "__main__":
     pin = Pinyin()
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = labels_to_vector(labels, lexicon)
-    f = open('./temp.txt', 'w')
+    f = open('./symbol_table.txt', 'w')
     import re
     f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', '\t'))
     f.close()
