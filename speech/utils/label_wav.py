@@ -127,6 +127,17 @@ if __name__ == "__main__":
     f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', "    "))
     f.close()
 
+#    from xpinyin import Pinyin
+#    pin = Pinyin()
+#    all_pinyins = pin.get_pinyin(''.join(all_words).split('-')
+#
+#    counter = Counter(all_pinyins)
+#    count_pairs = sorted(counter.items(), key=lambda x: -x[1])
+#
+#    pinyins, _ = zip(*count_pairs)
+#    lexicon = dict(zip(pinyins, range(len(pinyins))))
+#    print(lexicon)
+
     sample = 1027
     print(wav_files[sample])
     print(labels[sample])
