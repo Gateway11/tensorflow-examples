@@ -46,7 +46,7 @@ def prepare_label_list(sample_files, labels_dict):
 
     all_pinyins = pin.get_pinyin(''.join(all_words)).split('-')
     counter = Counter(all_pinyins)
-    count_pairs = sorted(counter.items(), key=lambda x: -x[1])
+    count_pairs = sorted(counter.items())
 
     pinyins, _ = zip(*count_pairs)
     lexicon = dict(zip(pinyins, range(len(pinyins))))
@@ -127,7 +127,7 @@ if __name__ == "__main__":
     vector_labels = labels_to_vector(labels, lexicon)
     f = open('./temp.txt', 'w')
     import re
-    f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', "    "))
+    f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', '\t'))
     f.close()
 
     sample = 1027
