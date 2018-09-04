@@ -4,7 +4,7 @@ import argparse
 import sys
 
 from tensorflow.python.platform import app
-from utils.label_wav import *
+from utils.label_wav2 import *
 from utils.download_and_untar import *
 from steps.train import *
 
@@ -28,7 +28,7 @@ def main(_):
     test_labels_dict = load_label_file(FLAGS.data_dir + 'resource/trans/test.word.txt')
 
     test_sample_files = preapre_wav_list(test_wav_files, FLAGS.dct_coefficient_count, FLAGS.mfcc_dir + 'test/')
-    _, test_labels, test_sample_files = prepare_label_list(test_sample_files, test_labels_dict)
+    lexicon, test_labels, test_sample_files = prepare_label_list(test_sample_files, test_labels_dict)
     test_vector_labels = labels_to_vector(test_labels, lexicon)
 
     # 开始训练
