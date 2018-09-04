@@ -47,11 +47,11 @@ def train(
         tf.summary.scalar('loss', avg_loss)
     with tf.name_scope('train'):
         train_step = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(avg_loss)
+    with tf.name_scope("decoder"):
+        decoder, _ = ctc_ops.ctc_beam_search_decoder(logits, sequence_len, merge_repeated=False)
     with tf.name_scope("accuracy"):
         evaluation_step = tf.reduce_mean(tf.edit_distance(tf.cast(decoder[0], tf.int32), Y))
         tf.summary.scalar('accuracy', evaluation_step)
-    with tf.name_scope("decoder"):
-        decoder, _ = ctc_ops.ctc_beam_search_decoder(logits, sequence_len, merge_repeated=False)
 
     if use_gpu == True:
         gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.9)
