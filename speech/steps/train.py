@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow.python.ops import ctc_ops
 
 from local.models import *
-from utils.label_wav2 import *
+from utils.label_wav import *
 from utils.input_data import *
 
 

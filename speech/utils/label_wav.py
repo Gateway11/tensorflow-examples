@@ -4,6 +4,7 @@ import scipy.io.wavfile as wav
 
 from collections import Counter
 from python_speech_features import mfcc
+from xpinyin import Pinyin
 
 
 def load_wav_file(wav_path):
@@ -43,11 +44,12 @@ def prepare_label_list(sample_files, labels_dict):
     for label in labels:
         all_words += [word for word in label]
 
-    counter = Counter(all_words)
-    count_pairs = sorted(counter.items(), key=lambda x: -x[1])
+    all_pinyins = pin.get_pinyin(''.join(all_words)).split('-')
+    counter = Counter(all_pinyins)
+    count_pairs = sorted(counter.items())
 
-    words, _ = zip(*count_pairs)
-    lexicon = dict(zip(words, range(len(words))))
+    pinyins, _ = zip(*count_pairs)
+    lexicon = dict(zip(pinyins, range(len(pinyins))))
 
     return lexicon, labels, new_wav_files
 
@@ -73,8 +75,8 @@ def preapre_wav_list(wav_files, num_input, path):
 
 
 def labels_to_vector(labels, lexicon):
-    def to_num(word): return lexicon.get(word, len(lexicon))
-    return [list(map(to_num, label)) for label in labels]
+    def to_num(pinyin): return lexicon.get(pinyin, len(lexicon))
+    return [list(map(to_num, pin.get_pinyin(''.join(label)).split('-'))) for label in labels]
 
 
 def sparse_tuple_from(sequences, dtype=np.int32):
@@ -120,14 +122,19 @@ if __name__ == "__main__":
     wav_files = load_wav_file('/tmp/data_wsj/wav/train')
     labels_dict = load_label_file('/tmp/data_wsj/doc/trans/train.word.txt')
 
+    pin = Pinyin()
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = labels_to_vector(labels, lexicon)
+    f = open('./symbol_table.txt', 'w')
+    import re
+    f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', '\t'))
+    f.close()
 
     sample = 1027
     print(wav_files[sample])
     print(labels[sample])
     print(vector_labels[sample])
-    print(list(lexicon.keys())[6])
+    print(list(lexicon.keys())[11])
 
     sparse_labels = sparse_tuple_from(vector_labels[:3])
     decoded_str = trans_tuple_to_texts(sparse_labels, lexicon)

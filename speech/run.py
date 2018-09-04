@@ -4,7 +4,7 @@ import argparse
 import sys
 
 from tensorflow.python.platform import app
-from utils.label_wav2 import *
+from utils.label_wav import *
 from utils.download_and_untar import *
 from steps.train import *
 
