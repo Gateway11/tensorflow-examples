@@ -7,6 +7,7 @@ from python_speech_features import mfcc
 from xpinyin import Pinyin
 
 
+pin = Pinyin()
 def load_wav_file(wav_path):
     wav_files = []
     for (dirpath, dirnames, filenames) in os.walk(wav_path):
