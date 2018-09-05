@@ -14,9 +14,15 @@ def create_model(input_tensor, sequence_len,
     if model_architecture == 'birnn':
         return create_birnn_model(input_tensor, 
                 sequence_len, model_settings, model_size_info, is_training)
+    if model_architecture == 'fsmn':
+        return create_fsmn_model(input_tensor, 
+                sequence_len, model_settings, model_size_info, is_training)
+    if model_architecture == 'dfcnn':
+        return create_dfcnn_model(input_tensor, 
+                sequence_len, model_settings, model_size_info, is_training)
     else:
         raise Exception('model_architecture argument "' + model_architecture +
-                        '" not recognized, should be one of "birnn"')
+                '" not recognized, should be one of "birnn", "fsmn", "dfcnn"')
 
 def load_variables_from_checkpoint(sess, start_checkpoint):
     saver = tf.train.Saver(tf.global_variables())
@@ -106,6 +112,15 @@ def create_birnn_model(input_tensor,
     outputs = tf.reshape(outputs, [-1, input_shape_tensor[0], num_character])
     return outputs, dropout_prob if is_training else outputs
 
+
+def create_fsmn_model(input_tensor, 
+        sequence_len, model_settings, model_size_info, is_training):
+    pass
+
+
+def create_dfcnn_model(input_tensor, 
+        sequence_len, model_settings, model_size_info, is_training):
+    pass
 
 def variable_on_device(name, shape, initializer, use_gpu=False):
     if use_gpu:
