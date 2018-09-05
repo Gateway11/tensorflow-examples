@@ -34,7 +34,7 @@ def prepare_label_list(sample_files, labels_dict):
     labels = []
     new_wav_files = []
     for sample_file in sample_files:
-        wav_id = os.path.basename(sample_file).split(".")[0]
+        wav_id = os.path.basename(sample_file).split('.')[0]
         if wav_id in labels_dict:
             labels.append(labels_dict[wav_id])
             new_wav_files.append(sample_file)
@@ -122,7 +122,7 @@ if __name__ == "__main__":
     labels_dict = load_label_file('../data/thchs30/resource/trans/train.syllable.txt')
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
-    vector_labels = labels_to_vector(labels, lexicon)
+    labels_vector = labels_to_vector(labels, lexicon)
     f = open('./symbol_table.txt', 'w')
     import re
     f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', '\t'))
@@ -131,10 +131,10 @@ if __name__ == "__main__":
     sample = 1027
     print(wav_files[sample])
     print(labels[sample])
-    print(vector_labels[sample])
+    print(labels_vector[sample])
     print(list(lexicon.keys())[67])
 
-    sparse_labels = sparse_tuple_from(vector_labels[:3])
+    sparse_labels = sparse_tuple_from(labels_vector[:3])
     decoded_str = trans_tuple_to_texts(sparse_labels, lexicon)
     # print(sparse_labels)
     print(decoded_str)
