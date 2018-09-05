@@ -61,7 +61,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--data_dir',
         type=str,
-        default='./data/data_wsj/',
+        default='./data/thchs30/',
         help='Where to download the speech training data to.')
     parser.add_argument(
         '--background_volume',
