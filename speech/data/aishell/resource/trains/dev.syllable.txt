@@ -9,7 +9,7 @@ BAC009S0724W0128 xia4 ban4 nian2 lou2 shi4 neng2 shi4 fou3 neng2 hui2 dao4 kuai4
 BAC009S0724W0129 qi2 zhong1 yue4 xiu4 qu1 zhang3 fu2 ling3 xian1
 BAC009S0724W0130 tian1 he2 qu1 de5 qian1 yue1 mian4 ji1 zai4 hao2 zhai2 jiao1 tou2 zeng1 duo1 de5 dai4 dong4 xia4 shang4 sheng1 jiao4 kuai4
 BAC009S0724W0131 qi2 zhong1 tian1 he2 qu1 zeng1 zhang3 fu2 du4 jin4 bai3 fen1 zhi1 san1
-BAC009S0724W0132 liu4 wan4 ping2 fang1 mi3 de5 gang1 xu1 hu4 xing2 cheng2 jiao1 fen4 e2 xia4 diao4 yi1 ge4 bai3 fen1 dian3
+BAC009S0724W0132 liu4 wan4 ping2 fang1 mi3 de5 gang1 xu1 hu4 xing2 cheng2 jiao1 fen4 e2 xia4 diao4 yi2 ge4 bai3 fen1 dian3
 BAC009S0724W0133 dan4 reng2 yi3 bai3 fen1 zhi1 si4 zhan4 ju4 shi4 chang3 zhu3 li4 wei4 zhi4
 BAC009S0724W0134 zhong1 xin1 liu4 qu1 zhong1 jie4 cu4 cheng2 er4 shou3 zhu4 zhai2 de5 shi2 da4 huo2 yue4 ban3 kuai4 zhong1
 BAC009S0724W0135 wei4 yu2 bang3 shou3 de5 tong2 de2 wei2 luo2 chong1 wei2 jiao1 yi4 liang4 yu3 shang4 yue4 chi2 ping2
@@ -189,10 +189,10 @@ BAC009S0724W0318 fei1 jin1 shu3 you3 su4 liao4 tan4 xian1 wei2 ni2 long2 deng3
 BAC009S0724W0319 yi1 yong4 de5 you3 tian1 ran2 de5 he2 cheng2 de5 deng3
 BAC009S0724W0320 zhe4 dou1 qian1 she4 dao4 xian4 zai4 de5 chuan2 tong3 chan3 ye4
 BAC009S0724W0321 gang1 tie3 you3 se4 hua4 gong1 shi2 hua4 jian4 cai2 deng3 deng3
-BAC009S0724W0324 gong4 tong2 xing2 cheng2 yi1 ge4 cai2 liao4 biao1 zhun3
+BAC009S0724W0324 gong4 tong2 xing2 cheng2 yi2 ge4 cai2 liao4 biao1 zhun3
 BAC009S0724W0325 zai4 ba3 ta1 shang4 sheng1 wei4 hang2 ye4 biao1 zhun3 guo2 jia1 biao1 zhun3
 BAC009S0724W0328 bi3 ru2 dou1 shi4 tai4 he2 jin1 cai2 liao4
-BAC009S0724W0333 shi4 chan3 pin3 mai4 xiang4 zhong1 gao1 duan1 de5 yi1 ge4 ji1 yu4
+BAC009S0724W0333 shi4 chan3 pin3 mai4 xiang4 zhong1 gao1 duan1 de5 yi2 ge4 ji1 yu4
 BAC009S0724W0334 chuan2 tong3 chan3 ye4 qia4 qia4 ying1 gai1 bu3 zhuo1 zhe4 zhong3 ji1 yu4
 BAC009S0724W0336 xing2 cheng2 zi1 ben3 he2 ji4 shu4 de5 jin3 mi4 lian2 meng2
 BAC009S0724W0338 ta1 jiu4 jiang1 che4 di3 gao4 bie2 quan2 tan2
@@ -264,7 +264,7 @@ BAC009S0724W0403 tui4 yi4 zhi1 hou4 jiang1 quan2 shen1 xin1 tou2 ru4 zheng4 tan2
 BAC009S0724W0404 jiang1 jia1 meng2 zhe4 bu4 qun2 xing1 yun2 ji2 de5 dian4 ying3
 BAC009S0724W0405 sui1 ran2 wai4 mei2 bing4 mei2 you3 tou4 lu4 wen2 sen1 te4 ban4 yan3 de5 ju4 ti3 jue2 se4
 BAC009S0724W0406 dan4 you3 cai1 ce4 xiao1 xi1 zhi3 chu1
-BAC009S0724W0407 ta1 suo3 ban4 yan3 de5 jue2 se4 ke3 neng2 shi4 yi1 ge4 he2 bo2 en1 dui4 zhe5 gan4 de5 chao1 ji2 sha1 shou3
+BAC009S0724W0407 ta1 suo3 ban4 yan3 de5 jue2 se4 ke3 neng2 shi4 yi2 ge4 he2 bo2 en1 dui4 zhe5 gan4 de5 chao1 ji2 sha1 shou3
 BAC009S0724W0408 yi1 xiang3 dao4 zhe4 li3 hai2 ren3 bu4 zhu4 qing2 xu4 beng1 kui4 luo4 lei4
 BAC009S0724W0409 quan2 shen1 chan4 dou3 shi2 fen1 ji1 dong4
 BAC009S0724W0410 rang4 fen3 si1 kan4 le5 fei1 chang2 bu4 she3
@@ -340,7 +340,7 @@ BAC009S0724W0480 xin1 jing1 bao4 xun4 ji4 zhe3 huang2 ying3 yi1 yi1 yue4 qi3 zhi
 BAC009S0724W0481 gu4 gong1 jiang1 jin4 ru4 dan4 ji4 shi2 duan4
 BAC009S0724W0482 cheng2 ren2 piao4 jia4 tiao2 zheng3 zhi4 si4 ling2 yuan2 yi1 zhang1 de5 tong2 shi2
 BAC009S0724W0483 yan2 xu4 le5 qu4 nian2 shi4 xing2 de5 zhu3 ti2 mian3 fei4 kai1 fang4 ri4
-BAC009S0724W0484 zai4 dan4 ji4 mei3 yue4 di4 yi1 ge4 zhou1 san1
+BAC009S0724W0484 zai4 dan4 ji4 mei3 yue4 di4 yi2 ge4 zhou1 san1
 BAC009S0724W0485 yi1 xu4 que4 ding4 zhen1 dui4 bu4 tong2 qun2 ti3 de5 wu3 ge4 kai1 fang4 ri4
 BAC009S0724W0486 gu4 gong1 quan2 tian1 ba1 wan4 zhang1 men2 piao4 er4 xiao3 shi2 quan2 qiang3 guang1
 BAC009S0724W0487 fa3 zhi4 wan3 bao4 kuai4 xun4 ji4 zhe3 li3 jie2 jin1 ri4 shang4 wu3
@@ -396,7 +396,7 @@ BAC009S0725W0161 sui2 zhe5 xin1 zheng4 luo4 di4 hou4 yi1 xian4 cheng2 shi4 lou2 
 BAC009S0725W0162 zhe4 yi1 qu1 shi4 hai2 you3 sheng1 wen1 ji1 xiang4
 BAC009S0725W0163 fu2 xing1 gu3 fen4 zai4 tou2 zi1 zhe3 guan1 xi4 hu4 dong4 ping2 tai2 shang4 ye3 you3 biao3 shi4
 BAC009S0725W0164 zheng1 qu3 jin1 nian2 di3 huo4 ming2 nian2 kai1 shi3 yu4 shou4
-BAC009S0725W0165 zhe4 shi4 fu2 xing1 bu4 ju2 bei3 jing1 de5 di4 yi1 ge4 xiang4 mu4
+BAC009S0725W0165 zhe4 shi4 fu2 xing1 bu4 ju2 bei3 jing1 de5 di4 yi2 ge4 xiang4 mu4
 BAC009S0725W0166 dui4 er4 xian4 fang2 qi3 bu4 xi1 dai4 jia4 zhuan3 tou2 yi1 xian4 cheng2 shi4 de5 dong4 ji1
 BAC009S0725W0167 sui1 ran2 xian4 zai4 yi1 xian4 cheng2 shi4 tu3 di4 geng4 jia1 xi1 que1
 BAC009S0725W0168 dan4 shi4 xian3 xing4 feng1 xian3 xiang1 dui4 bi3 jiao4 xiao3
@@ -474,7 +474,7 @@ BAC009S0725W0239 zai4 bu4 fen4 di4 qu1 jiao1 qiang2 xian3 pei2 fu4 jiu1 fen1 duo
 BAC009S0725W0240 cong2 er2 dao3 zhi4 jiao1 qiang2 xian3 chu1 xian4 chao1 pei2
 BAC009S0725W0241 jian4 yi4 wan2 shan4 jiao1 qiang2 xian3 xian4 e2 pei2 chang2 deng3 xiang1 guan1 fa3 lv4 gui1 ding4
 BAC009S0725W0242 ming2 que4 bao3 xian3 gong1 si1 dian4 fu4 fan4 wei2 ren2 shang1 pei2 chang2 xiang4 mu4 de5 pei2 fu4 shun4 xu4
-BAC009S0725W0243 tong3 yi1 ge4 de5 si1 fa3 pan4 jue2 chi3 du4
+BAC009S0725W0243 tong3 yi2 ge4 de5 si1 fa3 pan4 jue2 chi3 du4
 BAC009S0725W0244 wei2 hu4 jiao1 qiang2 xian3 yun4 xing2 ping2 wen3
 BAC009S0725W0245 qu4 nian2 zhua1 huo4 shi2 pin3 an1 quan2 she4 an4 ren2 yuan2 qi1 qian1 yu2 ren2
 BAC009S0725W0246 gen1 ju4 guo2 wu4 yuan4 shi2 pin3 an1 quan2 wei3 yuan2 hui4 de5 tong3 yi1 bu4 shu3
@@ -498,7 +498,7 @@ BAC009S0725W0263 si4 dian3 ping2 guo3 bu4 hui4 zao1 yu4 yi2 liu2 wen4 ti2
 BAC009S0725W0264 yin1 wei4 bu4 xu1 yao4 zi4 ji3 sheng1 chan3
 BAC009S0725W0265 jiu4 bu4 xu1 yao4 shou1 gou4 gong1 chang3 he2 qi4 che1 zhi4 zao4 shang1
 BAC009S0725W0266 ye3 bu4 xu1 yao4 zhi1 fu4 ang2 gui4 de5 gong1 hui4 fei4 yong4 dian3 dian3 dian3 dian3 dian3 dian3
-BAC009S0725W0267 yin1 wei4 ping2 guo3 bu4 xu1 yao4 cheng2 wei2 xia4 yi1 ge4 tong1 yong4 huo4 zhe3 fu2 te4
+BAC009S0725W0267 yin1 wei4 ping2 guo3 bu4 xu1 yao4 cheng2 wei2 xia4 yi2 ge4 tong1 yong4 huo4 zhe3 fu2 te4
 BAC009S0725W0268 wu3 dian3 te4 si1 la1 yi3 jing1 wei4 ping2 guo3 kai1 guo4 lu4 le5
 BAC009S0725W0269 jin3 guan3 te4 si1 la1 mei3 kuan3 che1 dou1 zai4 kui1 sun3
 BAC009S0725W0270 ru2 guo3 ta1 yong1 you3 ping2 guo3 de5 zi1 yuan2
@@ -534,7 +534,7 @@ BAC009S0725W0300 yin1 wei4 qi4 che1 hang2 ye4 de5 li4 run4 lv4 tai4 di1 le5
 BAC009S0725W0301 dui4 ping2 guo3 zhe4 yang4 de5 gao1 ke1 ji4 ju4 tou2 lai2 shuo1 hao2 wu2 xi1 yin3 li4
 BAC009S0725W0302 yin1 wei4 dian4 zi5 chan3 pin3 hang2 ye4 de5 li4 run4 lv4 gao1 da2 san1 wu3 bai3 fen1 zhi1 si4 shi2
 BAC009S0725W0303 li3 yi4 zhong1 he2 qian2 liang3 nian2 xiang1 bi3
-BAC009S0725W0305 er2 qie3 xing2 cheng2 le5 yi1 ge4 gai4 nian4
+BAC009S0725W0305 er2 qie3 xing2 cheng2 le5 yi2 ge4 gai4 nian4
 BAC009S0725W0306 you2 qi2 shi4 zai4 hang2 tian1 hang2 kong1 qi4 che1 yi1 yao4 yi1 liao2 qi4 xie4
 BAC009S0725W0307 yan2 jiu1 zeng1 cai2 zhi4 zao4 yao4 zhang3 wo4 san1 ge4 ji4 shu4 guan1 jian4 jie2 dian3
 BAC009S0725W0309 ba3 shu4 zi4 ji4 shu4 bian4 cheng2 ruan3 jian4
@@ -660,7 +660,7 @@ BAC009S0725W0443 fa3 zhi4 wan3 bao4 kuai4 xun4 ji4 zhe3 wang2 yan2 jin1 tian1 za
 BAC009S0725W0444 gu4 gong1 shou4 piao4 chu4 wai4 de5 yi1 chu4 gong1 gong4 wei4 sheng1 jian1 men2 yi3 jing1 kai1 shi3 pai2 qi3 dui4
 BAC009S0725W0445 yue1 you3 wu3 ling2 ren2 tong2 shi2 deng3 hou4
 BAC009S0725W0446 ci3 chu4 yi1 gong4 you3 wu3 jian1 wei4 zhi4 ke3 shi3 yong4
-BAC009S0725W0447 bao1 kuo4 san1 ge4 nan2 nv3 hun4 yong4 yi1 ge4 nan2 shi4 zhuan1 yong4 ji2 yi1 ge4 wu2 zhang4 ai4 wei4 sheng1 jian1
+BAC009S0725W0447 bao1 kuo4 san1 ge4 nan2 nv3 hun4 yong4 yi2 ge4 nan2 shi4 zhuan1 yong4 ji2 yi2 ge4 wu2 zhang4 ai4 wei4 sheng1 jian1
 BAC009S0725W0448 shi3 yong4 hun4 yong4 wei4 sheng1 jian1 xu1 deng3 yue1 yi1 liu4 fen1 zhong1
 BAC009S0725W0449 gu4 gong1 hui2 ying4 san1 bai3 nian2 tong2 gang1 bei4 qing2 lv3 hua4 xin1 ke4 zi4 yi3 bao4 jing3
 BAC009S0725W0450 tong2 gang1 you4 ce4 de5 liang3 ge4 tong2 huan2 ba3 shou3 zhi1 jian1
@@ -943,15 +943,15 @@ BAC009S0726W0369 que4 chu1 xian4 le5 xiao3 cha1 qu3
 BAC009S0726W0370 yuan2 ben3 xuan1 chuan2 pian4 gong4 you3 wu3 bu4
 BAC009S0726W0371 dan4 shi4 chen2 shu4 hui4 shi2 jian1 you3 xian4
 BAC009S0726W0372 di4 wu3 bu4 tian1 ya2 ruo4 bi3 lin2 bu4 de2 bu4 lin2 shi2 qu3 xiao1
-BAC009S0726W0373 dang1 shi2 yao1 qiu2 wo3 men5 bi4 xu1 ma3 shang4 gei3 kai1 chang3 duan3 pian4 xiang3 chu1 yi1 ge4 ming2 zi4
+BAC009S0726W0373 dang1 shi2 yao1 qiu2 wo3 men5 bi4 xu1 ma3 shang4 gei3 kai1 chang3 duan3 pian4 xiang3 chu1 yi2 ge4 ming2 zi4
 BAC009S0726W0374 tu1 ran2 wo3 jiu4 xiang3 dao4 le5 zi3 qi4 dong1 lai2 zhe4 ge4 ci2
 BAC009S0726W0375 dong1 ao4 shen1 wei3 xin1 wen2 xuan1 chuan2 bu4 bu4 zhang3 wang2 hui4 zai4 hui2 yi4 dang1 shi2 de5 qing2 jing3 shi4
 BAC009S0726W0376 bei3 jing1 shen1 dong1 ao4 xuan1 chuan2 pian4 si4 xiong1 di4 dan4 sheng1 le5
 BAC009S0726W0377 si4 bu4 xuan1 chuan2 pian4 kan4 shi4 mei2 lian2 xi4 shi2 ji4 jiang3 gu4 shi4
-BAC009S0726W0378 bei3 jing1 shen1 dong1 ao4 xuan1 chuan2 pian4 mei3 yi1 bu4 dou1 you3 yi1 ge4 du2 li4 de5 zhu3 ti2
+BAC009S0726W0378 bei3 jing1 shen1 dong1 ao4 xuan1 chuan2 pian4 mei3 yi1 bu4 dou1 you3 yi2 ge4 du2 li4 de5 zhu3 ti2
 BAC009S0726W0379 zi3 qi4 dong1 lai2 tong1 guo4 hui1 hong2 de5 qi4 shi4
 BAC009S0726W0380 si4 bu4 xuan1 chuan2 pian4 kan4 shi4 du2 li4 cheng2 zhang1
-BAC009S0726W0381 dan4 shi2 ji4 shang4 que4 shi2 fen1 qiao3 miao4 de5 jiang3 shu4 le5 yi1 ge4 gu4 shi4
+BAC009S0726W0381 dan4 shi2 ji4 shang4 que4 shi2 fen1 qiao3 miao4 de5 jiang3 shu4 le5 yi2 ge4 gu4 shi4
 BAC009S0726W0383 jiang3 shu4 le5 re4 ai4 bing1 xue3 qi1 dai4 bing1 xue3 de5 zhong1 guo2 ren2
 BAC009S0726W0384 zai4 bei3 jing1 zhe4 ge4 ji4 chong1 man3 li4 shi3 you4 ji1 qing2 peng1 pai4 de5 cheng2 shi4
 BAC009S0726W0385 yu3 er4 ling2 ling2 yi1 nian2 shen1 ao4 shi2 bu4 tong2
@@ -991,7 +991,7 @@ BAC009S0726W0419 you2 yu2 hun1 sha1 hai2 wei4 tiao1 hao3
 BAC009S0726W0420 suo3 yi3 pai1 zhao4 shi2 jian1 mu4 qian2 que4 ding4 zai4 shi2 yue4
 BAC009S0726W0421 shi2 yi1 yue4 ju3 xing2 hun1 li3
 BAC009S0726W0422 sou1 hu2 yu2 le4 xun4 ju4 tai2 wan1 mei2 ti3 bao4 dao4
-BAC009S0726W0423 zhou1 you4 ting2 sheng1 wan2 yi1 ge4 yue4 ban4 yue4
+BAC009S0726W0423 zhou1 you4 ting2 sheng1 wan2 yi2 ge4 yue4 ban4 yue4
 BAC009S0726W0424 ba1 ri4 chu1 xi2 dian4 ying3 da4 qiao2 tou2 de5 lian4 ai4 meng4 tai2 bei3 dian4 ying3 jie2 shou3 ying4 hui4
 BAC009S0726W0425 la4 ma1 chan3 hou4 fu4 chu1
 BAC009S0726W0426 shen1 cai2 wei2 chi2 zai4 si4 shi2 liu4 gong1 jin1
@@ -1019,7 +1019,7 @@ BAC009S0726W0447 dang4 tian1 xia4 wu3 yi1 dian3 yi1 ling2 fen1 zuo3 you4
 BAC009S0726W0448 ba1 wan4 zhang1 men2 piao4 jiu4 yi3 jing1 quan2 bu4 shou4 kong1
 BAC009S0726W0449 gu4 gong1 yi3 jing1 zuo4 hao3 le5 ying4 dui4 zhun3 bei4
 BAC009S0726W0450 bing4 hu1 yu4 you2 ren2 bi4 kai1 jin4 san1 tian1 de5 ren2 liu2 gao1 feng1 wang3 luo4 yu4 yue1 gou4 piao4
-BAC009S0726W0451 ba3 zhuang4 guan1 de5 zi3 jin4 cheng2 jiao1 gei3 xia4 yi1 ge4 liu4 ling2 ling2 nian2 de5 jiang3 zuo4
+BAC009S0726W0451 ba3 zhuang4 guan1 de5 zi3 jin4 cheng2 jiao1 gei3 xia4 yi2 ge4 liu4 ling2 ling2 nian2 de5 jiang3 zuo4
 BAC009S0726W0452 gu4 gong1 tui1 kai1 fang4 ri4 huan2 wei4 gong1 gong1 jiao1 si1 cheng2 deng3 wu3 lei4 ren2 qun2 mian3 fei4 you2
 BAC009S0726W0453 shang4 shu4 ren2 yuan2 ke3 gen1 ju4 mian3 fei4 kai1 fang4 ri4 an1 pai2
 BAC009S0726W0454 gu4 gong1 shu4 bai3 nian2 li4 shi3 tong2 gang1 bei4 ke4 zi4 xiu4 en1 ai4 hui2 ying4 yi3 bao4 an4
@@ -1031,7 +1031,7 @@ BAC009S0726W0459 shen1 chuan1 gong1 ting2 yuan2 su4 shi2 zhuang1 de5 mo2 te4 zai
 BAC009S0726W0460 xin1 jing1 bao4 ji4 zhe3 pu3 feng1 she4 xin1 jing1 bao4 xun4 you2 lan3 wan2 tai4 he2 dian4 yu4 hua1 yuan2
 BAC009S0726W0461 cong2 shen2 wu3 men2 li2 kai1 qian2 zong3 jue2 de5 hai2 que1 dian3 shen2 me5
 BAC009S0726W0462 xiang4 you4 zhuan3 qu4 dong1 zhang3 fang2 kan4 kan4 ba5
-BAC009S0726W0463 na4 li3 you3 gu4 gong1 bo2 wu4 yuan4 nei4 de5 zui4 hou4 yi1 ge4 zhan3 ting1
+BAC009S0726W0463 na4 li3 you3 gu4 gong1 bo2 wu4 yuan4 nei4 de5 zui4 hou4 yi2 ge4 zhan3 ting1
 BAC009S0726W0464 xi1 wang4 guan1 zhong4 neng2 ba3 gu4 gong1 wen2 hua4 dai4 hui2 jia1
 BAC009S0726W0465 gu4 gong1 wen2 wu4 wai4 qian1 zhan3 lan3 bao1 kuo4 shun4 zhi4 di4 yu4 xi3 deng3
 BAC009S0726W0466 yi3 zai4 zuo2 ri4 zheng4 shi4 kai1 guan3 de5 gu4 gong1 bo2 wu4 yuan4 jing1 pin3 wen2 wu4 guan3 nei4 zheng4 shi4 zhan3 chu1
@@ -1087,7 +1087,7 @@ BAC009S0727W0140 si4 ge4 yi1 xian4 cheng2 shi4 jin1 nian2 zong3 tu3 di4 cheng2 j
 BAC009S0727W0141 ping2 jun1 lou2 mian4 dan1 jia4 gao1 da2 ba1 wan4 yuan2
 BAC009S0727W0142 bi3 er4 ling2 yi1 san1 nian2 nian2 du4 de5 ping2 jun1 lou2 mian4 dan1 jia4 shang4 zhang3 le5 bai3 fen1 zhi1 san1 dian3 si4
 BAC009S0727W0143 hen3 duo1 yi1 xian4 fang2 qi3 na2 de5 ce4 lve4 que4 shi2 fei1 chang2 jin3 shen4
-BAC009S0727W0144 ta1 men5 jun1 hui4 you3 yi1 ge4 zi4 ji3 de5 li4 run4 yu4 gu1 ti3 xi4
+BAC009S0727W0144 ta1 men5 jun1 hui4 you3 yi2 ge4 zi4 ji3 de5 li4 run4 yu4 gu1 ti3 xi4
 BAC009S0727W0145 yao4 shi4 da2 bu4 dao4 zhe4 ge4 zhi3 biao1
 BAC009S0727W0146 yin1 ci3 de5 wang2 xiang4 mu4 wang3 wang3 bu4 hui4 chu1 xian4 yi1 xian4 fang2 qi3 ming2 zi4
 BAC009S0727W0147 yi1 xian4 fang2 qi3 de5 na2 de5 yi4 yuan4 hai2 shi4 hen3 qiang2
@@ -1145,9 +1145,9 @@ BAC009S0727W0198 po3 ju4 zheng1 yi4 de5 yao4 shi4 fu2 wu4 fei4 cao1 zuo4 zhong1 
 BAC009S0727W0199 dang1 di4 zheng4 fu3 cai2 li4 xiang1 dui4 feng1 hou4
 BAC009S0727W0200 shou1 hui2 de5 xiang1 zhen4 wei4 sheng1 yuan4 dou1 de2 dao4 le5 ying4 jian4 she4 bei4 fang1 mian4 de5 geng4 duo1 tou2 ru4
 BAC009S0727W0201 dan4 zuo4 wei2 fei1 ji1 ceng2 yi1 liao2 ji1 gou4
-BAC009S0727W0202 xian4 ji2 yi1 yuan4 de5 bu3 chang2 ji1 zhi4 bi4 xu1 shi4 yi1 ge4 zhang3 xiao4 de5 zhi4 du4
+BAC009S0727W0202 xian4 ji2 yi1 yuan4 de5 bu3 chang2 ji1 zhi4 bi4 xu1 shi4 yi2 ge4 zhang3 xiao4 de5 zhi4 du4
 BAC009S0727W0203 bu4 ke3 neng2 guang1 kao4 cai2 zheng4 de5 xiang4 mu4 zhi1 cheng1
-BAC009S0727W0204 zhong4 she4 gai3 ge2 lu4 jing4 yi1 ge4 xian4 zhi3 bao3 liu2 yi1 jia1 gong1 li4 yi1 yuan4
+BAC009S0727W0204 zhong4 she4 gai3 ge2 lu4 jing4 yi2 ge4 xian4 zhi3 bao3 liu2 yi1 jia1 gong1 li4 yi1 yuan4
 BAC009S0727W0205 yi1 gai3 ying1 zhua1 zhu4 zhu3 yao4 mao2 dun4 qiu2 de2 jie1 duan4 xing4 tu1 po4
 BAC009S0727W0206 wu2 hu2 yi1 jia1 yi1 yao4 gong1 si1 zong3 jing1 li3 cheng1
 BAC009S0727W0207 qian2 shu4 jin1 tan2 shi4 ren2 min2 yi1 yuan4 de5 tong3 ji4 ze2 xian3 shi4
@@ -1163,7 +1163,7 @@ BAC009S0727W0216 zai4 gong1 li4 du2 da4 de5 dan1 yi1 ti3 zhi4 xia4
 BAC009S0727W0217 hen3 nan2 ba3 xian4 ji2 yi1 yuan4 zuo4 da4 zuo4 qiang2
 BAC009S0727W0218 jian4 yi4 fang4 shou3 yin3 ru4 da4 gui1 mo2 de5 she4 hui4 zi1 ben3 ban4 yi1
 BAC009S0727W0219 shi3 fei1 gong1 li4 yi1 liao2 ji1 gou4 zhen1 zheng4 xing2 cheng2 yi1 zhi1 jing4 zheng1 li4 liang4
-BAC009S0727W0220 yi1 ge4 xian4 zhi3 bao3 liu2 yi1 jia1 gong1 li4 yi1 yuan4
+BAC009S0727W0220 yi2 ge4 xian4 zhi3 bao3 liu2 yi1 jia1 gong1 li4 yi1 yuan4
 BAC009S0727W0221 da4 li4 gu3 li4 she4 hui4 zi1 ben3 jin4 ru4 yi1 liao2 hang2 ye4
 BAC009S0727W0222 xian4 ji2 gong1 li4 yi1 yuan4 yao4 jia4 gai3 ge2 yi4 jian4 ni3 chu1
 BAC009S0727W0223 guo2 jia1 fa1 gai3 wei3 ni3 chu1 tai2 xian4 ji2 gong1 li4 yi1 yuan4 yi1 yao4 jia4 ge2 zhi3 gai3 ge2 zhi3 dao3 yi4 jian4
@@ -1212,8 +1212,8 @@ BAC009S0727W0266 ye3 huan1 ying2 ti2 gong1 chuang4 ye4 gong1 si1 de5 zui4 xin1 d
 BAC009S0727W0267 shi2 yi1 yue4 san1 ri4 xiao1 xi1 ju4 guo2 wai4 mei2 ti3 bao4 dao4
 BAC009S0727W0268 li4 yong4 zhe4 zhong3 zhuang1 zhi4 ke3 yi3 po4 yi4 ren2 de5 si1 xiang3
 BAC009S0727W0269 ta1 men5 xi1 wang4 ke3 yi3 jiang1 gai1 she4 bei4 ying4 yong4 yu2 zhi4 neng2 she4 bei4 he2 yi1 liao2 yong4 tu2
-BAC009S0727W0270 wo3 men5 zheng4 zai4 nu3 li4 jie3 ma3 da4 nao3 de5 ge4 zhong3 huo2 dong4 lai2 chuang4 jian4 yi1 ge4 yi1 liao2 jia3 ti3
-BAC009S0727W0271 ke3 yi3 rang4 yi1 ge4 tan1 huan4 de5 ren2 xiang4 wai4 jie4 biao3 da2 xiang3 fa3
+BAC009S0727W0270 wo3 men5 zheng4 zai4 nu3 li4 jie3 ma3 da4 nao3 de5 ge4 zhong3 huo2 dong4 lai2 chuang4 jian4 yi2 ge4 yi1 liao2 jia3 ti3
+BAC009S0727W0271 ke3 yi3 rang4 yi2 ge4 tan1 huan4 de5 ren2 xiang4 wai4 jie4 biao3 da2 xiang3 fa3
 BAC009S0727W0272 gai1 tuan2 dui4 shou3 xian1 yao1 qing3 ce4 shi4 dui4 xiang4 da4 sheng1 lang3 du2 wen2 ben3
 BAC009S0727W0273 ran2 hou4 jie1 zhe5 zai4 xin1 zhong1 mo4 nian4 zhe4 xie1 wen2 ben3
 BAC009S0727W0274 bing4 sao3 miao2 ta1 men5 de5 da4 nao3 shen2 jing1 huo2 dong4
@@ -1234,7 +1234,7 @@ BAC009S0727W0293 huo4 de2 qi1 yi4 mei3 yuan2 de5 shui4 qian2 shou1 ru4
 BAC009S0727W0295 ta1 shi4 qian2 wu3 ming2 zhong1 nian2 ji4 zui4 qing1 de5
 BAC009S0727W0298 ta1 bei4 po4 jiang1 quan2 qiu2 di4 er4 da4 gong1 si1 de5 wei4 zhi4 rang4 gei3 wei1 ruan3
 BAC009S0727W0299 mu4 qian2 quan2 qiu2 qian2 liang3 da4 gong1 si1 dou1 wei4 ke1 ji4 gong1 si1
-BAC009S0727W0300 zai4 zui4 jin4 yi1 ge4 jiao1 yi4 ri4 zhong1
+BAC009S0727W0300 zai4 zui4 jin4 yi2 ge4 jiao1 yi4 ri4 zhong1
 BAC009S0727W0301 ai1 ke4 sen1 mei3 fu2 gu3 jia4 xia4 die1 ling2 dian3 bai3 fen1 zhi1 ba1
 BAC009S0727W0302 yi3 jiu3 shi2 si4 dian3 liu4 liu4 shou1 mei3 yuan2 shou1 pan2
 BAC009S0727W0303 gai1 gong1 si1 er4 ling2 yi1 yi1 cai2 nian2 er4 ling2 yi1 er4 cai2 nian2 lian2 xu4 ju4 kui1
@@ -1257,8 +1257,8 @@ BAC009S0727W0319 min2 yong4 xiao1 fei4 ling3 yu4 jing4 zheng1 yu4 jia1 ji1 lie4
 BAC009S0727W0320 ji2 ke4 zai4 guo2 nei4 geng4 xiang4 gai4 nian4 chao3 zuo4 sou1 hu2 ke1 ji4
 BAC009S0727W0321 ji2 ke4 yi1 ci2 zai4 chuang4 ye4 da4 chao2 zhong1 cheng2 wei4 jing1 chang2 bei4 ti2 ji2 de5 zi4 yan3
 BAC009S0727W0322 biao1 bang3 ji2 ke4 jing1 shen2 zuo4 chuang4 xin1 ye3 cheng2 le5 yi1 zhong3 qu1 shi4
-BAC009S0727W0323 yi1 ge4 ge4 ji2 ke4 fu1 hua4 de5 ye3 sui2 zhi1 dan4 sheng1
-BAC009S0727W0324 you4 yi1 ge4 ji2 ke4 gong1 chang3 ba1 bai3 jiu3 shi2 ba1 chuang4 xin1 kong1 jian1 xuan1 bu4 qi3 dong4
+BAC009S0727W0323 yi2 ge4 ge4 ji2 ke4 fu1 hua4 de5 ye3 sui2 zhi1 dan4 sheng1
+BAC009S0727W0324 you4 yi2 ge4 ji2 ke4 gong1 chang3 ba1 bai3 jiu3 shi2 ba1 chuang4 xin1 kong1 jian1 xuan1 bu4 qi3 dong4
 BAC009S0727W0325 dan4 dui4 yu2 yan3 xia4 chuang4 ye4 zhe3 yun2 yong3 de5 shi2 qi1
 BAC009S0727W0326 ji2 ke4 si4 hu1 geng4 duo1 de5 bei4 yong4 lai2 dang4 zuo4 yin3 ru4 zi1 ben3 de5 gai4 nian4 biao1 qian1
 BAC009S0727W0327 zhe4 xie1 wen4 ti2 shi4 ji2 dai4 bei4 jie3 jue2 de5
@@ -1281,9 +1281,9 @@ BAC009S0727W0343 pai1 she4 he2 hou4 qi1 zhi4 zuo4 jia1 qi3 lai2 jin3 jin3 you3 e
 BAC009S0727W0344 tong1 xiao1 da2 dan4 yi3 cheng1 wei4 chuang4 zuo4 tuan2 dui4 de5 chang2 tai4
 BAC009S0727W0345 xu3 duo1 nv3 hai2 zi5 zhi3 neng2 yong4 ku1 qi4 pai2 jie3 ju4 da4 de5 ya1 li4
 BAC009S0727W0346 jiu4 zai4 si4 ge4 chuang4 zuo4 tuan2 dui4 jin3 luo2 mi4 gu3 de5 zhun3 bei4 xuan1 chuan2 pian4 de5 shi2 hou4
-BAC009S0727W0347 que4 yu4 dao4 le5 yi1 ge4 geng4 da4 de5 ma2 fan2
+BAC009S0727W0347 que4 yu4 dao4 le5 yi2 ge4 geng4 da4 de5 ma2 fan2
 BAC009S0727W0348 yu3 chuan2 tong3 pai1 she4 shi2 liu4 bi3 jiu3 de5 hua4 fu2 bi3 li4 bu4 tong2
-BAC009S0727W0349 zhe4 yi1 ge4 ju4 da4 de5 hua4 mian4 xu1 yao4 you2 san1 ge4 ping2 mu4 pin1 cou4 er2 cheng2
+BAC009S0727W0349 zhe4 yi2 ge4 ju4 da4 de5 hua4 mian4 xu1 yao4 you2 san1 ge4 ping2 mu4 pin1 cou4 er2 cheng2
 BAC009S0727W0350 er2 mei3 ge4 ping2 mu4 hai2 xu1 yao4 bao1 han2 geng4 duo1 de5 nei4 rong2
 BAC009S0727W0351 wang2 hui4 miao2 shu4 dang1 shi2 de5 qing2 kuang4 shi2 shuo1 wo3 men5 dao4 xian4 chang3 shi2 di4 kao3 cha2
 BAC009S0727W0352 kan4 wan2 da4 ping2 mu4 shang4 bo1 fang4 de5 yan3 shi4 pian4
@@ -1349,7 +1349,7 @@ BAC009S0727W0412 zhou1 yi1 er4 shi2 qi1 ri4 gang1 guo4 le5 wu3 shi2 er4 sui4 she
 BAC009S0727W0413 jiu3 shi2 er4 nian2 pai1 wan2 da4 ju4 ling2 jie3 yi1 jiao3 hou4
 BAC009S0727W0414 yin1 nan2 yi3 chou1 li2 jue2 se4
 BAC009S0727W0415 qing2 xu4 bian4 de2 xi3 nu4 wu2 chang2
-BAC009S0727W0416 li2 bu4 kai1 yi1 ge4 qing2 zi4
+BAC009S0727W0416 li2 bu4 kai1 yi2 ge4 qing2 zi4
 BAC009S0727W0417 sou1 hu2 yu2 le4 xun4 ju4 xiang1 gang3 mei2 ti3 bao4 dao4
 BAC009S0727W0418 da4 shi2 dai4 li3
 BAC009S0727W0419 ling2 jie3 ming4 tu2 duo1 chuan3
@@ -1587,7 +1587,7 @@ BAC009S0728W0281 ta1 bei4 po4 jiang1 quan2 qiu2 di4 er4 da4 gong1 si1 de5 wei4 z
 BAC009S0728W0282 mu4 qian2 quan2 qiu2 qian2 liang3 da4 gong1 si1 dou1 wei4
 BAC009S0728W0285 ben1 chi2 jiang1 zhe4 kuan3 qi4 che1 cheng1 zhi1 wei4 xiu1 xi1 ting1 qi4 che1
 BAC009S0728W0286 che1 nei4 yong1 you3 si4 ge4 ke3 xuan2 zhuan3 de5 zuo4 yi3
-BAC009S0728W0287 ke3 yi3 jiang1 ta1 men5 xuan2 zhuan3 pin1 cheng2 yi1 ge4 zheng3 ti3
+BAC009S0728W0287 ke3 yi3 jiang1 ta1 men5 xuan2 zhuan3 pin1 cheng2 yi2 ge4 zheng3 ti3
 BAC009S0728W0288 qian2 pai2 yi1 lie4 xian3 shi4 ping2 neng2 gou4 rang4 jia4 shi3 yuan2 he2 cheng2 ke4 kong4 zhi4 che1 zai4 yu2 le4 xi4 tong3
 BAC009S0728W0289 bing4 zhi1 chi2 shou3 shi4 kong4 zhi4 he2 yan3 qiu2 zhui1 zong1
 BAC009S0728W0291 dang1 wei4 wu2 ren2 jia4 shi3 zhuang4 tai4 shi2
@@ -1620,8 +1620,8 @@ BAC009S0728W0320 ji2 ke4 bu4 xu1 yao4 zi4 chui1 zi4 lei2
 BAC009S0728W0321 zi1 ben3 ye3 ying1 gai1 geng4 jia1 li3 xing4
 BAC009S0728W0322 ji2 ke4 yi1 ci2 zai4 chuang4 ye4 da4 chao2 zhong1 cheng2 wei4 jing1 chang2 bei4 ti2 ji2 de5 zi4 yan3
 BAC009S0728W0323 biao1 bang3 ji2 ke4 jing1 shen2 zuo4 chuang4 xin1 ye3 cheng2 le5 yi1 zhong3 qu1 shi4
-BAC009S0728W0324 yi1 ge4 ge4 ji2 ke4 fu1 hua4 de5 ye3 sui2 zhi1 dan4 sheng1
-BAC009S0728W0325 you4 yi1 ge4 ji2 ke4 gong1 chang3 ba1 bai3 jiu3 shi2 ba1 chuang4 xin1 kong1 jian1 xuan1 bu4 qi3 dong4
+BAC009S0728W0324 yi2 ge4 ge4 ji2 ke4 fu1 hua4 de5 ye3 sui2 zhi1 dan4 sheng1
+BAC009S0728W0325 you4 yi2 ge4 ji2 ke4 gong1 chang3 ba1 bai3 jiu3 shi2 ba1 chuang4 xin1 kong1 jian1 xuan1 bu4 qi3 dong4
 BAC009S0728W0326 liu3 chuan2 zhi4 que4 ren4 lian2 xiang3 jiang1 deng1 lu4 gang3 gu3 sou1 hu2 ke1 ji4
 BAC009S0728W0327 zai4 jin4 ri4 ju3 xing2 de5 er4 ling2 yi1 wu3 zheng4 he2 dao3 dao3 lin2 da4 hui4 shang4
 BAC009S0728W0328 lian2 xiang3 kong4 gu3 dong3 shi4 zhang3 liu3 chuan2 zhi4 shuo1
@@ -1673,7 +1673,7 @@ BAC009S0728W0375 ke1 yan2 ren2 yuan2 zhang1 wen2 jiu4 jie4 shao4 shuo1
 BAC009S0728W0376 hua1 yang4 you2 yong3 dui4 de5 gu1 niang2 men5 chang2 ri4 zai4 shui3 li3 pao4 zhe5
 BAC009S0728W0377 jiu4 hui4 duo1 he1 yi1 xie1 yang3 qi4 zi1 yin1 bu3 xue4 de5 tang1 shui3
 BAC009S0728W0378 dang3 shen1 bei3 qi2 da4 zao3 dou1 shi4 hen3 hao3 de5 tang1 liao4
-BAC009S0728W0379 zhong1 xin1 zai4 bei3 jing1 ye3 you3 yi1 ge4 gong1 zuo4 zhan4
+BAC009S0728W0379 zhong1 xin1 zai4 bei3 jing1 ye3 you3 yi2 ge4 gong1 zuo4 zhan4
 BAC009S0728W0380 tang1 shui3 jiu4 shi4 bi4 bei4 pin3 zhi1 yi1
 BAC009S0728W0381 ye3 neng2 yi1 jie3 yun4 dong4 yuan2 de5 si1 xiang1 zhi1 qing2
 BAC009S0728W0382 bu4 guo4 guang3 dong1 yun4 dong4 yuan2 ye3 you3 tong4 ku3 de5 shi2 hou4
@@ -1906,7 +1906,7 @@ BAC009S0729W0240 gui1 ding4 le5 lin2 chuang2 chang2 yong4 ji4 xing2 zhi1 jian1 d
 BAC009S0729W0241 jin1 rong2 ji1 gou4 suo3 you3 biao3 nei4 li3 cai2 chan3 pin3 jun1 na4 ru4 jie2 gou4 hua4 cun2 kuan3 tong3 ji4 zai4 jian1 guan3 cheng2 tong3 ji4 bei4 zhu4 zhong1
 BAC009S0729W0242 ye3 gui1 ding4 biao3 nei4 li3 cai2 na4 ru4 jie2 gou4 hua4 cun2 kuan3 tong3 ji4
 BAC009S0729W0244 xiang1 guan1 gong1 si1 gu3 piao4 zou3 shi4
-BAC009S0729W0245 ge4 yin2 hang2 zhi2 xing2 bing4 mei2 you3 yi1 ge4 zhi4 du4 yue1 shu4
+BAC009S0729W0245 ge4 yin2 hang2 zhi2 xing2 bing4 mei2 you3 yi2 ge4 zhi4 du4 yue1 shu4
 BAC009S0729W0246 xian4 zai4 yi3 tong1 zhi1 xing2 shi4 xia4 fa1
 BAC009S0729W0247 jin4 yi2 bu4 gui1 fan4 le5 zhe4 bu4 fen1 li3 cai2 chan3 pin3 de5 kuai4 ji4 he2 suan4
 BAC009S0729W0248 jiang1 su1 yi1 jia1 cheng2 shang1 hang2 ren2 shi4 dui4 ji4 zhe3 cheng1
@@ -1950,7 +1950,7 @@ BAC009S0729W0294 fei1 ji1 nei4 de5 zhe4 xie1 jiu4 sheng1 she4 shi1
 BAC009S0729W0295 ping2 shi2 bei4 zhe2 die2 bao1 zhuang1 hao3 chu3 cun2 zai4 ji1 cang1 ding3 bu4 de5 tian1 hua1 ban3 nei4
 BAC009S0729W0296 fei1 ji1 po4 jiang4 shui3 mian4 shi2 ke3 yi3 shi3 yong4
 BAC009S0729W0297 mei3 ge4 ying4 ji2 chu1 kou3 he2 ji1 cang1 men2 dou1 bei4 zhe5 ying4 ji2 hua2 ti1
-BAC009S0729W0298 mei3 ge4 zuo4 wei4 shang4 fang1 dou1 you3 yi1 ge4 yang3 qi4 mian4 zhao4
+BAC009S0729W0298 mei3 ge4 zuo4 wei4 shang4 fang1 dou1 you3 yi2 ge4 yang3 qi4 mian4 zhao4
 BAC009S0729W0299 suo3 you3 min2 hang2 ke4 ji1 shang4 dou1 you3 ge4 zhong3 mie4 huo3 she4 bei4
 BAC009S0729W0300 li4 ru2 gan1 fen3 mie4 huo3 qi4 shui3 mie4 huo3 qi4 deng3 deng3
 BAC009S0729W0301 fei1 ji1 zhui4 luo4 shi2 zuo4 shen2 me5
@@ -1961,7 +1961,7 @@ BAC009S0729W0305 jiu4 hao3 xiang4 dian4 deng1 gang1 gang1 fa1 ming2 de5 shi2 hou
 BAC009S0729W0306 you3 de5 di4 fang1 mei2 you3 dian4 xian4 fa1 dian4 zhan4
 BAC009S0729W0307 dan4 shi4 ni3 zao3 wan3 hui4 yong4 dian4 deng1
 BAC009S0729W0308 yin1 wei4 ba3 ke4 hu4 he2 chang3 shang1 lian2 dao4 yi1 qi3 qu4 kao3 lv4
-BAC009S0729W0309 zhe4 shi4 yi1 ge4 bi4 ran2 de5 mo2 shi4
+BAC009S0729W0309 zhe4 shi4 yi2 ge4 bi4 ran2 de5 mo2 shi4
 BAC009S0729W0310 wo3 men5 zheng4 chu4 zai4 guai3 dian3 shi2 dai4
 BAC009S0729W0311 ji4 yao4 xue2 xi2 wang2 jian4 lin2 de5 fang1 fa3
 BAC009S0729W0312 ye3 yao4 xue2 xi2 ma3 yun2 de5 fang1 fa3
@@ -1971,20 +1971,20 @@ BAC009S0729W0315 gan3 kuai4 xiang3 zen3 me5 qu4 bu4 zhi4 guo1 li3 de5 fan4
 BAC009S0729W0316 zai4 jin4 ri4 ju3 xing2 de5 er4 ling2 yi1 wu3 zheng4 he2 dao3 dao3 lin2 da4 hui4 shang4
 BAC009S0729W0317 lian2 xiang3 kong4 gu3 dong3 shi4 zhang3 liu3 chuan2 zhi4 shuo1
 BAC009S0729W0319 liu3 chuan2 zhi4 xuan3 ze2 le5 zui4 shi4 he2 zi4 ji3 de5 zhi2 ye4 sou1 hu2 ke1 ji4
-BAC009S0729W0320 wo3 gan3 shang4 le5 yi1 ge4 da4 shi2 dai4
+BAC009S0729W0320 wo3 gan3 shang4 le5 yi2 ge4 da4 shi2 dai4
 BAC009S0729W0321 bing4 xuan3 ze2 le5 zui4 shi4 he2 zi4 ji3 de5 zhi2 ye4 min2 ying2 qi3 ye4 jia1
 BAC009S0729W0322 zai4 qian2 tian1 wan3 jian1 de5 lian2 xiang3 kong4 gu3 shang4 shi4 qing4 gong1 hui4 shang4
 BAC009S0729W0323 min2 qi3 bu4 dan4 zhu4 jiu4 le5 zhong1 guo2 jin1 tian1 de5 fan2 rong2
 BAC009S0729W0324 er2 qie3 shi4 zhong1 guo2 wei4 lai2 jing1 ji4 fa1 zhan3 de5 zhu3 li4 jun1
 BAC009S0729W0325 zuo4 wei2 qi3 ye4 jie4 jiao4 fu4 ji2 ren2 wu4
-BAC009S0729W0326 liu3 chuan2 zhi4 qian1 xun4 de5 jiang1 cheng2 gong1 gui1 yin1 yu2 gan3 shang4 le5 yi1 ge4 da4 shi2 dai4
+BAC009S0729W0326 liu3 chuan2 zhi4 qian1 xun4 de5 jiang1 cheng2 gong1 gui1 yin1 yu2 gan3 shang4 le5 yi2 ge4 da4 shi2 dai4
 BAC009S0729W0327 lian2 xiang3 kong4 gu3 deng1 lu4 gang3 jiao1 suo3
 BAC009S0729W0328 ta1 shuo1 zi4 ji3 shi4 gei3 kuai4 yun2 cai3 jiu4 hui4 xia4 yu3 de5 ren2
-BAC009S0729W0329 ta1 ba3 zi4 ji3 he2 lian2 xiang3 de5 cheng2 gong1 gui1 yin1 yu2 gan3 shang4 le5 yi1 ge4 da4 shi2 dai4
+BAC009S0729W0329 ta1 ba3 zi4 ji3 he2 lian2 xiang3 de5 cheng2 gong1 gui1 yin1 yu2 gan3 shang4 le5 yi2 ge4 da4 shi2 dai4
 BAC009S0729W0330 liu3 chuan2 zhi4 shen1 qing2 hui2 gu4 le5 zi4 ji3 chuang4 ye4 de5 li4 cheng2
-BAC009S0729W0331 ta1 shuo1 cheng2 gong1 zhu3 yao4 you3 ji3 ge4 yuan2 yin1 yi1 shi4 gan3 shang4 le5 yi1 ge4 da4 shi2 dai4
-BAC009S0729W0332 yi1 ge4 zhong1 guo2 li4 shi3 qian1 nian2 bu4 yu4 de5 zhuan3 zhe2 de5 da4 shi2 dai4
-BAC009S0729W0333 yi1 ge4 shi4 jie4 ke1 ji4 shi3 mian4 lin2 tu1 po4 de5 da4 shi2 dai4 er4 shi4 zai4 zhe4 ge4 shi2 dai4 zhong1
+BAC009S0729W0331 ta1 shuo1 cheng2 gong1 zhu3 yao4 you3 ji3 ge4 yuan2 yin1 yi1 shi4 gan3 shang4 le5 yi2 ge4 da4 shi2 dai4
+BAC009S0729W0332 yi2 ge4 zhong1 guo2 li4 shi3 qian1 nian2 bu4 yu4 de5 zhuan3 zhe2 de5 da4 shi2 dai4
+BAC009S0729W0333 yi2 ge4 shi4 jie4 ke1 ji4 shi3 mian4 lin2 tu1 po4 de5 da4 shi2 dai4 er4 shi4 zai4 zhe4 ge4 shi2 dai4 zhong1
 BAC009S0729W0334 ling4 wai4 jiu4 you3 yi1 qun2 sheng1 si3 yu3 gong4 xiao3 huo3 ban4 men5
 BAC009S0729W0335 he2 lian2 xiang3 de5 tong2 shi4 jie2 wei4 zhan4 you3 du4 guo4 jing1 cai3 de5 yi1 sheng1
 BAC009S0729W0336 ze2 shi4 ming4 yun4 dui4 wo3 zui4 da4 de5 juan4 gu4
@@ -2010,7 +2010,7 @@ BAC009S0729W0355 yu3 zi4 shen1 de5 yao1 qiu2 hen3 you3 guan1 xi4
 BAC009S0729W0356 yun4 dong4 yuan2 zai4 da4 sai4 qian2 hou4 rong2 yi4 sheng1 bing4
 BAC009S0729W0357 yin1 wei4 da4 yun4 dong4 liang4 wang3 wang3 hui4 shi3 mian3 yi4 li4 bian4 de2 bo2 ruo4
 BAC009S0729W0358 hen3 duo1 yun4 dong4 yuan2 zai4 da4 sai4 qi1 jian1 hui4 tu1 fa1 gao1 shao1 cong2 er2 ying3 xiang3 yun4 dong4 cheng2 ji1
-BAC009S0729W0359 er2 da4 sai4 hou4 si4 xiao3 shi2 yun4 dong4 yuan2 ye3 chang2 chang2 hui4 jing1 li4 yi1 ge4 kai1 chuang1 qi1
+BAC009S0729W0359 er2 da4 sai4 hou4 si4 xiao3 shi2 yun4 dong4 yuan2 ye3 chang2 chang2 hui4 jing1 li4 yi2 ge4 kai1 chuang1 qi1
 BAC009S0729W0360 ru2 he2 ti2 gao1 ta1 men5 zai4 zhe4 qi1 jian1 de5 mian3 yi4 li4
 BAC009S0729W0361 ke1 yan2 ren2 yuan2 chu2 le5 zai4 ri4 chang2 yin3 shi2 shang4 xia4 gong1 fu1 wai4
 BAC009S0729W0362 ye3 hui4 jin4 xing2 yi1 xie1 te4 bie2 de5 ying2 yang3 bu3 chong1
@@ -2134,7 +2134,7 @@ BAC009S0729W0482 zhi3 you3 wu2 qiong2 wu2 jin3 de5 shu1 ben3 jiang3 yi4 yu3 jie1
 BAC009S0729W0483 quan2 guo2 xue2 lian2 er4 shi2 liu4 da4 zhao4 kai1 zhi1 ji4
 BAC009S0729W0484 zhi4 liang4 shi4 jiao4 yu4 de5 sheng1 ming4 xian4
 BAC009S0729W0485 ti2 gao1 zhi4 liang4 shi4 jiao4 yu4 gai3 ge2 fa1 zhan3 de5 he2 xin1 ren4 wu4
-BAC009S0729W0486 yi1 ge4 bei4 shu1 bao1 ya1 de2 chuan3 bu4 guo4 qi4 de5 min2 zu2
+BAC009S0729W0486 yi2 ge4 bei4 shu1 bao1 ya1 de2 chuan3 bu4 guo4 qi4 de5 min2 zu2
 BAC009S0729W0487 jiao4 yu4 bu4 fa1 wen2 fan3 dui4 jia1 zhang3 zuo4 hu3 ma1 lang2 ba4
 BAC009S0729W0488 xin1 jing1 bao4 kuai4 xun4 ji4 zhe3 xu3 lu4 yang2 shi4 fou3 yao4 zuo4 hu3 ma1 lang2 ba4
 BAC009S0729W0489 yao1 qiu2 qie4 shi2 xiao1 chu2 xue2 xiao4 jian3 fu4 jia1 zhang3 zeng1 fu4
@@ -2154,7 +2154,7 @@ BAC009S0730W0127 fang2 di4 chan3 shi4 chang3 ke3 wei4 chang4 shuai1 bu4 duan4
 BAC009S0730W0128 guo2 jia1 tong3 ji4 ju2 guan1 fang1 shu4 ju4 ye3 xian3 shi4
 BAC009S0730W0129 xiang1 guan1 gong1 si1 gu3 piao4 zou3 shi4 jin1 de5 ji2 tuan2 shi4 lian2 xing2
 BAC009S0730W0130 da4 zhong1 cheng2 shi4 zhong1 you3 liu4 ge4 jia4 ge2 xia4 jiang4
-BAC009S0730W0131 jin3 you3 shen1 zhen4 yi1 ge4 cheng2 shi4 shang4 zhang3
+BAC009S0730W0131 jin3 you3 shen1 zhen4 yi2 ge4 cheng2 shi4 shang4 zhang3
 BAC009S0730W0132 qi2 yu2 san1 ge4 cheng2 shi4 shi4 chi2 ping2
 BAC009S0730W0133 hu4 lian2 wang3 jin1 rong2 si4 hu1 chen4 ji1 er2 ru4
 BAC009S0730W0134 ge4 lei4 bao3 dai4 chan3 pin3 bian4 di4 kai1 hua1
@@ -2173,7 +2173,7 @@ BAC009S0730W0147 jin3 guan3 biao3 mian4 shang4 shi4 yi3 jie4 kuan3 ren2 ge4 ren2
 BAC009S0730W0148 kan4 shi4 gou4 fang2 zhe3 wu2 xu1 wei4 ci3 zhi1 fu4 li4 xi1
 BAC009S0730W0151 dan4 shi4 suo3 you3 de5 feng1 xian3 dou1 zhi3 xiang4 gou4 fang2 zhe3
 BAC009S0730W0152 sou1 yi4 dai4 ze2 zai4 shen1 zhen4 jia1 zhao4 ye4 lou2 pan2 de5 shou3 fu4 dai4 quan2 jun1 fu4 mei2
-BAC009S0730W0153 ku4 cun2 gao1 qi3 yi3 cheng2 wei2 lou2 shi4 zui4 tu1 chu1 de5 yi1 ge4 wen4 ti2
+BAC009S0730W0153 ku4 cun2 gao1 qi3 yi3 cheng2 wei2 lou2 shi4 zui4 tu1 chu1 de5 yi2 ge4 wen4 ti2
 BAC009S0730W0154 zhu4 jian4 bu4 zheng4 ce4 yan2 jiu1 zhong1 xin1 zhu3 ren4 qin2 hong2 zui4 jin4 tou4 lu4
 BAC009S0730W0155 quan2 guo2 zai4 jian4 fang2 wu1 jiu3 cheng2 mei2 mai4 chu1 qu4
 BAC009S0730W0156 zai4 jia1 shang4 kai1 fa1 shang1 zi1 chan3 fu4 zhai4 lv4 gao1 ju1 bu4 xia4
@@ -2199,7 +2199,7 @@ BAC009S0730W0175 er2 fang2 di4 chan3 jin1 rong2 ze2 jin4 ru4 le5 huang2 jin1 nia
 BAC009S0730W0176 ping2 an1 hao3 fang2 de5 jin1 rong2 fu2 wu4 jiang1 guan4 chuan1 yu3 fang2 you3 guan1 de5 quan2 jie1 duan4
 BAC009S0730W0177 jian4 li4 ling2 er4 ling2 chan3 ye4 lian4 he2 chuang4 xin1 jin1 rong2 gong1 ju4 dao4 bi1 fang2 chan3 xiao1 shou4
 BAC009S0730W0178 huo4 de2 le5 kua4 jie4 jin4 ru4 jin1 rong2 hang2 ye4 de5 ge4 lei4 qi3 ye4 de5 gao1 du4 zhong4 shi4
-BAC009S0730W0179 fang2 di4 chan3 qi3 ye4 shi4 qi2 zhong1 zui4 wei4 huo2 yue4 de5 yi1 ge4 qun2 ti3
+BAC009S0730W0179 fang2 di4 chan3 qi3 ye4 shi4 qi2 zhong1 zui4 wei4 huo2 yue4 de5 yi2 ge4 qun2 ti3
 BAC009S0730W0180 fang2 di4 chan3 qi3 ye4 zai4 zhe4 xie1 ling3 yu4 nei4 ji1 hu1 suo3 you3 she4 ji2
 BAC009S0730W0181 quan2 guo2 xing4 long2 tou2 fang2 qi3 de5 jin1 rong2 kong4 gu3 ji2 tuan2 mo2 shi4 yi3 chu1 xian4
 BAC009S0730W0182 ci3 qian2 jie4 ke2 jin1 feng1 tou2 zi1 shi2 xian4 shang4 shi4 de5 lv4 de5
@@ -2298,7 +2298,7 @@ BAC009S0730W0276 ran2 hou4 ke3 li4 yong4 chong1 qi4 nang2 jiang1 qiu2 jiu4 zhe3 
 BAC009S0730W0277 shi3 jiu4 yuan2 xing2 dong4 geng4 xun4 jie2 you3 xiao4
 BAC009S0730W0278 zhe4 ge4 ao4 da4 li4 ya4 da4 xue2 she4 ji4 de5 jiu4 sheng1 huo3 jian4 tong3
 BAC009S0730W0279 zui4 yuan3 she4 cheng2 chao1 guo4 le5 yi4 bai3 wu3 shi2 mi3
-BAC009S0730W0280 zhe4 zhong3 kuai4 su4 peng2 zhang4 pao4 mo4 xing2 cheng2 de5 jiu4 sheng1 quan1 you3 yi1 ge4 du2 te4 de5 you1 shi4
+BAC009S0730W0280 zhe4 zhong3 kuai4 su4 peng2 zhang4 pao4 mo4 xing2 cheng2 de5 jiu4 sheng1 quan1 you3 yi2 ge4 du2 te4 de5 you1 shi4
 BAC009S0730W0281 jiu4 shi4 bu4 yong4 dan1 xin1 jiu4 sheng1 quan1 hui4 bei4 ju4 lang4 li3 de5 can2 pian4 ci4 po4
 BAC009S0730W0282 zai4 shi4 gu4 huo4 zai1 nan4 fa1 sheng1 hou4
 BAC009S0730W0283 ji2 shi2 cai3 qu3 jiu4 hu4 xing2 dong4 shi4 ti2 gao1 jiu4 yuan2 cheng2 gong1 lv4 de5 zhong4 yao4 tiao2 jian4
@@ -2311,11 +2311,11 @@ BAC009S0730W0289 gan3 ying4 shi4 zhi4 neng2 jiu4 sheng1 bei4 xin1
 BAC009S0730W0290 zhe4 jian4 xiao3 qiao3 jiu4 sheng1 bei4 xin1 cai3 yong4 le5 xian1 jin4 de5 zhi4 neng2 mian4 liao4
 BAC009S0730W0291 kun3 bang3 zai4 xiong1 bu4 de5 tan2 xing4 zhi1 wu4 ke3 jian1 ce4 ren2 ti3 hu1 xi1 pin2 lv4 deng3 sheng1 li3 bian4 hua4
 BAC009S0730W0292 qian4 yu2 mian4 liao4 nei4 de5 gan3 ying4 qi4 bian4 hui4 shi3 ya1 suo1 er4 yang3 hua4 tan4 xun4 su4 peng2 zhang4
-BAC009S0730W0293 dan4 chu1 yi1 ge4 huan2 tou2 bu4 jiu4 sheng1 nang2
+BAC009S0730W0293 dan4 chu1 yi2 ge4 huan2 tou2 bu4 jiu4 sheng1 nang2
 BAC009S0730W0294 zu3 zhi3 chuan1 dai4 zhe3 ji4 xu4 qiang1 shui3
 BAC009S0730W0295 bei4 xin1 hai2 nei4 zhi4 jiu4 sheng1 la1 huan2
 BAC009S0730W0296 xin1 shi4 jiu4 sheng1 fa2 yu3 pu3 tong1 jiu4 sheng1 fa2 bu4 tong2 de5 shi4
-BAC009S0730W0297 ta1 you3 yi1 ge4 zhang4 peng2 shi4 de5 fang2 hu4 zhao4
+BAC009S0730W0297 ta1 you3 yi2 ge4 zhang4 peng2 shi4 de5 fang2 hu4 zhao4
 BAC009S0730W0298 neng2 qi3 dao4 fang2 shai4 he2 dang3 yu3 de5 zuo4 yong4
 BAC009S0730W0299 zai4 jiu4 sheng1 fa2 de5 nei4 bu4 pei4 bei4 you3 yi1 tao4 hai3 shui3 tuo1 yan2 xi4 tong3
 BAC009S0730W0300 neng2 jiang1 hai3 shui3 yin3 dao4 zhang4 peng2 de5 ding3 duan1
@@ -2331,13 +2331,13 @@ BAC009S0730W0309 kao4 mao2 jin1 ning2 shui3 ning2 chu1 li4 run4 de5 zhi4 zao4 ye
 BAC009S0730W0310 yao4 ti2 gao1 chan3 pin3 he2 fu2 wu4 de5 ji4 shu4 han2 liang4
 BAC009S0730W0311 yao4 dui4 zhong4 yao4 ling3 yu4 de5 he2 xin1 ji4 shu4 jin4 xing2 chuang4 xin1 tu1 po4
 BAC009S0730W0312 shi4 yao4 you3 da4 gui1 mo2 chi2 xu4 xing4 de5 tou2 ru4 de5
-BAC009S0730W0313 dou1 yao4 you3 yi1 ge4 ji1 lei3 de5 guo4 cheng2
+BAC009S0730W0313 dou1 yao4 you3 yi2 ge4 ji1 lei3 de5 guo4 cheng2
 BAC009S0730W0314 ta1 ren4 wei2 zhong1 guo2 jie2 chu1 de5 min2 ying2 qi3 ye4 jia1
 BAC009S0730W0315 shou3 li3 bian1 you3 da4 ba3 de5 yin2 zi5
 BAC009S0730W0316 you4 you3 shi4 jie4 bu4 ju2 de5 yan3 guang1
 BAC009S0730W0317 zai4 qi3 ye4 xu1 yao4 de5 shi2 hou4 yi2 ding4 neng2 zuo4 chu1 ying3 xiang3 shi4 jie4 de5 ke1 ji4 chuang4 xin1
 BAC009S0730W0318 shen4 zhi4 bao1 kuo4 ji1 chu3 ke1 xue2 de5 chuang4 xin1
-BAC009S0730W0319 wo3 gan3 shang4 le5 yi1 ge4 da4 shi2 dai4
+BAC009S0730W0319 wo3 gan3 shang4 le5 yi2 ge4 da4 shi2 dai4
 BAC009S0730W0320 bing4 xuan3 ze2 le5 zui4 shi4 he2 zi4 ji3 de5 zhi2 ye4 min2 ying2 qi3 ye4 jia1
 BAC009S0730W0321 zai4 qian2 tian1 wan3 jian1 de5 lian2 xiang3 kong4 gu3 shang4 shi4 qing4 gong1 hui4 shang4
 BAC009S0730W0322 liu3 chuan2 zhi4 dui4 lian2 xiang3 kong4 gu3 ban1 zi5 fei1 chang2 man3 yi4 sou1 hu2 ke1 ji4
@@ -2381,7 +2381,7 @@ BAC009S0730W0362 ta1 mei3 tian1 de5 zuo4 xi1 shi2 jian1 fei1 chang2 gui1 lv4
 BAC009S0730W0363 cong2 bu4 chao1 guo4 wan3 shang4 shi2 shi2 shui4 jiao4
 BAC009S0730W0364 ci4 ri4 ling2 chen2 si4 shi2 duo1 jiu4 qi3 chuang2 dao4 lou2 xia4 huo2 dong4 shen1 ti3
 BAC009S0730W0365 deng3 dao4 le5 qi1 shi2 cha2 shi4 kai1 men2
-BAC009S0730W0366 ta1 zong3 hui4 mai3 yi1 fen4 guang3 zhou1 ri4 bao4 zai4 cha2 lou2 yi1 ge4 ren2 you1 you1 de5 he1 cha2
+BAC009S0730W0366 ta1 zong3 hui4 mai3 yi1 fen4 guang3 zhou1 ri4 bao4 zai4 cha2 lou2 yi2 ge4 ren2 you1 you1 de5 he1 cha2
 BAC009S0730W0367 you3 shi2 yan2 zhu1 jiang1 cong2 ren2 min2 qiao2 zou3 dao4 hai3 yin4 qiao2
 BAC009S0730W0368 wu3 can1 ye3 shi4 xiao1 sa3 de5 zou3 dao4 na3 chi1 dao4 na3
 BAC009S0730W0369 chi1 wan2 hou4 hui2 jia1 xiu1 xi1 pian4 ke4
@@ -2457,7 +2457,7 @@ BAC009S0730W0438 bu4 wen4 xing4 qu4 mang2 mu4 bao4 ban1
 BAC009S0730W0439 jiao4 yu4 bu4 xue2 wei4 zheng4 shu1 ming2 nian2 qi3 you2 shou4 yu3 dan1 wei4 zi4 zhi4
 BAC009S0730W0440 cong2 er4 ling2 yi1 liu4 nian2 yi2 yue4 yi1 ri4 qi3
 BAC009S0730W0441 jiao4 yu4 bu4 jia1 zhang3 bie2 zuo4 hu3 ma1 lang2 ba4 jia1 zhang3 shen1 bu4 you2 ji3
-BAC009S0730W0442 ru2 he2 zuo4 yi1 ge4 xin1 shi2 qi1 de5 hao3 jia1 zhang3
+BAC009S0730W0442 ru2 he2 zuo4 yi2 ge4 xin1 shi2 qi1 de5 hao3 jia1 zhang3
 BAC009S0730W0443 jiao4 yu4 bu4 you3 jiao4 shi1 shu3 jia4 bu3 ke4 zhuan4 si4 wu3 wan4 he2 gong1 zuo4 ben3 mo4 dao4 zhi4
 BAC009S0730W0444 liu4 tiao2 jin4 ling4 xia4 you3 chang2 bu3 ke4 geng4 yin3 bi4 jia1 zhang3 bu4 xiang3 bao4 ban1 ye3 mei2 ban4 fa3
 BAC009S0730W0445 jiao4 yu4 bu4 jin4 gei3 xue2 sheng1 tie1 xin1 li3 ji2 bing4 biao1 qian1 yi4 wu4 dao3
@@ -2577,7 +2577,7 @@ BAC009S0731W0184 bi3 pin1 xiao1 shou4 e2 de5 huang2 jin1 shi2 dai4 ye4 yi3 zhong
 BAC009S0731W0185 yi3 chuan2 tong3 xiao1 shou4 xing2 fu2 wu4 wei2 zhu3 dao3 de5 di4 chan3 ge2 ju2 jiang1 bei4 zhong4 gou4
 BAC009S0731W0186 zai4 xiang2 yun2 zhan4 lve4 de5 tui1 dong4 xia4
 BAC009S0731W0187 bing4 qie3 zai4 yi1 xie1 ling3 yu4 cheng2 xiao4 xian3 zhe5
-BAC009S0731W0188 bi3 ru2 ji1 jin1 bu4 dui4 ji1 jin1 fa1 xing2 shen3 pi1 de5 mei3 yi1 ge4 huan2 jie2 zao3 yi3 shang4 wang3 gong1 shi4
+BAC009S0731W0188 bi3 ru2 ji1 jin1 bu4 dui4 ji1 jin1 fa1 xing2 shen3 pi1 de5 mei3 yi2 ge4 huan2 jie2 zao3 yi3 shang4 wang3 gong1 shi4
 BAC009S0731W0189 ji1 gou4 bu4 ze2 qu3 xiao1 le5 quan4 shang1 de5 ji2 he2 li3 cai2 de5 shen3 pi1
 BAC009S0731W0190 er2 zai4 zui4 wei4 guan1 jian4 de5 fa1 xing2 shen3 he2 huan2 jie2
 BAC009S0731W0191 zheng4 jian1 hui4 cai3 qu3 le5 liang3 xiang4 ju3 cuo4
@@ -2606,14 +2606,14 @@ BAC009S0731W0215 yi1 xie1 fa1 xing2 ren2 zong3 shi4 dui4 zi4 ji3 cun2 zai4 de5 w
 BAC009S0731W0216 hui2 da2 yu4 shen3 yuan2 de5 wen4 ti2 shi2 ru2 tong2 ji3 ya2 gao1
 BAC009S0731W0217 wang3 wang3 zai4 luo4 shi2 fan3 kui4 yi4 jian4 de5 huan2 jie2 hao4 fei4 da4 liang4 de5 shi2 jian1 he2 jian1 guan3 zi1 yuan2
 BAC009S0731W0218 dou1 yao4 shang4 fa1 shen3 hui4 le5 cai2 zhao3 dao4 wo3 shuo1
-BAC009S0731W0219 ta1 men5 gong1 si1 you3 yi1 ge4 wen4 ti2 xu1 yao4 jie3 jue2
+BAC009S0731W0219 ta1 men5 gong1 si1 you3 yi2 ge4 wen4 ti2 xu1 yao4 jie3 jue2
 BAC009S0731W0220 shang4 shu4 zheng4 jian1 ren2 shi4 dui4 ji4 zhe3 biao3 shi4
 BAC009S0731W0221 mei3 ci4 yu4 dao4 zhe4 yang4 de5 wen4 ti2 dou1 hen3 rang4 ren2 gan3 dao4 beng1 kui4
 BAC009S0731W0222 yi1 xie1 zhao1 gu3 shu1 hai2 cun2 zai4 ming2 xian3 de5 guang3 gao4 se4 cai3
 BAC009S0731W0223 cu4 jin4 fa1 xing2 ren2 he2 zhong1 jie4 ji1 gou4 ti2 gao1 cheng2 xin4 du4 yu3 zhi2 ye4 shui3 ping2
 BAC009S0731W0224 cheng2 xin4 du4 bu4 gao1 de5 fa1 xing2 ren2 he2 zhi2 ye4 shui3 ping2 cha4 de5 zhong1 jie4 ji1 gou4
 BAC009S0731W0225 jiu4 hui4 zhi2 jie1 bao4 lu4 zai4 gong1 zhong4 ri4 yi4 xue3 liang4 de5 mu4 guang1 zhi1 zhong1
-BAC009S0731W0226 zai4 xin1 gu3 fa1 xing2 de5 ling4 yi1 ge4 guan1 jian4 huan2 jie2 xun2 jia4 jie1 duan4
+BAC009S0731W0226 zai4 xin1 gu3 fa1 xing2 de5 ling4 yi2 ge4 guan1 jian4 huan2 jie2 xun2 jia4 jie1 duan4
 BAC009S0731W0227 zheng4 jian1 hui4 ye3 ming2 xian3 zai4 yi3 geng4 di1 de5 zi1 tai4 mian4 dui4 shi4 chang3 yi4 jian4
 BAC009S0731W0228 duo1 wei4 guan1 yuan2 jin1 nian2 yi3 lai2 ceng2 zai4 bu4 tong2 de5 chang3 he2 xiang4 shi4 chang3 chui1 feng1
 BAC009S0731W0229 er2 xiang1 guan1 bu4 men2 fu4 ze2 ren2 zai4 xin1 wen2 tong1 qi4 hui4 shang4
@@ -2642,11 +2642,11 @@ BAC009S0731W0251 bian1 zhi4 zhong4 yao4 shang1 pin3 he2 fu2 wu4 jia4 ge2 zhi3 sh
 BAC009S0731W0252 wei4 ji4 xu4 jiang4 di1 liu2 tong1 cheng2 ben3
 BAC009S0731W0253 zui4 zhong1 xing2 cheng2 shui3 di1 hui4 ji2 dao4 xia4 fang1 de5 xu4 shui3 xiang1 zhong1
 BAC009S0731W0254 wei4 yu4 xian3 zhe3 ti2 gong1 zu2 gou4 de5 dan4 shui3 yong4 yi3 sheng1 cun2 dai4 yuan2
-BAC009S0731W0255 zhe4 zhong3 jiu4 sheng1 quan1 she4 ji4 cheng2 yi1 ge4 wang3 luo4 huan2 zhuang4
+BAC009S0731W0255 zhe4 zhong3 jiu4 sheng1 quan1 she4 ji4 cheng2 yi2 ge4 wang3 luo4 huan2 zhuang4
 BAC009S0731W0257 neng2 sou1 suo3 zhou1 wei2 tong2 yang4 de5 jiu4 sheng1 quan1
 BAC009S0731W0258 zhao3 dao4 hou4 tong1 guo4 ci2 li4 xiang1 hu4 yi1 fu4 zai4 yi1 qi3
 BAC009S0731W0259 jiang1 xu3 duo1 jiu4 sheng1 quan1 lian2 jie1 qi3 lai2
-BAC009S0731W0260 rang4 yu4 xian3 zhe3 xing2 cheng2 yi1 ge4 ji2 qun2
+BAC009S0731W0260 rang4 yu4 xian3 zhe3 xing2 cheng2 yi2 ge4 ji2 qun2
 BAC009S0731W0261 jiu4 sheng1 quan1 hai2 zi4 dai4 fa1 guang1 xi4 tong3
 BAC009S0731W0262 neng2 gou4 di4 yi1 shi2 jian1 rang4 jiu4 sheng1 ren2 yuan2 zhao3 dao4 ni3
 BAC009S0731W0263 geng4 jia1 fang1 bian4 jiu4 yuan2 ren2 yuan2 sou1 suo3
@@ -2728,7 +2728,7 @@ BAC009S0731W0348 yin1 wei4 bei3 jing1 ma3 la1 song1 de5 gui1 mo2 shi4 quan2 guo2
 BAC009S0731W0349 zhe4 ci4 te4 yi4 li4 yong4 xiu1 jia4 shi2 jian1 lai2 dao4 bei3 jing1 can1 sai4
 BAC009S0731W0350 zai4 bi3 sai4 jin4 xing2 dao4 san1 ba1 dian3 wu3 wu3 gong1 li3 chu4
 BAC009S0731W0351 ta1 hu1 ran2 fa1 xian4 you3 yi1 ming2 can1 sai4 zhe3 yin1 wei4 xin1 zang4 zhou4 ting2 hun1 dao4 zai4 lu4 shang4
-BAC009S0731W0352 ta1 yu4 dao4 huan4 zhe3 de5 shi2 hou4 yi3 jing1 you3 yi1 ge4 can1 sai4 zhe3 zai4 jin4 xing2 qiang3 jiu4
+BAC009S0731W0352 ta1 yu4 dao4 huan4 zhe3 de5 shi2 hou4 yi3 jing1 you3 yi2 ge4 can1 sai4 zhe3 zai4 jin4 xing2 qiang3 jiu4
 BAC009S0731W0353 yang2 da2 wen2 pao3 guo4 qu4 biao3 ming2 le5 zi4 ji3 de5 yi1 sheng1 shen1 fen4
 BAC009S0731W0354 xin1 zang4 an4 ya1 he2 kou3 dui4 kou3 hu1 xi1 xu1 yao4 liang3 ge4 ren2 hu4 xiang1 pei4 he2
 BAC009S0731W0355 xu1 yao4 ji2 jiu4 zhe3 bu4 duan4 lun2 ti4
@@ -2780,10 +2780,10 @@ BAC009S0731W0403 guang3 zhou1 fang1 mian4 you2 guo2 jia1 dui4 yuan2 huang2 si1 j
 BAC009S0731W0404 si1 wen2 dun4 zai4 jie1 shou4 cai3 fang3 shi2 qin1 kou3 cheng2 ren4 le5 zhe4 yi1 xiao1 xi1 de5 zhun3 que4 xing4
 BAC009S0731W0405 ta1 jiang1 zai4 ben3 pian4 zhong1 nv3 ban4 nan2 zhuang1
 BAC009S0731W0406 chu1 yan3 zhe4 ge4 po3 ju4 tiao3 zhan4 xing4 de5 jue2 se4
-BAC009S0731W0407 gu3 yi1 shi4 yi1 ge4 ji2 ju4 ge4 xing4 mei4 li4 de5 jue2 se4
-BAC009S0731W0408 mei3 yi1 ge4 jue2 se4 zuo4 de2 hen3 bang4
-BAC009S0731W0409 mei3 yi1 ge4 xi4 jie2 hen3 zheng4
-BAC009S0731W0410 da4 jia1 zui4 xi3 huan1 na3 yi1 ge4
+BAC009S0731W0407 gu3 yi1 shi4 yi2 ge4 ji2 ju4 ge4 xing4 mei4 li4 de5 jue2 se4
+BAC009S0731W0408 mei3 yi2 ge4 jue2 se4 zuo4 de2 hen3 bang4
+BAC009S0731W0409 mei3 yi2 ge4 xi4 jie2 hen3 zheng4
+BAC009S0731W0410 da4 jia1 zui4 xi3 huan1 na3 yi2 ge4
 BAC009S0731W0411 bu4 xuan3 cai4 yi1 lin2 zuo4 de5
 BAC009S0731W0412 ta1 hui4 pao3 dao4 ce4 suo3 ku1
 BAC009S0731W0413 zhong1 xin1 wang3 jiu3 yue4 jiu3 ri4 dian4 ju4 tai2 wan1 dong1 sen1 xin1 wen2 bao4 dao4
@@ -2821,7 +2821,7 @@ BAC009S0731W0445 san1 ling2 duo1 nian2 qian2 yi1 qi3 jin4 chang3 de5 huo3 ban4
 BAC009S0731W0446 xian4 zai4 da4 bu4 fen1 dou1 li2 kai1 le5
 BAC009S0731W0447 you3 de5 ji3 nian2 qian2 jiu4 dao4 bei3 jing1 tian1 jin1 shen1 zhen4 chong2 xin1 zhao3 gong1 zuo4
 BAC009S0731W0448 hai2 you3 hen3 duo1 ren2 qu4 guan1 nei4 gei3 hai2 zi5 dai4 xia4 yi1 dai4
-BAC009S0731W0449 shu4 ju4 xian3 shi4 mei3 yi1 er4 ge4 zhe4 jiang1 ren2 jiu4 you3 yi1 ge4 lao3 ban3
+BAC009S0731W0449 shu4 ju4 xian3 shi4 mei3 yi1 er4 ge4 zhe4 jiang1 ren2 jiu4 you3 yi2 ge4 lao3 ban3
 BAC009S0731W0450 can1 kao3 xiao1 xi1 wang3 qi1 yue4 er4 ba1 ri4 bao4 dao4
 BAC009S0731W0451 shu4 bai3 ming2 shao3 lin2 wu3 seng1 zhong1 qiu1 yu3 jia1 ren2 tuan2 ju4 gui4 xie4 fu4 mu3 xian4 chang3 tong4 ku1
 BAC009S0731W0452 er4 ling2 yi1 wu3 jiu3 er4 qi1
@@ -2866,7 +2866,7 @@ BAC009S0731W0492 wen2 hua4 bu4 la1 hei1 yi1 er4 ling2 shou3 wang3 luo4 yin2 hui4
 BAC009S0731W0493 xin1 jing1 bao4 xun4 ji4 zhe3 huang2 ying3 shi2 xi2 sheng1 guo1 yue4 zhou1 zuo2 ri4
 BAC009S0731W0494 wen2 hua4 bu4 fa1 bu4 le5 jin4 qi1 pai2 cha2 nei4 rong2 wei2 gui1 wen2 hua4 chan3 pin3 de5 jie2 guo3
 BAC009S0731W0495 gong4 you3 yi1 er4 ling2 shou3 wang3 luo4 yin1 yue4 chan3 pin3 bei4 lie4 ru4 hei1 ming2 dan1
-BAC009S0732W0122 yi1 ge4 xin1 san1 jia4 ma3 che1 qu1 dong4 de5 xin1 ge2 ju2 zhu2 jian4 fu2 chu1 shui3 mian4
+BAC009S0732W0122 yi2 ge4 xin1 san1 jia4 ma3 che1 qu1 dong4 de5 xin1 ge2 ju2 zhu2 jian4 fu2 chu1 shui3 mian4
 BAC009S0732W0123 qi2 zhong1 zui4 zhi2 de5 zhu4 yi4 de5 shi4
 BAC009S0732W0124 shi4 lian2 xing2 zai4 hu4 lian2 wang3 jin1 rong2 ling3 yu4 de5 bu4 ju2
 BAC009S0732W0125 jia1 yuan2 yun2 dai4 chan3 pin3 zai4 er4 ling2 yi1 san1 nian2 qi1 yue4 tui1 chu1
@@ -3014,7 +3014,7 @@ BAC009S0732W0267 reng2 hui4 bang1 zhu4 qi3 ye4 yun4 yong4 fan3 xiang4 shou4 quan
 BAC009S0732W0268 ta1 fu4 ze2 de5 xu3 duo1 chang3 shang1 jiu4 ju4 jiao3 zhuan1 li4 fei4
 BAC009S0732W0269 er2 xian4 zai4 ke3 yi3 shou1 dao4 qian2 le5
 BAC009S0732W0270 er2 gao1 tong1 mei3 gu3 zui4 gan1 cui4 de5 fan3 ying4 jiu4 shi4 lian2 xu4 liang3 tian1 da4 zhang3 bai3 fen1 zhi1 liu4 shi2 jiu3
-BAC009S0732W0271 ren4 wei2 zhe4 shi4 gao1 tong1 jiao1 le5 shi2 yi4 bao3 hu4 fei4 huan4 yi1 ge4 guan1 fang1 xu3 ke3
+BAC009S0732W0271 ren4 wei2 zhe4 shi4 gao1 tong1 jiao1 le5 shi2 yi4 bao3 hu4 fei4 huan4 yi2 ge4 guan1 fang1 xu3 ke3
 BAC009S0732W0272 xiang1 hu4 liang4 jie3 xiang1 hu4 tuo3 xie2 de5 zhong1 yong1 jie2 guo3
 BAC009S0732W0274 ji4 yu3 hou4 wang4 gao1 duan1 ba1 jiu3 jiu3 si4 xin1 pian4 mian4 lin2 fa1 re4 chan3 neng2 bu4 zu2
 BAC009S0732W0275 yi3 ji2 san1 xing1 lie4 hu4 zuo4 qi1 si4 er4 ling2 gao1 duan1 xin1 pian4 tiao3 zhan4 huan2 jing4 xia4
@@ -3029,7 +3029,7 @@ BAC009S0732W0283 ling4 wai4 hai2 you3 zheng4 zai4 yin4 du4 da3 zhe5 bi4 ying2 zh
 BAC009S0732W0284 qi2 zhong1 zhong1 xing4 hua2 wei4 de5 tai4 du4 dou1 shi4 huan1 ying2
 BAC009S0732W0285 dui4 zhong1 xing4 hua2 wei4 zhe4 yang4 ju4 you3 xiong2 hou4 zhuan1 li4 chu3 bei4 de5 shou3 ji1 chang3 shang1
 BAC009S0732W0286 er4 shi4 ke3 yi3 yu3 gao1 tong1 jin4 xing2 jiao1 cha1 xu3 ke3 tan2 pan4
-BAC009S0732W0287 dui4 yu2 guo2 nei4 shou3 ji1 chang3 shang1 jiang1 cheng2 wei2 yi1 ge4 zhen1 zheng4 de5 fu2 yin1
+BAC009S0732W0287 dui4 yu2 guo2 nei4 shou3 ji1 chang3 shang1 jiang1 cheng2 wei2 yi2 ge4 zhen1 zheng4 de5 fu2 yin1
 BAC009S0732W0289 duo1 shu4 qi3 ye4 gei3 chu1 de5 li3 you2 hai2 shi4 zhe4 yu3 wo3 men5 you3 shen2 me5 guan1 xi4
 BAC009S0732W0290 mei3 ge4 qi3 ye4 dou1 zai4 lian2 ye4 kai1 hui4 shang1 tao3 ke3 neng2 chu1 xian4 de5 zhuang4 kuang4 he2 dui4 ce4
 BAC009S0732W0291 wei4 lai2 zui4 da4 de5 bian4 shu4 jiu4 shi4 zai4 gao1 tong1 mian3 fei4 fan3 xiang4 shou4 quan2 shi1 xiao4 xia4
@@ -3205,7 +3205,7 @@ BAC009S0732W0472 wu3 er4 sui4 de5 fan4 zui4 xian2 yi2 ren2 li3 mou3 mou3 dai4 zh
 BAC009S0732W0473 chuan1 zhe5 tuo1 xie2 zuo4 zai4 yi3 zi5 shang4
 BAC009S0732W0474 shou3 shang4 he2 jiao3 shang4 de5 hong2 zhi3 jia3 yi3 jing1 tun4 qu4 le5 da4 ban4
 BAC009S0732W0475 cong2 sha1 hai4 hou4 yuan4 lin2 ju1 wu3 sui4 nan2 tong2 wang2 ming2 han2 dao4 xian4 zai4
-BAC009S0732W0476 shi2 jian1 yi3 jing1 guo4 qu4 le5 yi1 ge4 ban4 yue4 duo1
+BAC009S0732W0476 shi2 jian1 yi3 jing1 guo4 qu4 le5 yi2 ge4 ban4 yue4 duo1
 BAC009S0732W0477 dui4 da4 he2 bao4 ji4 zhe3 jiang3 shu4 le5 ta1 de5 fan4 zui4 dong4 ji1 he2 xi4 jie2
 BAC009S0732W0478 xin1 mai3 che1 chu1 mao2 bing4 zhe4 jiang1 che1 zhu3 kai1 jia4 zhi2 qian1 wan4 bian1 fu2 che1 du3 men2
 BAC009S0732W0479 xian4 chang3 tu2 ben3 bao4 xun4 bian1 fu2 che1 lan2 bo2 ji1 ni2 lao2 si1 lai2 si1
@@ -3225,7 +3225,7 @@ BAC009S0732W0493 xin1 xiu1 dao4 lu4 wei4 kao3 lv4 yu3 ji4 bei4 bao4 yu3 chong1 k
 BAC009S0732W0494 xin1 bei3 fen3 chen2 bao4 zha4 shi4 gu4 luo2 nan2 zhe3 zeng1 zhi4 ba1 ren2 reng2 you3 yi1 qi1 yi1 ren2 bing4 wei1
 BAC009S0732W0495 shi4 gu4 luo2 nan2 zhe3 zeng1 zhi4 ba1 ren2
 BAC009S0733W0121 an4 zhao4 ban4 nian2 lai2 yue4 jun1 cheng2 jiao1 shu4 ju4 lai2 suan4
-BAC009S0733W0122 guang3 zhou1 lou2 shi4 cun2 xiao1 bi3 zai4 yi1 ge4 yue4 zuo3 you4
+BAC009S0733W0122 guang3 zhou1 lou2 shi4 cun2 xiao1 bi3 zai4 yi2 ge4 yue4 zuo3 you4
 BAC009S0733W0123 yu4 ji4 wu3 yue4 fen4 hui4 you3 xiang4 mu4 ti2 jia4
 BAC009S0733W0124 xia4 ban4 nian2 guang3 zhou1 lou2 shi4 hui4 chu1 xian4 pu3 zhang3
 BAC009S0733W0125 ge4 da4 kai1 fa1 shang1 mo2 quan2 ca1 zhang3
@@ -3273,7 +3273,7 @@ BAC009S0733W0167 sheng4 zan4 xiang4 mu4 tuan2 dui4 dui4 yu2 chan3 pin3 ge4 ge4 h
 BAC009S0733W0168 wan4 ke1 fa1 li4 da4 bei3 jing1 de5 zhan4 lve4 lu4 xian4 ri4 jian4 qing1 xi1
 BAC009S0733W0169 xiang1 he2 wu3 kuang4 wan4 ke1 cheng2 zuo4 wei2 zhan4 lve4 xian1 feng1 ying2
 BAC009S0733W0170 ji2 jiang1 ying2 lai2 wan4 ke1 san1 hao3 she4 qu1 biao1 zhun3 de5 luo4 di4
-BAC009S0733W0171 da3 zao4 yi1 ge4 jing1 yan4 da4 bei3 jing1 de5 gao1 pin3 wei4 xing4 fu2 xiao3 zhen4
+BAC009S0733W0171 da3 zao4 yi2 ge4 jing1 yan4 da4 bei3 jing1 de5 gao1 pin3 wei4 xing4 fu2 xiao3 zhen4
 BAC009S0733W0172 dui4 yu2 er2 li4 zhi1 nian2 quan2 mian4 zhuan3 xing2 cheng2
 BAC009S0733W0174 shi4 pei4 tao4 fu2 wu4 shang1 de5 wan4 ke1 er2 yan2
 BAC009S0733W0175 ru2 he2 ji1 yu2 xin1 ding4 wei4 zao4 fu2 da4 bei3 jing1
@@ -3463,7 +3463,7 @@ BAC009S0733W0371 di4 er4 jie1 duan4 de5 xuan3 ba2 jiang1 zai4 ming2 nian2 ju3 xi
 BAC009S0733W0372 zui4 yin3 ren2 guan1 zhu4 de5 wu2 yi2 shi4 lao3 jiang4 pang2 wei3 de5 huan4 xiang4
 BAC009S0733W0373 you2 yu2 zai4 nan2 zi5 qi4 shou3 qiang1 xiang4 mu4 shang4 ji1 fen1 yao2 yao2 ling3 xian1
 BAC009S0733W0374 bi4 jing4 zai4 zhi1 qian2 de5 ao4 yun4 hui4 bi3 sai4 zhong1
-BAC009S0733W0375 pang2 wei3 dou1 zhi3 shi4 can1 jia1 le5 qi4 shou3 qiang1 yi1 ge4 xiang4 mu4
+BAC009S0733W0375 pang2 wei3 dou1 zhi3 shi4 can1 jia1 le5 qi4 shou3 qiang1 yi2 ge4 xiang4 mu4
 BAC009S0733W0376 zai4 ci3 ci4 xuan3 ba2 sai4 de5 man4 she4 bi3 sai4 zhong1
 BAC009S0733W0377 pang2 wei3 biao3 xian4 bu4 cuo4 huo4 de2 le5 di4 san1 ming2
 BAC009S0733W0378 zai4 sai4 hou4 jie1 shou4 mei2 ti3 cai3 fang3 shi2
@@ -3533,7 +3533,7 @@ BAC009S0733W0442 xin1 xiu1 ding4 de5 shi2 pin3 an1 quan2 fa3 yi1 ling2 yue4 yi1 
 BAC009S0733W0443 qi2 zhong1 shou3 ci4 jiang1 wang3 luo4 shi2 pin3 jiao1 yi4 na4 ru4 jian1 guan3 fan4 chou2
 BAC009S0733W0444 bing4 ming2 que4 le5 qi2 shi2 pin3 an1 quan2 guan3 li3 ze2 ren4
 BAC009S0733W0445 xin1 hua2 she4 jie1 shi4 jie4 di4 wu3 da4 qing2 bao4 zu3 zhi1 bei3 jing1 zhao1 yang2 qun2 zhong4
-BAC009S0733W0446 yi1 ge4 si4 hu1 wu2 suo3 bu4 neng2 de5 qun2 ti3
+BAC009S0733W0446 yi2 ge4 si4 hu1 wu2 suo3 bu4 neng2 de5 qun2 ti3
 BAC009S0733W0447 dao4 mai4 yin2 piao2 chang1 xing2 shi4 an4 jian4 deng3 deng3
 BAC009S0733W0448 ta1 men5 shi4 chu4 wu2 chu4 bu4 zai4 dan4 que4 wu2 ming2 wu2 xing4
 BAC009S0733W0449 ren2 men5 jiang1 qi2 cheng1 wei4 shi4 jie4 di4 wu3 da4 wang2 pai2 qing2 bao4 zu3 zhi1
@@ -3621,7 +3621,7 @@ BAC009S0734W0155 zheng3 ge4 she4 qu1 xing2 cheng2 le5 wen2 ming2 jian4 kang1 he2
 BAC009S0734W0156 zhu1 ru2 xiao3 zhen4 gong1 yue1 zhi4 yuan4 zhe3 xing2 dong4 she4 qu1 huo2 dong4 shu1 ba5 deng3
 BAC009S0734W0157 hai2 jiang1 gui1 hua4 she4 zhi4 she4 qu1 hui4 ke4 ting1 jiao4 tang2 deng3
 BAC009S0734W0158 jin4 yi2 bu4 man3 zu2 ren2 wen2 ceng2 mian4 de5 xu1 qiu2
-BAC009S0734W0159 wan4 ke1 mei3 jin4 ru4 yi1 ge4 cheng2 shi4
+BAC009S0734W0159 wan4 ke1 mei3 jin4 ru4 yi2 ge4 cheng2 shi4
 BAC009S0734W0160 dou1 hui4 dai4 lai2 yi1 zhong3 sheng1 huo2 fang1 shi4 de5 gai3 bian4
 BAC009S0734W0161 han2 gai4 le5 xing4 fu2 ren2 ju1 de5 duo1 ge4 ceng2 ci4 de5 xu1 qiu2
 BAC009S0734W0162 wu3 kuang4 wan4 ke1 cheng2 xiang4 mu4 fu4 ze2 ren2 gao4 su4 ji4 zhe3
@@ -3633,7 +3633,7 @@ BAC009S0734W0167 wu3 kuang4 wan4 ke1 cheng2 ti2 gong1 hao3 chan3 pin3 yi3 ji2 ha
 BAC009S0734W0168 ze2 shi4 zui4 gao1 ceng2 ci4 de5 zi4 wo3 shi2 xian4 xu1 qiu2
 BAC009S0734W0169 bei3 jing1 wai4 yi4 ren2 qun2 dui4 yu2 ren2 wen2 gan3 de5 xu1 qiu2 geng4 wei4 po4 qie4
 BAC009S0734W0170 zai4 man3 zu2 ju1 zhu4 gong1 neng2 zhi1 shang4
-BAC009S0734W0171 rang4 she4 qu1 cheng2 wei2 yi1 ge4 chong1 man3 ren2 wen2 guan1 huai2 de5 jing1 shen2 jia1 yuan2
+BAC009S0734W0171 rang4 she4 qu1 cheng2 wei2 yi2 ge4 chong1 man3 ren2 wen2 guan1 huai2 de5 jing1 shen2 jia1 yuan2
 BAC009S0734W0172 jiang1 da4 da4 ti2 sheng1 xing4 fu2 xiao3 zhen4 de5 man3 yi4 zhi3 shu4
 BAC009S0734W0173 zai4 quan2 mian4 tui1 jin4 xin1 xing2 cheng2 zhen4 hua4 de5 da4 shi4 xia4
 BAC009S0734W0174 dui4 yu2 cheng2 xu1 xun2 qiu2 tu1 po4 de5 da4 bei3 jing1 xiang4 mu4 lai2 shuo1
@@ -3811,7 +3811,7 @@ BAC009S0734W0354 yi3 jing1 dian3 ran2 le5 ren2 men5 dui4 bing1 xue3 xiang4 mu4 d
 BAC009S0734W0355 dao4 chang3 de5 da4 xiao3 guan1 zhong4 dou1 hui4 bei4 jing1 cai3 de5 yan3 chu1 shen1 shen1 zhen4 han4
 BAC009S0734W0356 xiang4 zhe4 zhong3 mian4 xiang4 xiao3 peng2 you3 de5 qin1 zi3 ju4 wo3 men5 hai2 mei2 you3 can1 yan3 guo4
 BAC009S0734W0357 jin1 tian1 ji4 shi4 lai2 guan1 mo2 ye3 shi4 lai2 xue2 xi2 de5
-BAC009S0734W0358 bing4 bu4 shi4 xiang4 bing1 chuan1 shi2 dai4 shi4 yi1 ge4 jiang3 shu4 gu4 shi4 de5 ju4 mu4
+BAC009S0734W0358 bing4 bu4 shi4 xiang4 bing1 chuan1 shi2 dai4 shi4 yi2 ge4 jiang3 shu4 gu4 shi4 de5 ju4 mu4
 BAC009S0734W0359 zai4 deng1 guang1 he2 dao4 ju4 de5 pei4 he2
 BAC009S0734W0360 jin1 tian1 kan4 dao4 de5 wu3 tai2 xiu4 mei3 lun2 mei3 huan4
 BAC009S0734W0361 er2 qie3 gei3 ren2 hen3 xin1 yi1 de5 gan3 jue2
@@ -3908,7 +3908,7 @@ BAC009S0734W0456 shu1 nv3 shi4 jia1 de5 xin1 fang2 di4 ban3 bu4 man3 wu1 gui1 ke
 BAC009S0734W0457 xin1 fang2 hun1 li3 dian3 la4 zhu2 tao3 hao3 cai3 tou2 xin1 niang2 mei2 jin4 men2 ge2 lou2 xian1 zhao2 huo3
 BAC009S0734W0459 pa2 shang4 xing2 dao4 shu4 ju4 liao3 jie3
 BAC009S0734W0460 jiu4 cuo4 ba3 you2 men2 dang1 le5 sha1 che1
-BAC009S0734W0461 er2 ta1 de5 jia4 zhao4 gang1 chu1 shi2 xi2 qi1 yi1 ge4 yue4
+BAC009S0734W0461 er2 ta1 de5 jia4 zhao4 gang1 chu1 shi2 xi2 qi1 yi2 ge4 yue4
 BAC009S0734W0462 xin1 shou3 nv3 si1 ji1 you2 men2 dang1 sha1 che1 lian2 zhuang4 qi1 che1 jing1 xia4 guo4 du4 dang1 chang3 xiu1 ke4
 BAC009S0734W0463 zhong1 guo2 jiang1 xi1 wang3 da4 jiang1 wang3 yi2 chun1 xun4 ji4 zhe3 zhu1 zhen4 xiong2 bao4 dao4 jin4 ri4
 BAC009S0734W0464 wan4 zai4 xian4 cheng2 fa1 sheng1 yi1 qi3 jiao1 tong1 shi4 gu4
@@ -4172,7 +4172,7 @@ BAC009S0735W0367 wang3 shi4 bu4 kan1 hui2 shou3 de5 huang2 pai2 ge1
 BAC009S0735W0368 guo4 gan1 zhi1 hou4 ao3 liang3 ge4 zao4 xing2 qi2 shi2 yi3 jing1 suan4 shi4 hen3 di1 diao4 le5
 BAC009S0735W0369 cong2 hai3 mian2 dian4 shang4 dian4 zi5 shang4 beng4 xia4 lai2 rao4 chang3 pao3 ge4 yi1 quan1 ban4 quan1 de5 dou1 shi4 jia1 chang2 bian4 fan4
 BAC009S0735W0370 dui4 zhe5 guan1 zhong4 xi2 da4 han3 wo3 shi4 shei2
-BAC009S0735W0371 ta1 jiu4 shi4 zhe4 yang4 yi1 ge4 fei1 chang2 hui4 hong1 guan1 zhong4 kai1 xin1 de5 yun4 dong4 yuan2
+BAC009S0735W0371 ta1 jiu4 shi4 zhe4 yang4 yi2 ge4 fei1 chang2 hui4 hong1 guan1 zhong4 kai1 xin1 de5 yun4 dong4 yuan2
 BAC009S0735W0372 er4 ling2 yi1 san1 nian2 de5 quan2 guo2 shi4 nei4 jin3 biao1 sai4 shang4
 BAC009S0735W0373 zhang1 guo2 wei3 tiao4 guo4 er4 mi3 san1 er4
 BAC009S0735W0374 da3 po4 zhu1 jian4 hua2 bao3 chi2 le5 er4 qi1 nian2 de5 quan2 guo2 shi4 nei4 ji4 lu4
@@ -4189,7 +4189,7 @@ BAC009S0735W0384 you2 qi2 shi4 zai4 yi2 ding4 gao1 du4 shang4
 BAC009S0735W0385 dan4 shi4 bi4 xu1 yao4 fu2 he2 gui1 ze2 de5 fan4 wei2 zhi1 nei4
 BAC009S0735W0386 jin1 nian2 de5 zuan4 shi2 lian2 sai4 you2 jin1 zhan4 bi3 sai4 zhong1
 BAC009S0735W0387 zhang1 guo2 wei3 tiao4 chu1 er4 mi3 san1 ba1 de5 ge4 ren2 zui4 hao3 cheng2 ji1
-BAC009S0735W0388 ji4 zhe3 sai4 hou4 wen4 ta1 wei4 shen2 me5 bu4 chong1 ji1 xia4 yi1 ge4 quan2 guo2 ji4 lu4
+BAC009S0735W0388 ji4 zhe3 sai4 hou4 wen4 ta1 wei4 shen2 me5 bu4 chong1 ji1 xia4 yi2 ge4 quan2 guo2 ji4 lu4
 BAC009S0735W0389 dao3 zhi4 dian4 jie3 zhi4 liu2 shi1 guo4 duo1
 BAC009S0735W0390 zhi3 neng2 liu2 yi1 liu2 xuan2 nian4 yi3 hou4 zai4 shuo1 le5
 BAC009S0735W0391 bei3 jing1 shi2 jian1 ba1 yue4 san1 shi2 ri4
@@ -4199,7 +4199,7 @@ BAC009S0735W0394 zhang1 guo2 wei3 shi4 jin4 nian2 lai2 wo3 guo2 yong3 xian4 chu1
 BAC009S0735W0395 ta1 zhe4 ci4 zai4 niao3 chao2 de5 biao3 xian4 you3 tu1 po4 ye3 you3 yi2 yuan4 yi2 han4
 BAC009S0735W0396 dui4 zhang1 guo2 wei3 de5 cheng2 zhang3 jiang1 fei1 chang2 you3 hao3 chu4
 BAC009S0735W0397 huo4 xu3 ming2 nian2 de5 li3 yue1 ao4 yun4 hui4
-BAC009S0735W0398 jiang1 shi4 ta1 xia4 yi1 ge4 chong1 ji1 shi4 jie4 guan4 jun1 de5 jue2 hao3 wu3 tai2
+BAC009S0735W0398 jiang1 shi4 ta1 xia4 yi2 ge4 chong1 ji1 shi4 jie4 guan4 jun1 de5 jue2 hao3 wu3 tai2
 BAC009S0735W0399 zhang1 guo2 wei3 xiao3 shi2 hou4 shi4 lian4 san1 ji2 tiao4 yuan3 de5
 BAC009S0735W0400 zhang1 guo2 wei3 zai4 bi3 sai4 zhong1 bao4 zhe5 shi4 yi1 shi4 de5 xin1 tai4 can1 jia1 le5 tiao4 gao1
 BAC009S0735W0401 zhang1 guo2 wei3 dang1 shi2 hen3 qing1 song1 de5 jiu4 yue4 guo4 le5 yi1 mi3 qi1 ling2
@@ -4351,7 +4351,7 @@ BAC009S0736W0174 fang2 jia4 huo4 chi2 xu4 shang4 zhang3 xie4 yi4 feng1 biao3 shi
 BAC009S0736W0175 mu4 qian2 zhong1 guo2 fang2 di4 chan3 shi4 chang3 yi3 zhu2 jian4 zou3 chu1 di1 gu3
 BAC009S0736W0176 fang2 di4 chan3 shi4 chang3 hao3 bi3 tian1 qi4
 BAC009S0736W0177 er2 mu4 qian2 de5 fang2 di4 chan3 shi4 chang3 yi3 jing1 zhu2 jian4 jin4 ru4 dao4 yan2 re4 xia4 ji4
-BAC009S0736W0178 li4 ru2 hang2 zhou1 wen1 zhou1 fang2 jia4 lian2 die1 shi2 wu3 ge4 yue4 he2 er4 shi2 yi1 ge4 yue4 hou4 fan3 dan4
+BAC009S0736W0178 li4 ru2 hang2 zhou1 wen1 zhou1 fang2 jia4 lian2 die1 shi2 wu3 ge4 yue4 he2 er4 shi2 yi2 ge4 yue4 hou4 fan3 dan4
 BAC009S0736W0179 ge4 de5 ku4 cun2 qu4 hua4 zhou1 qi1 ye3 ming2 xian3 suo1 duan3
 BAC009S0736W0180 quan2 guo2 fang2 jia4 si4 yue4 fen4 tong2 bi3 zeng1 zhang3 bai3 fen1 zhi1 yi1 dian3 si4
 BAC009S0736W0181 ge4 de5 fang2 jia4 de5 shang4 sheng1 yu3 ren2 kou3 gong1 qiu2 yi3 ji2 xi1 yin3 li4 deng3 you3 zhi2 jie1 guan1 xi4
@@ -4410,7 +4410,7 @@ BAC009S0736W0233 guo2 nei4 cheng2 pin3 you2 ding4 jia4 xin1 ji1 zhi4 tui1 chu1 l
 BAC009S0736W0234 wai4 jie4 dui4 you2 jia4 tiao2 zheng3 de5 zhi4 yi2 cong2 wei4 ting2 xie1
 BAC009S0736W0235 er2 qie3 mei3 ge2 yi1 duan4 shi2 jian1 jiu4 hui4 ji2 zhong1 bao4 fa1 yi1 xia4
 BAC009S0736W0236 qi2 mao2 tou2 wu2 yi1 li4 wai4 di4 zhi3 xiang4 le5 liang3 dian3 zhang3 kuai4 die1 man4 he2 zhang3 duo1 die1 shao3
-BAC009S0736W0237 you3 yi1 ge4 shi4 shi2 bei4 fan3 fu4 yin3 yong4 zhong1 shi2 hua4
+BAC009S0736W0237 you3 yi2 ge4 shi4 shi2 bei4 fan3 fu4 yin3 yong4 zhong1 shi2 hua4
 BAC009S0736W0238 xiang1 guan1 gong1 si1 gu3 piao4 zou3 shi4
 BAC009S0736W0239 xiang1 gang3 fen1 gong1 si1 yi3 jing1 si4 ci4 xia4 diao4 you2 jia4
 BAC009S0736W0240 cheng2 pin3 you2 jia4 ge2 xian1 hou4 liang3 ci4 shang4 diao4 hou4
@@ -4442,7 +4442,7 @@ BAC009S0736W0279 yun4 xing2 an1 zhuo2 cao1 zuo4 xi4 tong3
 BAC009S0736W0287 suo3 ni2 zuo4 le5 ge4 tou2 dai4 xian3 shi4 ping2
 BAC009S0736W0288 yu2 shi4 pu3 tong1 yan3 jing4 ye3 ke3 yi3 bian4 de2 zhi4 neng2 le5
 BAC009S0736W0289 yi3 jing1 bu4 shi4 suo3 ni2 di4 yi1 ci4 zuo4 tou2 dai4 shi4 de5 xian3 shi4 she4 bei4 le5
-BAC009S0736W0290 bu4 guo4 suo3 ni2 zhe4 ci4 zuo4 de5 shi4 yi1 ge4 pei4 jian4
+BAC009S0736W0290 bu4 guo4 suo3 ni2 zhe4 ci4 zuo4 de5 shi4 yi2 ge4 pei4 jian4
 BAC009S0736W0291 zhe4 ge4 pei4 jian4 ke3 yi3 jia1 zai4 pu3 tong1 yan3 jing4 de5 yi1 bian1
 BAC009S0736W0293 suo3 ni2 xian4 chang3 yan3 shi4 de5 qing2 jing3 bao1 kuo4 deng1 shan1 shi2 xian3 shi4 pan1 deng1 lu4 jing4
 BAC009S0736W0294 da3 gao1 er3 fu1 shi2 zhi3 yin3 ji1 qiu2 fang1 xiang4
@@ -4543,7 +4543,7 @@ BAC009S0736W0391 niao3 chao2 shi4 wo3 zui4 xi3 huan1 de5 chang3 di4
 BAC009S0736W0392 jin1 nian2 wo3 de5 xun4 lian4 zhuang4 tai4 hen3 wen3 ding4
 BAC009S0736W0393 xi1 wang4 neng2 gou4 you3 hao3 de5 fa1 hui1
 BAC009S0736W0394 zi4 ji3 jue2 sai4 de5 zhan4 shu4 hai2 shi4 yi3 wen3 wei2 zhu3
-BAC009S0736W0395 huo4 de2 yi1 ge4 li3 xiang3 de5 ming2 ci4
+BAC009S0736W0395 huo4 de2 yi2 ge4 li3 xiang3 de5 ming2 ci4
 BAC009S0736W0396 zui4 jin4 yi1 nian2 zhuang4 tai4 di1 mi2 de5 wang2 yu3 bing4 mei2 you3 tu1 po4 zi4 ji3
 BAC009S0736W0397 dan4 mian4 dui4 er4 mi3 er4 jiu3 de5 gao1 du4
 BAC009S0736W0398 ta1 san1 ci4 chang2 shi4 jun1 gao4 shi1 li4
@@ -4743,7 +4743,7 @@ BAC009S0737W0219 fa1 gai3 wei3 de5 bu4 zi5 luo4 hou4 yu2 shi4 chang3 xu1 yao4 he
 BAC009S0737W0220 fa1 gai3 wei3 bing4 fei1 wu2 suo3 zuo4 wei2
 BAC009S0737W0221 guo2 nei4 hang2 kong1 mei2 you2 chu1 chang3 jia4 ge2 mei3 yue4 tiao2 zheng3 yi1 ci4
 BAC009S0737W0222 hang2 kong1 mei2 you2 jia4 ge2 shi4 chang3 hua4 gai3 ge2 jin4 yi2 bu4 de2 dao4 tui1 jin4
-BAC009S0737W0223 zhe4 shi4 yi1 ge4 ji1 ji2 de5 xin4 hao4
+BAC009S0737W0223 zhe4 shi4 yi2 ge4 ji1 ji2 de5 xin4 hao4
 BAC009S0737W0224 zai4 cheng2 pin3 you2 ding4 jia4 ji1 zhi4 gai3 ge2 fang1 mian4
 BAC009S0737W0225 fa1 gai3 wei3 cheng1 jie3 jin4 you3 wu3 da4 yuan2 yin1 zuo2 tian1 xia4 wu3
 BAC009S0737W0226 fa1 gai3 wei3 zhen1 dui4 fa1 pao4 can1 ju4 jie3 jin4 yi1 shi4 fa1 bu4 shuo1 ming2
@@ -4793,7 +4793,7 @@ BAC009S0737W0271 yan2 qi1 ti2 jiao1 di4 san1 cai2 ji4 de5 cai2 wu4 bao4 gao4
 BAC009S0737W0272 yuan2 yin1 shi4 hei1 ke4 xi2 ji1 ying3 xiang3 le5 xiang1 guan1 cai2 wu4 bu4 men2 de5 gong1 zuo4
 BAC009S0737W0273 suo3 ni2 di4 san1 cai2 ji4 cai2 bao4 yuan2 ji4 hua4 zai4 er4 yue4 si4 ri4 fa1 bu4
 BAC009S0737W0274 jiang1 fa1 bu4 cai2 bao4 de5 shi2 jian1 yan2 qi1 dao4 san1 yue4 di3
-BAC009S0737W0275 suo3 ni2 zhi3 hui4 fa1 bu4 yi1 ge4 xiang1 guan1 xin1 wen2 tong1 gao3
+BAC009S0737W0275 suo3 ni2 zhi3 hui4 fa1 bu4 yi2 ge4 xiang1 guan1 xin1 wen2 tong1 gao3
 BAC009S0737W0276 dang4 tian1 zhi3 hui4 dui4 di4 san1 cai2 ji4 de5 ye4 ji1 jin4 xing2 yu4 bao4 gao4
 BAC009S0737W0277 suo3 ni2 gong1 si1 nei4 wang3 zao1 hei1 ke4 gong1 ji1 hou4
 BAC009S0737W0278 gong1 si1 de5 wang3 luo4 ying4 jian4 zao1 dao4 sun3 huai4
@@ -4801,7 +4801,7 @@ BAC009S0737W0279 suo3 ni2 ying3 ye4 hai2 bei4 po4 guan1 bi4 le5 nei4 bu4 wang3 l
 BAC009S0737W0280 suo3 ni2 ying3 ye4 de5 cai2 wu4 he2 hui4 ji4 ye4 wu4 ruan3 jian4
 BAC009S0737W0281 yi3 xiang4 ri4 ben3 zheng4 fu3 jian1 guan3 bu4 men2 shen1
 BAC009S0737W0284 wan2 jia1 wu2 xu1 gou4 mai3 ruan3 jian4 ji2 ke3 zai4 xian4 wan2 you2 xi4
-BAC009S0737W0285 wan2 yi1 ge4 you2 xi4 de5 bu4 han2 shui4 fei4 yong4 wei4 si4 xiao3 shi2 er4 bai3 ri4 yuan2 qi3
+BAC009S0737W0285 wan2 yi2 ge4 you2 xi4 de5 bu4 han2 shui4 fei4 yong4 wei4 si4 xiao3 shi2 er4 bai3 ri4 yuan2 qi3
 BAC009S0737W0286 bing4 ti2 gong1 ding4 e2 tao4 can1 fu2 wu4
 BAC009S0737W0288 suo3 ni2 ba3 jia1 yong4 you2 xi4 ji1 zuo4 wei2 zhu3 yao4 ye4 wu4 zhi1 yi1
 BAC009S0737W0291 guo2 nei4 xiao1 liang4 jin3 wei4 yi1 liu4 wu3 wan4 bu4
@@ -4836,7 +4836,7 @@ BAC009S0737W0322 zhi4 neng2 huan2 bao3 jia1 ju1 xi4 tong3 xi3 yi1 ji1 xi3 wan3 j
 BAC009S0737W0323 er2 ge2 li4 shou3 ji1 gong1 chang3 de5 jian4 she4 hai2 shi4 wen3 zi4 dang1 tou2
 BAC009S0737W0324 guo2 nei4 kong1 tiao2 shi4 chang3 huo4 xia4 hua2
 BAC009S0737W0325 ba1 yue4 yi1 ri4 shi4 xin1 leng3 dong4 nian2 du4 de5 kai1 shi3
-BAC009S0737W0326 er4 ling2 yi1 liu4 leng3 dong4 nian2 tui1 chi2 yi1 ge4 yue4 kai1 pan2
+BAC009S0737W0326 er4 ling2 yi1 liu4 leng3 dong4 nian2 tui1 chi2 yi2 ge4 yue4 kai1 pan2
 BAC009S0737W0327 dong3 ming2 zhu1 xiang4 ji4 zhe3 cheng2 qing1 shuo1
 BAC009S0737W0328 er4 ling2 yi1 wu3 nian2 shang4 ban4 nian2 guo2 nei4 kong1 tiao2 shi4 chang3 ling2 shou4 e2 xia4 hua2 chao1 guo4 bai3 fen1 zhi1 liu4
 BAC009S0737W0329 shi4 yin1 wei4 shou4 dao4 liang3 ge4 fang1 mian4 yin1 su4 de5 ying3 xiang3
@@ -4874,7 +4874,7 @@ BAC009S0737W0360 niao3 chao2 shi4 wo3 zui4 xi3 huan1 de5 chang3 di4
 BAC009S0737W0361 jin1 nian2 wo3 de5 xun4 lian4 zhuang4 tai4 hen3 wen3 ding4
 BAC009S0737W0362 xi1 wang4 neng2 gou4 you3 hao3 de5 fa1 hui1
 BAC009S0737W0363 zi4 ji3 jue2 sai4 de5 zhan4 shu4 hai2 shi4 yi3 wen3 wei2 zhu3
-BAC009S0737W0364 huo4 de2 yi1 ge4 li3 xiang3 de5 ming2 ci4
+BAC009S0737W0364 huo4 de2 yi2 ge4 li3 xiang3 de5 ming2 ci4
 BAC009S0737W0365 wang2 yu3 yu4 sai4 chu1 ju2 mei2 shen2 me5 yi2 han4 wo3 yi3 jing1 jin4 li4
 BAC009S0737W0366 zui4 jin4 yi1 nian2 zhuang4 tai4 di1 mi2 de5 wang2 yu3 bing4 mei2 tu1 po4 zi4 ji3
 BAC009S0737W0367 dan4 mian4 dui4 er4 mi3 er4 jiu3 de5 gao1 du4
@@ -4989,7 +4989,7 @@ BAC009S0737W0481 dan1 bao3 gong1 si1 mei2 jin3 dao4 xiang1 ying4 yi4 wu4
 BAC009S0737W0482 fang1 hong2 jin4 yi1 er4 ling2 wan4 zao1 kou4 ya1 xiang4 he2 bei3 long2 yao2 jing3 fang1 zhui1 kuan3 si4 nian2 wu2 guo3
 BAC009S0737W0483 fang1 hong2 jin4 zai4 yu3 lv4 shi1 shang1 tao3 zhui1 kuan3 fang1 an4
 BAC009S0737W0484 jing1 hua2 shi2 bao4 ji4 zhe3 tan2 qing1 she4 qian2 tian1 xia4 wu3
-BAC009S0737W0485 ta1 ci3 xing2 de5 mu4 di4 zhi3 you3 yi1 ge4 you4 zhi4 jiu3 yi1 san1
+BAC009S0737W0485 ta1 ci3 xing2 de5 mu4 di4 zhi3 you3 yi2 ge4 you4 zhi4 jiu3 yi1 san1
 BAC009S0737W0486 xu1 yao4 yu3 mo4 shao3 ping2 lv4 shi1 qiao1 ding4 er4 ling2 yi1 wu3 nian2 de5 zhui1 kuan3 fang1 an4
 BAC009S0737W0487 fang1 fang1 hui2 ying4 tian2 he2 zhi4 yi2 qi2 qin1 tun1 guo2 you3 cai2 chan3 xuan1 bu4 bi4 guan1 xie3 zuo4
 BAC009S0737W0488 hu2 bei3 sheng3 ji4 wei3 dui4 tian2 he2 zuo4 chu1 xing2 zheng4 he2 dang3 nei4 chu3 li3
@@ -5037,7 +5037,7 @@ BAC009S0738W0155 er2 qi2 zhong1 nian2 chu1 shi2 lu4 xu4 chu1 rang4 de5 ya4 lin2 
 BAC009S0738W0156 geng4 shi4 wei4 yu2 yuan2 ben3 bu4 shu3 yu2 fang2 qi3 guan1 zhu4 zhong4 dian3 de5 bei3 jing1 xi1 nan2 di4 qu1
 BAC009S0738W0157 tu3 di4 shi4 chang3 zhong4 xin1 nan2 yi2 zhu3 yao4 you3 liang3 fang1 mian4 de5 yuan2 yin1
 BAC009S0738W0158 yi1 shi4 yin1 wei4 mei2 you3 de5 le5
-BAC009S0738W0159 er2 ling4 yi1 ge4 ze2 shi4 yin1 wei4 bei3 jing1 mu4 qian2 de5 gui1 hua4 suo3 zhi4
+BAC009S0738W0159 er2 ling4 yi2 ge4 ze2 shi4 yin1 wei4 bei3 jing1 mu4 qian2 de5 gui1 hua4 suo3 zhi4
 BAC009S0738W0160 you2 yu2 ci3 qian2 cheng2 bei3 dong1 deng3 fang1 xiang4 de5 tu3 di4 chu1 rang4 pin2 fan2
 BAC009S0738W0161 yi3 ji1 ben3 chu3 yu2 wu2 de5 ke3 gong1 de5 zhuang4 tai4
 BAC009S0738W0162 zhi3 you3 cheng2 nan2 hai2 yong1 you3 da4 liang4 tu3 di4 chu3 bei4
@@ -5160,7 +5160,7 @@ BAC009S0738W0289 yi3 ji2 guo2 nei4 shou3 ji1 pin3 pai2 xiao3 mi3 deng3 de5 jue2 
 BAC009S0738W0290 suo3 ni2 wu2 lun4 shi4 dian4 shi4 hai2 shi4 shou3 ji1 ye4 wu4
 BAC009S0738W0291 dou1 mian4 lin2 zhe5 ju4 da4 de5 shi4 chang3 jing4 zheng1
 BAC009S0738W0293 zhe4 yi1 xiao1 xi1 bing4 sui1 ran2 bing4 wei4 de2 dao4 suo3 ni2 guan1 fang1 di2 que4 ren4
-BAC009S0738W0296 suo3 ni2 zuo2 ri4 fa1 bu4 le5 yi1 ge4 hao3 xiao1 xi1 he2 yi1 ge4 huai4 xiao1 xi1
+BAC009S0738W0296 suo3 ni2 zuo2 ri4 fa1 bu4 le5 yi2 ge4 hao3 xiao1 xi1 he2 yi2 ge4 huai4 xiao1 xi1
 BAC009S0738W0297 jing4 li4 run4 ba1 bai3 jiu3 shi2 yi4 ri4 yuan2 huai4 xiao1 xi1 shi4
 BAC009S0738W0298 yi2 dong4 ye4 wu4 cai2 yuan2 liang3 qian1 yi4 bai3 ren2
 BAC009S0738W0299 suo3 ni2 zuo2 ri4 fa1 bu4 de5 shi4 ye4 ji1 can1 kao3 shu4 ju4
@@ -5203,7 +5203,7 @@ BAC009S0738W0335 yu3 ge2 li4 zhe4 me5 duo1 de5 chan3 pin3 lian2 jie1
 BAC009S0738W0336 ting1 shuo1 ge2 li4 zi4 ji3 sheng1 chan3 shou3 ji1 de5 she4 bei4 yi3 jing1 ban1 dao4 zhu1 hai3
 BAC009S0738W0337 ge2 li4 he2 shi2 tou2 jian4 shou3 ji1 gong1 chang3 ne5
 BAC009S0738W0338 jiu4 shi4 xi1 wang4 zi4 ji3 neng2 gou4 fei1 de2 geng4 gao1 ba5
-BAC009S0738W0339 zhang1 guo2 wei3 you4 zuo4 le5 yi1 ge4 liang4 chi4 de5 dong4 zuo4
+BAC009S0738W0339 zhang1 guo2 wei3 you4 zuo4 le5 yi2 ge4 liang4 chi4 de5 dong4 zuo4
 BAC009S0738W0340 wo3 ben3 lai2 jiu4 shi4 zou3 xie2 xing1 lu4 xian4 de5
 BAC009S0738W0341 hui2 qu4 zhi1 hou4 wo3 hai2 yao4 hao3 hao3 xun4 lian4
 BAC009S0738W0342 yin1 wei4 shui3 ping2 ju4 zui4 ding3 jian1 de5 xuan3 shou3 hai2 you3 yi2 ding4 cha1 ju4
@@ -5382,7 +5382,7 @@ BAC009S0739W0147 fang2 qi3 zai4 ci4 kai1 shi3 jin4 ru4 tu3 di4 shi4 chang3
 BAC009S0739W0148 te4 bie2 shi4 re4 dian3 qu1 yu4 de5 zhu4 zhai2 di4 kuai4
 BAC009S0739W0149 sui2 zhe5 ge4 lei4 jiu4 shi4 zheng4 ce4 de5 chu1 xian4
 BAC009S0739W0150 bu4 fen4 qi3 ye4 ke3 neng2 jin4 ru4 tu3 di4 shi4 chang3 qi1 dai4 chao1 di3
-BAC009S0739W0151 er4 ling2 yi1 wu3 nian2 yi2 yue4 fen4 de5 bei3 jing1 tu3 di4 shi4 chang3 jiang1 ying2 lai2 yi1 ge4 kai1 men2 hong2
+BAC009S0739W0151 er4 ling2 yi1 wu3 nian2 yi2 yue4 fen4 de5 bei3 jing1 tu3 di4 shi4 chang3 jiang1 ying2 lai2 yi2 ge4 kai1 men2 hong2
 BAC009S0739W0152 zhong1 yuan2 di4 chan3 shou3 xi2 fen1 xi1 shi1 zhang1 da4 wei3 shuo1
 BAC009S0739W0153 cheng2 xian4 zhen4 dang4 qian2 xing2 de5 tai4 shi4
 BAC009S0739W0154 bei3 jing1 quan2 nian2 tu3 di4 shou1 ru4 chuang4 xia4 xin1 gao1
@@ -5450,7 +5450,7 @@ BAC009S0739W0216 sui2 hou4 de5 you4 xun4 su4 xia4 jiang4
 BAC009S0739W0217 hen3 duo1 guo2 nei4 qi3 ye4 zai4 zhe4 ge4 zhou1 qi1 zhong1
 BAC009S0739W0218 yin1 wei4 chu3 cun2 guo4 duo1 de5 da4 dou4 er2 dao3 bi4 le5
 BAC009S0739W0219 wo3 men5 nei4 bu4 tao3 lun4 de5 shi2 hou4
-BAC009S0739W0220 shi4 bu4 shi4 si4 nian2 yi1 ge4 zhou1 qi1
+BAC009S0739W0220 shi4 bu4 shi4 si4 nian2 yi2 ge4 zhou1 qi1
 BAC009S0739W0221 cong2 jin1 nian2 kai1 shi3 da4 dou4 jia4 ge2 shang4 zhang3 yi3 jing1 chao1 guo4 bai3 fen1 zhi1 er4 shi2
 BAC009S0739W0222 zhong1 guo2 you3 qi3 ye4 zai4 da4 dou4 shi4 chang3 shang4 zuo4 duo1 huo4 zhe3 zuo4 kong1
 BAC009S0739W0223 zhong1 guo2 de5 hen3 duo1 ya1 zha4 gong1 chang3 bei4 po4 dao3 bi4
@@ -5499,7 +5499,7 @@ BAC009S0739W0265 yi2 dong4 ye4 wu4 ye3 fa1 bu4 le5 huai4 xiao1 xi1
 BAC009S0739W0266 zai4 yi2 dong4 she4 bei4 bu4 men2 fang1 mian4
 BAC009S0739W0267 suo3 ni2 jue2 ding4 zai4 er4 ling2 yi1 liu4 nian2 san1 yue4 shi2 cai2 diao4 liang3 qian1 yi4 bai3 ming2 yuan2 gong1
 BAC009S0739W0268 ci3 qian2 suo3 ni2 yi2 dong4 ceng2 xuan1 bu4 cai2 yuan2 yi1 qian1 ren2
-BAC009S0739W0269 suo3 ni2 zuo2 ri4 fa1 bu4 le5 yi1 ge4 hao3 xiao1 xi1 he2 yi1 ge4 huai4 xiao1 xi1
+BAC009S0739W0269 suo3 ni2 zuo2 ri4 fa1 bu4 le5 yi2 ge4 hao3 xiao1 xi1 he2 yi2 ge4 huai4 xiao1 xi1
 BAC009S0739W0270 jing4 li4 run4 ba1 bai3 jiu3 shi2 yi4 ri4 yuan2 huai4 xiao1 xi1 shi4
 BAC009S0739W0271 yi2 dong4 ye4 wu4 cai2 yuan2 liang3 qian1 yi4 bai3 ren2
 BAC009S0739W0272 suo3 ni2 zuo2 ri4 fa1 bu4 de5 shi4 ye4 ji1 can1 kao3 shu4 ju4
@@ -5540,7 +5540,7 @@ BAC009S0739W0309 shou3 ji1 hai2 you3 geng4 duo1 shi2 yong4 gong1 neng2
 BAC009S0739W0310 bi3 ru2 ti2 xing3 yong4 hu4 kong1 tiao2 na3 li3 you3 gu4 zhang4
 BAC009S0739W0311 er2 qie3 ma3 shang4 tong1 zhi1 dao4 ge2 li4 zong3 bu4
 BAC009S0739W0312 wo3 men5 hui4 da3 dian4 hua4 gao4 su4 yong4 hu4 bing4 shang4 men2 wei2 xiu1
-BAC009S0739W0313 zhe4 jiu4 shi4 yi1 ge4 xin4 xi1 hua4 de5 shi2 dai4
+BAC009S0739W0313 zhe4 jiu4 shi4 yi2 ge4 xin4 xi1 hua4 de5 shi2 dai4
 BAC009S0739W0314 ge2 li4 zai4 jing1 mi4 jia1 gong1 ji1 qi4 ren2 deng3 zhong4 xing2 zhuang1 bei4 ling3 yu4 ye3 duo1 you3 fa1 li4
 BAC009S0739W0315 wo3 men5 de5 mu2 ju4 yao4 yong4 er4 shi2 wan4 ci4 bu4 wei2 xiu1
 BAC009S0739W0316 ge2 li4 er4 ling2 yi1 wu3 nian2 xin1 chan3 pin3 de5 mu2 ju4 dou1 shi4 zi4 ji3 kai1 de5
@@ -5574,11 +5574,11 @@ BAC009S0739W0344 xin1 jing1 bao4 mei3 ci4 kan4 ni3 bi3 sai4 hou4 dou1 hen3 ji1 q
 BAC009S0739W0345 ni3 jue2 de5 zi4 ji3 suan4 shi4 hen3 you3 ge4 xing4 de5 ren2 ma5
 BAC009S0739W0346 zhang1 guo2 wei3 yu3 qi2 shuo1 shi4 ge4 xing4
 BAC009S0739W0347 dao4 bu4 ru2 shuo1 shi4 xuan1 xie4 kai1 xin1
-BAC009S0739W0348 fen1 xiang3 xi3 yue4 de5 yi1 ge4 fang1 shi4
+BAC009S0739W0348 fen1 xiang3 xi3 yue4 de5 yi2 ge4 fang1 shi4
 BAC009S0739W0349 ge4 xing4 ke3 neng2 shi4 xing2 rong2 zhe4 ge4 ren2 you3 dian3 te4 li4 du2 xing2
 BAC009S0739W0350 wo3 biao3 da2 qing4 zhu4 fang1 shi4 shi4 hen3 zhi2 jie1
 BAC009S0739W0351 dan4 wo3 bu4 shi4 te4 bie2 you3 ge4 xing4 de5 ren2
-BAC009S0739W0352 wo3 shu3 yu2 yi1 ge4 ting3 fa2 wei4 de5 ren2
+BAC009S0739W0352 wo3 shu3 yu2 yi2 ge4 ting3 fa2 wei4 de5 ren2
 BAC009S0739W0353 zhang1 guo2 wei3 ru2 guo3 bu4 xun4 lian4 de5 hua4
 BAC009S0739W0354 wo3 hui4 zai4 wu1 li3 kan4 dian4 shi4 ju4
 BAC009S0739W0355 fang4 jia4 zai4 jia1 de5 hua4 wo3 neng2 dai4 shang4 yi1 zhou1 yi3 shang4 ba5
@@ -5611,7 +5611,7 @@ BAC009S0739W0381 zhang1 guo2 wei3 mu4 qian2 yi3 jing1 mei2 you3 le5
 BAC009S0739W0382 xin1 jing1 bao4 gang1 jie1 chu4 tian2 jing4 you3 guo4 shen2 me5 yang4 de5 meng4 xiang3
 BAC009S0739W0383 zhang1 guo2 wei3 na4 shi2 hou4 tan2 bu4 shang4 meng4 xiang3
 BAC009S0739W0384 rang4 ni3 lian4 shen2 me5 jiu4 lian4 shen2 me5
-BAC009S0739W0385 cai2 you3 le5 yi1 ge4 zhen1 zheng4 de5 meng4 xiang3
+BAC009S0739W0385 cai2 you3 le5 yi2 ge4 zhen1 zheng4 de5 meng4 xiang3
 BAC009S0739W0386 xin1 jing1 bao4 xu3 duo1 ye4 nei4 ren2 shi4 dou1 shuo1 ni3 de5 tian1 fen4 hen3 gao1
 BAC009S0739W0387 jia1 ren2 you3 cong2 shi4 yun4 dong4 de5 ma5
 BAC009S0739W0388 zhang1 guo2 wei3 wo3 de5 jia1 ren2 mei2 you3 cong2 shi4 ren4 he2 yun4 dong4 xiang4 mu4
@@ -5693,18 +5693,18 @@ BAC009S0739W0464 lv3 you2 ju2 che4 xiao1 dui4 wu3 tai2 shan1 jing3 gao4 chu3 fen
 BAC009S0739W0465 shan1 xi1 sheng3 xin1 zhou1 shi4 wu3 tai2 shan1 jing3 qu1 nei4 de5 shan1 men2 men2 shuan1
 BAC009S0739W0467 guo2 jia1 lv3 you2 ju2 xuan1 bu4 che4 xiao1 dui4 wu3 tai2 shan1 wu3 ａ5 ji2 jing3 qu1 de5 jing3 gao4 chu3 fen4
 BAC009S0739W0468 zhe4 ge4 chu3 fen4 shi4 xin1 zhou1 shi4 ji2 wu3 tai2 xian4 tong1 guo4 zha1 shi2 gong1 zuo4
-BAC009S0739W0469 zhe4 zhi3 neng2 shi4 yi1 ge4 xin1 de5 qi3 dian3
+BAC009S0739W0469 zhe4 zhi3 neng2 shi4 yi2 ge4 xin1 de5 qi3 dian3
 BAC009S0739W0470 jue2 bu4 shi4 wo3 men5 zheng3 gai3 dou1 dao4 wei4 da2 biao1 le5
 BAC009S0739W0471 ba3 wu3 tai2 shan1 zhen1 zheng4 dang1 cheng2 zi4 ji3 de5 jia1
 BAC009S0739W0472 guan3 li3 he2 fu2 wu4 yong3 yuan3 zai4 lu4 shang4
 BAC009S0739W0473 qi1 jiu3 si4 bai3 fen1 zhi1 shou4 fang3 zhe3 shou3 xuan3 dang1 di4 feng1 tu3 ren2 qing2
 BAC009S0739W0474 shen1 zhen4 zhang1 ming2 hui4 zai4 xi1 ban1 ya2 de5 shi2 hou4
-BAC009S0739W0475 wo3 he2 peng2 you3 xiang3 qu4 dang1 di4 yi1 ge4 mei3 shu4 guan3 kan4 zhan3 lan3
+BAC009S0739W0475 wo3 he2 peng2 you3 xiang3 qu4 dang1 di4 yi2 ge4 mei3 shu4 guan3 kan4 zhan3 lan3
 BAC009S0739W0476 gan3 dao4 mei3 shu4 guan3 shi2 yi3 jing1 kuai4 bi4 guan3 le5
 BAC009S0739W0477 ke3 wo3 men5 de5 piao4 shi4 zao3 jiu4 mai3 hao3 de5
 BAC009S0739W0478 jian3 piao4 de5 ren2 jiu4 gei3 wo3 men5 piao4 shang4 gai4 le5 ge4 chuo1
 BAC009S0739W0479 shuo1 ke3 yi3 di4 er4 tian1 zao3 chen2 zai4 lai2 can1 guan1
-BAC009S0739W0480 sui1 ran2 zhi3 shi4 yi1 ge4 xiao3 xiao3 de5 ju3 dong4
+BAC009S0739W0480 sui1 ran2 zhi3 shi4 yi2 ge4 xiao3 xiao3 de5 ju3 dong4
 BAC009S0739W0481 lv3 she4 nv3 lao3 ban3 rong2 liu2 ta1 ren2 mai4 yin2 hou4 chou1 tou2 zi4 shou3 huo4 huan3 xing2
 BAC009S0739W0482 er4 ling2 yi1 wu3 nian2 san1 yue4 yi3 lai2
 BAC009S0739W0483 piao2 zi1 yi1 ling2 ling2 yuan2 ren2 min2 bi4 chou1 tou2 san1 ling2 yuan2
@@ -5866,7 +5866,7 @@ BAC009S0740W0265 ying2 ye4 li4 run4 lv4 bai3 fen1 zhi1 shi2 dao4 bai3 fen1 zhi1 
 BAC009S0740W0266 suo3 ni2 ye3 jiang1 he2 qi2 ta1 ri4 ben3 dian4 zi5 ju4 tou2 yi1 yang4
 BAC009S0740W0268 suo3 ni2 jin1 nian2 jiu4 kuo4 da4 le5 ying3 xiang4 chuan2 gan3 qi4 de5 chan3 neng2
 BAC009S0740W0269 yi3 man3 zu2 zhi4 neng2 shou3 ji1 zhi4 neng2 qi4 che1 geng4 gao1 de5 pai1 she4 yao1 qiu2
-BAC009S0740W0270 ying3 shi4 ye4 wu4 jiang1 shi4 suo3 ni2 ling4 yi1 ge4 zeng1 zhang3 dian3
+BAC009S0740W0270 ying3 shi4 ye4 wu4 jiang1 shi4 suo3 ni2 ling4 yi2 ge4 zeng1 zhang3 dian3
 BAC009S0740W0272 da2 dao4 yi4 bai3 yi4 dao4 yi4 bai3 shi2 yi4 mei3 yuan2 nian2 xiao1 shou4 e2
 BAC009S0740W0273 tong2 shi2 bao3 chi2 bai3 fen1 zhi1 qi1 dao4 bai3 fen1 zhi1 ba1 de5 yun4 ying2 li4 run4 lv4 tong2 qi1
 BAC009S0740W0274 suo3 ni2 yin1 yue4 ye4 wu4 jiang1 da2 dao4 si4 shi2 ba1 yi4 dao4 wu3 shi2 er4 yi4 mei3 yuan2 de5 nian2 xiao1 shou4 e2
@@ -5929,7 +5929,7 @@ BAC009S0740W0338 xin1 jing1 bao4 ni3 hui4 te4 bie2 zai4 hu1 wai4 jie4 de5 ping2 
 BAC009S0740W0339 zhang1 guo2 wei3 wo3 mei2 you3 te4 bie2 de5 zai4 yi4 wai4 jie4 dui4 wo3 de5 guan1 zhu4
 BAC009S0740W0340 wo3 hai2 shi4 bi3 jiao4 zhuan1 zhu4 yu2 zi4 ji3 de5 ji4 shu4
 BAC009S0740W0341 yin1 wei4 mei2 you3 bi4 yao4 qu4 dan1 xin1
-BAC009S0740W0342 xin1 jing1 bao4 ni3 jing1 chang2 ti2 ji2 de5 yi1 ge4 ci2 jiu4 shi4
+BAC009S0740W0342 xin1 jing1 bao4 ni3 jing1 chang2 ti2 ji2 de5 yi2 ge4 ci2 jiu4 shi4
 BAC009S0740W0343 zhang1 guo2 wei3 tian2 jing4 yun4 dong4 yuan2 he2 zu2 qiu2 yun4 dong4 yuan2 shi4 bu4 yi1 yang4 de5
 BAC009S0740W0344 zu2 qiu2 li3 shi4 you2 mian4 dui4 mian4 de5 dui4 shou3 zai4 jiao4 liang4
 BAC009S0740W0345 er2 tian2 jing4 yun4 dong4 yuan2 jiu4 shi4 gen1 zi4 ji3 jiao4 jin4
@@ -5966,8 +5966,8 @@ BAC009S0740W0375 ling4 wai4 yi1 wei4 zhong1 guo2 xuan3 shou3 wang2 yu3 chong1 ji
 BAC009S0740W0376 sou1 hu2 ti3 yu4 guo1 jian4 ba1 yue4 er4 shi2 jiu3 ri4 fa1 zi4 bei3 jing1 san1 shi2 qi1 miao3 jiu3 er4
 BAC009S0740W0377 bing4 yi3 xiao3 zu3 di4 san1 de5 shen1 fen4 shun4 li4 jin4 ji2 jue2 sai4
 BAC009S0740W0378 zhe4 shi4 wo3 zai4 ben3 jie4 shi4 jin3 sai4 shang4 liang4 xiang4 de5 zui4 hou4 ji1 hui4 le5
-BAC009S0740W0379 sui1 ran2 mei2 you3 yi1 ge4 hao3 de5 kai1 ju2
-BAC009S0740W0380 dan4 wo3 xi1 wang4 neng2 gou4 you3 yi1 ge4 wan2 mei3 de5 jie2 wei3
+BAC009S0740W0379 sui1 ran2 mei2 you3 yi2 ge4 hao3 de5 kai1 ju2
+BAC009S0740W0380 dan4 wo3 xi1 wang4 neng2 gou4 you3 yi2 ge4 wan2 mei3 de5 jie2 wei3
 BAC009S0740W0381 sai4 hou4 zhang1 pei2 meng2 dui4 ji4 zhe3 shuo1
 BAC009S0740W0382 zai4 qi1 nian2 qian2 de5 bei3 jing1 ao4 yun4 hui4 shang4
 BAC009S0740W0383 zhong1 guo2 nan2 zi5 jie1 li4 dui4 ceng2 jing1 chuang3 ru4 qian2 ba1 ming2
@@ -6021,7 +6021,7 @@ BAC009S0740W0430 sou1 hu2 yu2 le4 xun4 jiu3 yue4 si4 ri4 xiao1 xi1
 BAC009S0740W0431 lv3 xing2 she4 jiang1 you2 ke4 fen1 wu3 ge4 deng3 ji2 xiao1 fei4 yue4 gao1 dao3 you2 tai4 du4 yue4 hao3
 BAC009S0740W0432 yun2 nan2 hen3 duo1 lv3 xing2 she4 jiang1 quan2 guo2 you2 ke4 an4 xiao1 fei4 neng2 li4 fen1 wei4 wu3 ge4 deng3 ji2
 BAC009S0740W0433 xiao1 fei4 yue4 gao1 dao3 you2 tai4 du4 yue4 hao3
-BAC009S0740W0434 ru2 yi1 ge4 tuan2 li3 nan2 xing4 bu4 neng2 guo4 ban4
+BAC009S0740W0434 ru2 yi2 ge4 tuan2 li3 nan2 xing4 bu4 neng2 guo4 ban4
 BAC009S0740W0435 yin1 wei4 nv3 xing4 xiao1 fei4 neng2 li4 xiang1 dui4 jiao4 qiang2
 BAC009S0740W0436 lv3 xing2 she4 ju4 tui4 yi1 qi1 ming2 you2 ke4 wu3 ling2 wan4 chu1 jing4 you2 ya1 jin1 yuan2 gong1 yi3 li2 zhi2
 BAC009S0740W0437 lv3 xing2 she4 shou1 qu3 le5 chu1 jing4 you2 ya1 jin1
@@ -6053,8 +6053,8 @@ BAC009S0740W0462 ben3 bao4 jian4 xi2 ji4 zhe3 yang2 wei4 tong1 xun4 yuan2 ding1 
 BAC009S0740W0463 wu2 ye4 you2 min2 zhuang1 hei1 she4 hui4 kong3 he4 jia1 zhang3 hui4 kuan3 zhi1 dao4 shi4 zhu3 xiang2 xi4 xin4 xi1
 BAC009S0740W0464 jing3 fang1 cha2 huo4 zha4 pian4 tuan2 huo3 de5 si4 ling2 duo1 bu4 shou3 ji1
 BAC009S0740W0465 wu2 ye4 you2 min2 huang1 cheng1 bang1 lao3 xiang1 cong2 kan1 shou3 suo3 lao1 ren2 zha4 pian4 san1 wan4 yuan2
-BAC009S0740W0466 yi1 ge4 shi4 zhang4 fu1 bei4 guan1 ya1 zai4 kan1 shou3 suo3 de5 xin1 ji2 nv3 zi3
-BAC009S0740W0467 yi1 ge4 shi4 wei4 le5 qian2 cai2 bu4 xi1 zou3 wai1 men2 xie2 dao4 de5 wu2 ye4 you2 min2
+BAC009S0740W0466 yi2 ge4 shi4 zhang4 fu1 bei4 guan1 ya1 zai4 kan1 shou3 suo3 de5 xin1 ji2 nv3 zi3
+BAC009S0740W0467 yi2 ge4 shi4 wei4 le5 qian2 cai2 bu4 xi1 zou3 wai1 men2 xie2 dao4 de5 wu2 ye4 you2 min2
 BAC009S0740W0468 liang3 ren2 shi4 shen1 chu4 yi4 xiang1 de5 tong2 xiang1
 BAC009S0740W0469 hou4 zhe3 huang1 cheng1 neng2 ba3 qian2 zhe3 de5 zhang4 fu1 cong2 kan1 shou3 suo3 li3 lao1 chu1 lai2 zha4 pian4 qian2 cai2
 BAC009S0740W0470 feng4 xian2 jian3 cha2 yuan4 jiang1 fan4 zui4 xian2 yi2 ren2 shi2 ying1 yi3 zha4 pian4 zui4 pi1 zhun3 dai4 bu3
@@ -6106,7 +6106,7 @@ BAC009S0741W0141 xin1 qing1 dan1 yu3 zhi1 qian2 xiang1 bi3 zhu3 yao4 jin4 xing2 
 BAC009S0741W0142 shui4 wu4 xiao3 bo2 shi4 yi1 yue4 ba1 ri4 qi3
 BAC009S0741W0143 ban4 li3 ge4 ren2 er4 shou3 fang2 jiao1 yi4 she4 shui4 ye4 wu4
 BAC009S0741W0144 zi4 er4 ling2 yi1 wu3 nian2 yi2 yue4 yi1 ri4 qi3 zai4 quan2 shi4 fan4 wei2 nei4 tong3 yi1 shi2 shi1
-BAC009S0741W0145 gai1 qing1 dan1 an4 zhao4 wu3 da4 lei4 yi1 ge4 shi4 xiang4
+BAC009S0741W0145 gai1 qing1 dan1 an4 zhao4 wu3 da4 lei4 yi2 ge4 shi4 xiang4
 BAC009S0741W0146 fen1 bi4 xu1 bao4 song4 he2 bu3 chong1 bao4 song4 liang3 fang1 mian4
 BAC009S0741W0147 dui4 ban4 li3 ge4 ren2 er4 shou3 fang2 jiao1 yi4 she4 shui4 ye4 wu4 de5 bao4 song4 zi1 liao4 jin4 xing2 le5 ming2 que4
 BAC009S0741W0148 zhi3 xu1 ti2 gong1 ban4 li3 fang2 wu1 jiao1 yi4 he2 tong2 wang3 qian1 shi2 ti2 gong1 de5 hu4 zhao4 ji2 ke3
@@ -6144,7 +6144,7 @@ BAC009S0741W0179 yi1 pi1 gao1 duan1 xiang4 mu4 de2 yi3 shun4 li4 guo4 guan1 ling
 BAC009S0741W0180 qu4 nian2 cheng2 jiao1 de5 duo1 zong1 gao1 jia4 de5
 BAC009S0741W0181 ming2 nian2 de5 gao1 duan1 shi4 chang3 jing4 zheng1 yu4 ji4 geng4 jia1 ji1 lie4
 BAC009S0741W0182 dui4 yu2 yi3 jing1 ju4 bei4 xiao1 shou4 tiao2 jian4 de5 gao1 duan1 xiang4 mu4 lai2 shuo1
-BAC009S0741W0183 nian2 di3 suan4 shi4 yi1 ge4 ru4 shi4 de5 chuang1 kou3 qi1
+BAC009S0741W0183 nian2 di3 suan4 shi4 yi2 ge4 ru4 shi4 de5 chuang1 kou3 qi1
 BAC009S0741W0184 you3 ye4 nei4 fen1 xi1 ren4 wei2 duo1 shu4 gao1 duan1 pan2 di4 duan4 you1 shi4 tu1 chu1
 BAC009S0741W0185 yi4 huo4 de2 zhi4 ye4 zhe3 de5 ren4 tong2
 BAC009S0741W0186 ji4 zhe3 ye3 cong2 ji2 jiang1 ru4 shi4 de5 guo2 an1 fu3 liao3 jie3 dao4
@@ -6322,7 +6322,7 @@ BAC009S0741W0372 ming2 nian2 de5 li3 yue1 ao4 yun4 hui4 shang4 ta1 men5 de5 mu4 
 BAC009S0741W0373 su1 bing3 tian1 shuo1 jue2 de5 ke3 yi3 yong4 bu4 ke3 si1 yi4 lai2 xing2 rong2 ci3 shi2 de5 xin1 qing2
 BAC009S0741W0374 neng2 na2 yi1 kuai4 jiang3 pai2 dou1 fei1 chang2 bu4 cuo4 le5
 BAC009S0741W0375 yin1 wei4 dui4 wo3 men5 zhe4 ge4 xiang4 mu4 lai2 shuo1
-BAC009S0741W0376 zhong1 guo2 hai2 chu3 yu2 yi1 ge4 bi3 jiao4 nan2 de5 jie1 duan4
+BAC009S0741W0376 zhong1 guo2 hai2 chu3 yu2 yi2 ge4 bi3 jiao4 nan2 de5 jie1 duan4
 BAC009S0741W0377 qi2 shi2 wo3 men5 dou1 yi4 zhi2 zai4 bu4 duan4 de5 jie1 jin4 yi1 xie1 guo2 wai4 de5 xuan3 shou3
 BAC009S0741W0378 wo3 jue2 de5 wo3 men5 jin1 tian1 de5 zheng3 ge4 biao3 xian4 yi3 jing1 shi4 zuo4 dao4 le5
 BAC009S0741W0379 wo3 fei1 chang2 gan3 xie4 wo3 de5 dui4 you3 lai2 bang1 zhu4 zhong1 guo2 dui4 na2 dao4 zhe4 mei2 jiang3 pai2
@@ -6629,7 +6629,7 @@ BAC009S0742W0319 tui1 chu1 zhe4 yi1 fang1 an4 de5 shi4 shen1 shi4 lao3 pai2 shan
 BAC009S0742W0320 yi3 ge2 li4 mu4 qian2 zong3 gu3 ben3 ji4 suan4
 BAC009S0742W0321 ci3 ci4 pai4 xian4 zong3 e2 jiang1 chao1 guo4 jiu3 shi2 yi4 yuan2
 BAC009S0742W0322 he2 chen2 hao4 yue1 zai4 le5 xin1 che1 jian1 fu4 jin4 de5 ka1 fei1 guan3 li3 jian4 mian4
-BAC009S0742W0323 di4 yi1 gan3 jue2 shi4 jian4 dao4 yi1 ge4 bi3 xiang3 xiang4 zhong1 lao3 cheng2 de5 jiu3 shi2 hou4
+BAC009S0742W0323 di4 yi1 gan3 jue2 shi4 jian4 dao4 yi2 ge4 bi3 xiang3 xiang4 zhong1 lao3 cheng2 de5 jiu3 shi2 hou4
 BAC009S0742W0324 zhe4 zhong3 lao3 cheng2 huo4 xu3 shi4 ping2 shi2 xi3 huan1 de5 hu4 wai4 qi2 xing2 yun4 dong4 zao4 cheng2 de5
 BAC009S0742W0325 huo4 zhe5 shi4 ao2 ye4 can1 jia1 bi3 sai4 dai4 lai2 de5
 BAC009S0742W0326 yi4 huo4 shi4 li4 jing1 le5 liang3 ci4 chuang4 ye4 de5 xin1 ku3
@@ -6642,7 +6642,7 @@ BAC009S0742W0332 yi3 guo2 wai4 he2 zhong1 guo2 gang3 ao4 tai2 di4 qu1 zui4 wei4 
 BAC009S0742W0333 nei4 di4 de5 ge2 dou4 ji1 qi4 ren2 bi3 sai4 sui1 you3
 BAC009S0742W0334 can1 sai4 zhe3 he2 guan1 zhu4 du4 xiang1 bi3 zhi1 xia4 xian3 de5 liao2 liao2
 BAC009S0742W0336 kao3 lv4 dao4 ji1 qi4 ren2 zhuan1 chang2 ge4 yi4
-BAC009S0742W0337 ta1 jue2 ding4 kai1 pi4 yi1 ge4 jing4 ji4 chang3
+BAC009S0742W0337 ta1 jue2 ding4 kai1 pi4 yi2 ge4 jing4 ji4 chang3
 BAC009S0742W0338 guan1 zhong4 shi2 zai4 shi4 tai4 re4 qing2 le5
 BAC009S0742W0339 ta1 han3 jie1 le5 dan4 shi4 wo3 mei2 ting1 dao4
 BAC009S0742W0340 dan4 shi4 ye3 shi4 jiu3 jing1 sha1 chang3 ba5
@@ -6651,7 +6651,7 @@ BAC009S0742W0342 ran2 hou4 ta1 gei3 shang4 lai2 wo3 jiu4 hen3 fang4 xin1 le5
 BAC009S0742W0343 dui4 yu2 yu4 sai4 zhi1 hou4 de5 xin1 qing2
 BAC009S0742W0344 su1 bing3 tian1 biao3 shi4 zao3 shang4 yu4 sai4 wan2 le5 yi3 hou4
 BAC009S0742W0345 wo3 jue2 de5 wo3 men5 ying1 gai1 leng3 jing4
-BAC009S0742W0346 bi3 sai4 cai2 hui4 you3 yi1 ge4 hao3 de5 jie2 guo3
+BAC009S0742W0346 bi3 sai4 cai2 hui4 you3 yi2 ge4 hao3 de5 jie2 guo3
 BAC009S0742W0347 suo3 yi3 wo3 zai4 jin4 ru4 jue2 sai4 pao3 dao4 de5 shi2 hou4 wo3 dui4 wo3 de5 dui4 you3 shuo1
 BAC009S0742W0348 deng3 yi1 xia4 zhe4 chang3 bi3 sai4 wo3 men5 jiu4 xiang4 ping2 shi2 xun4 lian4 yi1 yang4 xin1 qing2 qu4 can1 jia1
 BAC009S0742W0349 sui1 ran2 bu4 ke3 neng2 wan2 quan2 yi1 yang4
@@ -6678,7 +6678,7 @@ BAC009S0742W0369 ye3 mei2 you3 te4 bie2 qu4 xiang3 cheng2 ji1
 BAC009S0742W0370 zai4 zui4 hou4 guo4 xian4 de5 yi1 sha1 na4 cai2 fang4 song1 xia4 lai2
 BAC009S0742W0371 zai4 mei2 guo4 xian4 zhi1 qian2 dou1 yi4 zhi2 te4 bie2 jin3 zhang1 te4 bie2 hai4 pa4
 BAC009S0742W0372 na4 yang4 de5 hua4 xia4 lai2 zhen1 de5 mei2 you3 ban4 fa3 qu4 mian4 dui4 zi4 ji3 de5 dui4 you3
-BAC009S0742W0373 yin1 wei4 wo3 yi1 ge4 ren2 de5 shi1 wu4 er2 rang4 wo3 men5 diu1 diao4 zhe4 me5 bao3 gui4
+BAC009S0742W0373 yin1 wei4 wo3 yi2 ge4 ren2 de5 shi1 wu4 er2 rang4 wo3 men5 diu1 diao4 zhe4 me5 bao3 gui4
 BAC009S0742W0374 zai4 rang4 wo3 lai2 yi1 bian4 de5 hua4 wo3 dou1 bu4 yi2 ding4 neng2 zuo4 dao4 zhe4 me5 hao3
 BAC009S0742W0375 xia4 lai2 zhi1 hou4 gan3 jue2 hen3 bu4 rong2 yi4
 BAC009S0742W0376 zhi3 neng2 ba3 wu4 cha1 jin4 li4 zuo4 dao4 zui4 xiao3
@@ -6761,7 +6761,7 @@ BAC009S0742W0452 you3 du2 zhe3 xiang4 ben3 bao4 an4 fang3 zu3 fan3 ying4
 BAC009S0742W0453 zai4 fang2 shan1 qu1 hu2 lu5 fa2 qiao2 fu4 jin4
 BAC009S0742W0454 cun2 zai4 zhi4 zuo4 jia3 jiu3 de5 wo1 dian3
 BAC009S0742W0455 jing1 guo4 ji4 zhe3 an4 fang3 hou4 fa1 xian4
-BAC009S0742W0456 zhe4 shi4 yi1 ge4 yi3 hui2 shou1 qing1 xi3 fan4 mai4 jiu3 ping2 wei2 zhu3 de5 da4 xing2 jia1 gong1 de5
+BAC009S0742W0456 zhe4 shi4 yi2 ge4 yi3 hui2 shou1 qing1 xi3 fan4 mai4 jiu3 ping2 wei2 zhu3 de5 da4 xing2 jia1 gong1 de5
 BAC009S0742W0457 ye3 cun2 zai4 jiang1 ming2 pai2 jia3 jiu3 zhuan3 yun4 zhi4 zuo4 jia3 jiu3 de5 xian2 yi2
 BAC009S0742W0458 wu2 zheng4 nv3 si1 ji1 nian3 ya1 nv3 tong2 zhi4 si3 yi3 guo4 shi1 zhi4 si3 zui4 huo4 qing1 pan4 huan3 xing2
 BAC009S0742W0459 wu2 zheng4 you4 er2 yuan2 kai1 yi1 nian2 wu2 ren2 guan3 yi1 qi1 zuo4 xiao4 che1 ji3 jin4 san1 er4 ming2 xue2 sheng1
@@ -6813,7 +6813,7 @@ BAC009S0743W0131 bu4 jin3 ji3 yu3 le5 yi1 qi1 er4 qian1 mu3 de5 tu3 di4 zhi1 chi
 BAC009S0743W0132 er2 qie3 ji3 yu3 le5 si4 qian1 mu3 de5 yu4 liu2 tu3 di4
 BAC009S0743W0133 rang4 qi3 ye4 you3 geng4 hao3 de5 fa1 zhan3 kong1 jian1
 BAC009S0743W0134 han4 gu1 he2 qing1 xian4 bu4 yue1 er2 tong2 de5 cai3 yong4 chan3 ye4 ji2 qun2 mo2 shi4
-BAC009S0743W0135 ze2 shi4 wei4 le5 jie3 jue2 qi3 ye4 chang2 qi1 fa1 zhan3 de5 wen4 ti2
+BAC009S0743W0135 ze2 shi4 wei4 liao3 jie3 jue2 qi3 ye4 chang2 qi1 fa1 zhan3 de5 wen4 ti2
 BAC009S0743W0136 neng2 gou4 xiang1 hu4 fu2 chi2 xiang1 hu4 dai4 dong4
 BAC009S0743W0137 bing4 ke3 yi3 jie2 sheng3 guan3 li3 wu4 liu2 pei4 tao4 deng3 cheng2 ben3
 BAC009S0743W0138 xing2 tang2 ji4 zhou1 deng3 de5 de5 chan3 ye4 yuan2 geng4 zhu4 zhong4 zhao1 shang1
@@ -6821,7 +6821,7 @@ BAC009S0743W0139 que1 fa2 chan3 ye4 gui1 hua4 he2 wei4 lai2 fa1 zhan3 zhan4 lve4
 BAC009S0743W0140 ye3 jiu4 shi1 qu4 le5 qi3 ye4 de5 xin4 ren4 du4
 BAC009S0743W0141 ta1 ji4 shi4 dui4 qi3 ye4 ru4 zhu4 de5 zui4 da4 xi1 yin3 li4
 BAC009S0743W0142 you4 shi4 qi3 ye4 ru4 zhu4 hou4 neng2 fou3 chi2 jiu3 fa1 zhan3 de5 zui4 da4 feng1 xian3
-BAC009S0743W0143 yi1 ge4 guan1 jian4 wen4 ti2 shi4 tu3 di4 shi3 yong4
+BAC009S0743W0143 yi2 ge4 guan1 jian4 wen4 ti2 shi4 tu3 di4 shi3 yong4
 BAC009S0743W0144 tu3 di4 chu1 rang4 shou1 yi4 zuo4 wei2 wo3 guo2 cai2 zheng4 shou1 ru4 de5 zhu3 yao4 lai2 yuan2
 BAC009S0743W0145 guo2 jia1 dui4 ci3 shou1 zhi1 guan3 li3 zheng4 ri4 qu1 yan2 ge2
 BAC009S0743W0146 er2 tu3 di4 ji1 zhun3 jia4 tiao2 zheng3 hou4 dai4 suo3 dai4 lai2 de5 yin3 huan4 que4 shi4 wu2 fa3 gu1 liang5 de5
@@ -6913,8 +6913,8 @@ BAC009S0743W0231 xi1 wang4 hui2 dao4 nong2 cun1 ding4 ju1
 BAC009S0743W0232 xuan3 ze2 zai4 xian4 cheng2 he2 xiao3 cheng2 zhen4 ding4 ju1
 BAC009S0743W0233 guo2 wu4 yuan4 fa1 zhan3 yan2 jiu1 zhong1 xin1 fu4 zhu3 ren4 han2 jun4 ren4 wei2
 BAC009S0743W0234 mu4 qian2 cu4 jin4 nong2 min2 gong1 he2 wai4 lai2 liu2 dong4 ren2 kou3 de5 she4 hui4 rong2 ru4 cheng2 shi4
-BAC009S0743W0235 shi4 ti2 sheng1 zhong1 guo2 cheng2 zhen4 hua4 zhi4 liang4 de5 yi1 ge4 zhong4 yao4 nei4 rong2
-BAC009S0743W0236 xian4 zai4 yi3 jing1 dao4 le5 yi1 ge4 guan1 jian4 de5 shi2 ke4
+BAC009S0743W0235 shi4 ti2 sheng1 zhong1 guo2 cheng2 zhen4 hua4 zhi4 liang4 de5 yi2 ge4 zhong4 yao4 nei4 rong2
+BAC009S0743W0236 xian4 zai4 yi3 jing1 dao4 le5 yi2 ge4 guan1 jian4 de5 shi2 ke4
 BAC009S0743W0237 ta1 zai4 jin4 qi1 de5 yi1 ci4 lun4 tan2 shang4 shuo1
 BAC009S0743W0238 zi1 yuan2 jia4 ge2 he2 guo2 qi3 ling3 yu4 xin1 po4 ti2
 BAC009S0743W0239 jin1 nian2 jing1 ji4 ti3 zhi4 gai3 ge2 de5 hui4 yi4 nei4 rong2 liang4 dian3 bu4 shao3
@@ -6984,7 +6984,7 @@ BAC009S0743W0311 ta1 men5 xuan3 gou4 le5 shen1 zhen4 yi1 jia1 gong1 si1 de5 wu3 
 BAC009S0743W0312 chuang4 ke4 zen3 me5 hao3 yi4 si1 zhao3 bie2 ren2
 BAC009S0743W0313 yin1 wei4 mei2 you3 zhe4 yang4 de5 sheng1 chan3 xian4 he2 gong1 yi4
 BAC009S0743W0315 ta1 de5 ge2 dou4 ji1 qi4 ren2 cheng2 ben3 zong3 gong4 shi4 san1 qian1 yuan2
-BAC009S0743W0316 chu2 le5 gou4 mai3 yi1 ge4 er4 qian1 yuan2 de5 wu3 dao3 ji1 qi4 ren2
+BAC009S0743W0316 chu2 le5 gou4 mai3 yi2 ge4 er4 qian1 yuan2 de5 wu3 dao3 ji1 qi4 ren2
 BAC009S0743W0317 zai4 an4 zhao4 bi3 sai4 de5 yao1 qiu2 he2 gui1 ge2 jin4 xing2 gai3 zhuang1
 BAC009S0743W0318 zhong1 guo2 tai2 wan1 na4 bian1 de5 ge2 dou4 ji1 qi4 ren2 bi3 wo3 men5 zhe4 bian1 hao3 duo1 le5
 BAC009S0743W0319 zhe4 ci4 da4 lu4 cai2 you3 liu4 zhi1 dui4 wu3 bao4 ming2
@@ -6996,7 +6996,7 @@ BAC009S0743W0324 ke3 neng2 da4 lu4 de5 xuan1 chuan2 ye3 bu4 shi4 te4 bie2 dao4 w
 BAC009S0743W0325 da4 lu4 de5 liu4 zhi1 can1 sai4 dui4 wu3 li3
 BAC009S0743W0326 you3 liang3 zhi1 lai2 zi4 ao4 song1 ji1 qi4 ren2
 BAC009S0743W0327 wo3 he2 peng2 you3 ye3 zu3 jian4 le5 liang3 zhi1 dui4 wu3
-BAC009S0743W0328 ling4 wai4 you3 yi1 ge4 wan2 jia1 he2 yi1 ge4 xiao3 peng2 you3
+BAC009S0743W0328 ling4 wai4 you3 yi2 ge4 wan2 jia1 he2 yi2 ge4 xiao3 peng2 you3
 BAC009S0743W0329 kao3 lv4 dao4 ge2 dou4 ji1 qi4 ren2 dou1 shi4 yi3 dan1 pin3 de5 xing2 shi4 chu1 xian4
 BAC009S0743W0330 chun2 wan2 neng2 gou4 dai4 lai2 shen2 me5 ne5
 BAC009S0743W0331 chen2 hao4 hui2 da2 de2 hen3 gan1 cui4 ni3 neng2 xiang3 dao4 ma5
@@ -7021,7 +7021,7 @@ BAC009S0743W0349 zhang1 pei2 meng2 ren4 wei2 shang4 wu3 yu4 sai4 zhong1 guo2 dui
 BAC009S0743W0350 wan3 jian1 de5 jue2 sai4 zai4 jiao1 jie1 bang4 huan2 jie2 shang4 xiang4 dui4 cheng2 gong1
 BAC009S0743W0351 wo3 men5 zhe4 ci4 de5 dao4 ci4 an1 pai2 shi4 hen3 he2 li3 de5
 BAC009S0743W0352 yin1 wei4 wo3 men5 de5 wan1 dao4 ji4 shu4 bu4 ru2 su1 bing3 qian1
-BAC009S0743W0353 dui4 yu2 na2 dao4 jiang3 pai2 zhe4 yang4 yi1 ge4 cheng2 ji1
+BAC009S0743W0353 dui4 yu2 na2 dao4 jiang3 pai2 zhe4 yang4 yi2 ge4 cheng2 ji1
 BAC009S0743W0354 zhang1 pei2 meng2 tan3 yan2 sai4 qian2 bu4 gan3 xiang3
 BAC009S0743W0355 yin1 wei4 ben3 shen1 zhong1 guo2 nan2 zi5 jie1 li4 dui4 shang4 bu4 ju4 bei4 qian2 san1 ming2 de5 shi2 li4
 BAC009S0743W0356 wo3 men5 bi4 xu1 cheng2 ren4 jin1 tian1 duo2 de5 yin2 pai2 ye3 you3 yun4 qi4 de5 cheng2 fen4 zai4 nei4
@@ -7034,7 +7034,7 @@ BAC009S0743W0362 sui1 ran2 wo3 de5 qi3 pao3 zao3 le5 yi1 dian3
 BAC009S0743W0363 dui4 yu2 jue2 sai4 pai2 zai4 di4 jiu3 dao4 wo3 bing4 bu4 dan1 xin1
 BAC009S0743W0364 yin1 wei4 shang4 wu3 yu4 sai4 wo3 men5 ye3 shi4 zai4 di4 ba1 dao4 you3 zhe5 fei1 chang2 chu1 se4 de5 fa1 hui1
 BAC009S0743W0365 su1 bing3 tian1 biao3 shi4 qian2 zhe3 geng4 ke3 gui4
-BAC009S0743W0366 yin1 wei4 zhe4 shi4 yi1 ge4 tuan2 dui4 xiang4 mu4
+BAC009S0743W0366 yin1 wei4 zhe4 shi4 yi2 ge4 tuan2 dui4 xiang4 mu4
 BAC009S0743W0367 jin1 tian1 qia4 feng2 su1 bing3 tian1 er4 shi2 liu4 sui4 sheng1 ri4
 BAC009S0743W0368 zai4 bi3 sai4 jie2 shu4 hou4 quan2 chang3 guan1 zhong4 ye3 shi4 qi2 sheng1 wei4 ta1 song4 shang4 sheng1 ri4 ge1
 BAC009S0743W0369 su1 bing3 tian1 yi1 jiu4 wei4 zhi1 dong4 rong2
@@ -7156,7 +7156,7 @@ BAC009S0743W0485 zhe4 dui4 fu1 fu4 you4 shou3 bian1 yi1 wei4 cheng2 ke4 si4 hu1 
 BAC009S0743W0486 bu4 wen2 ming2 xing2 wei4 zai4 ci4 yin3 lai2 wu2 xi1 wang3 you3 re4 yi4
 BAC009S0743W0487 wu2 xi1 wai4 gong1 xia4 hen3 shou3 tong3 shang1 ba1 sui4 nan2 hai2 yi2 yin1 jia1 ting2 jiu1 fen1
 BAC009S0743W0488 fang2 zi5 zhao2 huo3 hou4 mao4 chu1 nong2 yan1 wang3 you3 gong1 tu2 qing3 lai2 ling3 gao3 fei4
-BAC009S0743W0489 ri4 qi3 shou3 xiang4 qiang2 zheng1 lao2 gong1 dao4 qian4 ping2 lun4 qian4 zhong1 guo2 lao2 gong1 yi1 ge4 dao4 qian4
+BAC009S0743W0489 ri4 qi3 shou3 xiang4 qiang2 zheng1 lao2 gong1 dao4 qian4 ping2 lun4 qian4 zhong1 guo2 lao2 gong1 yi2 ge4 dao4 qian4
 BAC009S0743W0490 ri4 ben3 zheng4 fu3 ceng2 liang3 du4 zhi4 qian4
 BAC009S0743W0491 er2 zhe4 ci4 shi4 ri4 ben3 da4 qi3 ye4 shou3 ci4 dao4 qian4
 BAC009S0743W0492 ri4 zhong4 yi4 yuan4 jin1 jiang1 biao3 jue2 an1 bao3 fa3 an4 bei4 zhi3 zhan4 zheng1 fa3 an4
@@ -7199,7 +7199,7 @@ BAC009S0744W0153 duo1 wei4 gao1 duan1 xiang4 mu4 fu4 ze2 ren2 dou1 biao3 shi4
 BAC009S0744W0154 zai4 hao2 zhai2 shi4 chang3 chu2 le5 shou4 jia4 yue4 lai2 yue4 gao1
 BAC009S0744W0155 qi2 gou4 mai3 qun2 ti3 ye3 zai4 zhu2 jian4 fa1 sheng1 bian4 hua4
 BAC009S0744W0156 lei4 si4 yu2 teng2 xun4 he2 a1 li3 ba1 ba1 zhe4 yang4 de5 qi3 ye4
-BAC009S0744W0157 ye3 shi4 yi1 ge4 ji2 zhong1 zao4 fu4 de5 guo4 cheng2
+BAC009S0744W0157 ye3 shi4 yi2 ge4 ji2 zhong1 zao4 fu4 de5 guo4 cheng2
 BAC009S0744W0158 ta1 men5 zhong1 jian1 yong3 xian4 chu1 le5 yi1 pi1 gou4 mai3 ding3 ji2 hao2 zhai2 chan3 pin3 de5 zhu3 li4 jun1
 BAC009S0744W0159 wei4 lai2 zhe4 ge4 shi4 chang3 hai2 shi4 chong1 man3 qi1 dai4 de5
 BAC009S0744W0160 jing1 xi1 mou3 gao1 duan1 xiang4 mu4 fu4 ze2 ren2 biao3 shi4
@@ -7280,7 +7280,7 @@ BAC009S0744W0234 gan1 zhe4 jia4 ge2 you2 di4 fang1 zheng4 fu3 zhi4 ding4
 BAC009S0744W0235 dui4 shi2 tang2 jia4 ge2 de5 ying3 xiang3 hen3 da4
 BAC009S0744W0236 dan4 shi2 tang2 jia4 ge2 you4 you2 shi4 chang3 jue2 ding4
 BAC009S0744W0237 jia4 ge2 de5 xing2 cheng2 ji1 zhi4 he2 gan1 yu4 zhu3 ti3 bu4 yi1 yang4
-BAC009S0744W0238 zhe4 dui4 guo2 jia1 tiao2 kong4 bu4 men2 er2 yan2 ye3 shi4 yi1 ge4 xin1 wen4 ti2
+BAC009S0744W0238 zhe4 dui4 guo2 jia1 tiao2 kong4 bu4 men2 er2 yan2 ye3 shi4 yi2 ge4 xin1 wen4 ti2
 BAC009S0744W0239 shui3 chu3 li3 jiang1 shi4 wei4 lai2 zheng4 ce4 qing1 xie2 de5 zhong4 dian3 hang2 ye4 zhi1 yi1
 BAC009S0744W0240 guo2 jia1 fa1 gai3 wei3 huan2 zi1 si1 ban4 gong1 shi4 zhu3 ren4 yao2 ming2 kuan1 tou4 lu4
 BAC009S0744W0241 ni3 xin1 zeng1 tou2 zi1 e2 yue1 si4 qian1 yi4 yuan2
@@ -7321,8 +7321,8 @@ BAC009S0744W0280 zhe4 kuan3 chan3 pin3 you3 yi1 dian3 bu4 zu2
 BAC009S0744W0283 wei1 ruan3 de5 chan3 pin3 dou1 shi4 kuai4 zhuang4 de5 gong1 ye4 she4 ji4
 BAC009S0744W0284 shou3 huan2 dai4 wei4 hei1 se4 xiang4 jiao1 cai2 zhi4
 BAC009S0744W0285 shou3 huan2 ben3 shen1 wei4 fei1 wan1 qu1 de5 zhang3 fang1 xing2
-BAC009S0744W0286 shou3 huan2 zhong1 xin1 shi4 yi1 ge4 kai1 ji1 an4 niu3
-BAC009S0744W0287 yi1 ge4 zhi2 xing2 an4 niu3 wei4 yu2 xian3 shi4 ping2 de5 you4 ce4
+BAC009S0744W0286 shou3 huan2 zhong1 xin1 shi4 yi2 ge4 kai1 ji1 an4 niu3
+BAC009S0744W0287 yi2 ge4 zhi2 xing2 an4 niu3 wei4 yu2 xian3 shi4 ping2 de5 you4 ce4
 BAC009S0744W0288 wei1 ruan3 shou3 huan2 you3 xiao3 zhong1 da4 san1 zhong3 chi3 cun4 gong1 yong4 hu4 xuan3 ze2
 BAC009S0744W0289 yong4 hu4 ke3 yi3 dui4 ping2 mu4 yan2 se4 he2 bei4 jing3 she4 ji4 jin4 xing2 geng1 gai3
 BAC009S0744W0290 chu4 mo1 ping2 shang4 de5 duo1 ge4 ci2 tie1 ye3 zhi1 chi2 xiu1 gai3
@@ -7334,14 +7334,14 @@ BAC009S0744W0295 xian4 zai4 hai2 bu4 qing1 chu3 wei1 ruan3 qu3 xiao1 le5 zhe4 xi
 BAC009S0744W0296 hai2 shi4 zhe4 xie1 gong1 neng2 mei2 you3 kai1 fa1 wan2 cheng2
 BAC009S0744W0297 wei1 ruan3 yi3 jing1 zheng4 ming2 le5 zi4 ji3 de5 shi2 li4
 BAC009S0744W0299 jin3 guan3 ming2 nian2 di4 yi1 ji4 du4 jiang1 ji4 xu4 tong1 guo4 mei3 guo2 bu4 fen4 ling2 shou4 shang1 xiao1 shou4
-BAC009S0744W0303 ta1 lian2 he2 le5 bei3 jing1 de5 chuang4 ke4 peng2 you3 can1 jia1 le5 yi1 ge4 chuang4 ke4 ma3 la1 song1 bi3 sai4
+BAC009S0744W0303 ta1 lian2 he2 le5 bei3 jing1 de5 chuang4 ke4 peng2 you3 can1 jia1 le5 yi2 ge4 chuang4 ke4 ma3 la1 song1 bi3 sai4
 BAC009S0744W0304 dui4 ge2 dou4 ji1 qi4 ren2 jin4 xing2 tiao2 shi4 an1 zhuang1
 BAC009S0744W0305 ci3 hou4 you4 tong1 guo4 zhui1 meng4 wang3 zhong4 chou2 le5 qian2 wang3 shen1 zhen4 de5 lu4 fei4
 BAC009S0744W0306 wo3 men5 huo4 de2 le5 man3 man3 de5 zhu4 fu2 he2 zheng4 neng2 liang4
-BAC009S0744W0307 bian4 xing2 jin1 gang1 ji1 qi4 ren2 yi4 zhi2 shi4 ta1 de5 yi1 ge4 meng4 xiang3
+BAC009S0744W0307 bian4 xing2 jin1 gang1 ji1 qi4 ren2 yi4 zhi2 shi4 ta1 de5 yi2 ge4 meng4 xiang3
 BAC009S0744W0308 ta1 de5 da4 xue2 zhuan1 ye4 shi4 ji1 xie4 she4 ji4 zhi4 zao4 zi4 dong4 hua4
 BAC009S0744W0309 jue2 de5 chuang4 ye4 de5 shi2 ji1 bi3 jiao4 hao3
-BAC009S0744W0310 ta1 jia1 ru4 le5 yi1 ge4 yan2 fa1 jiao4 yu4 ji1 qi4 ren2 de5 xiang4 mu4
+BAC009S0744W0310 ta1 jia1 ru4 le5 yi2 ge4 yan2 fa1 jiao4 yu4 ji1 qi4 ren2 de5 xiang4 mu4
 BAC009S0744W0311 ta1 zui4 zhong1 yin1 wei4 li3 nian4 bu4 he2 cong2 di4 yi1 jia1 chuang4 ye4 gong1 si1 tui4 chu1
 BAC009S0744W0312 gong1 neng2 tai4 duo1 de5 hua4 bu4 gou4 ji2 zhong1
 BAC009S0744W0313 ping2 wei3 ren4 wei2 tuan2 dui4 ji4 shu4 hen3 hao3
@@ -7353,7 +7353,7 @@ BAC009S0744W0318 dan4 zhe4 bing4 mei2 you3 rang4 ta1 tui4 suo1
 BAC009S0744W0319 chen2 hao4 you3 zhe5 qing1 xing3 de5 ren4 zhi1
 BAC009S0744W0320 zhi3 neng2 shuo1 zhe4 fang1 mian4 ya1 li4 bi3 jiao4 xiao3
 BAC009S0744W0321 xiang3 chuang4 ye4 jiu4 yao4 hao3 hao3 ba3 wo4 hao3
-BAC009S0744W0322 wo3 ba4 jue2 de5 gei3 bie2 ren2 da3 gong1 jiu4 shi4 yi1 ge4 yang4 zi5
+BAC009S0744W0322 wo3 ba4 jue2 de5 gei3 bie2 ren2 da3 gong1 jiu4 shi4 yi2 ge4 yang4 zi5
 BAC009S0744W0323 hui2 jia1 li3 ye3 zong3 you3 kou3 fan4 chi1
 BAC009S0744W0324 can1 jia1 ge2 dou4 ji1 qi4 ren2 bi3 sai4 qi2 shi2 shi4 ti2 sheng1 ge4 ren2 de5 pin3 pai2 jia4 zhi2
 BAC009S0744W0325 wo3 ba3 can1 jia1 bi3 sai4 zhong4 chou2 de5 xiao1 xi1 fa1 dao4 le5 tu3 hao2 qun2 he2 tou2 zi1 ren2 qun2 li3
@@ -7363,7 +7363,7 @@ BAC009S0744W0328 ta1 xi1 wang4 bei4 ren4 ke3 de5 shen1 fen4 bu4 jin3 jin3 shi4 c
 BAC009S0744W0329 ye3 shi4 dong3 de5 zi4 wo3 ying2 xiao1 de5 tuan2 dui4
 BAC009S0744W0330 shen4 zhi4 zai4 can1 jia1 ge2 dou4 ji1 qi4 ren2 bi3 sai4 zhi1 qian2
 BAC009S0744W0331 jiu4 you3 gong1 si1 de5 shi4 chang3 jing1 li3 lai2 lian2 xi4 chen2 hao4
-BAC009S0744W0332 xi1 wang4 neng2 zai4 yi1 ge4 shang1 ye4 huo2 dong4 shang4 zhan3 shi4 ge2 dou4 ji1 qi4 ren2
+BAC009S0744W0332 xi1 wang4 neng2 zai4 yi2 ge4 shang1 ye4 huo2 dong4 shang4 zhan3 shi4 ge2 dou4 ji1 qi4 ren2
 BAC009S0744W0333 zhe4 ye3 gei3 ta1 men5 dai4 lai2 le5 shou1 ru4
 BAC009S0744W0334 ta1 de5 ge2 dou4 ji1 qi4 ren2 hai2 huo4 de2 le5 ying2 shi2 xiang4 ji1 de5 zan4 zhu4
 BAC009S0744W0335 ge2 dou4 ji1 qi4 ren2 de5 tou2 shi4 ge4 xiang4 ji1
@@ -7375,7 +7375,7 @@ BAC009S0744W0340 mu4 qian2 xun4 lian4 jiu4 shi4 zhe4 ge4 shui3 ping2
 BAC009S0744W0341 chu2 le5 can1 jia1 nan2 zi5 bai3 mi3 sai4
 BAC009S0744W0342 zhang1 pei2 meng2 hai2 jiang1 yu3 su1 bing3 tian1 deng3 dui4 you3 can1 jia1 bai3 mi3 jie1 li4 sai4
 BAC009S0744W0343 er2 zhe4 ge4 xiang4 mu4 ye3 cheng2 zai4 zhe5 zhong1 guo2 dui4 chong1 ji1 jiang3 pai2 de5 xi1 wang4
-BAC009S0744W0344 ru2 guo3 xuan3 ze2 ge4 ren2 he2 jie1 li4 qi2 zhong1 yi1 ge4 fa1 li4
+BAC009S0744W0344 ru2 guo3 xuan3 ze2 ge4 ren2 he2 jie1 li4 qi2 zhong1 yi2 ge4 fa1 li4
 BAC009S0744W0345 wo3 ken3 ding4 hui4 ba3 jing1 li4 ji2 zhong1 zai4 jie1 li4 shang4
 BAC009S0744W0346 dan4 zhang1 pei2 meng2 dui4 jie1 xia4 lai2 de5 jie1 li4 bi3 sai4 reng2 jiu4 xin4 xin1 shi2 zu2
 BAC009S0744W0347 ben3 ban3 cai3 xie3 xin1 jing1 bao4 ji4 zhe3 fang2 liang4
@@ -7415,7 +7415,7 @@ BAC009S0744W0380 dai4 lai2 de5 lian2 suo3 fan3 ying4 jiu4 shi4 zhou1 wei2 fang2 
 BAC009S0744W0381 zhong1 guo2 cheng2 shi4 jing1 ji4 xue2 hui4 fu4 hui4 chang2 niu2 feng4 rui4 biao3 shi4
 BAC009S0744W0382 ji1 chu3 she4 shi1 de5 wan2 shan4 jiang1 qi3 dao4 jia4 zhi2 zhuan3 yi2 de5 zuo4 yong4
 BAC009S0744W0383 zai4 dong1 ao4 hui4 xue3 shang4 xiang4 mu4 suo3 zai4 de5 chong2 li3 xian4
-BAC009S0744W0384 wei4 yu2 chong2 li3 wan4 long2 hua2 xue3 chang3 xi1 ce4 de5 tang1 shan1 shu4 de5 yi1 ge4 bie2 shu4 xiang4 mu4
+BAC009S0744W0384 wei4 yu2 chong2 li3 wan4 long2 hua2 xue3 chang3 xi1 ce4 de5 tang1 shan1 shu4 de5 yi2 ge4 bie2 shu4 xiang4 mu4
 BAC009S0744W0385 cheng2 wei2 chong2 li3 xian4 mu4 qian2 zui4 gui4 de5 fang2 di4 chan3 xiang4 mu4
 BAC009S0744W0386 zhong1 guo2 zhi3 shu4 yan2 jiu1 yuan4 de5 bao4 gao4 cheng1
 BAC009S0744W0387 zhang1 jia1 kou3 wei4 yu2 bei3 jing1 shi4 xi1 bei3 bu4
@@ -7424,7 +7424,7 @@ BAC009S0744W0389 zhe4 li3 you3 zhe5 hua2 bei3 di4 qu1 xi1 que1 de5 bing1 xue3 zi
 BAC009S0744W0390 zhang1 jia1 kou3 chong2 li3 xian4 zuo4 wei2 guo2 jia1 ji2 pin2 kun4 xian4
 BAC009S0744W0391 dang1 di4 de5 lou2 jia4 he2 sheng1 huo2 cheng2 ben3 yi3 chu1 xian4 le5 tuo1 jie2
 BAC009S0744W0392 er4 ling2 yi1 wu3 nian2 zhang1 jia1 kou3 shi4 zheng4 fu3 gong1 zuo4 bao4 gao4 zhong1 de5 shu4 ju4 xian3 shi4
-BAC009S0744W0394 zai4 he2 bei3 sheng3 shi2 yi1 ge4 de5 ji2 shi4 zhong1 pai2 ming2 dao4 shu3 di4 si4
+BAC009S0744W0394 zai4 he2 bei3 sheng3 shi2 yi2 ge4 de5 ji2 shi4 zhong1 pai2 ming2 dao4 shu3 di4 si4
 BAC009S0744W0395 fen1 bie2 zeng1 zhang3 bai3 fen1 zhi1 shi2 dian3 er4 he2 bai3 fen1 zhi1 shi2 san1 dian3 san1
 BAC009S0744W0396 cheng2 shi4 ju1 min2 shou1 ru4 wei4 lie4 he2 bei3 sheng3 di4 ba1
 BAC009S0744W0397 yuan3 di1 yu2 quan2 guo2 er4 wan4 ba1 qian1 ba1 bai3 si4 shi2 si4 yuan2 de5 ping2 jun1 shou1 ru4 shui3 ping2
@@ -7497,7 +7497,7 @@ BAC009S0744W0466 ri4 ben3 qin1 hua2 zhan4 fan4 bi3 gong4 jue2 di1 fang4 shui3 zh
 BAC009S0744W0467 zhan4 fan4 chai2 shan1 xi3 ba1 lang2 ri4 ben3 qin1 hua2 zhan4 fan4 bi3 gong4
 BAC009S0744W0468 ri4 ben3 qin1 hua2 zhan4 fan4 bi3 gong4 ceng2 duo1 ci4 yong4 fu2 lu3 lian4 xi2 huo2 ti3 jie3 pou1
 BAC009S0744W0469 ri4 ben3 qin1 hua2 zhan4 fan4 bi3 gong4 xuan3 di4 er4 ji2 tang1 qian3 qian1
-BAC009S0744W0470 ri4 ben3 qin1 hua2 zhan4 fan4 bi3 gong4 ceng2 jiang1 xi4 jun1 tou2 ru4 er4 yi1 ge4 jing3
+BAC009S0744W0470 ri4 ben3 qin1 hua2 zhan4 fan4 bi3 gong4 ceng2 jiang1 xi4 jun1 tou2 ru4 er4 yi2 ge4 jing3
 BAC009S0744W0471 yi1 jiu3 san1 er4 nian2 er4 yue4 can1 jia1 qin1 hua2 zhan4 zheng1
 BAC009S0744W0472 ri4 ben3 gong1 shi3 guo4 ji1 de5 zhong1 guo2 wang3 min2 bing4 fei1 zhu3 liu2
 BAC009S0744W0473 ri4 ben3 fa1 xian4 bei4 fu2 qin1 hua2 ri4 jun1 gong1 shu4 shi3 liao4 ba1 lu4 jun1 you1 dai4 fu2 lu3
@@ -7513,7 +7513,7 @@ BAC009S0744W0484 qie3 wu3 nian2 nei4 bu4 de2 hui2 ri4 ben3
 BAC009S0744W0485 mei2 xiang3 dao4 xiao3 huo3 zi5 jing4 ran2 da1 ying4 le5
 BAC009S0744W0486 yi3 wei2 de2 dao4 yue4 fu4 ren4 ke3 de5 ta1
 BAC009S0744W0488 cheng2 nuo4 yi1 sheng1 zhi3 ai4 ta1 yi1 ren2
-BAC009S0744W0489 ri4 ben3 xiao3 xue2 sheng1 shu1 bao1 shou4 dao4 zhui1 peng2 jia4 zhi2 wu3 ling2 ling2 ling2 yuan2 yi1 ge4
+BAC009S0744W0489 ri4 ben3 xiao3 xue2 sheng1 shu1 bao1 shou4 dao4 zhui1 peng2 jia4 zhi2 wu3 ling2 ling2 ling2 yuan2 yi2 ge4
 BAC009S0744W0490 ri4 ben3 yong4 da4 xing1 xing1 fen4 bian4 ru3 suan1 jun1 zuo4 dan4 gao1 you3 fei1 zhou1 feng1 wei4
 BAC009S0744W0491 shan1 ji2 shou4 yi1 yong4 da4 xing1 xing1 fen4 bian4 ru3 suan1 jun1 zhi4 cheng2 de5 nai3 lao4 dan4 gao1
 BAC009S0744W0492 bei4 cheng1 wei4 da4 xing1 xing1 yan2 jiu1 da4 shi1 de5 ta1
@@ -7580,7 +7580,7 @@ BAC009S0745W0178 er2 zhe4 xie1 dai4 shou4 de5 ding3 ji2 hao2 zhai2 gong1 ying4 t
 BAC009S0745W0179 hai2 shi4 xiang4 mu4 suo3 chu4 de5 he2 xin1 qu1 wei4
 BAC009S0745W0180 dui4 yu2 zheng3 ge4 gao1 duan1 shi4 chang3 jing4 zheng1 ge2 ju2 de5 bai2 re4 hua4 dou1 jiang1 qi3 dao4 cui1 hua4 zuo4 yong4
 BAC009S0745W0181 yu3 gao1 duan1 xiang4 mu4 ji2 zhong1 ru4 shi4 xiang1 dui4 ying1 de5 shi4 cheng2 jiao1 liang4 de5 bu4 duan4 pan1 sheng1
-BAC009S0745W0183 jiu3 ge4 gao1 duan1 xiang4 mu4 zai4 yi1 ge4 yue4 nei4 tong2 shi2 qu3 de5 cheng2 jiao1
+BAC009S0745W0183 jiu3 ge4 gao1 duan1 xiang4 mu4 zai4 yi2 ge4 yue4 nei4 tong2 shi2 qu3 de5 cheng2 jiao1
 BAC009S0745W0184 zhe4 zu2 yi3 zai4 ru4 jin4 liang3 nian2 gao1 duan1 xiang4 mu4 shi4 chang3 de5 ying2 xiao1 ji4 lu4
 BAC009S0745W0185 da4 bu4 fen1 ye4 nei4 ren2 shi4 ren4 wei2
 BAC009S0745W0186 gao1 duan1 ke4 qun2 wu2 lun4 shi4 xu4 ke4 hai2 shi4 cheng2 jiao1 zhou1 qi1 chang2 yu2 yi4 ban1 de5 pu3 tong1 zhu4 zhai2
@@ -7690,7 +7690,7 @@ BAC009S0745W0309 ta1 xi1 wang4 tong1 guo4 bao2 mo2 tai4 yang2 neng2 dian4 chi2 j
 BAC009S0745W0310 deng3 dai4 she4 ji4 de5 tou2 kui1 chu1 yang4 ji1
 BAC009S0745W0311 xiang3 dai4 zhe5 zi4 ji3 de5 gu4 shi4 he2 chan3 pin3 qu4 da3 dong4 qian2 zai4 de5 tou2 zi1 ren2
 BAC009S0745W0312 yan2 jia1 ning2 he2 chen2 hao4 yue1 zai4 le5 xin1 che1 jian1 fu4 jin4 de5 ka1 fei1 guan3 li3 jian4 mian4
-BAC009S0745W0313 di4 yi1 gan3 jue2 shi4 jian4 dao4 yi1 ge4 bi3 xiang3 xiang4 zhong1 lao3 cheng2 de5 jiu3 shi2 hou4
+BAC009S0745W0313 di4 yi1 gan3 jue2 shi4 jian4 dao4 yi2 ge4 bi3 xiang3 xiang4 zhong1 lao3 cheng2 de5 jiu3 shi2 hou4
 BAC009S0745W0314 zhe4 zhong3 lao3 cheng2 huo4 xu3 shi4 ping2 shi2 xi3 huan1 de5 hu4 wai4 qi2 xing2 yun4 dong4 zao4 jiu4 de5
 BAC009S0745W0315 huo4 xu3 shi4 ao2 ye4 can1 jia1 bi3 sai4 dai4 lai2 de5
 BAC009S0745W0316 tong1 guo4 jian4 li4 xian4 shang4 ping2 tai2 yi3 zu3 jian4 lu4 jun1 jia1 kong1 zhan4 bu4 dui4
@@ -7773,7 +7773,7 @@ BAC009S0745W0392 wei4 quan2 guo2 ke3 zai4 sheng1 neng2 yuan2 de5 fa1 zhan3 tan4 
 BAC009S0745W0393 gui1 hua4 zhong1 lie4 chu1 le5 duo1 xiang4 han2 jin1 liang4 ji2 gao1 de5 cuo4 shi1
 BAC009S0745W0394 zhang1 jia1 kou3 shi4 wei3 fu4 shu1 ji4 shi4 zheng4 fu3 dang3 zu3 shu1 ji4 ma3 yu3 jun4 nan2 yan3 ji1 dong4
 BAC009S0745W0395 er4 ling2 yi1 wu3 nian2 qi1 yue4 san1 shi2 yi1
-BAC009S0745W0396 shi4 yi1 ge4 jiang1 zai4 ru4 zhang1 jia1 kou3 shi3 ce4 de5 wei3 da4 shi2 ke4
+BAC009S0745W0396 shi4 yi2 ge4 jiang1 zai4 ru4 zhang1 jia1 kou3 shi3 ce4 de5 wei3 da4 shi2 ke4
 BAC009S0745W0397 zhang1 jia1 kou3 yi1 yue4 deng1 shang4 guo2 ji4 wu3 tai2
 BAC009S0745W0398 mian4 lin2 zhe5 qian1 zai4 nan2 feng2 de5 fa1 zhan3 ji1 yu4
 BAC009S0745W0399 xiang1 xin4 wo3 men5 ge4 xiang4 shi4 ye4 de5 fa1 zhan3 yi2 ding4 hui4 geng4 kuai4 geng4 gao1 geng4 qiang2
@@ -8001,16 +8001,16 @@ BAC009S0746W0248 you3 da4 liang4 de5 chuang4 xin1 xing2 zhong1 xiao3 qi3 ye4 xu1
 BAC009S0746W0249 xu1 yao4 fa1 xing2 zhai4 quan4 zhe4 yang4 yi1 xie1 zhi1 chi2
 BAC009S0746W0250 tong1 guo4 qiang2 hua4 jin1 rong2 fu2 wu4 zhi1 chi2
 BAC009S0746W0251 tong1 guo4 chuang4 tou2 zi1 jin1 geng4 hao3 de5 yin3 dao3
-BAC009S0746W0252 xiang1 guan1 de5 shui4 shou1 ji1 li4 zheng4 ce4 shi4 yi1 ge4 fang1 mian4
+BAC009S0746W0252 xiang1 guan1 de5 shui4 shou1 ji1 li4 zheng4 ce4 shi4 yi2 ge4 fang1 mian4
 BAC009S0746W0253 wei1 ruan3 bang1 zhu4 de2 guo2 gong1 si1 tui1 jin4 shu4 zi4 hua4
 BAC009S0746W0254 de2 guo2 chuang4 zao4 le5 shu4 zi4 hua4 jing1 ji4 qi2 ji4
-BAC009S0746W0255 wei1 ruan3 ye3 ke3 yi3 bang1 zhu4 zhong1 guo2 gong1 si1 jin4 ru4 yi1 ge4 xin1 de5 ceng2 mian4
+BAC009S0746W0255 wei1 ruan3 ye3 ke3 yi3 bang1 zhu4 zhong1 guo2 gong1 si1 jin4 ru4 yi2 ge4 xin1 de5 ceng2 mian4
 BAC009S0746W0256 yi4 fang1 mian4 ti2 gong1 geng4 duo1 jia4 zhi2
 BAC009S0746W0257 qi2 zhong1 hen3 zhong4 yao4 de5 shou3 duan4 shi4 wu4 lian2 wang3
 BAC009S0746W0258 ni3 zen3 yang4 ba3 chan3 pin3 xin4 xi1 yong4 hu4 ti3 yan4 fan3 kui4 gei3 gong1 si1
 BAC009S0746W0259 rang4 gong1 si1 sheng1 chan3 geng4 hao3 de5 chan3 pin3 ti2 gong1 geng4 hao3 de5 fu2 wu4
 BAC009S0746W0260 you3 ji3 ge4 tiao2 jian4 shi4 bi4 bei4 de5
-BAC009S0746W0261 xing2 cheng2 yi1 ge4 da4 gui1 mo2 de5 shu4 ju4
+BAC009S0746W0261 xing2 cheng2 yi2 ge4 da4 gui1 mo2 de5 shu4 ju4
 BAC009S0746W0262 yao4 you3 ba3 zhe4 xie1 shu4 ju4 yong4 shi4 jue2 cheng2 xian4 de5 neng2 li4
 BAC009S0746W0263 yao4 you3 ji1 qi4 xue2 xi2 de5 neng2 li4
 BAC009S0746W0264 ke3 gen1 ju4 bu4 tong2 lai2 yuan2 de5 shu4 ju4
@@ -8020,7 +8020,7 @@ BAC009S0746W0267 ni3 kan4 dao4 yi1 bu4 di4 sen1 ke4 lu3 bo2 de5 dian4 ti1
 BAC009S0746W0268 gai1 gong1 si1 xuan3 ze2 wei1 ruan3 yun2 fu2 wu4 ping2 tai2 yu3 chuan2 tong3 ye4 wu4 jie2 he2
 BAC009S0746W0269 yin1 wei4 wo3 men5 bang1 zhu4 ta1 zheng3 li3 he2 fen1 xi1 yi1 bai3 er4 shi2 wan4 bu4 dian4 ti1 de5 da4 shu4 ju4
 BAC009S0746W0270 ti2 qian2 zuo4 chu1 yu4 ce4 he2 shang1 ye4 jue2 ce4
-BAC009S0746W0271 na3 yi1 bu4 dian4 ti1 zai4 shen2 me5 shi2 hou4 na3 yi1 ge4 ling2 bu4 jian4 yao4 geng1 huan4
+BAC009S0746W0271 na3 yi1 bu4 dian4 ti1 zai4 shen2 me5 shi2 hou4 na3 yi2 ge4 ling2 bu4 jian4 yao4 geng1 huan4
 BAC009S0746W0272 zhe4 xie1 ji4 shu4 ye3 ke3 yi3 ying4 yong4 zai4 zhong1 guo2
 BAC009S0746W0273 bang1 zhu4 zhi4 zao4 cai2 wu4 ling2 shou4 bao3 xian3 ye4 deng3 gong1 si1
 BAC009S0746W0274 ying4 yong4 dui4 wei4 lai2 ke3 neng2 chu1 xian4 wen4 ti2 de5 yu4 ce4
@@ -8051,7 +8051,7 @@ BAC009S0746W0302 ke3 yi3 tong2 yi1 shi2 jian1 zai4 bu4 tong2 she4 bei4 shang4
 BAC009S0746W0303 xiao1 fei4 guan1 geng4 zhong4 shi4 zi4 ji3 de5 zhu3 guan1 xi3 hao4
 BAC009S0746W0304 dui4 chan3 pin3 de5 ge4 xing4 he2 cha1 yi4 yi4 hua4 yao1 qiu2 geng4 gao1
 BAC009S0746W0305 you3 neng2 li4 gui1 bi4 zhe4 xie1 duan3 ban3
-BAC009S0746W0306 shi4 chang3 hai2 jiang1 yun4 yu4 yi1 ge4 pang2 da4 de5 kua4 jing4 gou4 shi4 chang3
+BAC009S0746W0306 shi4 chang3 hai2 jiang1 yun4 yu4 yi2 ge4 pang2 da4 de5 kua4 jing4 gou4 shi4 chang3
 BAC009S0746W0307 kua4 jing4 gou4 ke3 yi3 sou1 luo2 quan2 qiu2 zui4 hao3 de5 shang1 pin3
 BAC009S0746W0308 kua4 jing4 gou4 shi4 zai4 jin4 yi1 nian2 kua4 jing4 dian4 zi5 shang1 wu4 shi4 dian3 zheng4 ce4 fang4 kai1 hou4
 BAC009S0746W0309 shi4 chang3 kai1 shi3 qi3 dong4 bing4 xun4 su4 fa1 zhan3
@@ -8068,7 +8068,7 @@ BAC009S0746W0319 wang2 tian2 guo2 nei4 gui1 mo2 yi3 shang4 de5 chuan2 tong3 ling
 BAC009S0746W0320 shen1 zhen4 tian1 hong2 fu2 jian4 yong3 hui1 ye3 zai4 ji1 ji2 jian4 quan2 qu2 dao4 shang4 quan2 qiu2 gou4
 BAC009S0746W0321 wu4 mei3 deng3 jin4 xing2 sheng1 xian1 bian4 ge2
 BAC009S0746W0322 dan4 chuan2 tong3 ling2 shou4 qi3 ye4 zai4 zhuan3 xing2 chu4 wang3 de5 gui3 ji1 zhong1
-BAC009S0746W0323 wo3 men5 di4 yi1 ge4 wang3 luo4 ling2 shou4 jiu4 shi4 bu4 bu4 gao1 wang3 shang4 shang1 cheng2
+BAC009S0746W0323 wo3 men5 di4 yi2 ge4 wang3 luo4 ling2 shou4 jiu4 shi4 bu4 bu4 gao1 wang3 shang4 shang1 cheng2
 BAC009S0746W0324 zhe4 ge4 shi4 wo3 men5 zuo4 le5 liu4 ge4 yue4 yi3 hou4 fa1 xian4 bu4 xing2
 BAC009S0746W0325 yin1 wei4 wang3 shang4 shang1 cheng2 mei2 you3 gei3 xiao1 fei4 zhe3 ti2 gong1 zeng1 liang4
 BAC009S0746W0326 fan3 er2 zeng1 jia1 le5 hen3 duo1 cheng2 ben3
@@ -8085,7 +8085,7 @@ BAC009S0746W0339 mei3 ge4 shen1 ju1 qi2 zhong1 de5 ren2 zheng4 zai4 zhen1 qie4 g
 BAC009S0746W0340 zhang1 jia1 kou3 ju4 li2 bei3 jing1 er4 bai3 gong1 li3 zuo3 you4
 BAC009S0746W0341 dan4 shi4 lai2 wang3 liang3 di4 zuo4 huo3 che1 yao4 yue1 san1 ge4 xiao3 shi2
 BAC009S0746W0342 zuo4 qi4 che1 da4 ba1 si4 ge4 xiao3 shi2
-BAC009S0746W0343 jiao1 tong1 shi2 jian1 jiang1 suo1 duan3 dao4 yi1 ge4 xiao3 shi2 zhi1 nei4
+BAC009S0746W0343 jiao1 tong1 shi2 jian1 jiang1 suo1 duan3 dao4 yi2 ge4 xiao3 shi2 zhi1 nei4
 BAC009S0746W0344 sui2 zhe5 zhang1 jia1 kou3 de5 zhi1 ming2 du4 da4 fu2 ti2 sheng1
 BAC009S0746W0345 yi1 wei4 zhang1 jia1 kou3 shi4 min2 shuo1 zhi1 qian2 tai4 gan1 ga4 le5
 BAC009S0746W0346 zong3 bei4 ren2 shuo1 cheng2 shi4 zhang1 jia1 gang3 zhang1 jia1 jie4
@@ -8113,14 +8113,14 @@ BAC009S0746W0368 ran2 hou4 you4 hui2 gui1 ao4 yun4 quan2 ji1
 BAC009S0746W0370 zhang1 jia1 wei3 shou3 xian1 yao4 zhan4 sheng4 de5 shi4 ta1 zi4 ji3
 BAC009S0746W0372 jiang1 li3 yue1 ao4 yun4 hui4 de5 di4 er4 ge4 can1 sai4 zi1 ge2 shou1 ru4 nang2 zhong1
 BAC009S0746W0373 cong2 er2 chuang4 ji4 lu4 ban1 de5 wan2 cheng2 le5 ji1 hu1 bu4 ke3 neng2 wan2 cheng2 de5 ren4 wu4
-BAC009S0746W0374 wei4 zhong1 guo2 quan2 ji1 de5 li3 yue1 ao4 yun4 zheng1 cheng2 kai1 le5 yi1 ge4 hao3 tou2
+BAC009S0746W0374 wei4 zhong1 guo2 quan2 ji1 de5 li3 yue1 ao4 yun4 zheng1 cheng2 kai1 le5 yi2 ge4 hao3 tou2
 BAC009S0746W0375 gen1 dui4 you3 lv3 bin1 suo3 zai4 de5 geng4 rong2 yi4 chu1 cheng2 ji1 de5 si4 jiu3 gong1 jin1 ji2 xiang1 bi3
 BAC009S0746W0377 xiang1 dui4 ku1 zao4 de5 shu4 ju4 bing4 bu4 neng2 shuo1 ming2 suo3 you3 wen4 ti2
 BAC009S0746W0378 ru2 guo3 wo3 men5 jiang1 zhang1 jia1 wei3 tou2 shen1 quan2 tai2 shi2 ji3 nian2 de5 pian4 duan4 pai1 cheng2 yi1 bu4 dian4 ying3
 BAC009S0746W0379 na4 me5 cheng2 xian4 zai4 wo3 men5 mian4 qian2 de5 jiang1 shi4 yi1 bu4 zheng4 neng2 liang4 shi2 zu2 de5 li4 zhi4 da4 pian4
 BAC009S0746W0380 wan2 lie4 hao4 dong4 xi1 wang4 wei4 jia1 ting2 jian3 fu4
 BAC009S0746W0381 zhang1 jia1 wei3 shi2 yi1 sui4 zou3 shang4 quan2 ji1 zhi1 lu4
-BAC009S0746W0382 zhang1 jia1 wei3 chu1 sheng1 zai4 fu2 jian4 ning2 de2 yi1 ge4 xiao3 shan1 cun1
+BAC009S0746W0382 zhang1 jia1 wei3 chu1 sheng1 zai4 fu2 jian4 ning2 de2 yi2 ge4 xiao3 shan1 cun1
 BAC009S0746W0383 fu4 mu3 dou1 shi4 lao3 shi2 ben3 fen4 de5 nong2 min2
 BAC009S0746W0384 shao3 shi2 de5 zhang1 jia1 wei3 wan2 lie4 hao4 dong4
 BAC009S0746W0385 du2 shu1 ji1 hu1 shi4 nong2 cun1 wa2 chu1 ren2 tou2 de5 gai3 bian4 ming4 yun4 de5 wei2 yi1 chu1 lu4
@@ -8172,7 +8172,7 @@ BAC009S0746W0432 shi2 ge2 ban4 nian2 jin1 bo2 ru4 jiu3 reng2 wu2 ding4 lun4 duo1
 BAC009S0746W0433 xin1 jing1 bao4 ji4 zhe3 wang2 yuan3 zheng1 she4
 BAC009S0746W0434 wang4 wang4 qi3 su4 zhang3 da4 guo3 dong4 ye1 si3 er2 tong2 qin1 quan2 zhi4 pin3 pai2 shou4 sun3
 BAC009S0746W0435 zhe4 ge4 guo3 dong4 zheng4 shi4 wang4 wang4 guo3 dong4
-BAC009S0746W0436 ju4 zhong1 huan2 gei3 le5 wang4 wang4 guo3 dong4 yi1 ge4 te4 xie3
+BAC009S0746W0436 ju4 zhong1 huan2 gei3 le5 wang4 wang4 guo3 dong4 yi2 ge4 te4 xie3
 BAC009S0746W0437 jiang1 dian4 shi4 ju4 zhang3 da4 de5 si4 jia1 chu1 pin3 gong1 si1 qi3 su4 dao4 le5 pu3 dong1 fa3 yuan4
 BAC009S0746W0438 kun1 ling2 suo3 zhu4 yue4 zi5 zhong1 xin1 bao4 guang1 qi2 suo3 zai4 liu4 lou2 yi2 si4 bei4 bao1 ceng2
 BAC009S0746W0439 tai2 wan1 mei2 ti3 bao4 liao4 zhou1 jie2 lun2 yi3 sheng1 ji2 dang1 die1
@@ -8192,7 +8192,7 @@ BAC009S0746W0452 san1 ming2 nan2 zi5 zheng4 zai4 he2 bian1 shi3 yong4 yi1 ba3 ch
 BAC009S0746W0453 bei4 she4 qu1 gong1 zuo4 ren2 yuan2 fa1 xian4 bing4 bao4 jing3
 BAC009S0746W0454 xian2 yi2 ren2 he2 mou3 cong2 wang3 shang4 gou4 mai3 qi4 qiang1
 BAC009S0746W0455 yue1 le5 peng2 you3 ma3 mou3 sa1 mou3 zai4 xiao3 he2 bian1 shi4 qiang1
-BAC009S0746W0456 xian4 chang3 hai2 jiao3 huo4 qian1 dan4 yi1 he2 qi4 ping2 yi1 ge4 da3 qi4 tong3 yi1 ge4
+BAC009S0746W0456 xian4 chang3 hai2 jiao3 huo4 qian1 dan4 yi1 he2 qi4 ping2 yi2 ge4 da3 qi4 tong3 yi2 ge4
 BAC009S0746W0457 mu4 qian2 an4 jian4 zheng4 zai4 diao4 cha2 zhong1
 BAC009S0746W0458 kun1 ming2 wu3 sui4 nan2 tong2 qi1 lou2 pa2 chuang1 zhui4 luo4 diao4 zai4 lou2 xia4 qiao2 che1 shang4 xing4 cun2
 BAC009S0746W0459 wai4 po2 xia4 lou2 wei4 xiao3 sun1 zi5 mai3 niu2 nai3
@@ -8200,8 +8200,8 @@ BAC009S0746W0460 jiu4 zai4 zhe4 duan3 duan3 de5 ji3 fen1 zhong1 li3
 BAC009S0746W0461 hao4 qi2 de5 sun1 zi5 que4 na2 zhe5 shui3 bei1 pa2 shang4 le5 chu2 fang2 chuang1 hu4 yi1 sheng1 ju4 xiang3
 BAC009S0746W0462 shui3 bei1 za2 sui4 zai4 chuang1 wai4 de5 ma3 lu4 shang4
 BAC009S0746W0463 bei4 xia4 le5 yi1 tiao4 de5 ren2 men5 gang1 cou4 guo4 lai2 cha2 kan4
-BAC009S0746W0464 yi1 ge4 xiao3 nan2 hai2 yi3 cong2 qi1 lou2 chuang1 hu4 diao4 zai4 lou2 xia4 jiao4 che1 hou4 bei4 xiang1 gai4 shang4
-BAC009S0746W0465 jiang1 jiao4 che1 hou4 bei4 xiang1 gai4 za2 chu1 le5 yi1 ge4 da4 keng1
+BAC009S0746W0464 yi2 ge4 xiao3 nan2 hai2 yi3 cong2 qi1 lou2 chuang1 hu4 diao4 zai4 lou2 xia4 jiao4 che1 hou4 bei4 xiang1 gai4 shang4
+BAC009S0746W0465 jiang1 jiao4 che1 hou4 bei4 xiang1 gai4 za2 chu1 le5 yi2 ge4 da4 keng1
 BAC009S0746W0466 wen2 xun4 er2 lai2 de5 wai4 po2 bao4 qi3 sun1 zi5 xia4 de2 tan1 zuo4 zai4 lu4 bian1
 BAC009S0746W0467 zhe4 jing1 xian3 de5 yi2 mu4 fa1 sheng1 zai4 zuo2 tian1 xia4 wu3 si4 dian3 duo1
 BAC009S0746W0468 di4 dian3 shi4 kun1 ming2 xun2 jin1 xin1 cun1 yi1 dong4 ju1 min2 lou2
@@ -8361,7 +8361,7 @@ BAC009S0747W0249 yi4 di4 ke3 yi3 gong1 ji1 jin1 dai4 kuan3 mai3 fang2 ma5
 BAC009S0747W0250 fa1 gai3 wei3 ben3 yue4 jian3 cha2 yin2 hang2 dai4 kuan3 luan4 shou1 fei4
 BAC009S0747W0251 ji4 zhe3 zuo2 ri4 cong2 quan2 wei1 xiao1 xi1 ren2 shi4 huo4 xi1
 BAC009S0747W0252 fa1 gai3 wei3 jin4 qi1 jiu4 jiang1 zai4 quan2 guo2 kai1 zhan3 yin2 hang2 luan4 shou1 fei4 da4 jian3 cha2
-BAC009S0747W0254 shi2 xian4 yi1 ge4 ying4 yong4 yi1 ci4 kai1 fa1
+BAC009S0747W0254 shi2 xian4 yi2 ge4 ying4 yong4 yi1 ci4 kai1 fa1
 BAC009S0747W0255 zai4 suo3 you3 she4 bei4 shang4 dou1 ke3 yi3 shi3 yong4
 BAC009S0747W0256 zhe4 shi4 ruan3 jian4 hang2 ye4 duo1 nian2 yi3 lai2 de5 meng4 xiang3
 BAC009S0747W0257 yi2 dong4 hu4 lian2 wang3 de5 lang4 chao2 zheng4 pu1 mian4 er2 lai2
@@ -8392,7 +8392,7 @@ BAC009S0747W0297 di4 er4 sou1 tai4 kong1 chuan2 zheng4 zai4 jian4 zao4
 BAC009S0747W0298 zui4 zao3 jiang1 zai4 ming2 nian2 xia4 tian1 zai4 ci4 shi4 fei1
 BAC009S0747W0299 liang3 ming2 fei1 xing2 yuan2 yi1 ren2 tiao4 san3 tao2 sheng1 hou4 shou4 shang1
 BAC009S0747W0300 tai4 kong1 chuan2 can2 hai2 san4 luo4 zai4 sha1 mo4
-BAC009S0747W0302 chu1 bu4 huai2 yi2 shi4 fu4 jia4 shi3 guo4 zao3 qi3 dong4 yi1 ge4 an1 quan2 zhuang1 zhi4 dao3 zhi4 shi4 gu4
+BAC009S0747W0302 chu1 bu4 huai2 yi2 shi4 fu4 jia4 shi3 guo4 zao3 qi3 dong4 yi2 ge4 an1 quan2 zhuang1 zhi4 dao3 zhi4 shi4 gu4
 BAC009S0747W0305 yao4 shi4 ying4 xiao1 fei4 zhe3 de5 bian4 hua4 chong2 xin1 jing1 zhun3 ding4 wei4
 BAC009S0747W0306 xu1 yao4 tong1 guo4 duo1 zhong3 shou3 duan4 he2 qu2 dao4 ying2 xiao1
 BAC009S0747W0307 rang4 bu4 tong2 nian2 ling2 jie1 duan4 de5 xiao1 fei4 zhe3 dou1 neng2 sui2 shi2 jie1 chu4 dao4
@@ -8410,7 +8410,7 @@ BAC009S0747W0320 xian4 shang4 zeng1 liang4 bu4 fen4 he2 zuo4 fen1 xiang3 shou1 y
 BAC009S0747W0321 tong1 guo4 yu3 you1 xiu4 de5 fu2 wu4 shang1 he2 zuo4
 BAC009S0747W0322 ke3 yi3 xiang4 ke4 hu4 ti2 gong1 yi1 zheng3 tao4 sheng1 huo2 fu2 wu4
 BAC009S0747W0325 wang2 tian2 xian4 zai4 de5 yun2 hou2 shi4 ge4 da4 ping2 tai2
-BAC009S0747W0326 wei4 lai2 xi1 wang4 neng2 gou4 jian4 cheng2 yi1 ge4 shang1 ye4 sheng1 xi4 tong3
+BAC009S0747W0326 wei4 lai2 xi1 wang4 neng2 gou4 jian4 cheng2 yi2 ge4 shang1 ye4 sheng1 xi4 tong3
 BAC009S0747W0327 han2 gai4 shang1 pin3 sheng1 huo2 fu2 wu4 wen2 hua4 yi1 liao2 jiao4 yu4 deng3 duo1 fang1 mian4
 BAC009S0747W0329 yu3 zhe4 xie1 shang1 jia1 bu4 shi4 jian3 dan1 de5 he2 zuo4
 BAC009S0747W0330 er2 shi4 yi1 qi3 wei4 ping2 tai2 yong4 hu4 ti2 gong1 fu2 wu4
@@ -8422,7 +8422,7 @@ BAC009S0747W0336 mei3 ge4 bian4 li4 dian4 shi4 ge4 xiao3 bi4 duan1
 BAC009S0747W0337 wo3 men5 mu4 qian2 zai4 zhang3 zhu1 tan2 gong4 you3 er4 bai3 jia1 zhi2 ying2 bian4 li4 dian4 hui4 mi3 ba1
 BAC009S0747W0338 jin3 guan3 zhang1 jia1 wei3 zai4 ta1 suo3 zai4 de5 ji2 bie2 yi3 jing1 qu3 de5 le5 xiang1 dang1 bu4 cuo4 de5 cheng2 ji1
 BAC009S0747W0339 dan4 shi4 yi1 zhao1 mei2 you3 da2 dao4 jin4 jun1 ao4 yun4 hui4 de5 mu4 biao1 ye3 bu4 neng2 xie4 dai4
-BAC009S0747W0340 quan2 ji1 xun4 lian4 guan3 li3 duo1 le5 yi1 ge4 feng1 zi5
+BAC009S0747W0340 quan2 ji1 xun4 lian4 guan3 li3 duo1 le5 yi2 ge4 feng1 zi5
 BAC009S0747W0341 zhang1 jia1 wei3 de5 quan2 bu4 sheng1 huo2 zhong4 xin1 ye3 zhi3 you3 quan2 ji1 er4 zi4
 BAC009S0747W0342 guo4 duo1 de5 ku3 lian4 dao3 zhi4 ta1 de5 zuo3 shou3 bao3 shou4 shang1 bing4 de5 zhe2 mo2
 BAC009S0747W0343 na4 shi4 gu2 tou5 bei4 da3 wan1 long2 qi3 hou4 de5 hou4 yi2 zheng4
@@ -8465,7 +8465,7 @@ BAC009S0747W0381 zhe4 ye3 shi4 guang3 dong1 quan2 shou3 duo2 de5 de5 di4 er4 tia
 BAC009S0747W0382 lv3 bin1 zai4 gui4 yang2 cheng2 gong1 wei4 mian3 si4 shi2 jiu3 gong1 jin1 ji2 guo2 ji4 quan2 lian2 shi4 jie4 quan2 wang2
 BAC009S0747W0383 zhang1 jia1 wei3 de5 dui4 shou3 shi4 lai2 zi4 fa3 guo2 de5 lao3 jiang4 de2 yue1 ji1 er3
 BAC009S0747W0384 ci3 ren2 wu2 lun4 shi4 shi2 li4 hai2 shi4 jing1 yan4 dou1 zhan4 ju4 shang4 feng1
-BAC009S0747W0385 ta1 shi4 di4 yi1 ge4 cong2 ao4 yun4 quan2 ji1 zhuan3 ru4 zhi2 ye4 quan2 ji1
+BAC009S0747W0385 ta1 shi4 di4 yi2 ge4 cong2 ao4 yun4 quan2 ji1 zhuan3 ru4 zhi2 ye4 quan2 ji1
 BAC009S0747W0386 ran2 hou4 you4 zai4 hui2 gui1 ao4 yun4 quan2 ji1 de5 quan2 shou3
 BAC009S0747W0387 bu4 jin3 zai4 guo2 ji4 quan2 lian2 quan2 ji1 sai4 chang3 shang4 zhan3 huo4 wu2 shu4 rong2 yu4
 BAC009S0747W0388 can1 jia1 guo4 ya3 dian3 ao4 yun4 hui4 he2 bei3 jing1 ao4 yun4 hui4
@@ -8581,7 +8581,7 @@ BAC009S0748W0133 xiao1 shou4 zong3 e2 pai2 zai4 shou3 wei4 de5 zhen1 yuan2 jun1 
 BAC009S0748W0134 gao1 duan1 shi4 chang3 zheng3 ti3 huo2 yue4 du4 hai2 jiang1 yi4 zhi2 chi2 xu4 zhi4 ming2 nian2 nian2 chu1
 BAC009S0748W0135 xiang1 bi3 er4 ling2 yi1 si4 nian2 yi2 yue4 ru4 shi4 xiang4 mu4 ge4 shu4 you3 suo3 zeng1 jia1
 BAC009S0748W0136 dan4 shi4 xiang1 bi3 qian2 liang3 ge4 yue4 gong1 ying4 chu1 xian4 da4 fu2 suo1 jian3
-BAC009S0748W0137 zai4 ji4 hua4 ru4 shi4 de5 shi2 yi1 ge4 xiang4 mu4 dang1 zhong1
+BAC009S0748W0137 zai4 ji4 hua4 ru4 shi4 de5 shi2 yi2 ge4 xiang4 mu4 dang1 zhong1
 BAC009S0748W0138 dan1 jia4 wu3 wan4 yuan2 yi3 shang4 de5 hao2 zhai2 xiang4 mu4 jiu4 you3 san1 ge4
 BAC009S0748W0139 jing1 hua2 shi2 bao4 xun4 ji4 zhe3 pan1 xiu4 lin2 zuo2 tian1
 BAC009S0748W0140 ya4 hao2 ji1 gou4 fa1 bu4 bei3 jing1 shang1 pin3 zhu4 zhai2 xiao1 shou4 ye4 ji1 pai2 hang2
@@ -8690,8 +8690,8 @@ BAC009S0748W0253 dan4 ju4 ti3 yuan2 yin1 hai2 you3 dai4 diao4 cha2
 BAC009S0748W0254 wei2 zhen1 yin2 he2 tai4 kong1 chuan2 shi4 shi4 jie4 shang4 di4 yi1 jia4 shang1 ye4 tai4 kong1 chuan2
 BAC009S0748W0255 bing4 biao3 shi4 jiang1 ji4 xu4 jin4 xing2 tai4 kong1 lv3 you2 ji4 hua4
 BAC009S0748W0256 wei2 zhen1 yin2 he2 shou3 xi2 zhi2 xing2 guan1 qiao2 zhi4 huai2 te4 sai1 zi1 wu3 ri4 dui4 mei3 lian2 she4 biao3 shi4
-BAC009S0748W0257 ta1 bu4 ren4 wei2 zhe4 ci4 shi4 gu4 hui4 cheng2 wei4 fa1 zhan3 tai4 kong1 lv3 you2 de5 yi1 ge4 zhang4 ai4
-BAC009S0748W0258 jin3 guan3 ta1 cheng2 ren4 shi4 gu4 wu2 yi2 shi4 yi1 ge4 bei1 ju4 xing4 de5 cuo4 zhe2
+BAC009S0748W0257 ta1 bu4 ren4 wei2 zhe4 ci4 shi4 gu4 hui4 cheng2 wei4 fa1 zhan3 tai4 kong1 lv3 you2 de5 yi2 ge4 zhang4 ai4
+BAC009S0748W0258 jin3 guan3 ta1 cheng2 ren4 shi4 gu4 wu2 yi2 shi4 yi2 ge4 bei1 ju4 xing4 de5 cuo4 zhe2
 BAC009S0748W0259 dan4 gong1 si1 you3 neng2 li4 cong2 cuo4 zhe2 zhong1 chong2 xin1 zhan4 qi3 lai2
 BAC009S0748W0260 wei2 zhen1 yin2 he2 zheng4 zai4 jian4 zao4 de5 di4 er4 sou1 yi3 jing1 wan2 cheng2 le5 bai3 fen1 zhi1 liu4 shi2 wu3
 BAC009S0748W0261 gong1 ren2 men5 zhuan1 zhu4 yu2 jian4 zao4 xin1 tai4 kong1 chuan2
@@ -8770,7 +8770,7 @@ BAC009S0748W0344 di4 qi1 ju2 zhang1 jia1 wei3 hui1 fu4 guo4 lai2
 BAC009S0748W0345 dan4 di4 ba1 ju2 zhang1 jia1 wei3 zai4 dui4 shou3 de5 ji1 lie4 jin4 gong1 zhong1 chi1 le5 ji3 ji4 zhong4 quan2
 BAC009S0748W0346 hao3 zai4 zhang1 jia1 wei3 de5 kang4 ji1 da3 neng2 li4 hen3 qiang2
 BAC009S0748W0347 zhi1 hou4 liang3 ju2 shuang1 fang1 ge4 sheng4 yi1 ju2
-BAC009S0748W0348 zhang1 jia1 yi1 zuo4 wei4 yi1 ge4 fan3 jia4 quan2 shou3
+BAC009S0748W0348 zhang1 jia1 yi1 zuo4 wei4 yi2 ge4 fan3 jia4 quan2 shou3
 BAC009S0748W0349 bian4 hua4 duo1 duan1 de5 quan2 lu4 shi3 de5 de2 yue1 ji1 er3 wu2 ke3 wu2 ji4 ke3 shi1
 BAC009S0748W0350 er2 zhang1 jia1 yi1 yue4 da3 yue4 you3 xin4 xin1
 BAC009S0748W0351 zui4 zhong1 yi3 yi4 bai3 yi1 shi2 liu4 bi3 yi4 bai3 yi1 shi2 er4 da4 sheng4
@@ -8849,7 +8849,7 @@ BAC009S0748W0430 gong1 zuo4 wei4 ci3 quan2 mian4 zan4 ting2
 BAC009S0748W0431 kun1 ming2 xue2 yuan4 wang3 shou4 bi4 ye4 sheng1 xiao4 fang1 mai4 ren2 shi4 wei4 le5 mai3 ren2
 BAC009S0748W0432 bang1 xue2 sheng1 jin3 kuai4 zhao3 dao4 gong1 zuo4
 BAC009S0748W0433 kun1 ming2 xue2 yuan4 ba3 di4 yi1 pi1 liu4 wu3 ming2 you1 xiu4 bi4 ye4 sheng1 quan2 bu4 ban1 dao4 le5 tao2 bao3 wang3
-BAC009S0748W0434 mei3 yi1 ge4 bao3 bei4 ming2 ma3 biao1 jia4
+BAC009S0748W0434 mei3 yi2 ge4 bao3 bei4 ming2 ma3 biao1 jia4
 BAC009S0748W0435 zhe4 shi4 guo2 nei4 shou3 pi1 gao1 xiao4 bi4 ye4 sheng1 yi3 shang1 pin3 hua4 xing2 shi4 liang4 xiang1
 BAC009S0748W0436 kun1 ming2 guan1 fang1 hui2 ying4 guo2 zi1 ting2 che1 shou1 fei4 gao1 jia4 ge2 zan4 bu4 tiao2 zheng3
 BAC009S0748W0437 kun1 ming2 xin4 xi1 gang3 xun4 ji4 zhe3 zhang1 zhao1
@@ -8944,12 +8944,12 @@ BAC009S0749W0157 gei3 zhang1 jia1 kou3 dai4 lai2 le5 nan2 de2 de5 ji1 yu4
 BAC009S0749W0158 zhang1 jia1 kou3 jiang1 zou3 shang4 ke3 chi2 xu4 fa1 zhan3 zhi1 lu4
 BAC009S0749W0159 feng2 kui2 ze2 cong2 bu4 tong2 jie1 duan4 gei3 chu1 le5 zhang1 jia1 kou3 de5 fa1 zhan3 zhi1 lu4
 BAC009S0749W0160 qi2 biao3 shi4 dui4 yu2 zhang1 jia1 kou3 yu3 chong2 li3 lai2 shuo1
-BAC009S0749W0161 zhang1 jia1 kou3 yu3 chong2 li3 jiang1 che4 di3 cong2 yi1 ge4 qu1 yu4 xing4 de5 zhong1 xiao3 cheng2 shi4
+BAC009S0749W0161 zhang1 jia1 kou3 yu3 chong2 li3 jiang1 che4 di3 cong2 yi2 ge4 qu1 yu4 xing4 de5 zhong1 xiao3 cheng2 shi4
 BAC009S0749W0162 zhuan3 bian4 wei4 guo2 ji4 hua4 you3 te4 se4 de5 zhong1 xiao3 cheng2 shi4
 BAC009S0749W0163 ji1 chu3 she4 shi1 fu2 wu4 bao3 zhang4 deng3 fang1 mian4 jiang1 you3 ji2 da4 ti2 sheng1
 BAC009S0749W0164 dong1 ao4 hou4 de5 zhang1 jia1 kou3 yu3 chong2 li3
 BAC009S0749W0165 ru2 he2 shi2 xian4 ke3 chi2 xu4 fa1 zhan3
-BAC009S0749W0166 wei4 lai2 ye3 shi4 yi1 ge4 xu1 yao4 si1 kao3 de5 zhong4 da4 wen4 ti2
+BAC009S0749W0166 wei4 lai2 ye3 shi4 yi2 ge4 xu1 yao4 si1 kao3 de5 zhong4 da4 wen4 ti2
 BAC009S0749W0167 wo3 men5 er4 ling2 yi1 ling2 nian2 zai4 wei4 chong2 li3 xian4 zhi4 ding4 fa1 zhan3 zhan4 lve4 shi2
 BAC009S0749W0168 er2 zhe4 xu1 yao4 jing1 zhang1 chong2 li3 gong4 tong2 nu3 li4
 BAC009S0749W0169 xu1 yao4 zheng4 fu3 yu3 qi3 ye4 gong4 tong2 tou2 zi1 he2 zuo4
@@ -9010,7 +9010,7 @@ BAC009S0749W0239 yi4 you3 zhuan3 shen1 cheng2 wei2 zhe4 yi1 xie2 hui4 hui4 yuan2
 BAC009S0749W0240 you3 ye4 nei4 ren2 shi4 si1 xia4 gao4 su4 ji4 zhe3
 BAC009S0749W0242 zheng4 jian1 hui4 ban1 bu4 zan4 xing2 gui1 ding4
 BAC009S0749W0243 ying1 xiang4 ji1 jin1 ye4 xie2 hui4 shen1 qing3 deng1 ji4
-BAC009S0749W0244 shi4 zhen1 dui4 yi1 ge4 yue4 qian2 zheng4 jian1 hui4 de5 dong4 zuo4
+BAC009S0749W0244 shi4 zhen1 dui4 yi2 ge4 yue4 qian2 zheng4 jian1 hui4 de5 dong4 zuo4
 BAC009S0749W0245 zhe4 shi4 shuang1 fang1 zheng1 duo2 jian1 guan3 quan2 de5 di4 san1 ji4
 BAC009S0749W0246 guo1 wei4 feng1 hu1 yu4 jian1 guan3 ceng2 ying1 xie2 tiao2 jian1 guan3 ji1 zhi4
 BAC009S0749W0247 fa1 gai3 wei3 cheng1 xia4 ban4 nian2 bao3 chi2 zheng4 ce4 lian2 xu4 wen3 ding4
@@ -9156,7 +9156,7 @@ BAC009S0749W0402 zai4 tan2 dao4 zhi1 qian2 de5 jin4 sai4 feng1 bo1 shi2
 BAC009S0749W0403 zhang1 wen2 xiu4 zai4 qu4 nian2 ren2 chuan1 ya4 yun4 hui4 qian2
 BAC009S0749W0404 ying3 pian1 de5 di4 yi1 pi1 ju4 zhao4 he2 pian4 chang3 zhao4 bao4 guang1
 BAC009S0749W0405 chao1 fan2 zhi1 zhu1 xia2 an1 de2 lu3 jia1 fei1 er3 de2 zai4 pian4 zhong1 xing2 xiang4 da4 bian4
-BAC009S0749W0406 ban4 yan3 le5 yi1 ge4 hu2 zi5 la1 cha2
+BAC009S0749W0406 ban4 yan3 le5 yi2 ge4 hu2 zi5 la1 cha2
 BAC009S0749W0407 kan4 qi3 lai2 fei1 chang2 cang1 sang1 de5 shen2 fu4
 BAC009S0749W0409 hui2 lai2 jiu4 hao3
 BAC009S0749W0411 wai1 tou2 lu4 chu1 can4 lan4 wei1 xiao4
@@ -9166,7 +9166,7 @@ BAC009S0749W0414 bing4 liu2 yan2 ji3 pian4 pin1 tu2
 BAC009S0749W0415 yi1 fu4 yi1 fu4 yan3 jing4
 BAC009S0749W0417 sou1 hu2 yu2 le4 xun4 ju4 tai2 wan1 mei2 ti3 bao4 dao4
 BAC009S0749W0419 bu4 xiao3 xin1 shuai1 dao3 ca1 shang1 zuo3 ban4 bian1 lian3
-BAC009S0749W0420 xiang4 kang1 xi1 lai2 le5 gao4 jia4 xiu1 yang3 yi1 ge4 ban4 yue4
+BAC009S0749W0420 xiang4 kang1 xi1 lai2 le5 gao4 jia4 xiu1 yang3 yi2 ge4 ban4 yue4
 BAC009S0749W0421 liu4 yue4 san1 ri4 zhong1 yu2 chong2 xin1 hui2 gui1
 BAC009S0749W0422 he2 da1 dang4 cai4 kang1 yong3 he2 ti3 lu4 ying3
 BAC009S0749W0423 bu4 zhi3 xu3 duo1 zhong1 shi2 guan1 zhong4 da4 hu1 hao3 gan3 dong4
@@ -9176,7 +9176,7 @@ BAC009S0749W0427 qian2 wan3 zai4 jing1 lu4 zhi4 jie2 mu4 de5 cai4 kang1 yong3 zh
 BAC009S0749W0428 jie2 mu4 hai2 yao4 ji4 xu4 lu4
 BAC009S0749W0429 ta1 que1 xi2 de5 yuan2 yin1 zhi3 shi4 tian1 zhen1 de5 yi3 wei2 ke3 yi3 chen4 ji1 fang4 ge4 jia3
 BAC009S0749W0430 sou1 hu2 yu2 le4 xun4 ju4 tai2 wan1 mei2 ti3 bao4 dao4
-BAC009S0749W0431 mai4 fang1 xi1 wang4 xun2 yi1 ge4 ai4 xin1 mai3 zhu3
+BAC009S0749W0431 mai4 fang1 xi1 wang4 xun2 yi2 ge4 ai4 xin1 mai3 zhu3
 BAC009S0749W0432 wo3 ye3 she3 bu4 de2 na2 chu1 lai2 mai4 de5
 BAC009S0749W0433 yang2 tuo2 de5 zhu3 ren2 fang1 xian1 sheng1 gao4 su4 ji4 zhe3
 BAC009S0749W0434 zhe4 zhi3 yang2 tuo2 ming2 zi4 jiao4 da4 bai2
@@ -9309,8 +9309,8 @@ BAC009S0750W0185 gai1 xiang4 mu4 shi4 ci3 ci4 can1 yu4 fang2 zhan3 hui4 dan1 jia
 BAC009S0750W0186 ping2 jun1 shou4 jia4 gao1 da2 wu3 wan4 yuan2
 BAC009S0750W0187 jing1 ji4 fang4 huan3 shi4 tiao2 kong4 jie2 guo3
 BAC009S0750W0188 shang4 ban4 nian2 guo2 nei4 sheng1 chan3 zong3 zhi2 tong2 bi3 zeng1 zhang3 xun4 su4
-BAC009S0750W0189 bi3 shang4 ban4 nian2 hui2 luo4 le5 yi1 ge4 bai3 fen1 dian3
-BAC009S0750W0190 bi3 jin1 nian2 yi1 ji4 du4 hui2 luo4 le5 ling2 dian3 yi1 ge4 bai3 fen1 dian3
+BAC009S0750W0189 bi3 shang4 ban4 nian2 hui2 luo4 le5 yi2 ge4 bai3 fen1 dian3
+BAC009S0750W0190 bi3 jin1 nian2 yi1 ji4 du4 hui2 luo4 le5 ling2 dian3 yi2 ge4 bai3 fen1 dian3
 BAC009S0750W0191 li3 pu3 min2 zuo2 ri4 zai4 jie1 shou4 jing1 ji4 zhi1 sheng1 zhuan1 fang3 shi2 biao3 shi4
 BAC009S0750W0192 jing1 ji4 zeng1 su4 de5 shi4 du4 hui2 luo4
 BAC009S0750W0193 shi4 hong2 guan1 zheng4 ce4 fa1 hui1 zuo4 yong4 zhu3 dong4 tiao2 kong4 de5 jie2 guo3
@@ -9395,7 +9395,7 @@ BAC009S0750W0275 li3 mian4 de5 yao4 wu4 dou1 an4 ri4 qi1 he2 shi2 jian1 fen1 zhu
 BAC009S0750W0276 shi2 si4 dian3 yu4 fang2 shi1 ming2 de5 xiang1 jiao1
 BAC009S0750W0277 zai4 sa1 ha1 la1 yi3 nan2 de5 fei1 zhou1 di4 qu1
 BAC009S0750W0278 duo1 da2 bai3 fen1 zhi1 san1 shi2 de5 wu3 sui4 yi3 xia4 er2 tong2 cun2 zai4 shi1 ming2 wei1 xian3
-BAC009S0750W0279 zhe4 xie1 xiang1 jiao1 you3 ke3 neng2 jie3 jue2 yi1 ge4 zhong4 da4 de5 jian4 kang1 wen4 ti2
+BAC009S0750W0279 zhe4 xie1 xiang1 jiao1 you3 ke3 neng2 jie3 jue2 yi2 ge4 zhong4 da4 de5 jian4 kang1 wen4 ti2
 BAC009S0750W0280 shi2 wu3 dian3 wei4 qi2 che1 ren2 ti2 gong1 zhu4 li4 de5 lun2 zi5
 BAC009S0750W0281 qi2 zi4 xing2 che1 dui4 shen1 ti3 he2 huan2 jing4 dou1 you3 hao3 chu4
 BAC009S0750W0282 dan4 qi2 zhe5 che1 dao4 chu4 ben1 bo1 si4 hu1 shi4 jian4 ku3 chai1 shi4
@@ -9499,7 +9499,7 @@ BAC009S0750W0381 zhe4 xie1 can1 sai4 jing1 li4 he2 fei1 fan2 cheng2 jiu4
 BAC009S0750W0382 rang4 zhang1 wen2 xiu4 cheng2 wei2 le5 zhong1 guo2 tian2 jing4 de5 chuan2 qi2 xuan3 shou3
 BAC009S0750W0383 zhang1 wen2 xiu4 ceng2 yin1 mo4 xu1 you3 de5 niu2 rou4 mian4 shi4 jian4 bei4 cha2 chu1 fu2 yong4 xing1 fen4 ji4
 BAC009S0750W0384 zuo2 wan3 zai4 niao3 chao2 zhong1 yu2 chao1 yue4 zi4 wo3
-BAC009S0750W0385 jin3 guan3 yu3 wo4 luo4 yi4 qi2 ke4 hai2 bu4 shi4 yi1 ge4 dang4 ci4
+BAC009S0750W0385 jin3 guan3 yu3 wo4 luo4 yi4 qi2 ke4 hai2 bu4 shi4 yi2 ge4 dang4 ci4
 BAC009S0750W0386 dan4 zhang1 wen2 xiu4 de5 ya4 jun1 cheng2 ji1
 BAC009S0750W0387 yi3 jing1 shi4 zhong1 guo2 nv3 zi3 lian4 qiu2 de5 li4 shi3 zui4 hao3 cheng2 ji1
 BAC009S0750W0388 dui4 yu2 yi1 wei4 nian2 jin4 san1 shi2 sui4 de5 lao3 jiang4 er2 yan2
@@ -9518,7 +9518,7 @@ BAC009S0750W0400 zhong1 guo2 xuan3 shou3 zhang1 wen2 xiu4 yi3 qi1 shi2 liu4 mi3 
 BAC009S0750W0401 zhe4 shi4 ta1 ba1 ci4 can1 jia1 shi4 jin3 sai4 yi3 lai2 de5 zui4 hao3 cheng2 ji1
 BAC009S0750W0402 er2 huo4 de2 guan4 jun1 de5 shi4 bo1 lan2 xuan3 shou3 wo4 da2 er3 qi2 ke4
 BAC009S0750W0403 ta1 yi3 ba1 shi2 mi3 ba1 wu3 de5 cheng2 ji1 da3 po4 sai4 hui4 ji4 lu4 zhai1 de2 jin1 pai2
-BAC009S0750W0404 zhe4 ge4 jue2 se4 dui4 yu2 jia1 fei1 er3 de2 lai2 shuo1 shi4 yi1 ge4 ju4 da4 de5 tiao3 zhan4
+BAC009S0750W0404 zhe4 ge4 jue2 se4 dui4 yu2 jia1 fei1 er3 de2 lai2 shuo1 shi4 yi2 ge4 ju4 da4 de5 tiao3 zhan4
 BAC009S0750W0405 ta1 de5 yi1 sheng1 dou1 zai4 tong4 ku3 zhong1 qian2 xing2
 BAC009S0750W0406 zai4 xun2 zhao3 xin4 yang3 de5 jian1 nan2 guo4 cheng2 zhong1 ye3 chan3 sheng1 le5 zi4 wo3 huai2 yi2
 BAC009S0750W0407 an1 de2 lu3 jia1 fei1 er3 de2 zai4 yan3 wan2 chao1 fan2 zhi1 zhu1 xia2 zhi1 hou4
@@ -9552,7 +9552,7 @@ BAC009S0750W0438 shou4 tian1 kong1 yun2 liang4 zeng1 duo1 de5 ying3 xiang3
 BAC009S0750W0439 qi1 dai4 zhong1 de5 yi1 lun2 hao4 yue4 wan4 li3 qing2 de5 mei3 jing3 huo4 hui4 shuang3 yue1
 BAC009S0750W0440 dan4 yu3 jia1 ren2 gong4 shang3 yun2 po4 yue4 lai2 hua1 nong4 ying3 ye3 po3 you3 qing2 zhi4
 BAC009S0750W0441 pian1 qiao3 chao1 ji2 yue4 liang4 qiao3 ran2 er2 zhi4
-BAC009S0750W0442 jiang1 dai4 gei3 ren2 men5 yi1 ge4 geng4 jia1 yuan2 man3 de5 zhong1 qiu1 ti3 yan4
+BAC009S0750W0442 jiang1 dai4 gei3 ren2 men5 yi2 ge4 geng4 jia1 yuan2 man3 de5 zhong1 qiu1 ti3 yan4
 BAC009S0750W0443 yue4 quan2 shi2 de5 tian1 wen2 xian4 xiang4 jiang1 yu3 chao1 ji2 yue4 liang4 lai2 xiang1 hui4
 BAC009S0750W0444 er4 zhe3 fa1 sheng1 xiang1 cha4 bu4 dao4 yi1 xiao3 shi2
 BAC009S0750W0445 zhe4 yang4 de5 ou3 yu4 shang4 yi1 ci4 fa1 sheng1 zai4 san1 san1 nian2 qian2
@@ -9667,7 +9667,7 @@ BAC009S0751W0180 nan2 fang1 du1 shi4 bao4 yuan2 yin3 hua2 nan2 fang2 di4 chan3 y
 BAC009S0751W0181 guang3 zhou1 zai4 duo1 ge4 fang2 di4 chan3 zheng4 ce4 jue2 duan4 shang4 guan4 chang2 gen1 feng1
 BAC009S0751W0182 bei3 jing1 shang4 hai3 de5 zuo4 fa3 hen3 ke3 neng2 gei3 guang3 zhou1 yi2 ding4 de5 jie4 jian4
 BAC009S0751W0183 cong2 guang3 zhou1 de5 fang2 di4 chan3 cheng2 jiao1 dong4 xiang4 shang4 kan4
-BAC009S0751W0184 jin4 lai2 liang4 jia4 liang3 da4 zhi3 biao1 zong3 you3 yi1 ge4 yao4 die1
+BAC009S0751W0184 jin4 lai2 liang4 jia4 liang3 da4 zhi3 biao1 zong3 you3 yi2 ge4 yao4 die1
 BAC009S0751W0185 ju4 shu4 ju4 jian1 kong4 zhong1 xin1 zui4 xin1 tong3 ji4
 BAC009S0751W0186 er4 qian1 ling2 yi1 shi2 si4 dian3 yi1 dao4 er4 dian3 er4 liu4
 BAC009S0751W0187 fa1 gai3 wei3 yao1 qiu2 chuang4 tou2 qi3 ye4 mo4 wan2 cheng2 nian2 jian3
@@ -9859,7 +9859,7 @@ BAC009S0751W0393 zhe4 xie1 can1 sai4 jing1 li4 he2 fei1 fan2 cheng2 jiu4
 BAC009S0751W0394 rang4 zhang1 wen2 xiu4 cheng2 wei2 le5 zhong1 guo2 tian2 jing4 de5 chuan2 qi2 xuan3 shou3
 BAC009S0751W0395 zhang1 wen2 xiu4 ceng2 yin1 mo4 xu1 you3 de5 niu2 rou4 mian4 shi4 jian4 bei4 cha2 chu1 fu2 you3 xing1 fen4 ji4
 BAC009S0751W0396 zuo2 wan3 zai4 niao3 chao2 zhong1 yu2 chao1 yue4 zi4 wo3
-BAC009S0751W0397 jin3 guan3 yu3 wo4 luo4 ze2 qi2 ke4 hai2 bu4 shi4 yi1 ge4 dang4 ci4
+BAC009S0751W0397 jin3 guan3 yu3 wo4 luo4 ze2 qi2 ke4 hai2 bu4 shi4 yi2 ge4 dang4 ci4
 BAC009S0751W0398 dan4 zhang1 wen2 xiu4 de5 ya4 jun1 cheng2 ji1
 BAC009S0751W0399 yi3 jing1 shi4 zhong1 guo2 nv3 zi3 lian4 qiu2 de5 li4 shi3 zui4 hao3 cheng2 ji1
 BAC009S0751W0400 dui4 yu2 yi1 wei4 nian2 jin4 san1 shi2 sui4 de5 lao3 jiang4 er2 yan2
@@ -9959,7 +9959,7 @@ BAC009S0751W0495 hu2 nan2 yue4 yang2 fa1 sheng1 yi1 qi3 chang3 mian4 ji1 lie4 de
 BAC009S0752W0121 guang3 zhou1 quan2 shi4 er4 shi2 jiu3 ge4 lou2 pan2 bao4 jia4 xia4 jiang4
 BAC009S0752W0122 huan2 bi3 shang4 yue4 de5 si4 shi2 san1 ge4 jian3 shao3 shi2 si4 ge4
 BAC009S0752W0123 yi2 yue4 gong4 ji4 san1 shi2 qi1 pan2 bao4 jia4 shang4 zhang3
-BAC009S0752W0124 huan2 bi3 shang4 yue4 de5 san1 shi2 liu4 pan2 zeng1 jia1 yi1 ge4
+BAC009S0752W0124 huan2 bi3 shang4 yue4 de5 san1 shi2 liu4 pan2 zeng1 jia1 yi2 ge4
 BAC009S0752W0125 you2 yu2 lou2 shi4 kai1 shi3 bu4 ru4 le5 chuan2 tong3 de5 dan4 ji4
 BAC009S0752W0126 kai1 fa1 shang1 yi3 jia4 huan4 liang4 de5 yu4 wang4 jian3 ruo4
 BAC009S0752W0127 shu4 ju4 jian1 kong4 zhong1 xin1 xiang4 nan2 dou1 tou4 lu4 mu4 qian2
@@ -10046,7 +10046,7 @@ BAC009S0752W0209 zhong1 yang1 cai2 zheng4 zhan4 lve4 xing4 xin1 xing1 chan3 ye4 
 BAC009S0752W0210 dou1 jiang1 min2 ying2 qi3 ye4 zuo4 wei2 zhong4 dian3
 BAC009S0752W0211 zai4 zhong1 yang1 cai2 zheng4 zhan4 lve4 xing4 xin1 xing1 chan3 ye4 fa1 zhan3 zhuan1 xiang4 zi1 jin1 zhong1
 BAC009S0752W0212 an1 pai2 guo2 jia1 zi1 jin1 ba1 yi4 yuan2
-BAC009S0752W0213 qi2 zhong1 ji1 yin1 gong1 cheng2 zhong4 da4 xiang4 mu4 zhi1 chi2 de5 wei2 yi1 yi1 ge4 xiang4 mu4
+BAC009S0752W0213 qi2 zhong1 ji1 yin1 gong1 cheng2 zhong4 da4 xiang4 mu4 zhi1 chi2 de5 wei2 yi1 yi2 ge4 xiang4 mu4
 BAC009S0752W0214 jiu4 shi4 you2 min2 ying2 qi3 ye4 shen1 zhen4 hua2 da4 ji1 yin1 yan2 jiu1 yuan4 cheng2 dan1 de5
 BAC009S0752W0215 zai4 zhong1 yang1 yu4 suan4 nei4 tou2 zi1 zhan4 lve4 xing4 xin1 xing1 chan3 ye4 ke1 mu4 zhong1
 BAC009S0752W0216 zhan4 zong3 pi1 fu4 xiang4 mu4 shu4 de5 yi2 ban4
@@ -10111,10 +10111,10 @@ BAC009S0752W0282 wo3 men5 xian4 zai4 yao4 jie3 jue2 de5 wen4 ti2 jiu4 shi4 kong1
 BAC009S0752W0283 zhong1 guo2 fang2 di4 chan3 yan2 jiu1 hui4 ren2 ju1 huan2 jing4 wei3 yuan2 hui4 fu4 zhu3 ren4 kai1 yan4 ren4 wei2
 BAC009S0752W0284 zai4 yi3 mi4 bi4 du4 wei4 zhong4 yao4 ping2 jia4 biao1 zhun3 de5 xian4 dai4 jian4 zhu4 zhong1
 BAC009S0752W0285 ru2 he2 dui4 shen1 bian1 de5 shi4 nei4 de5 kong1 qi4 zhi4 liang4 jin4 xing2 jian3 ce4
-BAC009S0752W0286 jiang1 shi4 wo3 men5 zai4 wei4 lai2 suo3 bi4 xu1 jie3 jue2 de5 yi1 ge4 wen4 ti2
+BAC009S0752W0286 jiang1 shi4 wo3 men5 zai4 wei4 lai2 suo3 bi4 xu1 jie3 jue2 de5 yi2 ge4 wen4 ti2
 BAC009S0752W0287 bing4 ke3 tong1 guo4 guan3 li3 ruan3 jian4 he2 yi3 tai4 wang3 tong1 xun4
 BAC009S0752W0288 zui4 zhong1 zai4 yi2 dong4 zhong1 duan1 shi2 shi2 xian3 shi4 shu4 ju4
-BAC009S0752W0289 xi4 wei1 ke1 li4 wu4 wu1 ran3 shi4 yi1 ge4 chang2 qi1 cun2 zai4 de5 wen4 ti2
+BAC009S0752W0289 xi4 wei1 ke1 li4 wu4 wu1 ran3 shi4 yi2 ge4 chang2 qi1 cun2 zai4 de5 wen4 ti2
 BAC009S0752W0290 sui2 zhe5 ren2 men5 sheng1 huo2 shui3 ping2 de5 ti2 gao1
 BAC009S0752W0291 zhe4 zhong3 guan1 zhu4 jiang1 hui4 yue4 lai2 yue4 gao1
 BAC009S0752W0292 er2 ru2 he2 ti2 gong1 jie3 jue2 fang1 an4
@@ -10276,7 +10276,7 @@ BAC009S0752W0451 wei4 shen2 me5 shi4 jie4 di4 yi1 de5 gao1 su4 zong3 shi4 du3 ch
 BAC009S0752W0452 gao1 su4 mian3 fei4 zhen1 de5 shi4 zui4 kui2 huo4 shou3 ma5
 BAC009S0752W0453 ming2 qi3 yi1 wu4 ren2 yuan2 he2 zhi4 yuan4 zhe3 ke3 yu4 yue1 mian3 fei4 men2 piao4 guang4 gu4 gong1
 BAC009S0752W0454 xin1 jing1 bao4 kuai4 xun4 ji4 zhe3 huang2 ying3 jin1 wan3 gu4 gong1 biao3 shi4
-BAC009S0752W0455 zai4 dan4 ji4 mei3 ge4 yue4 di4 yi1 ge4 zhou1 san1
+BAC009S0752W0455 zai4 dan4 ji4 mei3 ge4 yue4 di4 yi2 ge4 zhou1 san1
 BAC009S0752W0456 hun1 mi2 bing4 ren2 zhuan3 yuan4 zao1 hei1 zhong1 jie4 kun4 zu3 she4 shi4 yi1 yuan4 diao4 cha2
 BAC009S0752W0457 yi4 fu4 xian2 ji4 hua4 sheng1 yu4 san1 shi2 duo1 nian2 lai2 zhong1 guo2 shao3 sheng1 le5 duo1 shao3 ren2
 BAC009S0752W0458 xi1 ri4 bei4 guai3 nv3 jin1 ri4 nv3 jiao4 shi1 er4 yi1 nian2 guo4 qu4
@@ -10406,7 +10406,7 @@ BAC009S0753W0207 jin4 xing2 shi4 dang4 de5 tiao2 kong4 he2 gan1 yu4
 BAC009S0753W0208 dan4 zheng4 fu3 tiao2 kong4 ye3 bu4 neng2 wei2 bei4 shi4 chang3 de5 ji1 ben3 gui1 lv4
 BAC009S0753W0209 yao4 bao3 zheng4 shi2 tang2 shi4 chang3 wen3 ding4 yun4 xing2
 BAC009S0753W0210 shi3 hang2 ye4 neng2 gou4 he2 li3 jian4 kang1 de5 fa1 zhan3
-BAC009S0753W0211 he2 xin1 hai2 shi4 yi1 ge4 he2 xie2 jian1 gu4 de5 wen4 ti2
+BAC009S0753W0211 he2 xin1 hai2 shi4 yi2 ge4 he2 xie2 jian1 gu4 de5 wen4 ti2
 BAC009S0753W0212 tiao2 kong4 bao1 kuo4 tiao2 jie2 he2 kong4 zhi4
 BAC009S0753W0213 tiao2 jie2 zhu3 yao4 shi4 tong1 guo4 liang4 de5 tiao2 jie2 lai2 yin3 dao3 shi4 chang3
 BAC009S0753W0214 kong4 zhi4 zhu3 yao4 shi4 zheng4 fu3 zai4 te4 shu1 qing2 kuang4 xia4
@@ -10429,7 +10429,7 @@ BAC009S0753W0230 gan1 zhe4 jia4 ge2 you2 di4 fang1 zheng4 fu3 zhi4 ding4
 BAC009S0753W0231 dui4 shi2 tang2 jia4 ge2 de5 ying3 xiang3 hen3 da4
 BAC009S0753W0232 dan4 shi4 shi2 tang2 jia4 ge2 you4 you2 shi4 chang3 jue2 ding4
 BAC009S0753W0233 jia4 ge2 de5 xing2 cheng2 ji1 zhi4 he2 gan1 yu4 zhu3 ti3 bu4 yi1 yang4
-BAC009S0753W0234 zhe4 dui4 guo2 jia1 tiao2 kong4 bu4 men2 er2 yan2 ye3 shi4 yi1 ge4 xin1 de5 wen4 ti2
+BAC009S0753W0234 zhe4 dui4 guo2 jia1 tiao2 kong4 bu4 men2 er2 yan2 ye3 shi4 yi2 ge4 xin1 de5 wen4 ti2
 BAC009S0753W0235 fa1 gai3 wei3 jin4 qi1 jiang1 gui1 fan4 shang1 ye4 yin2 hang2 shou1 fei4
 BAC009S0753W0236 guo2 jia1 fa1 gai3 wei3 jiang1 hui4 tong2 yin2 jian1 hui4 deng3 bu4 men2 qie4 shi2 gui1 fan4 shang1 ye4 yin2 hang2 shou1 fei4
 BAC009S0753W0237 bu4 zhi2 xing2 zheng4 fu3 ding4 jia4 zheng4 fu3 zhi3 dao3 jia4
@@ -10510,7 +10510,7 @@ BAC009S0753W0322 mao2 da4 qing4 chuang4 ye4 xiang4 mu4 liang4 xiang4 jiang1 da3 
 BAC009S0753W0323 jing1 hua2 shi2 bao4 xun4 ji4 zhe3 xing2 fei1 zuo2 tian1 shang4 wu3
 BAC009S0753W0324 yu3 chuan2 tong3 ban4 gong1 chang3 suo3 bu4 tong2
 BAC009S0753W0325 you1 ke4 gong1 chang3 chu2 le5 ti2 gong1 ban4 gong1 kong1 jian1 wai4
-BAC009S0753W0326 wei4 lai2 yi1 ge4 yue4 nei4 hai2 jiang1 lu4 xu4 zai4 jin1 rong2 jie1 deng3 qu1 yu4 qian1 yue1 xia4 yi1 pi1 xiang4 mu4
+BAC009S0753W0326 wei4 lai2 yi2 ge4 yue4 nei4 hai2 jiang1 lu4 xu4 zai4 jin1 rong2 jie1 deng3 qu1 yu4 qian1 yue1 xia4 yi1 pi1 xiang4 mu4
 BAC009S0753W0327 jing1 hua2 shi2 xun4 ji4 zhe3 xing2 fei1 zuo2 tian1 shang4 wu3
 BAC009S0753W0328 min2 ying2 kuai4 di4 xian4 liang3 da4 zhen4 ying2 zuo3 shou3 shun4 feng1 you4 shou3 a1 li3 sou1 hu2 ke1 ji4
 BAC009S0753W0329 ben3 bao4 ji4 zhe3 wang2 xiao1 yu3 bei3 jing1 bao4 dao4
@@ -10534,7 +10534,7 @@ BAC009S0753W0346 zhang1 xiao3 ya3 ru4 wei2 ta1 bing4 bu4 jing1 ya4
 BAC009S0753W0347 ci3 qian2 zai4 da4 jiang3 sai4 zong3 jue2 sai4 li3
 BAC009S0753W0348 zhang1 xiao3 ya3 de5 fa1 hui1 ye3 hen3 bu4 cuo4
 BAC009S0753W0349 can1 jia1 zong3 jue2 sai4 de5 nian2 qing1 xuan3 shou3 fa1 hui1 dou1 bu4 cuo4
-BAC009S0753W0350 xiao3 ya3 ye3 hen3 xing4 yun4 you3 le5 zhe4 yang4 yi1 ge4 ji1 hui4
+BAC009S0753W0350 xiao3 ya3 ye3 hen3 xing4 yun4 you3 le5 zhe4 yang4 yi2 ge4 ji1 hui4
 BAC009S0753W0351 ke3 yi3 da3 san1 da4 sai4 qu4 duan4 lian4
 BAC009S0753W0352 tan2 dao4 dui4 shi4 jie4 bei1 de5 zhan3 wang4
 BAC009S0753W0353 ta1 dan1 ren4 zhu3 li4 de5 ji1 hui4 bu4 da4
@@ -10569,7 +10569,7 @@ BAC009S0753W0383 yi1 xie1 lai2 zi4 sheng1 huo2 gong1 zuo4 zhong1 de5 jiao1 lv4 h
 BAC009S0753W0384 dan4 shi4 yi4 nian4 hai2 shi4 gao4 su4 zi4 ji3 yao4 ji4 xu4 wang3 qian2 pao3
 BAC009S0753W0385 chong2 xin1 guan1 zhu4 hui2 zi4 ji3 de5 jiao3 bu4
 BAC009S0753W0386 pao3 wan2 zhi1 hou4 rang4 zi4 ji3 jiao1 lv4 de5 xiang3 fa3 ye3 xiao1 shi1 le5
-BAC009S0753W0387 sou1 hu2 ming2 ren2 ma3 la1 song1 dou1 hui4 dao4 yi1 ge4 di4 fang1 qu4 pao3 bu4
+BAC009S0753W0387 sou1 hu2 ming2 ren2 ma3 la1 song1 dou1 hui4 dao4 yi2 ge4 di4 fang1 qu4 pao3 bu4
 BAC009S0753W0388 zhe4 ci4 wo3 men5 lai2 dao4 le5 chang2 bai2 shan1
 BAC009S0753W0389 xin1 de5 di4 dian3 hui4 zheng1 ji2 da4 jia1 de5 yi4 jian4 lai2 tao3 lun4 que4 ding4
 BAC009S0753W0390 tan2 dao4 wei4 lai2 de5 huo2 dong4 zhang1 zhao1 yang2 shuo1
@@ -10612,7 +10612,7 @@ BAC009S0753W0427 wei4 zheng1 qu3 yu3 fu4 mu3 jian4 mian4 de5 ji1 hui4
 BAC009S0753W0428 xian4 zai4 gong1 zuo4 shi2 hui4 dai4 fu4 mu3 sui2 xing2 dang1 lv3 xing2
 BAC009S0753W0429 xiang4 gang1 dao4 ma3 lai2 xi1 ya4 gong1 zuo4
 BAC009S0753W0430 fu4 mu3 bian4 you3 tong2 hang2
-BAC009S0753W0431 mou3 di4 xin1 kai1 fa1 chu1 yi1 ge4 shan1 shui3 jing3 dian3
+BAC009S0753W0431 mou3 di4 xin1 kai1 fa1 chu1 yi2 ge4 shan1 shui3 jing3 dian3
 BAC009S0753W0432 ru4 kou3 chu4 bian4 shao3 bu4 le5 shu4 ge4 pai2 bian3
 BAC009S0753W0433 wo3 zai4 na4 li3 gong1 zuo4 de5 ji3 nian2 jian1
 BAC009S0753W0434 fa1 xian4 pai2 bian3 geng1 huan4 le5 san1 ci4
@@ -10655,7 +10655,7 @@ BAC009S0753W0470 wang3 shang4 xue2 sheng1 fa4 bu4 dai4 xie3 zuo4 ye4 de5 tie3 zi
 BAC009S0753W0471 chong2 qing4 chen2 bao4 yong3 chuan1 du2 ben3 xun4 ji4 zhe3 deng4 xin1 yan2 re4 ba1 yue4
 BAC009S0753W0472 shi4 ge4 zhong3 lv3 you2 de5 gao1 feng1 qi1
 BAC009S0753W0473 cong2 zhao4 pian1 zhong1 de5 xiao4 lian3 ye3 bu4 nan2 kan4 chu1
-BAC009S0753W0474 hai2 zi5 men5 zai4 lv3 you2 zhong1 guo4 le5 yi1 ge4 yu2 kuai4 de5 shu3 jia4
+BAC009S0753W0474 hai2 zi5 men5 zai4 lv3 you2 zhong1 guo4 le5 yi2 ge4 yu2 kuai4 de5 shu3 jia4
 BAC009S0753W0475 shu3 jia4 ge1 bao1 pi2 nan2 hai2 tai4 duo1 dong1 guan3 yi1 yuan4 chuang2 wei4 gao4 ji2
 BAC009S0753W0478 niao4 dao4 kou3 ye3 zhi3 you3 zhen1 jian1 na4 me5 da4
 BAC009S0753W0479 niao4 niao4 dou1 shi4 xi4 xi4 chang2 chang2 de5
@@ -10810,7 +10810,7 @@ BAC009S0754W0253 yi3 jing1 fei1 chu1 de5 hang2 ban1 bu4 shou4 ying3 xiang3
 BAC009S0754W0254 zai4 di4 mian4 jin4 ling4 fa1 bu4 shi2 wu3 fen1 zhong1 hou4
 BAC009S0754W0255 dan4 shi4 zhi2 dao4 jiu3 dian3 si4 qi1 fen1
 BAC009S0754W0256 zhen1 dui4 mei3 lian2 hang2 de5 di4 mian4 jin4 ling4 cai2 bei4 qu3 xiao1
-BAC009S0754W0257 jin3 guan3 mei3 lian2 hang2 de5 wang3 luo4 gu4 zhang4 jin3 chi2 xu4 le5 yi1 ge4 duo1 xiao3 shi2
+BAC009S0754W0257 jin3 guan3 mei3 lian2 hang2 de5 wang3 luo4 gu4 zhang4 jin3 chi2 xu4 le5 yi2 ge4 duo1 xiao3 shi2
 BAC009S0754W0258 dan4 zuo4 wei2 shi4 jie4 zhu3 yao4 hang2 kong1 gong1 si1 zhi1 yi1
 BAC009S0754W0259 mei3 lian2 hang2 de5 wang3 luo4 gu4 zhang4 ying3 xiang3 le5 shi4 jie4 fan4 wei2 nei4 jin4 si4 jiu3 bai3 ge4 hang2 ban1
 BAC009S0754W0260 da4 mian4 ji1 wu4 ji1 chao2 zai4 suo3 nan2 mian3
@@ -10843,7 +10843,7 @@ BAC009S0754W0287 ji4 jing4 de5 jiao1 yi4 da4 ting1 ci3 ke4 xian3 de5 cao2 za2 wu
 BAC009S0754W0288 bao1 kuo4 na4 si1 da2 ke4 zai4 nei4 de5 qi2 ta1 jiao1 yi4 suo3 de5 jiao1 yi4 qing2 kuang4 zheng4 chang2
 BAC009S0754W0289 ye3 neng2 jiao1 yi4 zai4 niu3 jiao1 suo3 shang4 shi4 de5 gu3 piao4
 BAC009S0754W0290 zan4 ting2 jiao1 yi4 yue1 si4 ge4 xiao3 shi2 hou4
-BAC009S0754W0291 ye3 jiu4 ju4 li2 niu3 jiao1 suo3 xia4 wu3 si4 dian3 qiao1 zhong1 shou1 pan2 qian2 bu4 zu2 yi1 ge4 xiao3 shi2
+BAC009S0754W0291 ye3 jiu4 ju4 li2 niu3 jiao1 suo3 xia4 wu3 si4 dian3 qiao1 zhong1 shou1 pan2 qian2 bu4 zu2 yi2 ge4 xiao3 shi2
 BAC009S0754W0292 niu3 jiao1 suo3 qi2 hou4 tong1 guo4 tui1 te4 biao3 shi4
 BAC009S0754W0293 zhe4 shi4 yi1 qi3 nei4 bu4 ji4 shu4 gu4 zhang4
 BAC009S0754W0294 xuan3 ze2 zan4 ting2 jiao1 yi4 ye3 shi4 wei4 le5 bi4 mian3 ji4 shu4 wen4 ti2 yin3 fa1 geng4 duo1 qi2 ta1 wen4 ti2
@@ -10871,14 +10871,14 @@ BAC009S0754W0316 zai4 wang3 luo4 yu3 pei4 song4 fang1 mian4 shi4 kuai4 di4 qi3 y
 BAC009S0754W0317 dan4 zui4 zhong1 luo4 di4 zhi1 hou4 de5 bu4 ju2 ze2 xu1 yao4 wu4 liu2 di4 chan3 shang1 fa1 hui1 zuo4 yong4
 BAC009S0754W0318 zhe4 ye3 shi4 wei4 shen2 me5 pu3 luo4 si1 ye3 jia1 ru4 zhe4 ge4 ping2 tai2 de5 yuan2 yin1
 BAC009S0754W0319 qi2 zai4 zhong1 guo2 tou2 zi1 bing4 guan3 li3 zhe5 yi4 bai3 duo1 ge4 wu4 liu2 yuan2
-BAC009S0754W0320 ji1 ben3 fu4 gai4 le5 zhu3 yao4 jie2 dian3 bing4 da1 jian4 hao3 yi1 ge4 cheng2 shu2 de5 wang3 luo4 ti3 xi4
+BAC009S0754W0320 ji1 ben3 fu4 gai4 le5 zhu3 yao4 jie2 dian3 bing4 da1 jian4 hao3 yi2 ge4 cheng2 shu2 de5 wang3 luo4 ti3 xi4
 BAC009S0754W0321 qi2 bu4 jin3 ke3 yi3 wei4 kuai4 di4 qi3 ye4 ti2 gong1 fu2 wu4
 BAC009S0754W0322 zai4 wan2 cheng2 le5 kuai4 di4 shu1 niu3 yi3 ji2 wang3 luo4 de5 bu4 ju2 zhi1 hou4
 BAC009S0754W0323 you3 wang4 ying2 lai2 che4 di3 gai3 shan4 de5 ji1 hui4
 BAC009S0754W0324 dan4 dui4 yu2 kuai4 di4 qi3 ye4 er2 yan2
 BAC009S0754W0325 ru2 he2 zou3 xia4 yi1 bu4 qi2 ze2 zao3 yi3 jing1 you3 le5 ge4 zi4 de5 suan4 pan2
 BAC009S0754W0326 yu3 mu4 qian2 zheng4 zai4 ti2 gong1 zhu1 duo1 lei4 si4 fu2 wu4 de5 qi3 ye4 bu4 tong2
-BAC009S0754W0327 feng1 chao2 ti2 gong1 le5 yi1 ge4 yi3 hu4 lian2 wang3 jia1 wei4 he2 xin1
+BAC009S0754W0327 feng1 chao2 ti2 gong1 le5 yi2 ge4 yi3 hu4 lian2 wang3 jia1 wei4 he2 xin1
 BAC009S0754W0328 bing4 yi3 zheng3 he2 sheng1 tai4 quan1 wei4 mu4 di4 de5 gai4 nian4
 BAC009S0754W0329 qian2 shu4 shun4 feng1 nei4 bu4 ren2 shi4 dui4 ci3 xiang4 ben3 bao4 ji4 zhe3 jie3 shi4 shuo1
 BAC009S0754W0330 ye3 hui4 da3 zao4 yun4 guan3 kai1 fang4 de5 ping2 tai2
@@ -10947,7 +10947,7 @@ BAC009S0754W0396 dang1 ran2 kun1 lun2 jue2 lei4 tai2 shang4 ye3 you3 hen3 duo1 g
 BAC009S0754W0397 tong1 guo4 tiao3 zhan4 lai2 da2 cheng2 zi4 ji3 de5 meng4 xiang3
 BAC009S0754W0398 ru2 guo3 yao4 gei3 zhe4 ge4 mu4 biao1 jia1 ge4 qi1 xian4 de5 hua4
 BAC009S0754W0399 wo3 xi1 wang4 neng2 zai4 yi1 nian2 nei4 da2 cheng2
-BAC009S0754W0400 yu3 ci3 tong2 shi2 quan2 mi2 ye3 zai4 she4 xiang3 ling4 yi1 ge4 ke3 neng2
+BAC009S0754W0400 yu3 ci3 tong2 shi2 quan2 mi2 ye3 zai4 she4 xiang3 ling4 yi2 ge4 ke3 neng2
 BAC009S0754W0401 ta1 shi4 fou3 jiang1 yu3 tong2 yang4 shi4 kun1 lun2 jue2 ming2 jiang4 de5 wang2 sai4 jin4 xing2 er4 fan1 zhan4 ne5
 BAC009S0754W0403 zhang1 li4 peng2 yi3 wei1 ruo4 you1 shi4 zhan4 sheng4 wang2 sai4
 BAC009S0754W0404 sou1 hu2 yu2 le4 xun4 you2 er4 shi2 shi4 ji4 fu2 si1 dian4 ying3 gong1 si1 chu1 pin3
@@ -11036,7 +11036,7 @@ BAC009S0754W0488 bao4 lu4 fu2 wu4 hang2 ye4 feng1 xian3 dian3
 BAC009S0754W0489 yi1 duan4 shi4 pin2 zai4 wang3 shang4 feng1 chuan2 zai4 zhe4 jiang1 wen1 zhou1 yi1 huo3 guo1 dian4 nei4
 BAC009S0754W0490 yi1 ming2 fu2 wu4 yuan2 jiang1 yi1 da4 pen2 kai1 shui3 jiao1 dao4 nv3 gu4 ke4 tou2 shang4
 BAC009S0754W0491 ba1 yue4 er4 liu4 ri4 xin1 wen2 chen2 bao4 chi1 fan4 you3 feng1 xian3
-BAC009S0754W0492 yi1 ge4 jian3 dan1 de5 gu4 ke4 he2 fu2 wu4 yuan2 zhi1 jian1 de5 kou3 jue2
+BAC009S0754W0492 yi2 ge4 jian3 dan1 de5 gu4 ke4 he2 fu2 wu4 yuan2 zhi1 jian1 de5 kou3 jue2
 BAC009S0754W0493 zui4 hou4 jing4 yin3 fa1 ru2 ci3 yan2 zhong4 de5 ren2 shen1 shang1 hai4 an4 jian4
 BAC009S0754W0494 zhe4 shi4 dang1 shi4 de5 fu2 wu4 yuan2 xin1 li3 su4 zhi4 bu4 hao3 huo4 zhe3 shuo1 ren2 ge2 bu4 jian4 quan2 dao3 zhi4
 BAC009S0754W0495 dan4 shi4 lei4 si4 de5 chong1 tu1 he2 shang1 hai4 qi2 shi2 bu4 shi4 ge4 an4
@@ -11136,7 +11136,7 @@ BAC009S0755W0214 dui4 yu2 zhong1 cheng2 yao4 de5 tiao2 jia4 jiang1 yan2 hou4
 BAC009S0755W0215 gen1 ju4 ji4 zhe3 zai4 yao4 pin3 shi4 chang3 de5 zou3 fang3 liao3 jie3
 BAC009S0755W0216 qu3 er2 dai4 zhi1 de5 shi4 tong2 deng3 gong1 neng2 tong2 deng3 xiao4 guo3
 BAC009S0755W0217 zhi3 shi4 yao4 pin3 ming2 cheng1 bu4 yi1 yang4 de5 gao1 jia4 yao4
-BAC009S0755W0218 yi1 wei4 hang2 ye4 ren2 shi4 ju3 le5 yi1 ge4 jian3 dan1 de5 li4 zi5
+BAC009S0755W0218 yi1 wei4 hang2 ye4 ren2 shi4 ju3 le5 yi2 ge4 jian3 dan1 de5 li4 zi5
 BAC009S0755W0219 yin2 qiao4 jie3 du2 pian4 he2 bai2 jia1 hei1 tong2 shu3 yu2 zhi4 liao2 yi4 ban1 xing4 gan3 mao4 yao4
 BAC009S0755W0220 dan4 shi4 liang3 zhe3 de5 shou4 jia4 que4 jie2 ran2 bu4 tong2
 BAC009S0755W0221 ru2 guo3 liang3 zhong3 yao4 pin3 tong2 shi2 chu4 zai4 guo2 jia1 fa1 gai3 wei3 tiao2 jia4 de5 yao4 pin3 xu4 lie4
@@ -11175,7 +11175,7 @@ BAC009S0755W0253 jin3 guan3 gai1 gong1 si1 bing4 wei4 tou4 lu4 wen4 ti2 yuan2 yi
 BAC009S0755W0254 dao3 zhi4 gai1 wang3 zhan4 fang3 wen4 liang4 da4 zeng1
 BAC009S0755W0255 jin4 nian2 mei3 gu3 jiao1 yi4 suo3 de5 qi2 ta1 zan4 ting2 jiao1 yi4 shi4 jian4
 BAC009S0755W0256 er4 ling2 yi1 san1 nian2 ba1 yue4 er4 shi2 si4 ri4
-BAC009S0755W0257 yi1 ge4 ji4 shu4 gu4 zhang4 dao3 zhi4 na4 si1 da2 ke4 zan4 ting2 jiao1 yi4 san1 ge4 duo1 xiao3 shi2
+BAC009S0755W0257 yi2 ge4 ji4 shu4 gu4 zhang4 dao3 zhi4 na4 si1 da2 ke4 zan4 ting2 jiao1 yi4 san1 ge4 duo1 xiao3 shi2
 BAC009S0755W0258 er4 ling2 yi1 er4 nian2 shi2 yue4 er4 shi2 jiu3 ri4
 BAC009S0755W0259 niu3 yue1 zheng4 jiao1 suo3 shou3 ci4 yin1 tian1 qi4 yuan2 yin1 quan2 mian4 bi4 shi4
 BAC009S0755W0260 bian4 ke3 yin3 fa1 yi1 lian2 chuan4 de5 hu2 die2 xiao4 ying4
@@ -11268,7 +11268,7 @@ BAC009S0755W0347 wo3 xi1 wang4 neng2 zai4 qi1 shi2 gong1 jin1 ji2 bie2 da3
 BAC009S0755W0349 zui4 shi4 he2 wo3 de5 ji2 bie2 shi4 qi1 shi2 gong1 jin1
 BAC009S0755W0351 wo3 xiang1 xin4 kun1 lun2 jue2 hui4 an1 pai2 gei3 wo3 he2 shi4 de5 dui4 shou3
 BAC009S0755W0352 wo3 ye3 bu4 hui4 ba3 sheng4 fu4 kan4 de5 tai4 zhong4
-BAC009S0755W0353 mei3 yi1 chang3 bi3 sai4 sheng4 fu4 qi2 shi2 dou1 shi4 yi1 ge4 gai4 lv4
+BAC009S0755W0353 mei3 yi1 chang3 bi3 sai4 sheng4 fu4 qi2 shi2 dou1 shi4 yi2 ge4 gai4 lv4
 BAC009S0755W0354 mei2 you3 jue2 dui4 de5 ying2 jia1 he2 shu1 jia1
 BAC009S0755W0355 wei4 le5 zeng1 qiang2 zi4 ji3 huo4 sheng4 de5 ji1 lv4
 BAC009S0755W0356 yi1 qie4 zai4 sai4 chang3 shang4 jian4 fen1 xiao3
@@ -11376,7 +11376,7 @@ BAC009S0755W0463 er2 liu2 xiang2 jie3 shuo1 jiu1 jing4 you3 mei2 you3 chou2 lao2
 BAC009S0755W0464 jin3 guan3 you3 xiao1 xi1 yuan2 biao3 shi4 liu2 xiang2 de5 chou2 lao2 shi4 yi1 tian1 liang3 qian1 yuan2
 BAC009S0755W0465 liu2 xiang2 de5 zhe4 yi1 ci4 jie3 shuo1 shi4 wan2 quan2 yi4 wu4
 BAC009S0755W0466 pu4 bei3 jing1 hai3 dian4 jiao4 shi1 duo1 zhong3 fu2 li4 you1 xian1 gua4 hao4 you1 xian1 gong1 zu1 fang2
-BAC009S0755W0467 jing1 hua2 shi2 bao4 xun4 jin1 tian1 shi4 di4 san1 yi1 ge4 jiao4 shi1 jie2
+BAC009S0755W0467 jing1 hua2 shi2 bao4 xun4 jin1 tian1 shi4 di4 san1 yi2 ge4 jiao4 shi1 jie2
 BAC009S0755W0468 quan2 shi4 ge4 qu1 xue2 xiao4 dou1 kai1 zhan3 jiao4 shi1 jie2 huo2 dong4
 BAC009S0755W0469 duo1 ge4 qu1 zhao4 kai1 jiao4 shi1 jie2 biao3 zhang1 huo2 dong4
 BAC009S0755W0470 hai3 dian4 qu1 xin1 jian4 gong1 zu1 fang2 jiang1 you1 xian1 an1 pai2 jiao4 shi1 ru4 zhu4
@@ -11416,7 +11416,7 @@ BAC009S0756W0135 ti3 xian4 le5 luo4 shi2 shui4 shou1 fa3 ding4 xian1 yi4 hou4 na
 BAC009S0756W0136 ye3 yu3 zhong1 guo2 shen1 hua4 cai2 shui4 ti3 zhi4 gai3 ge2 zong3 ti3 fang1 an4 de5 zhong4 dian3 xiang1 wen3 he2
 BAC009S0756W0137 yi3 huan2 jing4 bao3 hu4 shui4 fa3 wei4 li4
 BAC009S0756W0138 huan2 jing4 bao3 hu4 fei4 gai3 shui4 zao3 zai4 zai4 shi2 ba1 jie4 san1 zhong1 quan2 hui4 zhong1 jiu4 you3 she4 ji2
-BAC009S0756W0139 shi4 yu3 she4 hui4 sheng1 chan3 sheng1 huo2 mi4 qie4 xiang1 guan1 de5 yi1 ge4 shui4 zhong3
+BAC009S0756W0139 shi4 yu3 she4 hui4 sheng1 chan3 sheng1 huo2 mi4 qie4 xiang1 guan1 de5 yi2 ge4 shui4 zhong3
 BAC009S0756W0140 huan2 jing4 bao3 hu4 shui4 li4 fa3 zhi3 zai4 geng4 hao3 di4 bao3 hu4 he2 gai3 shan4 huan2 jing4
 BAC009S0756W0141 tui1 dong4 quan2 she4 hui4 sheng1 tai4 wei4 ming2 jian4 she4
 BAC009S0756W0142 yu3 huan2 jing4 bao3 hu4 fei4 gai3 shui4 lei4 si4
@@ -11459,7 +11459,7 @@ BAC009S0756W0178 shi4 cong2 bai3 xing4 kou3 dai4 li3 zhi2 jie1 shou1 shui4
 BAC009S0756W0179 ru2 guo3 jiang1 lai2 hui4 she4 ding4 mian3 zheng1 e2
 BAC009S0756W0180 ye3 yao4 jin3 zao3 gao4 zhi1 she4 hui4 gai3 ge2 bu4 hui4 zeng1 jia1 zhong1 di1 shou1 ru4 zhe3 de5 shui4 shou1 fu4 dan1
 BAC009S0756W0181 fang2 di4 chan3 shui4 sui1 shi4 xiao3 shui4 zhong3
-BAC009S0756W0182 dan4 qian1 dong4 mei3 yi1 ge4 ren2 de5 li4 yi4
+BAC009S0756W0182 dan4 qian1 dong4 mei3 yi2 ge4 ren2 de5 li4 yi4
 BAC009S0756W0183 yue4 you3 zhu4 yu2 gai3 ge2 de5 wen3 tuo3 tui1 jin4
 BAC009S0756W0184 zai4 zhang1 xian3 li4 fa3 ji1 guan1 jian1 jue2 luo4 shi2 shui4 shou1 fa3 ding4 yuan2 ze2 jue2 xin1 de5 tong2 shi2
 BAC009S0756W0185 er2 wo3 guo2 shang1 pin3 zhu4 zhai2 yi1 ci4 zhuang1 xiu1 dao4 wei4 de5 jing1 zhuang1 zhu4 zhai2 yue1 zhan4 bai3 fen1 zhi1 shi2
@@ -11504,7 +11504,7 @@ BAC009S0756W0223 qu3 xiao1 ran2 mei2 dian4 chang3 zi4 xing2 xiao1 hua4 bai3 fen1
 BAC009S0756W0224 da4 bu4 fen1 shi4 chang3 mei2 he2 tong2 zhuan3 wei4 zhong1 chang2 qi1 he2 tong2
 BAC009S0756W0225 tie3 lu4 bu4 men2 you1 xian1 diao4 du4 an1 pai2 dian4 mei2 yun4 shu1
 BAC009S0756W0226 zhe4 yang4 cai2 neng2 che4 di3 jie3 jue2 shi4 chang3 mei2 yu3 ji4 hua4 dian4 de5 chang2 qi1 mao2 dun4
-BAC009S0756W0227 dian4 mei2 shi4 mei2 tan4 zui4 zhu3 yao4 de5 yi1 ge4 pin3 zhong3
+BAC009S0756W0227 dian4 mei2 shi4 mei2 tan4 zui4 zhu3 yao4 de5 yi2 ge4 pin3 zhong3
 BAC009S0756W0228 zhan4 mei2 tan4 zong3 liang4 de5 ba1 cheng2 zuo3 you4
 BAC009S0756W0229 sui2 zhe5 jin1 nian2 dian4 mei2 jia4 ge2 xia4 jiang4
 BAC009S0756W0230 qin2 huang2 dao3 shi4 chang3 mei2 jia4 ge2 yu3 zhong4 dian3 he2 tong2 mei2 jia4 zhi1 jian1 zhu2 jian4 jie1 gui3
@@ -11523,7 +11523,7 @@ BAC009S0756W0242 zhong1 dian4 lian2 shang4 shu4 zhu3 zhang1 ji2 shi4 dian4 qi3 d
 BAC009S0756W0243 ruo4 zui4 zhong1 fang1 an4 ru2 dian4 qi3 suo3 yuan4
 BAC009S0756W0244 ze2 dian4 li4 ding4 jia4 ye3 jiang1 wan2 quan2 shi4 chang3 hua4
 BAC009S0756W0245 qi2 shi2 zai4 nian2 di3
-BAC009S0756W0246 wo3 guo2 jiu4 zhi4 ding4 le5 yi1 ge4 mei2 dian4 lian2 dong4 de5 dian4 jia4 zheng4 ce4
+BAC009S0756W0246 wo3 guo2 jiu4 zhi4 ding4 le5 yi2 ge4 mei2 dian4 lian2 dong4 de5 dian4 jia4 zheng4 ce4
 BAC009S0756W0249 ti2 dian4 jia4 wang3 wang3 you3 ju4 da4 ya1 li4
 BAC009S0756W0250 zhe4 ji3 nian2 huo3 dian4 yan2 zhong4 kui1 sun3
 BAC009S0756W0251 yu3 dian4 jia4 bu4 neng2 xiang1 ying4 shang4 zhang3 you3 zhi2 jie1 guan1 xi4
@@ -11691,7 +11691,7 @@ BAC009S0756W0415 bing4 fu4 wen2 cheng1 xu1 yao4 hui2 lai2 yi1 tian1
 BAC009S0756W0416 sou1 hu2 yu2 le4 xun4 yuan2 yong3 yi2 zuo2 ri4 shai4 chu1 yi1 zhang1 su4 yan2 zhao4
 BAC009S0756W0417 cheng1 zi4 ji3 ji3 zhui1 yi1 tian1 de5 yao1 suan1 bei4 tong4
 BAC009S0756W0418 kan4 lai2 xing4 gan3 lu4 xian4 zi4 ji3 mei2 you3 qian2 zhi4 le5
-BAC009S0756W0419 ci4 wo3 yi1 ge4 an4 mo2 shi1 ba5
+BAC009S0756W0419 ci4 wo3 yi2 ge4 an4 mo2 shi1 ba5
 BAC009S0756W0420 hua4 mian4 shang4 ta1 sui1 ran2 wu3 guan1 yi1 ran2 jing1 zhi4
 BAC009S0756W0421 pi2 fu1 zhuang4 tai4 ye3 bu4 hao3
 BAC009S0756W0422 wang3 you3 ze2 bei4 zhang1 zhi4 lin2 wei4 zhao4 gu4 hao3 jing4 jing4
@@ -11733,7 +11733,7 @@ BAC009S0756W0457 mei2 you3 wang3 luo4 chuan2 yan2 de5 diao4 yu2 zhi2 fa3 xing2 w
 BAC009S0756W0458 geng4 wei4 ting1 shuo1 guo4 suo3 wei4 de5 diao4 yu2 zhi2 fa3 dui4
 BAC009S0756W0459 cai4 dan1 xian3 shi4 san1 er4 yuan2 yi1 wo1 mi3 fan4
 BAC009S0756W0460 pu4 hang2 zhou1 yi1 jiu3 dian4 fang2 men2 mao1 yan3 zhuang1 fan3 men2 wai4 kan4 li3 mian4 hen3 qing1 xi1
-BAC009S0756W0461 yi1 ge4 guan1 yu2 hang2 zhou1 yi1 jiu3 dian4 fang2 men2 mao1 yan3 dao4 zhuang1 de5 tie3 zi3 zai4 wang3 shang4 re4 chuan2
+BAC009S0756W0461 yi2 ge4 guan1 yu2 hang2 zhou1 yi1 jiu3 dian4 fang2 men2 mao1 yan3 dao4 zhuang1 de5 tie3 zi3 zai4 wang3 shang4 re4 chuan2
 BAC009S0756W0463 zhe4 jia1 hang2 zhou1 xi1 bu4 shang4 ai4 jing1 pin3 jiu3 dian4 hai2 ceng2 ru4 xuan3 hang2 zhou1 zui4 jia1 qing2 lv3 jiu3 dian4
 BAC009S0756W0464 pu4 hang2 zhou1 ji2 di4 hai3 yang2 gong1 yuan2 hai3 bao4 ji2 bing4 chan2 shen1 jin3 san1 zhi1 shen1 ti3 jian4 kang1
 BAC009S0756W0465 ben3 gai1 shi4 xiao4 yu3 yan4 yan4 de5 hai3 yang2 gong1 yuan2
@@ -11764,7 +11764,7 @@ BAC009S0756W0490 zhao3 bian4 liao3 dang4 de5 suo3 you3 jian3 ce4 dan1 wei4
 BAC009S0756W0491 jun1 wu2 fa3 chu1 ju4 jian3 ce4 bao4 gao4
 BAC009S0756W0492 wo3 guo2 yi3 jian4 shi4 wai4 su4 jiao1 pao3 dao4 de5 you3 du2 jian3 ce4 shi4 yi1 xiang4 hang2 ye4 kong4 bai2
 BAC009S0756W0493 er2 sui2 zhe5 ji4 zhe3 de5 diao4 cha2 shen1 ru4
-BAC009S0756W0494 yi1 ge4 geng4 ling4 wai4 jie4 zhen4 jing1 de5 hang2 ye4 luan4 xiang4 bei4 jie1 kai1
+BAC009S0756W0494 yi2 ge4 geng4 ling4 wai4 jie4 zhen4 jing1 de5 hang2 ye4 luan4 xiang4 bei4 jie1 kai1
 BAC009S0756W0495 pu4 he2 nan2 yi1 jiu3 dian4 dian4 ti1 gu4 zhang4 zhi4 ren2 si3 shang1 guan1 fang1 fei1 dian4 ti1 suo3 zhi4
 BAC009S0757W0121 zheng4 zai4 ci3 jian1 zhao4 kai1 de5 liang3 hui4 shang4
 BAC009S0757W0122 quan2 guo2 ren2 da4 dai4 biao3 ao4 ke4 si1 ji2 tuan2 dong3 shi4 zhang3 zheng4 jian1 jiang1 xiang4 ji4 zhe3 jie4 shao4
@@ -11831,7 +11831,7 @@ BAC009S0757W0182 zhong1 guo2 ren2 min2 yin2 hang2 guan1 fang1 wang3 zhan4 jiu3 y
 BAC009S0757W0183 mu4 qian2 ren2 min2 bi4 dui4 mei3 yuan2 hui4 lv4 yi3 jing1 qu1 yu2 wen3 ding4
 BAC009S0757W0184 zai4 wai4 hui4 shi4 chang3 zhi2 jie1 gan1 yu4 de5 tong2 shi2
 BAC009S0757W0185 ren2 min2 bi4 hui4 lv4 fang1 zhi3 die1 hui2 zhang3
-BAC009S0757W0186 ren2 min2 bi4 yi1 ju3 yi1 dong4 zai4 guo4 qu4 yi1 ge4 yue4 lai2 cheng2 wei2 shi4 chang3 guan1 zhu4 de5 jiao1 dian3
+BAC009S0757W0186 ren2 min2 bi4 yi1 ju3 yi1 dong4 zai4 guo4 qu4 yi2 ge4 yue4 lai2 cheng2 wei2 shi4 chang3 guan1 zhu4 de5 jiao1 dian3
 BAC009S0757W0187 dian4 qi3 hai2 yao4 qiu2 yi1 ci4 xing4 suan4 jiu4 zhang4
 BAC009S0757W0188 tong1 guo4 cai2 zheng4 zhu4 ru4 zi1 ben3 jin1 jie3 jue2 fa1 dian4 qi3 ye4 de5 li4 shi3 qian4 zhang4 wen4 ti2
 BAC009S0757W0189 jiang4 di1 qi3 ye4 zi1 chan3 fu4 zhai4 lv4
@@ -11859,7 +11859,7 @@ BAC009S0757W0210 jian3 shao3 jing1 ji4 li4 yi4 dui4 yong4 yao4 xing2 wei2 de5 yi
 BAC009S0757W0211 zhong1 guo2 yi1 yao4 qi3 ye4 guan3 li3 xie2 hui4 fu4 hui4 chang2 niu2 zheng4 gan4 zhi3 chu1
 BAC009S0757W0212 ta1 suo3 dai4 lai2 de5 gai3 bian4 zhi3 shi4 jiang1 yuan2 lai2 de5 hui2 kou4 tao4 xian4
 BAC009S0757W0213 cong2 yao4 pin3 liu2 tong1 huan2 jie2 shang4 yi2 dao4 yao4 pin3 sheng1 chan3 huan2 jie2
-BAC009S0757W0214 ling4 yi1 ge4 ze2 shi4 yi1 liao2 ji1 gou4 de5 xiao1 shou4 huan2 jie2
+BAC009S0757W0214 ling4 yi2 ge4 ze2 shi4 yi1 liao2 ji1 gou4 de5 xiao1 shou4 huan2 jie2
 BAC009S0757W0215 dui4 yi4 zhi4 yao4 pin3 jia4 ge2 guo4 kuai4 shang4 zhang3 de5 shi4 tou2 qi3 dao4 le5 fei1 chang2 zhong4 yao4 de5 zuo4 yong4
 BAC009S0757W0216 dan4 dui4 yao4 pin3 liu2 tong1 huan2 jie2 jia1 jia4 guo4 gao1 de5 wen4 ti2 que1 fa2 you3 xiao4 yue1 shu4
 BAC009S0757W0217 qie3 bu4 li4 yu2 yin3 dao3 yi1 liao2 ji1 gou4 he2 li3 yong4 yao4
@@ -11960,7 +11960,7 @@ BAC009S0757W0314 ji2 gong1 si1 neng2 fou3 an4 zhao4 gui1 ding4 fa1 bu4 zui4 xin1
 BAC009S0757W0315 zheng4 jian1 hui4 yao4 qiu2 qi2 ti2 gong1 de5 duo1 ge4 wen2 jian4 bing4 fei1 gong1 si1 guan3 you3 wen2 jian4
 BAC009S0757W0316 yi4 bu4 neng2 qiang2 zhi4 yao1 qiu2 han4 neng2 kong4 gu3 ji2 tuan2 ji2 li3 he2 jun1 ti2 gong1
 BAC009S0757W0317 yin1 ci3 zui4 zhong1 wei4 neng2 xiang4 zheng4 jian1 hui4 ti2 gong1 shang4 shu4 wen2 jian4
-BAC009S0757W0318 han4 neng2 zai4 gong1 gao4 zhong1 ti2 chu1 le5 yi1 ge4 zhe2 zhong1 ban4 fa3
+BAC009S0757W0318 han4 neng2 zai4 gong1 gao4 zhong1 ti2 chu1 le5 yi2 ge4 zhe2 zhong1 ban4 fa3
 BAC009S0757W0319 biao3 shi4 zheng4 jian1 hui4 guan1 zhu4 jiao1 dian3 wei4 gong1 si1 de5 ju4 e2 guan1 lian2 jiao1 yi4
 BAC009S0757W0320 yin1 ci3 jue2 ding4 jiang1 zai4 bu4 jiu3 hou4 jin4 xing2 zhong4 da4 zi1 chan3 chong2 zu3
 BAC009S0757W0321 bing4 jia1 qiang2 gong1 si1 xian4 jin1 liu2 zhuang4 kuang4
@@ -11986,9 +11986,9 @@ BAC009S0757W0340 zhang1 ji4 ke1 ye3 you3 du2 te4 de5 ren4 shi5 zhong4 yao4 de5 s
 BAC009S0757W0341 wo3 ying2 de5 le5 bi3 sai4 de5 sheng4 li4
 BAC009S0757W0342 ru2 guo3 na4 ci4 bi3 sai4 wo3 de2 le5 di4 er4 ming2
 BAC009S0757W0343 er2 you4 mei2 you3 ti1 po4 guang3 gao4 dang3 ban3 de5 hua4
-BAC009S0757W0344 yi1 ge4 ping1 pang1 qiu2 tai2 jiu4 xiang4 yi1 ge4 zhan4 chang3
+BAC009S0757W0344 yi2 ge4 ping1 pang1 qiu2 tai2 jiu4 xiang4 yi2 ge4 zhan4 chang3
 BAC009S0757W0345 wo3 men5 zhe4 zhong3 xiang4 mu4 mei2 you3 ren2 yu3 ren2 zhi1 jian1 shen1 ti3 de5 zhi2 jie1 dui4 kang4
-BAC009S0757W0346 er2 wo3 you4 shi4 yi1 ge4 you3 ji1 qing2 xing1 fen4 xing2 de5 qiu2 yuan2
+BAC009S0757W0346 er2 wo3 you4 shi4 yi2 ge4 you3 ji1 qing2 xing1 fen4 xing2 de5 qiu2 yuan2
 BAC009S0757W0347 ru2 guo3 yao4 rang4 wo3 you3 suo3 shou1 lian3
 BAC009S0757W0348 wo3 jiu4 fa1 hui1 bu4 chu1 wo3 de5 zui4 jia1 zhuang4 kuang4 le5
 BAC009S0757W0349 hen3 duo1 guo2 nei4 de5 guan1 zhong4 xi1 wang4 wo3 biao3 xian4 de2 you3 gui1 you3 ju3
@@ -11998,7 +11998,7 @@ BAC009S0757W0352 xian3 ran2 hai2 shi4 you3 hen3 duo1 zhi1 chi2 de5 fen3 si1 de5
 BAC009S0757W0353 zai4 jin1 nian2 wu3 yue4 su1 zhou1 shi4 ping1 sai4 zhi1 hou4
 BAC009S0757W0354 bu4 guo4 que4 bu4 shi4 yin1 wei4 ta1 de5 cheng2 ji1
 BAC009S0757W0355 ye3 bu4 shi4 yin1 wei4 ta1 qing4 zhu4 chuai4 huai4 le5 guang3 gao4 pai2
-BAC009S0757W0356 er2 shi4 ta1 zai4 bi3 sai4 zhong1 de5 yi1 ge4 dong4 zuo4
+BAC009S0757W0356 er2 shi4 ta1 zai4 bi3 sai4 zhong1 de5 yi2 ge4 dong4 zuo4
 BAC009S0757W0357 zai4 zhang1 ji4 ke1 yu3 xu3 xin1 pei4 dui4 de5 shuang1 da3 bi3 sai4 zhong1
 BAC009S0757W0358 zhang1 ji4 ke1 yin1 wei4 duo3 bi4 xu3 xin1 de5 da4 li4 la1 qiu2
 BAC009S0757W0359 zhe4 yi1 dong4 zuo4 bei4 guo2 ji4 ping1 lian2 kan1 zai3 zhi1 hou4
@@ -12019,13 +12019,13 @@ BAC009S0757W0373 liu2 shi1 wen2 shuo1 ning2 ze2 tao1 you3 hen3 quan2 mian4 de5 s
 BAC009S0757W0374 zhang1 ji4 ke1 he2 ning2 ze2 tao1 dou1 shi4 qiu2 mi3 men5 gong1 ren4 de5 shuai4 ge1
 BAC009S0757W0375 ji4 zhe3 wen4 zhang1 ji4 ke1 ru2 he2 kan4 zuo2 wan3 de5 ning2 ze2 tao1
 BAC009S0757W0376 ta1 de5 hui2 da2 rang4 zai4 chang3 de5 ren2 hen3 jing1 ya4
-BAC009S0757W0377 dang1 ri4 de5 ling4 yi1 ge4 xiao3 hua1 xu4 shi4
+BAC009S0757W0377 dang1 ri4 de5 ling4 yi2 ge4 xiao3 hua1 xu4 shi4
 BAC009S0757W0378 chao2 xian1 xuan3 shou3 jin1 song4 yi1 shang4 wu3 gang1 gang1 da3 wan2 bi3 sai4
 BAC009S0757W0379 guo2 ji4 ping1 lian2 shi4 chang3 bu4 guan1 yuan2 mu4 han3 mo4 de2 he2 pang2 de2 jiu4 gan3 shang3 qu4
 BAC009S0757W0381 bing4 jiao4 ta1 ru2 he2 kan4 bi3 sai4 lu4 xiang4
 BAC009S0757W0382 shang4 ci4 ping2 rang3 ping1 pang1 qiu2 gong1 kai1 sai4
 BAC009S0757W0383 yi1 wei4 guo2 ji4 ping1 lian2 guan1 yuan2 te4 bie2 xi3 huan1 jin1 song4 yi1
-BAC009S0757W0384 jiu4 jue2 ding4 mai3 yi1 ge4 song4 gei3 ta1
+BAC009S0757W0384 jiu4 jue2 ding4 mai3 yi2 ge4 song4 gei3 ta1
 BAC009S0757W0386 yi3 fen1 xi1 bi3 sai4 ti2 gao1 yun4 dong4 cheng2 ji1
 BAC009S0757W0387 na2 dao4 zhe4 ge4 xin1 xian1 wan2 yi4 er2
 BAC009S0757W0388 ji4 zhe3 wen4 ta1 ci3 shi2 de5 gan3 shou4
@@ -12077,7 +12077,7 @@ BAC009S0757W0434 er2 shi4 si4 ming2 nan2 zi5 zai4 dian4 ti1 wai4 zhui1 da3
 BAC009S0757W0435 qi2 zhong1 yi1 ming2 yi1 liu4 sui4 nan2 hai2 cong2 dian4 ti1 jing3 dao4 zhui4 luo4 shi4 jian4
 BAC009S0757W0436 xian4 chang3 zhao4 pian1 fa3 wan3 shen1 du4 ji2 shi2 yi1 ling2 yue4 er4 er4 ri4
 BAC009S0757W0437 yi1 ling2 yue4 er4 ling2 ri4 xia4 wu3 si4 dian3
-BAC009S0757W0438 zai4 he2 nan2 sheng3 nan2 yang2 shi4 she4 qi2 qiao2 tou2 zhen4 xiao3 he2 liu2 cun1 yi1 ge4 shi1 gong1 xian4 chang3
+BAC009S0757W0438 zai4 he2 nan2 sheng3 nan2 yang2 shi4 she4 qi2 qiao2 tou2 zhen4 xiao3 he2 liu2 cun1 yi2 ge4 shi1 gong1 xian4 chang3
 BAC009S0757W0439 yi1 wei4 lao3 ren2 zao1 wa1 jue2 ji1 nian3 ya1 zhi4 si3
 BAC009S0757W0440 fa3 wan3 ji4 zhe3 cong2 she4 qi2 xian4 zheng4 fu3 bu4 men2 liao3 jie3 dao4
 BAC009S0757W0441 mu4 qian2 zhao4 shi4 si1 ji1 yi3 bei4 xing2 ju1
@@ -12168,7 +12168,7 @@ BAC009S0758W0151 dui4 yu2 fang2 jia4 ying3 xiang3 you3 xian4 yi1 wei4 ye4 nei4 z
 BAC009S0758W0152 ren2 min2 bi4 hui4 lv4 xia4 die1 zhi2 jie1 suo1 xiao3 le5 li4 cha4 kong1 jian1
 BAC009S0758W0153 shi3 de5 zhe4 xie1 zi1 jin1 tou2 zi1 de5 xiang1 guan1 zi1 chan3 jia4 ge2 xia4 die1
 BAC009S0758W0154 fang2 di4 chan3 shi4 chang3 zheng4 shi4 re4 qian2 zui4 re4 zhong1 de5 di4 fang1
-BAC009S0758W0155 tong1 chang2 hui4 na2 chu1 zhe4 yang4 yi1 ge4 zheng4 ju4 zi4 er4 ling2 ling2 wu3 nian2 yi3 lai2
+BAC009S0758W0155 tong1 chang2 hui4 na2 chu1 zhe4 yang4 yi2 ge4 zheng4 ju4 zi4 er4 ling2 ling2 wu3 nian2 yi3 lai2
 BAC009S0758W0156 zhong1 guo2 fang2 di4 chan3 jia4 ge2 lian2 xu4 shang4 zhang3 de5 jiu3 nian2
 BAC009S0758W0157 zheng4 shi4 ren2 min2 bi4 chi2 xu4 sheng1 zhi2 de5 jiu3 nian2
 BAC009S0758W0158 ming2 yuan2 di4 chan3 yan2 jiu1 yuan4 ai4 zhen4 qiang2 bing4 bu4 ren4 tong2
@@ -12342,7 +12342,7 @@ BAC009S0758W0335 jiu4 bu4 hui4 yin3 qi3 jian1 guan3 ceng2 de5 zhu4 yi4
 BAC009S0758W0336 han4 neng2 shi4 fou3 yin1 wei4 guan1 lian2 jiao1 yi4 wei4 gu3 dong1 shu1 song4 li4 yi4
 BAC009S0758W0337 cun2 zai4 cai2 wu4 zao4 jia3 deng3 qing2 kuang4
 BAC009S0758W0338 zai4 guan1 jian4 de5 jue2 sheng4 ju2 zhong1 ma3 long2 mei2 you3 gei3 dui4 shou3 ren4 he2 ji1 hui4
-BAC009S0758W0339 ma3 long2 tan3 yan2 zuo4 wei2 yi1 ge4 zhi2 ye4 qiu2 yuan2
+BAC009S0758W0339 ma3 long2 tan3 yan2 zuo4 wei2 yi2 ge4 zhi2 ye4 qiu2 yuan2
 BAC009S0758W0340 mei3 ge4 ren2 dou1 zai4 chang3 shang4 you3 zi4 ji3 de5 pan4 duan4
 BAC009S0758W0341 dang1 shi2 hai2 shi4 xi1 wang4 neng2 gou4 jin3 zao3 ying2 xia4
 BAC009S0758W0342 wo3 di4 san1 ju2 zhu4 yi4 li4 duo1 shao3 you3 yi1 dian3 bu4 ji2 zhong1
@@ -12391,7 +12391,7 @@ BAC009S0758W0384 suo3 yi3 wo3 ye3 zuo4 hao3 le5 kun4 nan2 zhun3 bei4
 BAC009S0758W0385 ma3 long2 biao3 shi4 jin1 tian1 xiao3 shi1 di4 de5 fa1 hui1 suan4 shi4 ge4 jing1 xi3
 BAC009S0758W0386 ta1 zai4 nian2 qing1 yun4 dong4 yuan2 li3 yi4 zhi2 dou1 shi4 bi3 jiao4 hao3 de5
 BAC009S0758W0387 ke3 neng2 zhi1 qian2 chang2 gui1 sai4 mei2 you3 tiao2 zheng3 hao3 xin1 tai4
-BAC009S0758W0388 jin1 tian1 zai4 zhe4 yang4 hao3 de5 yi1 ge4 wu3 tai2 zhong1 neng2 gou4 chong1 fen4 zhan3 shi4 zi4 ji3
+BAC009S0758W0388 jin1 tian1 zai4 zhe4 yang4 hao3 de5 yi2 ge4 wu3 tai2 zhong1 neng2 gou4 chong1 fen4 zhan3 shi4 zi4 ji3
 BAC009S0758W0389 ta1 que4 shi2 fa1 hui1 de2 fei1 chang2 hao3
 BAC009S0758W0390 sou1 hu2 ti3 yu4 guo1 jian4 wen2
 BAC009S0758W0391 zheng4 zai4 tai4 guo2 ba1 ti2 ya3 ju3 xing2 de5 ya4 jin3 sai4
@@ -12558,7 +12558,7 @@ BAC009S0759W0178 zhu4 fang2 he2 cheng2 xiang1 jian4 she4 bu4 zheng4 ce4 yan2 jiu
 BAC009S0759W0179 zhong1 guo2 lou2 shi4 de5 gong1 xu1 guan1 xi4 yi3 jing1 fa1 sheng1 gai3 bian4
 BAC009S0759W0180 mu4 qian2 lou2 shi4 zheng4 chu1 xian4 liang3 da4 qu1 shi4
 BAC009S0759W0181 yi1 shi4 fang2 qi3 jia1 da4 qu4 ku4 cun2 hua4
-BAC009S0759W0182 ling4 yi1 ge4 shi4 tiao2 kong4 zhu2 bu4 qu4 xing2 zheng4 hua4
+BAC009S0759W0182 ling4 yi2 ge4 shi4 tiao2 kong4 zhu2 bu4 qu4 xing2 zheng4 hua4
 BAC009S0759W0183 qian2 ji3 nian2 ge4 de5 re4 zhong1 yu2 kai1 fa1 fang2 di4 chan3
 BAC009S0759W0184 lou2 shi4 gong1 ying4 su4 du4 yi3 kuai4 yu2 xiao1 shou4 su4 du4
 BAC009S0759W0185 er2 zhu4 fang2 ku4 cun2 ye3 qiao3 ran2 fan1 bei4
@@ -12703,7 +12703,7 @@ BAC009S0759W0341 zhang1 ji4 ke1 liang3 ci4 shu1 zhang1 yu3 zhen4
 BAC009S0759W0342 dui4 shou3 xian4 jie1 duan4 yi3 jing1 da2 dao4 le5 chong1 ji1 guo2 ping1 zhu3 li4 de5 cheng2 du4
 BAC009S0759W0343 er2 wo3 men5 de5 dui4 yuan2 cong2 zhuang4 tai4 ji2 zhong4 shi4 dui4 shou3 cheng2 du4 deng3 fang1 mian4
 BAC009S0759W0344 di4 liu4 ju2 zhang1 ji4 ke1 qi1 ba1 luo4 hou4
-BAC009S0759W0345 yi1 ge4 zheng1 yi4 qiu2 bei4 cai2 pan4 pan4 dui4 shou3 de2 fen1
+BAC009S0759W0345 yi2 ge4 zheng1 yi4 qiu2 bei4 cai2 pan4 pan4 dui4 shou3 de2 fen1
 BAC009S0759W0346 zhang1 yu3 zhen4 sai4 qian2 zai4 chang3 bian1 fang4 zhi4 le5 lu4 xiang4 ji1
 BAC009S0759W0347 guo2 ping1 qing3 qiu2 kan4 hui2 fang4 zao1 ju4
 BAC009S0759W0348 dou1 hui4 fang4 zhi4 lu4 xiang4 ji1 lu4 xiang4
@@ -12781,7 +12781,7 @@ BAC009S0759W0419 chu2 le5 yu3 lin2 zhi4 ling2 de5 fei1 wen2 jing1 jiu3 bu4 shuai
 BAC009S0759W0420 ying3 shi4 dai4 biao3 zuo4 pin2 fa2
 BAC009S0759W0421 yan2 cheng2 xu4 xian4 shen1 shen1 zhen4
 BAC009S0759W0422 ye3 nan2 de5 yu3 nei4 di4 mei2 ti3 zuo4 cai3 fang3
-BAC009S0759W0423 san1 shi2 ba1 sui4 de5 yan2 cheng2 xu4 si4 hu1 bian4 le5 yi1 ge4 ren2
+BAC009S0759W0423 san1 shi2 ba1 sui4 de5 yan2 cheng2 xu4 si4 hu1 bian4 le5 yi2 ge4 ren2
 BAC009S0759W0424 bu4 jin3 hua4 xia2 zi5 da4 kai1
 BAC009S0759W0425 hai2 xiang4 ji4 zhe3 sa1 jiao1 mai4 meng2 duo1 hu1 yu4 xia4
 BAC009S0759W0427 er2 qie3 wo3 ye3 xiang3 shang4 zhen1 ren2 xiu4 jie2 mu4
@@ -13021,10 +13021,10 @@ BAC009S0760W0288 mei3 guo2 jun1 fang1 zai4 zhe4 ge4 wen4 ti2 shang4 cun2 zai4 de
 BAC009S0760W0289 si1 fa3 bu4 ji2 yi1 xie1 qian2 zhi2 fa3 guan1 yuan2 bian4 lun4 cheng1
 BAC009S0760W0290 ru2 guo3 yi4 wei4 zhe5 ke3 yi3 zhen1 po4 xing2 shi4 an4 jian4
 BAC009S0760W0291 ru2 guo3 zai4 kuan1 fan4 de5 yu3 jing4 xia4 xun2 wen4 jian1 ting1 gong1 neng2
-BAC009S0760W0292 ni3 de2 dao4 de5 shi4 yi1 ge4 hui2 da2
+BAC009S0760W0292 ni3 de2 dao4 de5 shi4 yi2 ge4 hui2 da2
 BAC009S0760W0293 shou3 you4 bu4 shou4 yue1 shu4 de5 jia1 huo5
 BAC009S0760W0294 ni3 jiu4 hui4 de2 dao4 bu4 yi1 yang4 de5 hui2 da2
-BAC009S0760W0295 yu3 ping2 guo3 da3 guan1 si1 yi1 ran2 shi4 yi1 ge4 xuan3 xiang4
+BAC009S0760W0295 yu3 ping2 guo3 da3 guan1 si1 yi1 ran2 shi4 yi2 ge4 xuan3 xiang4
 BAC009S0760W0296 ye3 you3 yi1 xie1 ren2 biao3 shi4 fan3 dui4
 BAC009S0760W0297 cheng1 si1 fa3 da4 zhan4 jiang1 dao3 zhi4 xiang1 guan1 gong1 si1 geng4 nan2 tuo3 xie2
 BAC009S0760W0298 ping2 guo3 he2 qi2 ta1 gong1 si1 si1 xia4 dou1 biao3 da2 guo4 xun2 qiu2 gong4 shi2 de5 yi4 yuan4
@@ -13046,7 +13046,7 @@ BAC009S0760W0313 hen3 duo1 qi3 ye4 reng2 chu3 yu2 tou2 zi1 qi1
 BAC009S0760W0314 sui1 ran2 you3 zhe5 qing1 jie2 neng2 yuan2 huan2 bao3 qian2 jing3 liang2 hao3 de5 zhu1 duo1 mao4 zi5
 BAC009S0760W0315 dan4 yi2 dan4 chu1 xian4 you3 guan1 zi1 jin1 lian4 de5 fu4 mian4 chuan2 wen2
 BAC009S0760W0316 zi1 ben3 shi4 chang3 li4 ji2 hui4 zuo4 chu1 fan3 ying4
-BAC009S0760W0317 guang1 fu2 shi4 chang3 de5 zhuang4 da4 chu3 yu2 yi1 ge4 jian4 jin4 zhuang4 tai4 zhong1
+BAC009S0760W0317 guang1 fu2 shi4 chang3 de5 zhuang4 da4 chu3 yu2 yi2 ge4 jian4 jin4 zhuang4 tai4 zhong1
 BAC009S0760W0318 guo2 nei4 zheng4 ce4 da4 li4 tui1 guang3 guang1 fu2 chan3 pin3 yun4 yong4
 BAC009S0760W0319 geng4 duo1 li3 you2 rang4 wo3 men5 xiang1 xin4 shi4 han4 neng2 cun2 zai4 tai4 duo1 de5 ge4 xing4 yin1 yin1 su4
 BAC009S0760W0320 ye3 xu3 han4 neng2 die1 de2 zhe4 me5 xiong1 meng3 rang4 ren2 yi4 wai4
@@ -13130,7 +13130,7 @@ BAC009S0760W0397 sai4 hou4 wo3 men5 hui4 ji4 xu4 xiang4 cai2 pan4 zhang3 fan3 yi
 BAC009S0760W0398 yin1 wei4 ru2 guo3 shi4 cuo4 pan4 huo4 zhe3 lou4 pan4 wo3 men5 dou1 ke3 yi3 jie1 shou4
 BAC009S0760W0399 ping2 shi2 xun4 lian4 zhong1 wo3 men5 ye3 hui4 dui4 dui4 yuan2 jin4 xing2 zhe4 fang1 mian4 de5 xun4 lian4
 BAC009S0760W0400 zhe4 dou1 shi4 bi3 sai4 de5 yi1 bu4 fen4
-BAC009S0760W0401 dan4 shi4 xian4 zai4 que4 nong4 chu1 le5 yi1 ge4 zhe4 yang4 tian1 da4 de5 xiao4 hua4
+BAC009S0760W0401 dan4 shi4 xian4 zai4 que4 nong4 chu1 le5 yi2 ge4 zhe4 yang4 tian1 da4 de5 xiao4 hua4
 BAC009S0760W0402 zhe4 yang4 de5 pan4 fa2 que4 shi2 shuo1 ming2 le5 cai2 pan4 de5 shui3 ping2 tai4 di1
 BAC009S0760W0403 ru2 guo3 shi4 ca1 wang3 ca1 bian1 zhi1 lei4 de5 hai2 qing2 you3 ke3 yuan2
 BAC009S0760W0404 zai4 zhe4 kuan3 bing4 du2 shi4 pin2 zhi1 hou4
@@ -13295,7 +13295,7 @@ BAC009S0761W0189 zhe4 shi4 zhong1 guo2 zheng4 fu3 qi4 jin1 na2 chu1 zui4 qie4 sh
 BAC009S0761W0190 xian3 shi4 ta1 xiang1 xin4 zhong1 guo2 de5 tong1 zhang4 zheng4 de2 dao4 kong4 zhi4
 BAC009S0761W0191 guo2 ji4 shi4 chang3 da4 zong1 shang1 pin3 jia4 ge2 bi3 qi1 yue4 fen4 you3 ming2 xian3 hui2 luo4
 BAC009S0761W0192 zhe4 zhong3 shu1 ru4 xing4 ying3 xiang3 zai4 qi1 yue4 fen4 yi3 hou4 hui4 you3 suo3 fang4 huan3
-BAC009S0761W0193 zhe4 shi4 yi1 ge4 ji1 ji2 de5 xin4 hao4
+BAC009S0761W0193 zhe4 shi4 yi2 ge4 ji1 ji2 de5 xin4 hao4
 BAC009S0761W0194 yao1 qiu2 si4 jia1 qi3 ye4 de5 xiao3 bao1 zhuang1 shi2 yong4 you2 wu3 ge4 yue4 nei4 bu4 yao4 zhang3 jia4
 BAC009S0761W0195 guo2 jia1 fa1 gai3 wei3 you4 yu2 jin1 nian2 wu3 yue4 yao1 qiu2 jiang1 xian4 jia4 qi1 xian4 yan2 chang2 liang3 ge4 yue4
 BAC009S0761W0196 shi2 yong4 you2 xian4 jia4 ling4 huo4 yan2 chang2 zhi4 wu3 yue4
@@ -13372,10 +13372,10 @@ BAC009S0761W0266 ru2 guo3 qi2 ta1 guo2 jia1 de5 zheng4 fu3 wei4 jing1 tong1 zhi1
 BAC009S0761W0267 mei3 guo2 zheng4 fu3 da3 suan4 zen3 me5 ban4
 BAC009S0761W0268 yi1 xie1 zhong1 guo2 gong1 si1 xian4 zai4 yi3 jing1 ji4 hua4 zai4 mei3 guo2 de5 tu3 di4 shang4 xing1 jian4 she4 shi1
 BAC009S0761W0269 wei4 lai2 yong4 yu2 cun2 chu2 dian4 zi5 tong1 xun4 ji4 lu4
-BAC009S0761W0270 zhe4 ge4 wen4 ti2 huo4 xu3 bing4 bu4 zhi3 shi4 yi1 ge4 jia3 she4
+BAC009S0761W0270 zhe4 ge4 wen4 ti2 huo4 xu3 bing4 bu4 zhi3 shi4 yi2 ge4 jia3 she4
 BAC009S0761W0271 wei1 ruan3 zai4 zi4 ji3 de5 chen2 ci2 zhong1 cheng1
 BAC009S0761W0272 mei3 guo2 guo2 hui4 zui4 zhong1 hai2 shi4 bi4 xu1 kao3 lv4 zhe4 ge4 wen4 ti2
-BAC009S0761W0273 yin1 wei4 ta1 bu4 jin3 shi4 yi1 ge4 fa3 lv4 wen4 ti2
+BAC009S0761W0273 yin1 wei4 ta1 bu4 jin3 shi4 yi2 ge4 fa3 lv4 wen4 ti2
 BAC009S0761W0276 zhe4 yi1 ji4 hua4 yi3 na4 ru4 er4 ling2 yi1 liu4 cai2 nian2 mei3 guo2 lian2 bang1 zheng4 fu3 yu4 suan4 an4
 BAC009S0761W0277 yi2 dan4 yu4 suan4 an4 zai4 guo2 hui4 huo4 de2 tong1 guo4
 BAC009S0761W0278 yi1 xie1 mei3 guo2 qi3 ye4 zai4 guo2 wai4 zhuan4 qian2
@@ -13519,7 +13519,7 @@ BAC009S0761W0418 xu3 wei3 ning2 zui4 jin4 yin1 wei4 gan3 mao4 reng2 zai4 tiao2 s
 BAC009S0761W0419 ta1 xiao4 zhe5 biao3 shi4 qing2 ren2 jie2 ji4 hua4 jiu4 shi4 jiang1 shen1 ti3 yang3 hao3
 BAC009S0761W0420 zhe4 cai2 shi4 zui4 zhong4 yao4 de5
 BAC009S0761W0421 sou1 hu2 yu2 le4 xun4 ju4 tai2 wan1 mei2 ti3 bao4 dao4
-BAC009S0761W0422 xu3 wei3 ning2 yi1 ge4 yue4 qian2 yu2 fa3 guo2 du4 jia4
+BAC009S0761W0422 xu3 wei3 ning2 yi2 ge4 yue4 qian2 yu2 fa3 guo2 du4 jia4
 BAC009S0761W0423 que4 zai4 yi4 xiang1 zhong4 bing4 fa1 shao1
 BAC009S0761W0424 hui2 dao4 tai2 wan1 hou4 kuang2 hai1 bu4 zhi3
 BAC009S0761W0425 jiu4 zhen3 hou4 fa1 xian4 bing4 qing2 e4 hua4
@@ -13527,7 +13527,7 @@ BAC009S0761W0426 bi4 xu1 zhu4 jin4 yi1 yuan4 zhi4 liao2 guan1 cha2
 BAC009S0761W0427 ta1 zai4 wang3 shang4 xiang4 da4 jia1 bao4 ping2 an1
 BAC009S0761W0428 biao3 shi4 zi4 ji3 zheng4 zhu2 jian4 kang1 fu4
 BAC009S0761W0429 hai2 shai4 chu1 tuo1 sai1 mei3 zhao4
-BAC009S0761W0430 xu3 wei3 ning2 ju4 cheng2 ren4 yu3 ruan3 jing1 tian1 fu4 he2 yao4 yi1 ge4 ren2 cheng2 zhang3
+BAC009S0761W0430 xu3 wei3 ning2 ju4 cheng2 ren4 yu3 ruan3 jing1 tian1 fu4 he2 yao4 yi2 ge4 ren2 cheng2 zhang3
 BAC009S0761W0431 ou1 yan4 xiong2 de5 niao4 jian3 jie2 guo3 reng2 wei4 chu1 lai2
 BAC009S0761W0432 qi2 xing2 xiong1 qian2 shi4 fou3 xi1 du2 reng2 dai4 diao4 cha2
 BAC009S0761W0433 nan2 dou1 ji4 zhe3 zou3 fang3 ou1 yan4 xiong2 suo3 zhu4 de5 bai2 hua1 zhen4 yan2 he2 she4 qu1
@@ -13568,17 +13568,17 @@ BAC009S0761W0467 hua2 sheng1 zai4 xian4 san1 xiang1 du1 shi4 jiu3 yue4 yi1 ri4 x
 BAC009S0761W0468 heng2 yang2 shi4 heng2 nan2 xian4 nan2 zi5 chen2 hong2 wei3 mei2 you3 duo1 xiang3
 BAC009S0761W0469 guo3 duan4 ba3 che1 jie4 gei3 le5 peng2 you3
 BAC009S0761W0470 ran2 er2 zhe4 yi1 yi4 ju3 que4 rang4 zi4 ji3 tan1 shang4 liao3 shi4 er2
-BAC009S0761W0471 peng2 you3 quan1 jia1 zhang3 qun2 zao1 tu3 cao2 yi1 ge4 ma1 liu4 ge4 qun2
+BAC009S0761W0471 peng2 you3 quan1 jia1 zhang3 qun2 zao1 tu3 cao2 yi2 ge4 ma1 liu4 ge4 qun2
 BAC009S0761W0473 ji4 zhe3 gao1 ge1 she4 wei4 le5 lian2 xi4 fang1 bian4
 BAC009S0761W0474 ru2 jin1 xue2 xiao4 de5 mei3 ge4 ban1 dou1 jian4 you3 jia1 zhang3 qun2
 BAC009S0761W0475 qun2 cheng2 yuan2 zhu3 yao4 shi4 lao3 shi1 he2 jia1 zhang3
 BAC009S0761W0476 jia1 zhang3 qun2 que4 lv3 zao1 jia1 zhang3 tu3 cao2 qi2 ta1 qun2 ke3 yi3 bu4 kan4
 BAC009S0761W0477 dan4 shi4 jia1 zhang3 qun2 zai4 mang2 ye3 yao4 kan4
-BAC009S0761W0478 you3 de5 jia1 zhang3 yi1 ge4 ren2 yong1 you3 liu4 ge4 jia1 zhang3 qun2
+BAC009S0761W0478 you3 de5 jia1 zhang3 yi2 ge4 ren2 yong1 you3 liu4 ge4 jia1 zhang3 qun2
 BAC009S0761W0479 mian4 dui4 mei3 tian1 shua1 bu4 die2 de5 qun2 xin4 xi1
 BAC009S0761W0480 bei4 qun2 bang3 jia4 de5 gan3 jue2 tai4 nan2 shou4 le5
 BAC009S0761W0481 peng2 you3 quan1 bang1 mang2 kan3 jia4 huo4 shi4 xin1 pian4 ju2 nv3 hai2 ba1 wan4 jia4 zhuang1 quan2 bei4 pian4
-BAC009S0761W0482 huang2 xian1 sheng1 kan4 dao4 peng2 you3 quan1 de5 yi1 ge4 peng2 you3 fa1 le5 yi1 ge4 lian4 jie1
+BAC009S0761W0482 huang2 xian1 sheng1 kan4 dao4 peng2 you3 quan1 de5 yi2 ge4 peng2 you3 fa1 le5 yi2 ge4 lian4 jie1
 BAC009S0761W0483 zhi3 yao4 zhao3 peng2 you3 bang1 mang2 kan3 jia4
 BAC009S0761W0485 huang2 xian1 sheng1 dang1 ji2 dian3 le5 jin4 qu4
 BAC009S0761W0486 bang1 peng2 you3 dian3 le5 yi1 xia4 kan3 jia4 jian4
@@ -13647,7 +13647,7 @@ BAC009S0762W0173 you3 de5 wei4 le5 hai2 zi5 neng2 zai4 xian4 cheng2 shang4 xue2
 BAC009S0762W0174 you3 de5 wei4 le5 lao3 ren2 sheng1 huo2 tiao2 jian4 geng4 hao3 yi1 xie1
 BAC009S0762W0175 hai2 you3 de5 shi4 qu3 xi2 fu4 de5 xu1 yao4
 BAC009S0762W0176 bu4 yuan4 yi4 dao4 xiang1 xia4 ju1 zhu4 le5
-BAC009S0762W0177 zhe4 ke3 yi3 zuo4 wei2 yi1 ge4 zhu4 jiao3
+BAC009S0762W0177 zhe4 ke3 yi3 zuo4 wei2 yi2 ge4 zhu4 jiao3
 BAC009S0762W0178 shi2 ji4 shang4 shi4 mo1 qing1 zhu4 fang2 de5 jia1 di3
 BAC009S0762W0179 geng4 you3 li4 yu2 tiao2 kong4 zheng4 ce4 de5 zhun3 que4 xing4
 BAC009S0762W0180 geng4 you3 li4 yu2 fang2 di4 chan3 shi4 chang3 qu1 xiang4 jian4 kang1 ping2 wen3
@@ -13818,10 +13818,10 @@ BAC009S0762W0351 wo3 xiang3 you3 xie1 han2 guo2 qiu2 yuan2 ye3 shi4 shi4 jie4 sh
 BAC009S0762W0352 zai4 zong3 jie2 quan2 bu4 sai4 shi4 de5 shi2 hou4 zhang1 ji4 ke1 tan3 yan2 zi4 ji3 zheng3 ti3 zhuang4 tai4 yi4 ban1
 BAC009S0762W0353 hen3 zhang3 shi2 jian1 mei2 you3 bi3 sai4 le5
 BAC009S0762W0354 zui4 jin4 zhuang4 tai4 que4 shi2 bu4 shi4 te4 bie2 hao3
-BAC009S0762W0355 yi1 ge4 shi4 zui4 jin4 shen1 ti3 shang4 you3 hen3 duo1 zhong3 shang1 bing4
+BAC009S0762W0355 yi2 ge4 shi4 zui4 jin4 shen1 ti3 shang4 you3 hen3 duo1 zhong3 shang1 bing4
 BAC009S0762W0356 ling4 wai4 xun4 lian4 shang4 bu4 shi4 te4 bie2 xi4 tong3
 BAC009S0762W0357 zai4 jia1 shang4 bi3 sai4 da3 de2 bu4 shi4 hen3 duo1
-BAC009S0762W0358 zhang1 ji4 ke1 tan3 yan2 ru2 guo3 yi1 ge4 zhi2 ye4 yun4 dong4 yuan2 guang1 xun4 lian4 bu4 bi3 sai4
+BAC009S0762W0358 zhang1 ji4 ke1 tan3 yan2 ru2 guo3 yi2 ge4 zhi2 ye4 yun4 dong4 yuan2 guang1 xun4 lian4 bu4 bi3 sai4
 BAC009S0762W0359 na4 shi2 zhi4 shang4 dui4 yu2 dui4 kang4 xing4 de5 kao3 yan4 hui4 cha4 hen3 duo1
 BAC009S0762W0360 xian4 zai4 shei2 gen1 wo3 bi3 sai4 dou1 shi4 yi3 pin1 wei2 zhu3
 BAC009S0762W0361 qiu2 da3 de2 bo2 sha1 xing4 bi3 jiao4 qiang2
@@ -13897,7 +13897,7 @@ BAC009S0762W0432 bu4 xing2 shi4 zui4 jian3 dan1 zui4 jing1 ji4 de5 yun4 dong4 fa
 BAC009S0762W0433 sui2 shi2 sui2 de5 jiu4 ke3 yi3 dong4 qi3 lai2
 BAC009S0762W0434 zou3 lu4 ye3 shi4 you3 li4 you3 bi4 de5
 BAC009S0762W0435 peng2 you3 quan1 mian4 mo2 wei1 shang1 xiao1 liang4 you2 re4 zhuan3 leng3 zui4 huo3 shi2 ceng2 yue4 zheng1 wu3 ling2 ling2 ling2
-BAC009S0762W0436 zuo2 wan3 zuo4 le5 jie3 jie3 song4 de5 mian4 mo2 xiao4 guo3 hen3 hao3
+BAC009S0762W0436 zuo2 wan3 zuo4 liao3 jie3 jie3 song4 de5 mian4 mo2 xiao4 guo3 hen3 hao3
 BAC009S0762W0437 fa1 yan2 xia4 mian4 shi4 liang3 zhang1 pi2 fu1 nen4 nen4 de5 ren2 xiang4 tu2
 BAC009S0762W0439 zui4 jin4 peng2 you3 quan1 mai4 mian4 mo2 yue4 lai2 yue4 shao3 le5
 BAC009S0762W0440 ji1 hu1 yi1 ye4 jian1 jiu4 qiao1 qiao1 xiao1 shi1 le5
@@ -13939,7 +13939,7 @@ BAC009S0762W0476 zhao1 yang2 qun2 zhong4 ju3 bao4 zhi4 shou4 jia3 che1 pai2 tuan
 BAC009S0762W0477 jing1 hua2 shi2 bao4 xun4 ji4 zhe3 zhou1 xin1 zuo2 tian1
 BAC009S0762W0478 ji4 zhe3 cong2 shi4 gong1 an1 ju2 huo4 xi1
 BAC009S0762W0479 bei3 jing1 jing3 fang1 jing1 guo4 ba1 tian1 dun1 shou3
-BAC009S0762W0480 jiang1 yi1 ge4 zhi4 zao4 xiao1 shou4 jia3 che1 pai2 de5 fan4 zui4 tuan2 huo3 da3 diao4
+BAC009S0762W0480 jiang1 yi2 ge4 zhi4 zao4 xiao1 shou4 jia3 che1 pai2 de5 fan4 zui4 tuan2 huo3 da3 diao4
 BAC009S0762W0481 san1 ming2 tuan2 huo3 cheng2 yuan2 xi1 shu4 luo4 wang3
 BAC009S0762W0482 jia3 che1 pai2 ban4 cheng2 pin3 liu4 ling2 ling2 yu2 kuai4
 BAC009S0762W0483 zhi4 zuo4 jia3 che1 pai2 de5 mu2 ju4 jiu3 ling2 kuai4
@@ -14219,7 +14219,7 @@ BAC009S0763W0386 suo3 yi3 dui4 ta1 lai2 shuo1 xun4 lian4 yi4 zhi2 dou1 bu4 xi4 t
 BAC009S0763W0387 ling4 wai4 ti3 neng2 xiao1 hao4 hai2 shi4 ting3 da4 de5
 BAC009S0763W0388 er4 fen1 ling2 qi1 miao3 qi1 liu4 de5 cheng2 ji1
 BAC009S0763W0389 zhe4 shuo1 ming2 ta1 cheng2 ji1 bi3 jiao4 wen3 ding4
-BAC009S0763W0390 neng2 gou4 zai4 yi1 ge4 cheng2 ji1 ping2 tai2 shang4 bao3 chi2 zhu4
+BAC009S0763W0390 neng2 gou4 zai4 yi2 ge4 cheng2 ji1 ping2 tai2 shang4 bao3 chi2 zhu4
 BAC009S0763W0391 zhang1 yu3 fei1 ju4 bei4 cheng2 wei2 shi1 jie3 jiao1 liu2 yang2 na4 yang4 die2 hou4 de5 qian2 zhi4
 BAC009S0763W0392 bu4 guo4 zai4 ji4 shu4 dong4 zuo4 he2 zhuan1 xiang4 neng2 li4 fang1 mian4 hai2 xu1 yao4 gai3 jin4
 BAC009S0763W0393 bao1 kuo4 wu3 shi2 mi3 yi4 bai3 mi3 de5 jue2 dui4 su4 du4 dou1 yao4 ti2 gao1
@@ -14320,7 +14320,7 @@ BAC009S0763W0488 lun2 dao4 feng2 yi4 gan3 kai3 le5 cheng2 ke4 bu4 jin3 tuo1 ren2
 BAC009S0763W0489 hai2 song4 hai2 le5 san1 ling2 yuan2 da3 che1 qian2
 BAC009S0763W0490 ben3 ren2 tai4 mei3 yu3 shen1 fen4 zheng4 cha1 ju4 da4 nv3 zi3 lian4 ai4 duo1 nian2 mei2 fa3 ling3 zheng4
 BAC009S0763W0491 kai1 feng1 de5 yin3 nv3 shi4 jin1 nian2 er4 shi2 liu4 sui4
-BAC009S0763W0492 you3 yi1 ge4 xiang1 lian4 duo1 nian2 shi2 fen1 en1 ai4 de5 nan2 you3
-BAC009S0763W0493 lia3 ren2 xuan3 ding4 le5 yi1 ling2 yue4 fen4 de5 yi1 ge4 hao3 ri4 zi5 ling3 zheng4
+BAC009S0763W0492 you3 yi2 ge4 xiang1 lian4 duo1 nian2 shi2 fen1 en1 ai4 de5 nan2 you3
+BAC009S0763W0493 lia3 ren2 xuan3 ding4 le5 yi1 ling2 yue4 fen4 de5 yi2 ge4 hao3 ri4 zi5 ling3 zheng4
 BAC009S0763W0494 que4 yin1 wei4 yin3 nv3 shi4 zhang3 de2 tai4 mei3
 BAC009S0763W0495 shen1 fen4 zheng4 zhao4 pian4 yu3 ben3 ren2 cha1 ju4 tai4 da4 mei2 fa3 ling3 zheng4
