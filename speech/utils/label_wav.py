@@ -4,11 +4,9 @@ import scipy.io.wavfile as wav
 
 from collections import Counter
 from python_speech_features import mfcc
-from xpinyin import Pinyin
 
 
-pin = Pinyin()
-def load_wav_file(wav_path):
+def list_wav_file(wav_path):
     wav_files = []
     for (dirpath, dirnames, filenames) in os.walk(wav_path):
         for filename in filenames:
@@ -21,13 +19,13 @@ def load_wav_file(wav_path):
     return wav_files
 
 
-def load_label_file(label_file):
+def load_label_file(filename):
     labels_dict = {}
-    with open(label_file, 'r', encoding='utf-8') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         for label in f:
-            label = label.strip("\n")
-            label_id, label_text = label.split(' ', 1)
-            labels_dict[label_id] = label_text
+            label = label.rstrip()
+            label_id, label_content = label.split(' ', 1)
+            labels_dict[label_id] = label_content 
 
     return labels_dict
 
@@ -41,16 +39,15 @@ def prepare_label_list(sample_files, labels_dict):
             labels.append(labels_dict[wav_id])
             new_wav_files.append(sample_file)
 
-    all_words = []
+    all_symols = []
     for label in labels:
-        all_words += [word for word in label]
+        all_symols += label.split(' ')
 
-    all_pinyins = pin.get_pinyin(''.join(all_words)).split('-')
-    counter = Counter(all_pinyins)
+    counter = Counter(all_symols)
     count_pairs = sorted(counter.items())
 
-    pinyins, _ = zip(*count_pairs)
-    lexicon = dict(zip(pinyins, range(len(pinyins))))
+    symbols, _ = zip(*count_pairs)
+    lexicon = dict(zip(symbols, range(len(symbols))))
 
     return lexicon, labels, new_wav_files
 
@@ -76,8 +73,8 @@ def preapre_wav_list(wav_files, num_input, path):
 
 
 def labels_to_vector(labels, lexicon):
-    def to_num(pinyin): return lexicon.get(pinyin, len(lexicon))
-    return [list(map(to_num, pin.get_pinyin(''.join(label)).split('-'))) for label in labels]
+    def to_num(symbol): return lexicon.get(symbol, len(lexicon))
+    return [list(map(to_num, label.split(' '))) for label in labels]
 
 
 def sparse_tuple_from(sequences, dtype=np.int32):
@@ -106,6 +103,7 @@ def trans_tuple_to_texts(tuple, lexicon):
 
     words = list(lexicon.keys())
     for i in range(len(indices)):
+        results[indices[i][0]] += ' ' if indices[i, 1] else ''
         results[indices[i][0]] += words[values[i]]
 
     return results
@@ -120,10 +118,9 @@ def trans_array_to_text(value, lexicon):
 
 
 if __name__ == "__main__":
-    wav_files = load_wav_file('/tmp/data_wsj/wav/train')
-    labels_dict = load_label_file('/tmp/data_wsj/doc/trans/train.word.txt')
+    wav_files = list_wav_file('../data/thchs30/data_thchs30/train')
+    labels_dict = load_label_file('../data/thchs30/resource/trans/train.syllable.txt')
 
-    pin = Pinyin()
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     vector_labels = labels_to_vector(labels, lexicon)
     f = open('./symbol_table.txt', 'w')
@@ -135,7 +132,7 @@ if __name__ == "__main__":
     print(wav_files[sample])
     print(labels[sample])
     print(vector_labels[sample])
-    print(list(lexicon.keys())[11])
+    print(list(lexicon.keys())[67])
 
     sparse_labels = sparse_tuple_from(vector_labels[:3])
     decoded_str = trans_tuple_to_texts(sparse_labels, lexicon)
