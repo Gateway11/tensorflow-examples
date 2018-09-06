@@ -72,9 +72,9 @@ def train(
 
     for training_step in range(training_steps):
         total_loss = 0
-        for train_batch in range(num_test_batches):
+        for train_batch in range(num_train_batches):
             sparse_labels, batch_samples, num_steps = get_next_batches(
-                batch_size * train_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
+                batch_size * train_batch, train_sample_files, train_vector_labels, num_contexts, batch_size)
 
             # train_summary, loss, _ = sess.run([merged_summaries, avg_loss, train_step],
             loss, _ = sess.run([avg_loss, train_step],
@@ -83,22 +83,22 @@ def train(
             total_loss += loss
 
         print('training step: %d/%d, loss: %g' 
-                % (training_step + 1, training_steps, total_loss / num_test_batches))
+                % (training_step + 1, training_steps, total_loss / num_train_batches))
 
-#        if (training_step + 1) % eval_step_interval == 0:
-#            saver.save(sess, train_dir + "speech.ckpt", global_step=training_step)
-#
-#            total_test_accuracy = 0
-#            for test_batch in range(num_test_batches):
-#                sparse_labels, batch_samples, num_steps = get_next_batches(
-#                    batch_size * test_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
-#    
-#                test_accuracy = evaluation_step.eval(
-#                        feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 1.0})
-#                total_test_accuracy += test_accuracy
-#
-#            print('WER: %.2f, training step: %d/%d' 
-#                    % (total_test_accuracy / num_test_batches, training_step + 1, training_steps))
+        if (training_step + 1) % eval_step_interval == 0:
+            saver.save(sess, train_dir + "speech.ckpt", global_step=training_step)
+
+            total_test_accuracy = 0
+            for test_batch in range(num_test_batches):
+                sparse_labels, batch_samples, num_steps = get_next_batches(
+                    batch_size * test_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
+    
+                test_accuracy = evaluation_step.eval(
+                        feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 1.0})
+                total_test_accuracy += test_accuracy
+
+            print('WER: %.2f, training step: %d/%d' 
+                    % (total_test_accuracy / num_test_batches, training_step + 1, training_steps))
 
     total_accuracy = 0
     for test_batch in range(num_test_batches):
