@@ -22,7 +22,7 @@
     !mkdir -p drive
     !google-drive-ocamlfuse drive  -o nonempty
     
-    ## Install CUDA 9
+    # Install CUDA 9
     !curl -O http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
     !dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
     !apt-get install software-properties-common dirmngr
@@ -31,8 +31,8 @@
     !apt-get install cuda
     
     # Install cuDNN 7.
-    !tar xzvf device/Colaboratory/cudnn-9.0-linux-x64-v7.2.1.38.tgz
-    !cp cuda/lib64/* /usr/local/cuda/lib64/
+    !tar zxf drive/Colaboratory/cudnn-9.0-linux-x64-v7.2.1.38.tgz
+    !cp -r cuda/lib64/* /usr/local/cuda/lib64/
     !cp cuda/include/cudnn.h /usr/local/cuda/include/
     !apt-get install libcupti-dev
     
@@ -41,6 +41,7 @@
     !apt-get update
     !apt-get install tensorrt
     
+    # Install MKL
     !apt-get install cmake
     !git clone https://github.com/01org/mkl-dnn.git
     %cd mkl-dnn/scripts
@@ -55,8 +56,7 @@
     !echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_HOME/lib64:/usr/local/lib:/usr/local/cuda/extras/CUPTI/lib64' >> ~/.bashrc
     !. ~/.bashrc
     
+    !pip install tensorflow-gpu==1.9 python_speech_features
     !git clone https://github.com/kevinan1/tensorflow-examples.git -b dev
-    !pip install python_speech_features
-    !pip --no-cache-dir https://github.com/mind/wheels/releases/download/tf1.4.1-gpu/tensorflow-1.4.1-cp36-cp36m-linux_x86_64.whl
     %cd ./tensorflow-examples/speech
     !python ./run.py
