@@ -29,6 +29,7 @@
     !apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
     !apt-get update
     !apt-get install cuda
+    !ln -s /usr/local/cuda/targets/x86_64-linux/lib/libcublas.so.9.2 /usr/local/cuda/targets/x86_64-linux/lib/libcublas.so.9.0
     
     # Install cuDNN 7.
     !tar zxf drive/Colaboratory/cudnn-9.0-linux-x64-v7.2.1.38.tgz
@@ -53,7 +54,7 @@
     
     !echo 'export CUDA_HOME=/usr/local/cuda' >> ~/.bashrc
     !echo 'export PATH=$PATH:$CUDA_HOME/bin' >> ~/.bashrc
-    !echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CUDA_HOME/lib64:/usr/local/lib:/usr/local/cuda/extras/CUPTI/lib64' >> ~/.bashrc
+    !echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib:$CUDA_HOME/lib64:$CUDA_HOME/targets/x86_64-linux/lib:$CUDA_HOME/extras/CUPTI/lib64' >> ~/.bashrc
     !. ~/.bashrc
     
     !pip install tensorflow-gpu==1.9 python_speech_features
