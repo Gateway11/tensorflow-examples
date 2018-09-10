@@ -1,4 +1,5 @@
 import warnings
+import time
 import tensorflow as tf
 from tensorflow.python.ops import ctc_ops
 
@@ -24,21 +25,13 @@ def train(
         model_architecture,
         model_size_info):
 
-    use_gpu = False
-    device_name = tf.test.gpu_device_name()
-    if not device_name:
-        warnings.warn('No GPU found. Please use a GPU to train your neural network.')
-    else:
-        use_gpu = True
-        print('Found GPU at: {}'.format(device_name))
-
     X = tf.placeholder(dtype=tf.float32, shape=[
         None, None, num_inputs + (2 * num_inputs * num_contexts)], name='input')
     sequence_len = tf.placeholder(dtype=tf.int32, shape=[None], name='sequence_len')
     Y = tf.sparse_placeholder(dtype=tf.int32)
 
     num_character = len(lexicon) + 1
-    model_settings = prepare_model_settings(20, num_character, use_gpu)
+    model_settings = prepare_model_settings(20, num_character)
     logits, dropout_prob = create_model(
         X, sequence_len, model_settings, model_architecture, model_size_info, True)
 
@@ -53,7 +46,7 @@ def train(
         evaluation_step = tf.reduce_mean(tf.edit_distance(tf.cast(decoder[0], tf.int32), Y))
         tf.summary.scalar('accuracy', evaluation_step)
 
-    if use_gpu == True:
+    if tf.test.gpu_device_name():
         gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.9)
         sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
     else:
@@ -72,6 +65,7 @@ def train(
 
     for training_step in range(training_steps):
         total_loss = 0
+        epoch_start = time.time()
         for train_batch in range(num_train_batches):
             sparse_labels, batch_samples, num_steps = get_next_batches(
                 batch_size * train_batch, train_sample_files, train_vector_labels, num_contexts, batch_size)
@@ -82,8 +76,9 @@ def train(
             # train_writer.add_summary(train_summary, train_batch)
             total_loss += loss
 
-        print('training step: %d/%d, loss: %g' 
-                % (training_step + 1, training_steps, total_loss / num_train_batches))
+        time_cost = time.time() - epoch_start
+        print('training step: %d/%d, loss: %g, time cost: %.2f' 
+                % (training_step + 1, training_steps, total_loss / num_train_batches, time_cost))
 
         if (training_step + 1) % eval_step_interval == 0:
             saver.save(sess, train_dir + "speech.ckpt", global_step=training_step)
