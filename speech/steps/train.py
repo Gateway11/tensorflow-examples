@@ -55,7 +55,7 @@ def train(
 
     sess.run(tf.global_variables_initializer())
     ckpt = tf.train.latest_checkpoint(train_dir)
-    if ckpt is not None: saver.restore(sess, ckpt)
+    if ckpt: saver.restore(sess, ckpt)
 
     merged_summaries = tf.summary.merge_all()
     train_writer = tf.summary.FileWriter(summaries_dir, sess.graph)
@@ -77,7 +77,7 @@ def train(
             total_loss += loss
 
         time_cost = time.time() - epoch_start
-        print('training step: %d/%d, loss: %g, time cost: %.2f' 
+        print('training step: %d/%d, loss: %g, time cost: %.2fs' 
                 % (training_step + 1, training_steps, total_loss / num_train_batches, time_cost))
 
         if (training_step + 1) % eval_step_interval == 0:
@@ -88,7 +88,7 @@ def train(
                 sparse_labels, batch_samples, num_steps = get_next_batches(
                     batch_size * test_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
     
-                test_accuracy = evaluation_step.eval(
+                test_accuracy = sess.run([evaluation_step],
                         feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 1.0})
                 total_test_accuracy += test_accuracy
 

@@ -65,6 +65,6 @@ def align_batch_samples(batch_samples, dtype=np.float32, value=0.):
 
 if __name__ == "__main__":
     samples = []
-    samples.append(padding_context(np.loadtxt('../output/mfcc/train/B11_258.txt')[::2], 9).astype('float32'))
-    samples.append(padding_context(np.loadtxt('../output/mfcc/train/A4_211.txt')[::2], 9).astype('float32'))
-    align_samples(samples)
+    samples.append(padding_context(np.loadtxt('../output/mfcc/train/B11_258.txt'), 9).astype('float32'))
+    samples.append(padding_context(np.loadtxt('../output/mfcc/train/A4_211.txt'), 9).astype('float32'))
+    align_batch_samples(samples)
