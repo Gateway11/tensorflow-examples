@@ -88,7 +88,7 @@ def train(
                 sparse_labels, batch_samples, num_steps = get_next_batches(
                     batch_size * test_batch, test_sample_files, test_vector_labels, num_contexts, batch_size)
     
-                test_accuracy = sess.run([evaluation_step],
+                test_accuracy = sess.run(evaluation_step,
                         feed_dict={X: batch_samples, Y: sparse_labels, sequence_len: num_steps, dropout_prob: 1.0})
                 total_test_accuracy += test_accuracy
 
