@@ -45,17 +45,17 @@ def create_birnn_model(input_tensor,
     # shape(num_steps * batch_size, 494)
     input_tensor = tf.reshape(input_tensor, [-1, num_inputs])
 
-    outputs = fc_layer(input_tensor, [num_inputs, model_size_info[0]], 'relu', stddev, 'FC_1')
+    outputs = fc_layer('FC_1', input_tensor, [num_inputs, model_size_info[0]], stddev, 'relu')
     outputs = tf.minimum(outputs, relu_clip)
     if is_training:
         outputs = tf.nn.dropout(outputs, dropout_prob)
 
-    outputs = fc_layer(outputs, [model_size_info[0], model_size_info[1]], 'relu', stddev, 'FC_2')
+    outputs = fc_layer('FC_2', outputs, [model_size_info[0], model_size_info[1]], stddev, 'relu')
     outputs = tf.minimum(outputs, relu_clip)
     if is_training:
         outputs = tf.nn.dropout(outputs, dropout_prob)
 
-    outputs = fc_layer(outputs, [model_size_info[1], model_size_info[2]], 'relu', stddev, 'FC_3')
+    outputs = fc_layer('FC_3', outputs, [model_size_info[1], model_size_info[2]], stddev, 'relu')
     outputs = tf.minimum(outputs, relu_clip)
     if is_training:
         outputs = tf.nn.dropout(outputs, dropout_prob)
@@ -75,12 +75,12 @@ def create_birnn_model(input_tensor,
                 inputs=outputs, dtype=tf.float32, time_major=True, sequence_length=sequence_len)
         outputs = tf.reshape(tf.concat(outputs, 2), [-1, 2 * model_size_info[3]])
 
-    outputs = fc_layer(outputs, [model_size_info[3] * 2, model_size_info[4]], 'relu', stddev, 'FC_5')
+    outputs = fc_layer('FC_5', outputs, [model_size_info[3] * 2, model_size_info[4]], stddev, 'relu')
     outputs = tf.minimum(outputs, relu_clip)
     if is_training:
         outputs = tf.nn.dropout(outputs, dropout_prob)
 
-    outputs = fc_layer(outputs, [model_size_info[4], num_character], None, stddev, 'FC_6')
+    outputs = fc_layer('FC_6', outputs, [model_size_info[4], num_character], stddev, None)
     outputs = tf.reshape(outputs, [-1, input_shape_tensor[0], num_character])
     return outputs, dropout_prob if is_training else outputs
 
@@ -97,7 +97,7 @@ def create_fsmn_model(input_tensor,
     outputs = fsmn_layer(input_tensor, [512, 512], 10, 'fsmn1')
     outputs = fsmn_layer(outputs, [512, 1024], 10, 'fsmn2')
 
-    outputs = fc_layer(input_tensor, [1024, num_character], None, stddev, 'FC_3')
+    outputs = fc_layer('FC_3', input_tensor, [1024, num_character], stddev, None)
     return outputs, dropout_prob if is_training else outputs
 
 
@@ -133,10 +133,10 @@ def fsmn_layer(input_tensor, shape, mem_size, name):
         return tf.matmul(input_data, [W1] * batch_size) + tf.add(tf.matmul(h_hatt, [W2] * batch_size), b)
 
 
-def fc_layer(input_tensor, shape, activation, stddev, name):
+def fc_layer(name, input_tensor, shape, stddev, activation):
     with tf.variable_scope(name):
-        W = tf.get_variable(name='W', shape=shape, initializer=tf.random_normal_initializer(stddev=stddev))
-        b = tf.get_variable(name='b', shape=shape[-1], initializer=tf.random_normal_initializer(stddev=stddev))
+        W = tf.get_variable('W', shape, initializer=tf.random_normal_initializer(stddev=stddev))
+        b = tf.get_variable('b', shape[-1], initializer=tf.random_normal_initializer(stddev=stddev))
         outputs = tf.add(tf.matmul(input_tensor, W), b)
 
         if activation == 'relu':
