@@ -52,24 +52,31 @@ def prepare_label_list(sample_files, labels_dict):
     return lexicon, labels, new_wav_files
 
 
-def preapre_wav_list(wav_files, num_input, path):
-    if os.path.exists(path + '.complete.txt'):
-        return [path + file_name for file_name in os.listdir(path) if file_name.endswith('.txt')]
+def preapre_wav_list(wav_files, num_inputs, downsampling_ratio, output_path):
+    complete_filename = output_path + '.complete'
 
-    if not os.path.exists(path):
-        os.makedirs(path)
+    print('mfcc output dir:', output_path)
+    if os.path.exists(complete_filename):
+        max_step = np.loadtxt(complete_filename, 'int32')
+        return [output_path + file_name for file_name \
+                in os.listdir(output_path) if file_name.endswith('.txt')], max_step
 
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+
+    max_step = 0
     sample_files = []
     for wav_file in wav_files:
         fs, audio = wav.read(wav_file)
-        orig_inputs = mfcc(audio, samplerate=fs, numcep=num_input)
+        orig_inputs = mfcc(audio, samplerate=fs, numcep=num_inputs)[::downsampling_ratio]
+        max_step = max_step if not len(orig_inputs) > max_step else len(orig_inputs)
 
-        file_name = path + os.path.basename(wav_file).split(".")[0] + ".txt"
-        np.savetxt(file_name, orig_inputs[::2])
+        file_name = output_path + os.path.basename(wav_file).split(".")[0] + ".txt"
+        np.savetxt(file_name, orig_inputs)
         sample_files.append(file_name)
 
-    np.savetxt(path + '.complete.txt', [len(sample_files)])
-    return sample_files
+    np.savetxt(complete_filename, [max_step])
+    return sample_files, max_step
 
 
 def labels_to_vector(labels, lexicon):
@@ -119,7 +126,7 @@ def trans_array_to_text(value, lexicon):
 
 if __name__ == "__main__":
     wav_files = list_wav_file('../data/thchs30/data_thchs30/train')
-    labels_dict = load_label_file('../data/thchs30/resource/trans/train.syllable.txt')
+    labels_dict = load_label_file('../data/thchs30/resource/trains/train.syllable.txt')
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     labels_vector = labels_to_vector(labels, lexicon)
@@ -132,11 +139,11 @@ if __name__ == "__main__":
     print(wav_files[sample])
     print(labels[sample])
     print(labels_vector[sample])
-    print(list(lexicon.keys())[67])
+    print(list(lexicon.keys())[1041])
 
     sparse_labels = sparse_tuple_from(labels_vector[:3])
     decoded_str = trans_tuple_to_texts(sparse_labels, lexicon)
     # print(sparse_labels)
     print(decoded_str)
 
-    sample_files = preapre_wav_list(wav_files, 26, '../output/mfcc/train/')
+    sample_files, max_step = preapre_wav_list(wav_files, 26, 2, '../output/mfcc/data_thchs30/train/')

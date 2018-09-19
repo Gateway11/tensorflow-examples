@@ -1,10 +1,10 @@
 import tensorflow as tf
 
 
-def prepare_model_settings(relu_clip, num_character):
+def prepare_model_settings(relu_clip, num_classes):
     return {
         'relu_clip': relu_clip,
-        'num_character': num_character,
+        'num_classes': num_classes,
     }
 
 
@@ -34,7 +34,7 @@ def create_birnn_model(input_tensor,
         dropout_prob = tf.placeholder(tf.float32, name='dropout_prob')
 
     relu_clip = model_settings['relu_clip']
-    num_character = model_settings['num_character']
+    num_classes = model_settings['num_classes']
     stddev = 0.046875
 
     # shape(batch_size, num_steps, 494)
@@ -80,8 +80,8 @@ def create_birnn_model(input_tensor,
     if is_training:
         outputs = tf.nn.dropout(outputs, dropout_prob)
 
-    outputs = fc_layer('FC_6', outputs, [model_size_info[4], num_character], stddev, None)
-    outputs = tf.reshape(outputs, [-1, input_shape_tensor[0], num_character])
+    outputs = fc_layer('FC_6', outputs, [model_size_info[4], num_classes], stddev, None)
+    outputs = tf.reshape(outputs, [-1, input_shape_tensor[0], num_classes])
     return outputs, dropout_prob if is_training else outputs
 
 
@@ -90,14 +90,20 @@ def create_fsmn_model(input_tensor,
     if is_training:
         dropout_prob = tf.placeholder(tf.float32, name='dropout_prob')
 
-    num_character = model_settings['num_character']
-    input_shape_tensor = tf.shape(input_tensor)  
-    num_inputs = input_tensor.shape[-1]
+    num_classes = model_settings['num_classes']
 
-    outputs = fsmn_layer(input_tensor, [512, 512], 10, 'fsmn1')
-    outputs = fsmn_layer(outputs, [512, 1024], 10, 'fsmn2')
+    outputs = fsmn_layer('FSMN_1', input_tensor, [input_tensor.shape[-1], 64], 4)
+    outputs = tf.nn.relu(outputs)
 
-    outputs = fc_layer('FC_3', input_tensor, [1024, num_character], stddev, None)
+    outputs = fsmn_layer('FSMN_2', outputs, [64, 128], 8)
+    outputs = tf.nn.relu(outputs)
+
+    outputs = fsmn_layer('FSMN_3', outputs, [128, 512], 16)
+    outputs = tf.nn.relu(outputs)
+
+    outputs = tf.reshape(outputs, [-1, 512])
+    outputs = fc_layer('FC_4', input_tensor, [512, num_classes], stddev, None)
+    outputs = tf.reshape(outputs, [-1, input_tensor.shape[1], num_classes])
     return outputs, dropout_prob if is_training else outputs
 
 
@@ -106,32 +112,29 @@ def create_dfcnn_model(input_tensor,
     pass
 
 
-def fsmn_layer(input_tensor, shape, mem_size, name):
+def fsmn_layer(name, input_tensor, shape, mem_size):
     with tf.variable_scope(name):
         W1 = tf.get_variable("W1", shape, initializer=tf.truncated_normal_initializer(stddev=5e-2, dtype=tf.float32))
         W2 = tf.get_variable("W2", shape, initializer=tf.truncated_normal_initializer(stddev=5e-2, dtype=tf.float32))
         b = tf.get_variable("b", shape[-1], initializer = tf.constant_initializer(0.0, dtype=tf.float32))
-        mem = tf.get_variable("mem", [mem_size], initializer = tf.constant_initializer(1.0, dtype=tf.float32))
+        memory_weights = tf.get_variable("mem", [mem_size], initializer = tf.constant_initializer(1.0, dtype=tf.float32))
 
-        #num_steps = input_tensor.get_shape()[1].value
-        input_shape = tf.shape(input_tensor)  
-        num_steps = input_shape.eval()[1] 
+        num_steps = input_tensor.shape[1]
         memory_matrix = []
         for step in range(num_steps):
             left_num = tf.maximum(0, step + 1 - mem_size) # 0 ~ 29
             right_num = num_steps - step - 1 # 29 ~ 0
 
-            mem = mem[tf.minimum(step, mem_size)::-1]
+            mem = memory_weights[tf.minimum(step, mem_size)::-1]
 
             d_batch = tf.pad(mem, [[left_num, right_num]])
             memory_matrix.append([d_batch])
 
         memory_matrix = tf.concat(memory_matrix, 0)
 
-        batch_size = input_data.get_shape()[0].value
-        h_hatt = tf.matmul([memory_matrix] * batch_size, input_data)
-        return tf.matmul(input_data, [W1] * batch_size) + tf.add(tf.matmul(h_hatt, [W2] * batch_size), b)
-
+        batch_size = input_tensor.shape[0]
+        h_hatt = tf.matmul([memory_matrix] * batch_size, input_tensor)
+        return tf.matmul(input_tensor, [W1] * batch_size) + tf.add(tf.matmul(h_hatt, [W2] * batch_size), b)
 
 def fc_layer(name, input_tensor, shape, stddev, activation):
     with tf.variable_scope(name):

@@ -1,35 +1,22 @@
 import os
 import numpy as np
 
-
-class HttpError(Exception):
-    def __init__(self, value):
-        self.value = value
-
-    def __str__(self):
-        return repr(self.value)
-
-
-def download_and_untar(data_url, save_dir):
-    if not os.path.exists(save_dir + '.complete.txt'):
-
-        if not os.path.exists(save_dir):
-            os.makedirs(save_dir)
-
+def maybe_download_and_untar(data_url, data_dir):
+    if not os.path.exists(data_dir + '.complete'):
+        if not os.path.exists(data_dir):
+            os.makedirs(data_dir)
         for url in data_url:
             if url:
-                file_path = save_dir + os.path.basename(url)
-    
+                file_path = data_dir + os.path.basename(url)
                 if os.system('wget -O %s %s' % (file_path, url)):
-                    raise HttpError("Download error: %s" % (url))
+                    raise Exception("Download error: %s" % (url))
                 print('解压中...')
-                if os.system('tar zxf %s -C %s' % (file_path, save_dir)):
+                if os.system('tar zxf %s -C %s' % (file_path, data_dir)):
                     raise SystemError(
                         '"tar zxf %s %s" command execution failed.' %
-                        (file_path, save_dir))
+                        (file_path, data_dir))
                 print('解压完成!')
-    
-        np.savetxt(save_dir + '.complete.txt', [len(data_url)])
+        np.savetxt(data_dir + '.complete', [len(data_url)])
 
 
 if __name__ == "__main__":
