@@ -45,7 +45,7 @@ DIST_PATH      := .
 # The install prefix tell us where to install the libraries and header file
 # directory. Notice that we support the use of DESTDIR so that advanced users
 # may install to a temporary location.
-INSTALL_PREFIX := $(DESTDIR)/Users/daixiang/deep-learning/tensorflow/tensorflow-examples/speech/vsys/contrib
+INSTALL_PREFIX := $(DESTDIR)/Users/daixiang/deep-learning/tensorflow/tensorflow-examples/speech/vsys/contrib/blis
 
 
 # end of ifndef CONFIG_MK_INCLUDED conditional block
