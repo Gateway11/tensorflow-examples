@@ -12,9 +12,9 @@ def train(audio_processer, num_inputs, num_classes, model_architecture, model_si
         learning_rate, training_steps, batch_size, aligning, eval_step_interval, output_dir):
 
     X = tf.placeholder(dtype=tf.float32, shape=[
-        batch_size, audio_processer.get_max_step(aligning), num_inputs], name='input_x')
+        batch_size, audio_processer.get_max_step(aligning), num_inputs], name='input_tensor')
     sequence_len = tf.placeholder(dtype=tf.int32, shape=[None], name='sequence_len')
-    Y = tf.sparse_placeholder(dtype=tf.int32, name='input_y')
+    Y = tf.sparse_placeholder(dtype=tf.int32, name='output_tensor')
 
     model_settings = prepare_model_settings(20, num_classes)
     logits, dropout_prob = create_model(

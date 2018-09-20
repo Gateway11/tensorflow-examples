@@ -130,10 +130,9 @@ if __name__ == "__main__":
 
     lexicon, labels, wav_files = prepare_label_list(wav_files, labels_dict)
     labels_vector = labels_to_vector(labels, lexicon)
-    f = open('./symbol_table.txt', 'w')
     import re
-    f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', '\t'))
-    f.close()
+    with open('./symbol_table.txt', 'w') as f:
+        f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', '\t'))
 
     sample = 1027
     print(wav_files[sample])
