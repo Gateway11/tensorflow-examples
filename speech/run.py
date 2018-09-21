@@ -5,6 +5,7 @@ import os
 import re
 import sys
 
+from steps.decoder import *
 from steps.train import *
 from tensorflow.python.platform import app
 from utils.download_and_untar import *
@@ -33,6 +34,8 @@ def main(_):
             FLAGS.model_architecture, FLAGS.model_size_info, 
             FLAGS.learning_rate, FLAGS.training_steps, FLAGS.batch_size, 
             FLAGS.aligning, FLAGS.eval_step_interval, FLAGS.output_dir)
+
+    #decoder(audio_processer, FLAGS.output_dir + 'train/', 1, 'BATCH', lexicon)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

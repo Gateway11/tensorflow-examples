@@ -12,7 +12,7 @@ def train(audio_processer, num_inputs, num_classes, model_architecture, model_si
         learning_rate, training_steps, batch_size, aligning, eval_step_interval, output_dir):
 
     X = tf.placeholder(dtype=tf.float32, shape=[
-        batch_size, audio_processer.get_max_step(aligning), num_inputs], name='input_tensor')
+        None, audio_processer.get_max_step(aligning), num_inputs], name='input_tensor')
     sequence_len = tf.placeholder(dtype=tf.int32, shape=[None], name='sequence_len')
     Y = tf.sparse_placeholder(dtype=tf.int32, name='output_tensor')
 
@@ -85,7 +85,7 @@ def train(audio_processer, num_inputs, num_classes, model_architecture, model_si
 
         total_test_accuracy += accuracy
         dense_decodes = tf.sparse_tensor_to_dense(decodes, default_value=-1).eval(session=sess)
-        dense_labels = trans_tuple_to_texts(sparse_labels, lexicon)
+        dense_labels = trans_tuple_to_texts(test_data[1], lexicon)
         for orig, decode_array in zip(dense_labels, dense_decodes):
             decoded_str = trans_array_to_text(decode_array, lexicon)
             print('语音原始文本: {}'.format(orig))
