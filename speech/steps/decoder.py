@@ -1,7 +1,7 @@
-import random
 import tensorflow as tf
 
 from utils.label_wav import *
+
 
 def decoder(audio_processer, nnet_path, lexicon):
     batch_size = 1
