@@ -3,8 +3,10 @@ import tensorflow as tf
 
 from utils.label_wav import *
 
-def decoder(audio_processer, nnet_path, batch_size, aligning, lexicon):
-    saver = tf.train.import_meta_graph(nnet_path + 'speech-model.ckpt-79.meta')
+def decoder(audio_processer, nnet_path, lexicon):
+    batch_size = 1
+
+    saver = tf.train.import_meta_graph(nnet_path + 'speech-model.ckpt-44.meta')
     graph = tf.get_default_graph()
     
     input_tensor = graph.get_tensor_by_name('input_tensor:0')
@@ -17,7 +19,7 @@ def decoder(audio_processer, nnet_path, batch_size, aligning, lexicon):
 
         num_test_batches = audio_processer.get_batch_count(batch_size, 'test')
         for test_batch in range(num_test_batches):
-            data = audio_processer.get_data(test_batch * batch_size, batch_size, 'test', aligning)
+            data = audio_processer.get_data(test_batch * batch_size, batch_size, 'test', 'BATCH')
             decodes = sess.run(decoder, feed_dict = {input_tensor:data[0], sequence_len:data[2], dropout_prob:1.0})
             #dense_decodes = tf.sparse_tensor_to_dense(decodes, default_value=-1).eval(session=sess)
             #decoded_str = trans_array_to_text(decode_array, lexicon)

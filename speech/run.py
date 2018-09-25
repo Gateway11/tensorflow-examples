@@ -35,7 +35,7 @@ def main(_):
             FLAGS.learning_rate, FLAGS.training_steps, FLAGS.batch_size, 
             FLAGS.aligning, FLAGS.eval_step_interval, FLAGS.output_dir)
 
-    decoder(audio_processer, FLAGS.output_dir + 'train/', 1, 'BATCH', lexicon)
+    decoder(audio_processer, FLAGS.output_dir + 'train/', lexicon)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
