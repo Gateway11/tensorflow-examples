@@ -30,7 +30,7 @@ def main(_):
     else:
         num_inputs = FLAGS.num_filters
     # 开始训练
-    train(audio_processer, num_inputs, len(lexicon) + 1,
+    train(audio_processer, num_inputs, len(lexicon),
             FLAGS.model_architecture, FLAGS.model_size_info, 
             FLAGS.learning_rate, FLAGS.training_steps, FLAGS.batch_size, 
             FLAGS.aligning, FLAGS.eval_step_interval, FLAGS.output_dir)

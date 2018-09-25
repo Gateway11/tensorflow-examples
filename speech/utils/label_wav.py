@@ -48,6 +48,7 @@ def prepare_label_list(sample_files, labels_dict):
 
     symbols, _ = zip(*count_pairs)
     lexicon = dict(zip(symbols, range(len(symbols))))
+    lexicon['<unk>'] = len(lexicon)
 
     return lexicon, labels, new_wav_files
 
@@ -80,7 +81,7 @@ def preapre_wav_list(wav_files, num_inputs, downsampling_ratio, output_path):
 
 
 def labels_to_vector(labels, lexicon):
-    def to_num(symbol): return lexicon.get(symbol, len(lexicon))
+    def to_num(symbol): return lexicon.get(symbol, lexicon['<unk>'])
     return [list(map(to_num, label.split(' '))) for label in labels]
 
 
