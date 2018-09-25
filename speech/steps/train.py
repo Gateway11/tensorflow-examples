@@ -52,7 +52,7 @@ def train(audio_processer, num_inputs, num_classes, model_architecture, model_si
         total_train_loss = 0
         epoch_start = time.time()
 
-        learning_rate_value = learning_rate[1 if training_step > training_steps[0] else 0]
+        learning_rate_value = learning_rate[1 if training_step >= training_steps[0] else 0]
         for train_batch in range(num_train_batches):
             train_data = audio_processer.get_data(train_batch * batch_size, batch_size, 'train', aligning)
             #train_summary, loss, _ = sess.run([merged_summaries, avg_loss, train_step],
