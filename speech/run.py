@@ -25,10 +25,7 @@ def main(_):
     with open(FLAGS.output_dir + 'symbol_table.txt', 'w') as f:
         f.write(re.sub('[\s\'{}]', '', str(lexicon)).replace(',', '\n').replace(':', '\t'))
 
-    if FLAGS.model_architecture == 'birnn':
-        num_inputs = FLAGS.num_filters + 2 * FLAGS.num_filters * FLAGS.num_contexts
-    else:
-        num_inputs = FLAGS.num_filters
+    num_inputs = FLAGS.num_filters + 2 * FLAGS.num_filters * FLAGS.num_contexts
     # 开始训练
     train(audio_processer, num_inputs, len(lexicon),
             FLAGS.model_architecture, FLAGS.model_size_info, 
