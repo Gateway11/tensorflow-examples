@@ -71,7 +71,7 @@ int main(int argc, const char * argv[]) {
     input_values[1] = TF_AllocateTensor(TF_FLOAT, input_dims, sizeof(input_seq_len), input_seq_len[0] * sizeof(int32_t));
     
     //output
-    TF_Operation* oper_output = TF_GraphOperationByName(graph, "decode/CTCBeamSearchDecoder");
+    TF_Operation* oper_output = TF_GraphOperationByName(graph, "decode/CTCBeamSearchDecoder:1");
     TF_Output outputs = {oper_output, noutputs};
     int64_t word_size = 1788;
     int64_t output_dims[] = {1, word_size};

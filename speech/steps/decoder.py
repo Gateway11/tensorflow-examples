@@ -24,6 +24,6 @@ def decoder(audio_processer, nnet_path, lexicon):
             #dense_decodes = tf.sparse_tensor_to_dense(decodes, default_value=-1).eval(session=sess)
             #decoded_str = trans_array_to_text(decode_array, lexicon)
             decoded_str = vector_to_string(decodes, lexicon)
-            dense_labels = trans_tuple_to_texts(data[1], lexicon)
+            dense_labels = sparse_tuple_to_string(data[1], lexicon)
             print('语音原始文本: {}'.format(dense_labels))
             print('识别出来的文本: {}'.format(decoded_str))

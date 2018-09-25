@@ -43,7 +43,7 @@ JNI_FUNCTION_DECLARATION(jint, native_init, JNIEnv* env, jclass)
 
     inputs.push_back({TF_GraphOperationByName(graph, "input_tensor"), 0});
     inputs.push_back({TF_GraphOperationByName(graph, "sequence_len"), 0});
-    outputs.push_back({TF_GraphOperationByName(graph, "decode/CTCBeamSearchDecoder"), 0});
+    outputs.push_back({TF_GraphOperationByName(graph, "decode/CTCBeamSearchDecoder:1"), 0});
 }
 
 JNI_FUNCTION_DECLARATION(void, native_release, JNIEnv* env, jclass)
