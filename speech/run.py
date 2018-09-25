@@ -68,7 +68,7 @@ if __name__ == '__main__':
         '--training_steps',
         type=int,
         nargs="+",
-        default=[60, 20],
+        default=[40, 20],
         help='How many training loops to run')
     parser.add_argument(
         '--eval_step_interval',
