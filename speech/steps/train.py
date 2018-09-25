@@ -1,11 +1,10 @@
 import random
 import time
 import tensorflow as tf
-from tensorflow.python.ops import ctc_ops
 
+from tensorflow.python.ops import ctc_ops
 from local.models import *
 from utils.label_wav import *
-from utils.input_data import *
 
 
 def train(audio_processer, num_inputs, num_classes, model_architecture, model_size_info, 
@@ -85,9 +84,9 @@ def train(audio_processer, num_inputs, num_classes, model_architecture, model_si
 
         total_test_accuracy += accuracy
         dense_decodes = tf.sparse_tensor_to_dense(decodes, default_value=-1).eval(session=sess)
-        dense_labels = trans_tuple_to_texts(test_data[1], lexicon)
+        dense_labels = sparse_tuple_to_string(test_data[1], lexicon)
         for orig, decode_array in zip(dense_labels, dense_decodes):
-            decoded_str = trans_array_to_text(decode_array, lexicon)
+            decoded_str = trans_array_to_string(decode_array, lexicon)
             print('语音原始文本: {}'.format(orig))
             print('识别出来的文本: {}'.format(decoded_str))
             break

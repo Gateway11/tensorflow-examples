@@ -101,7 +101,7 @@ def sparse_tuple_from(sequences, dtype=np.int32):
     return indices, values, shape
 
 
-def trans_tuple_to_texts(tuple, lexicon):
+def sparse_tuple_to_string(tuple, lexicon):
     """向量转换成文字
     """
     indices = tuple[0]
@@ -115,8 +115,22 @@ def trans_tuple_to_texts(tuple, lexicon):
 
     return results
 
+def vector_to_string(vec, lexicon):
+    """向量转换成文字
+    """
 
-def trans_array_to_text(value, lexicon):
+    vec_size = len(vec)
+    results = ['']
+
+    words = list(lexicon.keys())
+    for i in range(vec_size):
+        results[0] += ' ' if i else ''
+        results[0] += words[vec[i]]
+
+    return results 
+
+
+def trans_array_to_string(value, lexicon):
     results = ''
     words = list(lexicon.keys())
     for i in range(len(value)):
