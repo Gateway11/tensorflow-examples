@@ -36,7 +36,7 @@ def train(audio_processer, num_inputs, num_classes, model_architecture, model_si
         sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
     else:
         sess = tf.InteractiveSession()
-    saver = tf.train.Saver(max_to_keep=1)
+    saver = tf.train.Saver(max_to_keep=2)
     sess.run(tf.global_variables_initializer())
     ckpt = tf.train.latest_checkpoint(output_dir + 'train/')
     if ckpt: saver.restore(sess, ckpt)
@@ -48,11 +48,11 @@ def train(audio_processer, num_inputs, num_classes, model_architecture, model_si
     num_dev_batches = audio_processer.get_batch_count(batch_size, 'dev')
 
     total_training_step = sum(training_steps)
-    for training_step in range(total_training_step):
+    for training_step in range(1, total_training_step + 1):
         total_train_loss = 0
         epoch_start = time.time()
 
-        learning_rate_value = learning_rate[1 if training_step >= training_steps[0] else 0]
+        learning_rate_value = learning_rate[1 if training_step > training_steps[0] else 0]
         for train_batch in range(num_train_batches):
             train_data = audio_processer.get_data(train_batch * batch_size, batch_size, 'train', aligning)
             #train_summary, loss, _ = sess.run([merged_summaries, avg_loss, train_step],
@@ -64,20 +64,20 @@ def train(audio_processer, num_inputs, num_classes, model_architecture, model_si
 
         time_cost = time.time() - epoch_start
         print('training step: %d/%d, train loss: %g, time cost: %.2fs' 
-                % (training_step + 1, total_training_step, total_train_loss / num_train_batches, time_cost))
+                % (training_step, total_training_step, total_train_loss / num_train_batches, time_cost))
 
-        if (training_step + 1) % eval_step_interval == 0:
+        if training_step % eval_step_interval == 0:
             saver.save(sess, output_dir + "train/speech-model.ckpt", global_step=training_step)
 
             rand_batch = random.randint(0, num_dev_batches - 1)
             dev_data = audio_processer.get_data(rand_batch * batch_size, batch_size, 'dev', aligning)
             dev_accuracy = sess.run(evaluation_step, 
                     feed_dict={X: dev_data[0], Y: dev_data[1], sequence_len: dev_data[2], dropout_prob: 1.0})
-            print('WER: %.2f, training step: %d/%d' % (dev_accuracy, training_step + 1, total_training_step))
+            print('WER: %.2f, training step: %d/%d' % (dev_accuracy, training_step, total_training_step))
 
     total_test_accuracy = 0
     num_test_batches = audio_processer.get_batch_count(batch_size, 'test')
-    for test_batch in range(num_test_batches):
+    for test_batch in range(1, num_test_batches + 1):
         test_data = audio_processer.get_data(test_batch * batch_size, batch_size, 'test', aligning)
         decodes, accuracy = sess.run([decoder[0], evaluation_step],
             feed_dict={X: test_data[0], Y: test_data[1], sequence_len: test_data[2], dropout_prob: 1.0})
