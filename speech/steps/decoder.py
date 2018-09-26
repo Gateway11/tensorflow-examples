@@ -6,7 +6,7 @@ from utils.label_wav import *
 def decoder(audio_processer, nnet_path, lexicon):
     batch_size = 1
 
-    ckpt = tf.train.latest_checkpoint(nnet_path))
+    ckpt = tf.train.latest_checkpoint(nnet_path)
     saver = tf.train.import_meta_graph(ckpt + '.meta')
     graph = tf.get_default_graph()
     
