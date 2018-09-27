@@ -8,6 +8,8 @@
 
 #define JNI_FUNCTION_DECLARATION(rettype, name, ...) \
     extern "C" JNIEXPORT rettype JNICALL Java_com_vsys_voicerec_VoiceRecognizeImpl_##name(__VA_ARGS__)
+#define NUM_INPUTS 2
+#define NUM_OUTPUTS 1
 
 JavaVM* g_jvm = nullptr;
 JNIEnv* env = nullptr;
@@ -15,7 +17,8 @@ JNIEnv* env = nullptr;
 TF_Status* status = nullptr;
 TF_Graph* graph = nullptr;
 TF_Session* session = nullptr;
-std::vector<TF_Output> inputs, outputs;
+TF_Output inputs[NUM_INPUTS];
+TF_Output outputs[NUM_OUTPUTS];
 
 JNI_FUNCTION_DECLARATION(jint, native_init, JNIEnv* env, jclass)
 {
@@ -41,9 +44,9 @@ JNI_FUNCTION_DECLARATION(jint, native_init, JNIEnv* env, jclass)
     }
     TF_DeleteSessionOptions(session_opts);
 
-    inputs.push_back({TF_GraphOperationByName(graph, "input_tensor"), 0});
-    inputs.push_back({TF_GraphOperationByName(graph, "sequence_len"), 0});
-    outputs.push_back({TF_GraphOperationByName(graph, "decode/CTCBeamSearchDecoder:1"), 0});
+    inputs[0] = TF_Output{TF_GraphOperationByName(graph, "input_tensor"), 0};
+    inputs[1] = TF_Output{TF_GraphOperationByName(graph, "sequence_len"), 0};
+    outputs[0] = TF_Output{TF_GraphOperationByName(graph, "decode/CTCBeamSearchDecoder:1"), 0};
 }
 
 JNI_FUNCTION_DECLARATION(void, native_release, JNIEnv* env, jclass)
@@ -58,15 +61,18 @@ JNI_FUNCTION_DECLARATION(void, native_release, JNIEnv* env, jclass)
 JNI_FUNCTION_DECLARATION(jint, native_process, JNIEnv* env, jclass)
 {
     std::vector<std::string> results;
+    const int64_t input_dims[] = {1, 88, 494};
+    TF_Tensor* input_values[NUM_INPUTS];
+    TF_Tensor* output_values[OUT_INPUTS];
 
-    const int64_t tensor_dims[] = {1, 88, 494};
-    TF_Tensor* input_tensor = TF_NewTensor(TF_UINT8, tensor_dims, 
-            sizeof(tensor_dims), data, data_size, nullptr, nullptr);
-    std::vector<TF_Tensor *> input_values{input_tensor};
-    std::vector<TF_Tensor *> output_values(output_ops.size(), nullptr);
-
-    TF_SessionRun(session, nullptr, &input_ops[0], &input_values[0], input_ops.size(), 
-            &output_ops[0], &output_values[0], output_ops.size(), nullptr, 0, nullptr, status);
+    input_values[0] = TF_NewTensor(TF_UINT8, input_dims, 
+            sizeof(input_dims), data, data_size, nullptr, nullptr);
+    input_values[1] = TF_NewTensor(TF_UINT8, input_dims, 
+            sizeof(input_dims), data, data_size, nullptr, nullptr);
+    output_values[0] = TF_NewTensor(TF_UINT8, input_dims, 
+            sizeof(input_dims), data, data_size, nullptr, nullptr);
+    TF_SessionRun(session, nullptr, inputs, &input_values, NUM_INPUTS, 
+            outputs, output_values, NUM_OUTPUTS, nullptr, 0, nullptr, status);
     if (TF_GetCode(status) != TF_OK) {
         VSYS_DEBUGE("ERROR: Unable to run session %s", TF_Message(status));
         return -1;
