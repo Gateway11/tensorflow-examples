@@ -16,4 +16,3 @@
 - <https://www.zybuluo.com/hanbingtao/note/433855>
 - <https://www.cnblogs.com/wsine/p/4635518.html>
 - <https://github.com/xxbb1234021/speech_recognition>
-- <https://github.com/katsugeneration/tensor-fsmn>
